@@ -1,0 +1,21 @@
+{
+  "lesson": 1,
+  "title": "你好",
+  "characters": {
+    "main": [
+      {"character": "你", "pinyin": "nǐ", "english": "you"},
+      {"character": "好", "pinyin": "hǎo", "english": "good; well"},
+      {"character": "陆", "pinyin": "lù", "english": "land; (surname Lu)"},
+      {"character": "雨", "pinyin": "yǔ", "english": "rain"},
+      {"character": "平", "pinyin": "píng", "english": "flat; level; peaceful"},
+      {"character": "力", "pinyin": "lì", "english": "power; strength"},
+      {"character": "波", "pinyin": "bō", "english": "wave"},
+      {"character": "马", "pinyin": "mǎ", "english": "horse; (surname Ma)"},
+      {"character": "大", "pinyin": "dà", "english": "big; large"},
+      {"character": "为", "pinyin": "wéi", "english": "for; act as"}
+    ],
+    "supplementary": [
+      {"character": "您", "pinyin": "nín", "english": "you (polite)"}
+    ]
+  }
+}
