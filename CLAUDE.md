@@ -2,13 +2,16 @@
 
 ## Project Overview
 
-Generate Anki-compatible flashcard decks (`.apkg` files) for the **New Practical Chinese Reader (3rd Edition)**. Each lesson produces a deck containing **all main characters** and **all supplementary characters** with:
+Generate Anki-compatible flashcard decks (`.apkg` files) for the **New Practical Chinese Reader (3rd Edition)**. Each lesson produces sub-decks for **New Words** and **Supplementary Words** with:
 
 - Chinese character display
 - Pinyin romanization
 - English definition
-- Stroke order animation (via Hanzi Writer)
-- Audio pronunciation (via Azure Speech TTS, with gTTS fallback)
+- Stroke order display (progressive stroke building via Hanzi Writer data)
+- Audio pronunciation (gTTS, with Azure Speech TTS as optional upgrade)
+- Radical and component breakdown
+- Compound words (textbook examples + AI-generated, visually distinguished)
+- Example sentences
 
 ## Architecture
 
@@ -18,64 +21,82 @@ Flashcards/
 ├── README.md              # Project documentation
 ├── pyproject.toml         # Python project config (uv/pip)
 ├── requirements.txt       # Pinned dependencies
+├── .env                   # API keys (gitignored)
 ├── src/
 │   ├── __init__.py
+│   ├── extract_table.py   # Image → lesson JSON pipeline (DI + Gemini)
 │   ├── generate_deck.py   # Main entry point — builds .apkg files
 │   ├── models.py          # genanki Model/Note definitions
-│   ├── audio.py           # Azure Speech TTS — generates mp3 per character
-│   ├── stroke_order.py    # Generates stroke order HTML using Hanzi Writer JS
-│   ├── characters.py      # Character data per lesson (source of truth)
-│   └── extract_table.py   # Image → lesson JSON via Azure DI / Gemini / Ollama
+│   ├── audio.py           # TTS audio generation (Azure Speech / gTTS)
+│   ├── stroke_order.py    # Generates stroke order HTML using Hanzi Writer data
+│   └── characters.py      # Character/CompoundWord dataclasses, JSON loading
 ├── data/
-│   └── lessons/           # Per-lesson JSON character lists
+│   └── lessons/           # Per-lesson JSON character lists (enriched)
 │       ├── lesson_01.json
-│       └── ...
+│       └── lesson_02.json
+├── input/                 # Textbook photos for extraction (gitignored)
 ├── output/                # Generated .apkg files (gitignored)
-│   └── media/             # Generated mp3 + stroke images (gitignored)
+│   └── media/             # Generated mp3 files (gitignored)
 ├── templates/
-│   └── card.html          # Anki card HTML template with Hanzi Writer embed
+│   ├── card.css           # Shared card CSS
+│   ├── recognition_front.html  # Character → English card front
+│   └── recognition_back.html   # Character → English card back
 └── tests/
-    └── test_generate.py   # Basic smoke tests
+    ├── test_generate.py        # Deck generation tests
+    └── test_extract_table.py   # Extraction pipeline tests
+```
+
+### Extraction Pipeline
+
+1. **Azure Document Intelligence** (Layout API) extracts structured table cells from textbook photos — isolates rows to prevent cross-contamination between entries
+2. **Gemini 2.5 Flash** normalizes raw DI rows into structured entries (character, pinyin, word_type, english, compounds) and corrects OCR pinyin errors
+3. **Gemini 2.5 Flash** enriches each character with radicals, components, compound words, and example sentences
+
+### Deck Hierarchy
+
+```
+CPR Book 1 3rd Edition
+  └── Lesson 01 - 你好
+        ├── New Words
+        └── Supplementary Words
 ```
 
 ## Key Technologies
 
-| Tool | Purpose | Docs |
-|------|---------|------|
-| **genanki** | Python library for generating `.apkg` Anki decks | https://github.com/kerrickstaley/genanki |
-| **Azure Speech** | Neural TTS via Azure REST API — high-quality mp3 audio | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/ |
-| **gTTS** | Free TTS fallback via Google Translate API | https://github.com/pndurette/gTTS |
-| **Hanzi Writer** | JS library for stroke order animations (embedded in card HTML) | https://hanziwriter.org/docs.html |
-| **hanzi-writer-data** | Stroke data for all CJK characters | https://github.com/chanind/hanzi-writer-data |
-| **Azure Document Intelligence** | Structured table extraction from photos (prebuilt-layout model) — primary backend | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/ |
-| **Gemini 2.5 Flash** | Vision LLM fallback for table extraction | https://ai.google.dev/ |
-| **Ollama** | Local vision LLM fallback for table extraction | https://ollama.com |
+| Tool | Purpose |
+|------|---------|
+| **genanki** | Python library for generating `.apkg` Anki decks |
+| **Azure Document Intelligence** | Structured table extraction from photos (prebuilt-layout model) |
+| **Gemini 2.5 Flash** | Row normalization, pinyin correction, and character enrichment |
+| **gTTS** | Free TTS audio (default) |
+| **Azure Speech** | Neural TTS upgrade (optional, `zh-CN-XiaoxiaoNeural` voice) |
+| **Hanzi Writer** | Stroke data for progressive stroke building display |
 
-## Anki Deck Generation (genanki)
+## Model Fields
 
-### Core Concepts
-- **Model**: defines fields + card templates (need a stable `model_id`)
-- **Note**: a single fact (one Chinese character) with field values
-- **Deck**: a collection of notes (need a stable `deck_id`)
-- **Package**: wraps deck + media files into `.apkg`
-
-### Our Model Fields
 1. `Character` — the Chinese character (e.g. 你)
-2. `Pinyin` — romanization (e.g. nǐ)
+2. `Pinyin` — romanization with tone marks (e.g. nǐ)
 3. `English` — definition (e.g. you)
 4. `Audio` — `[sound:char_XXXX.mp3]` reference
-5. `StrokeOrder` — HTML/JS snippet for Hanzi Writer animation
+5. `StrokeOrder` — HTML/SVG for progressive stroke building display
 6. `CharacterType` — "main" or "supplementary"
 7. `Lesson` — lesson number
+8. `Radical` — radical with pinyin, e.g. "亻 (rén)"
+9. `Components` — structural parts, e.g. "亻 + 尔"
+10. `CompoundsFront` — HTML list of compound words (Chinese only)
+11. `CompoundsBack` — HTML list with pinyin and English
+12. `ExampleSentence` — example sentence in Chinese
+13. `ExamplePinyin` — pinyin for the example sentence
+14. `ExampleEnglish` — English translation of example sentence
 
-### Card Templates
-- **Card 1 (Recognition)**: Front shows Character + Audio, Back shows Pinyin + English + StrokeOrder
-- **Card 2 (Recall)**: Front shows English, Back shows Character + Pinyin + Audio + StrokeOrder
+### Card Template
 
-### Media Files
-- Audio files: named `char_{unicode_codepoint}.mp3` (e.g. `char_4F60.mp3` for 你)
-- Media files are added to `Package.media_files` list with full paths
-- In note fields, reference by filename only: `[sound:char_4F60.mp3]`
+**Recognition only** (Chinese → English): Front shows Character + Compounds, Back shows Pinyin + English + Audio + StrokeOrder + Examples.
+
+### Compound Word Styling
+
+- **Textbook compounds** (from DI extraction): blue left border (`cmp-tb`)
+- **Generated compounds** (from Gemini enrichment): gray left border (`cmp-gen`)
 
 ## Character Data Format (per lesson JSON)
 
@@ -86,80 +107,31 @@ Flashcards/
   "characters": {
     "main": [
       {
-        "character": "你",
-        "pinyin": "nǐ",
-        "english": "you"
+        "character": "认识",
+        "pinyin": "rènshi",
+        "english": "to know; to recognize",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": ["讠", "刃"],
+        "compounds": [
+          {"chinese": "认识你", "pinyin": "rènshi nǐ", "english": "to know you", "source": "textbook"},
+          {"chinese": "认真", "pinyin": "rènzhēn", "english": "earnest; serious", "source": "generated"}
+        ],
+        "example_sentence": "我认识他。",
+        "example_pinyin": "Wǒ rènshi tā.",
+        "example_english": "I know him."
       }
     ],
-    "supplementary": [
-      {
-        "character": "您",
-        "pinyin": "nín",
-        "english": "you (polite)"
-      }
-    ]
+    "supplementary": [...]
   }
 }
 ```
-
-## Audio Generation (Azure Speech TTS)
-
-Primary backend uses Azure Speech REST API with `zh-CN-XiaoxiaoNeural` voice:
-
-```python
-import requests
-
-url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
-ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='zh-CN'><voice name='zh-CN-XiaoxiaoNeural'>你</voice></speak>"
-headers = {
-    "Ocp-Apim-Subscription-Key": key,
-    "Content-Type": "application/ssml+xml",
-    "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3",
-}
-resp = requests.post(url, headers=headers, data=ssml.encode("utf-8"))
-```
-
-### Setup
-```bash
-export AZURE_SPEECH_KEY=your-key
-export AZURE_SPEECH_REGION=eastus   # or your chosen region
-```
-
-- Voice: `zh-CN-XiaoxiaoNeural` (clear, natural female Mandarin)
-- Falls back to gTTS if Azure env vars are not set
-- One mp3 per unique character
-- Cache generated audio to avoid re-generating
-
-## Stroke Order (Hanzi Writer)
-
-Embedded in card HTML via CDN script. Each card includes:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
-<div id="stroke-target"></div>
-<script>
-var writer = HanziWriter.create('stroke-target', '{{Character}}', {
-  width: 150, height: 150, padding: 5,
-  showOutline: true, strokeAnimationSpeed: 1,
-  delayBetweenStrokes: 300
-});
-document.getElementById('stroke-target').addEventListener('click', function() {
-  writer.animateCharacter();
-});
-</script>
-```
-
-**Important**: Anki cards run in a webview. Hanzi Writer loads character data from the jsdelivr CDN by default, which requires internet. For offline use, character data would need to be bundled.
 
 ## Commands
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
-
-# Set Azure Speech credentials (required for high-quality audio)
-export AZURE_SPEECH_KEY=your-key
-export AZURE_SPEECH_REGION=eastus
 
 # Generate all decks
 python -m src.generate_deck
@@ -170,44 +142,52 @@ python -m src.generate_deck --lesson 1
 # Run tests
 pytest tests/
 
-# Extract characters from a photo of a textbook table
+# Extract characters from textbook photos
 python -m src.extract_table photo.jpg --lesson 2
 
 # Extract and auto-enrich with radicals, compounds, examples
 python -m src.extract_table photo.jpg --lesson 2 --enrich
 
 # Multiple images for one lesson
-python -m src.extract_table page1.jpg page2.jpg --lesson 2
+python -m src.extract_table page1.jpg page2.jpg --lesson 2 --title "你是哪国人" --enrich
 ```
 
-## Style & Conventions
+## Environment Variables
 
-- Python 3.10+
-- Use type hints everywhere
-- Use pathlib for file paths
-- Keep character data in JSON files under `data/lessons/`
-- All generated output goes to `output/` (gitignored)
-- Model IDs and Deck IDs are hardcoded constants (never regenerate)
-- Note GUIDs are based on character + lesson for stable updates
+```bash
+# Required for extraction
+AZURE_DI_ENDPOINT=https://your-resource.cognitiveservices.azure.com/
+AZURE_DI_KEY=your-key
+
+# Required for normalization and enrichment
+GEMINI_API_KEY=your-key
+
+# Optional: high-quality audio (falls back to gTTS)
+AZURE_SPEECH_KEY=your-key
+AZURE_SPEECH_REGION=eastus
+```
 
 ## Stable IDs (do not change)
 
 ```python
 MODEL_ID = 1607392319      # genanki model ID for CPR character cards
-DECK_ID_BASE = 2059400110  # base deck ID; per-lesson decks add lesson number
+DECK_ID_BASE = 2059400110  # base deck ID; per-lesson decks derive from this
 ```
+
+## Style & Conventions
+
+- Python 3.9+
+- Use type hints everywhere
+- Use pathlib for file paths
+- Keep character data in JSON files under `data/lessons/`
+- All generated output goes to `output/` (gitignored)
+- Input images go in `input/` (gitignored)
+- Model IDs and Deck IDs are hardcoded constants (never regenerate)
+- Note GUIDs are based on character + lesson for stable updates
 
 ## Development Workflow
 
-1. Add/edit character data in `data/lessons/lesson_XX.json`
-2. Run `python -m src.generate_deck` to regenerate decks
-3. Import `.apkg` files into Anki (File → Import)
-4. Cards with matching GUIDs will update in place
-
-## Known Constraints
-
-- Azure Speech requires an Azure account + Speech resource (free tier: 500K chars/month)
-- Falls back to gTTS (lower quality) when Azure credentials not configured
-- Hanzi Writer CDN also requires internet for stroke data
-- Some rare characters may not have stroke data in hanzi-writer-data
-- Anki's webview may have JS limitations on some platforms
+1. Take photos of textbook vocabulary tables
+2. Run `python -m src.extract_table` with `--enrich` to extract and enrich
+3. Run `python -m src.generate_deck` to generate `.apkg` files
+4. Import into Anki (File → Import) — cards with matching GUIDs update in place
