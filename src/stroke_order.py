@@ -11,15 +11,29 @@ def stroke_order_html(character: str) -> str:
     Each box shows the character outline with an increasing number of strokes
     filled in, from the first stroke alone to the complete character.
 
+    For multi-character words, renders stroke order for each character
+    in sequence.
+
     The stroke data is fetched from the hanzi-writer-data CDN at card display
     time and rendered as inline SVGs.
 
     Args:
-        character: A single Chinese character.
+        character: A Chinese character or multi-character word.
 
     Returns:
         HTML string to embed in an Anki card field.
     """
+    if len(character) == 1:
+        return _stroke_order_single(character)
+    # Multi-character: render each character separately
+    parts = []
+    for ch in character:
+        parts.append(_stroke_order_single(ch))
+    return '<div class="stroke-multi">' + "".join(parts) + "</div>"
+
+
+def _stroke_order_single(character: str) -> str:
+    """Render stroke order for a single character."""
     codepoint = f"{ord(character):04X}"
     container_id = f"sp-{codepoint}"
 

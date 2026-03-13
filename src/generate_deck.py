@@ -30,7 +30,10 @@ def format_compounds_front(compounds: list[CompoundWord]) -> str:
     """Format compound words as a numbered list (Chinese characters only)."""
     if not compounds:
         return ""
-    items = "".join(f"<li>{c.chinese}</li>" for c in compounds)
+    items = ""
+    for c in compounds:
+        cls = "tb" if c.source == "textbook" else "gen"
+        items += f'<li class="cmp-{cls}">{c.chinese}</li>'
     return f"<ol>{items}</ol>"
 
 
@@ -38,12 +41,14 @@ def format_compounds_back(compounds: list[CompoundWord]) -> str:
     """Format compound words with pinyin and English translation."""
     if not compounds:
         return ""
-    items = "".join(
-        f'<li><span class="cmp-zh">{c.chinese}</span>'
-        f'<span class="cmp-py">{c.pinyin}</span>'
-        f'<span class="cmp-en">{c.english}</span></li>'
-        for c in compounds
-    )
+    items = ""
+    for c in compounds:
+        cls = "tb" if c.source == "textbook" else "gen"
+        items += (
+            f'<li class="cmp-{cls}"><span class="cmp-zh">{c.chinese}</span>'
+            f'<span class="cmp-py">{c.pinyin}</span>'
+            f'<span class="cmp-en">{c.english}</span></li>'
+        )
     return f"<ol>{items}</ol>"
 
 
@@ -73,17 +78,31 @@ def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> 
     )
 
 
-def build_deck(lesson: LessonData, model: genanki.Model) -> genanki.Deck:
-    """Build a genanki Deck for a single lesson."""
-    deck_id = DECK_ID_BASE + lesson.lesson
-    deck_name = f"CPR3::Lesson {lesson.lesson:02d} - {lesson.title}"
-    deck = genanki.Deck(deck_id, deck_name)
+def build_deck(lesson: LessonData, model: genanki.Model) -> list[genanki.Deck]:
+    """Build genanki Decks for a single lesson, split by character type.
+
+    Returns a list of decks:
+      - CPR Book 1 3rd Edition::Lesson XX - Title::New Words
+      - CPR Book 1 3rd Edition::Lesson XX - Title::Supplementary Words
+    """
+    base_name = f"CPR Book 1 3rd Edition::Lesson {lesson.lesson:02d} - {lesson.title}"
+
+    main_deck_id = DECK_ID_BASE + lesson.lesson * 10 + 1
+    supp_deck_id = DECK_ID_BASE + lesson.lesson * 10 + 2
+    main_deck = genanki.Deck(main_deck_id, f"{base_name}::New Words")
+    supp_deck = genanki.Deck(supp_deck_id, f"{base_name}::Supplementary Words")
 
     for entry in lesson.characters:
         note = build_note(entry, lesson.lesson, model)
-        deck.add_note(note)
+        if entry.char_type == "supplementary":
+            supp_deck.add_note(note)
+        else:
+            main_deck.add_note(note)
 
-    return deck
+    decks = [main_deck]
+    if supp_deck.notes:
+        decks.append(supp_deck)
+    return decks
 
 
 def generate_lesson_package(lesson: LessonData, model: genanki.Model) -> Path:
@@ -99,16 +118,18 @@ def generate_lesson_package(lesson: LessonData, model: genanki.Model) -> Path:
     all_chars = [e.character for e in lesson.characters]
     audio_paths = generate_audio_batch(all_chars, MEDIA_DIR)
 
-    # Build the deck
-    deck = build_deck(lesson, model)
+    # Build the decks (split by character type)
+    decks = build_deck(lesson, model)
 
     # Create package with media
-    pkg = genanki.Package(deck)
+    pkg = genanki.Package(decks)
     pkg.media_files = [str(path) for path in audio_paths.values()]
 
     output_path = OUTPUT_DIR / f"cpr3_lesson_{lesson.lesson:02d}.apkg"
     pkg.write_to_file(str(output_path))
-    print(f"✅ Generated: {output_path} ({len(lesson.characters)} characters)")
+    main_count = sum(1 for e in lesson.characters if e.char_type != "supplementary")
+    supp_count = sum(1 for e in lesson.characters if e.char_type == "supplementary")
+    print(f"✅ Generated: {output_path} ({main_count} new + {supp_count} supplementary)")
     return output_path
 
 

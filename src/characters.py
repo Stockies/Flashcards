@@ -14,6 +14,7 @@ class CompoundWord:
     chinese: str
     pinyin: str
     english: str
+    source: str = ""  # "textbook" or "generated"
 
 
 @dataclass
@@ -74,7 +75,13 @@ def load_lesson(lesson_num: int) -> LessonData:
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),
                 compounds=[
-                    CompoundWord(**c) for c in entry.get("compounds", [])
+                    CompoundWord(
+                        chinese=c["chinese"],
+                        pinyin=c.get("pinyin", ""),
+                        english=c.get("english", ""),
+                        source=c.get("source", ""),
+                    )
+                    for c in entry.get("compounds", [])
                 ],
                 example_sentence=entry.get("example_sentence", ""),
                 example_pinyin=entry.get("example_pinyin", ""),
@@ -93,7 +100,13 @@ def load_lesson(lesson_num: int) -> LessonData:
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),
                 compounds=[
-                    CompoundWord(**c) for c in entry.get("compounds", [])
+                    CompoundWord(
+                        chinese=c["chinese"],
+                        pinyin=c.get("pinyin", ""),
+                        english=c.get("english", ""),
+                        source=c.get("source", ""),
+                    )
+                    for c in entry.get("compounds", [])
                 ],
                 example_sentence=entry.get("example_sentence", ""),
                 example_pinyin=entry.get("example_pinyin", ""),

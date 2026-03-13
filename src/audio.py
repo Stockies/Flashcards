@@ -22,9 +22,9 @@ AZURE_OUTPUT_FORMAT = "audio-24khz-96kbitrate-mono-mp3"
 
 
 def char_to_filename(char: str) -> str:
-    """Convert a character to a unique mp3 filename using its Unicode codepoint."""
-    codepoint = f"{ord(char):04X}"
-    return f"char_{codepoint}.mp3"
+    """Convert a character/word to a unique mp3 filename using Unicode codepoints."""
+    codepoints = "_".join(f"{ord(c):04X}" for c in char)
+    return f"char_{codepoints}.mp3"
 
 
 def _get_azure_config() -> tuple[str, str] | None:

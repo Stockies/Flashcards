@@ -1,0 +1,512 @@
+{
+  "lesson": 1,
+  "title": "你好",
+  "characters": {
+    "main": [
+      {
+        "character": "你",
+        "pinyin": "nǐ",
+        "english": "you",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "尔"
+        ],
+        "compounds": [
+          {
+            "chinese": "你好",
+            "pinyin": "nǐ hǎo",
+            "english": "hello"
+          },
+          {
+            "chinese": "你们",
+            "pinyin": "nǐ men",
+            "english": "you (plural)"
+          },
+          {
+            "chinese": "你的",
+            "pinyin": "nǐ de",
+            "english": "your; yours"
+          }
+        ],
+        "example_sentence": "你叫什么名字？",
+        "example_pinyin": "Nǐ jiào shénme míngzi?",
+        "example_english": "What is your name?"
+      },
+      {
+        "character": "好",
+        "pinyin": "hǎo",
+        "english": "good; well",
+        "radical": "女",
+        "radical_pinyin": "nǚ",
+        "components": [
+          "女",
+          "子"
+        ],
+        "compounds": [
+          {
+            "chinese": "好人",
+            "pinyin": "hǎo rén",
+            "english": "good person"
+          },
+          {
+            "chinese": "好看",
+            "pinyin": "hǎo kàn",
+            "english": "good-looking"
+          },
+          {
+            "chinese": "好吃",
+            "pinyin": "hǎo chī",
+            "english": "delicious"
+          }
+        ],
+        "example_sentence": "今天天气很好。",
+        "example_pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "example_english": "The weather is very good today."
+      },
+      {
+        "character": "陆",
+        "pinyin": "lù",
+        "english": "land; (surname Lu)",
+        "radical": "阝",
+        "radical_pinyin": "fù",
+        "components": [
+          "阝",
+          "击"
+        ],
+        "compounds": [
+          {
+            "chinese": "大陆",
+            "pinyin": "dà lù",
+            "english": "continent; mainland"
+          },
+          {
+            "chinese": "陆地",
+            "pinyin": "lù dì",
+            "english": "land; dry land"
+          },
+          {
+            "chinese": "陆续",
+            "pinyin": "lù xù",
+            "english": "one after another"
+          }
+        ],
+        "example_sentence": "他从大陆来的。",
+        "example_pinyin": "Tā cóng dàlù lái de.",
+        "example_english": "He came from the mainland."
+      },
+      {
+        "character": "雨",
+        "pinyin": "yǔ",
+        "english": "rain",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "一",
+          "冂",
+          "丶"
+        ],
+        "compounds": [
+          {
+            "chinese": "下雨",
+            "pinyin": "xià yǔ",
+            "english": "to rain"
+          },
+          {
+            "chinese": "雨水",
+            "pinyin": "yǔ shuǐ",
+            "english": "rainwater"
+          },
+          {
+            "chinese": "雨伞",
+            "pinyin": "yǔ sǎn",
+            "english": "umbrella"
+          }
+        ],
+        "example_sentence": "外面下雨了。",
+        "example_pinyin": "Wàimiàn xià yǔ le.",
+        "example_english": "It's raining outside."
+      },
+      {
+        "character": "平",
+        "pinyin": "píng",
+        "english": "flat; level; peaceful",
+        "radical": "干",
+        "radical_pinyin": "gān",
+        "components": [
+          "干",
+          "丷"
+        ],
+        "compounds": [
+          {
+            "chinese": "和平",
+            "pinyin": "hé píng",
+            "english": "peace"
+          },
+          {
+            "chinese": "平安",
+            "pinyin": "píng ān",
+            "english": "safe; peaceful"
+          },
+          {
+            "chinese": "水平",
+            "pinyin": "shuǐ píng",
+            "english": "level; standard"
+          }
+        ],
+        "example_sentence": "世界需要和平。",
+        "example_pinyin": "Shìjiè xūyào hépíng.",
+        "example_english": "The world needs peace."
+      },
+      {
+        "character": "力",
+        "pinyin": "lì",
+        "english": "power; strength",
+        "radical": "力",
+        "radical_pinyin": "lì",
+        "components": [
+          "力"
+        ],
+        "compounds": [
+          {
+            "chinese": "力量",
+            "pinyin": "lì liàng",
+            "english": "strength; power"
+          },
+          {
+            "chinese": "努力",
+            "pinyin": "nǔ lì",
+            "english": "to work hard"
+          },
+          {
+            "chinese": "能力",
+            "pinyin": "néng lì",
+            "english": "ability; capability"
+          }
+        ],
+        "example_sentence": "他学习很努力。",
+        "example_pinyin": "Tā xuéxí hěn nǔlì.",
+        "example_english": "He studies very hard."
+      },
+      {
+        "character": "波",
+        "pinyin": "bō",
+        "english": "wave",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "皮"
+        ],
+        "compounds": [
+          {
+            "chinese": "波浪",
+            "pinyin": "bō làng",
+            "english": "wave"
+          },
+          {
+            "chinese": "风波",
+            "pinyin": "fēng bō",
+            "english": "disturbance; crisis"
+          },
+          {
+            "chinese": "波动",
+            "pinyin": "bō dòng",
+            "english": "to fluctuate"
+          }
+        ],
+        "example_sentence": "大海的波浪很大。",
+        "example_pinyin": "Dàhǎi de bōlàng hěn dà.",
+        "example_english": "The ocean waves are big."
+      },
+      {
+        "character": "马",
+        "pinyin": "mǎ",
+        "english": "horse; (surname Ma)",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马"
+        ],
+        "compounds": [
+          {
+            "chinese": "马上",
+            "pinyin": "mǎ shàng",
+            "english": "immediately; at once"
+          },
+          {
+            "chinese": "马路",
+            "pinyin": "mǎ lù",
+            "english": "road; street"
+          },
+          {
+            "chinese": "马车",
+            "pinyin": "mǎ chē",
+            "english": "horse carriage"
+          }
+        ],
+        "example_sentence": "我马上就来。",
+        "example_pinyin": "Wǒ mǎshàng jiù lái.",
+        "example_english": "I'll be right there."
+      },
+      {
+        "character": "大",
+        "pinyin": "dà",
+        "english": "big; large",
+        "radical": "大",
+        "radical_pinyin": "dà",
+        "components": [
+          "一",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "大人",
+            "pinyin": "dà rén",
+            "english": "adult"
+          },
+          {
+            "chinese": "大学",
+            "pinyin": "dà xué",
+            "english": "university"
+          },
+          {
+            "chinese": "大家",
+            "pinyin": "dà jiā",
+            "english": "everyone"
+          }
+        ],
+        "example_sentence": "这个大学很有名。",
+        "example_pinyin": "Zhège dàxué hěn yǒumíng.",
+        "example_english": "This university is very famous."
+      },
+      {
+        "character": "为",
+        "pinyin": "wéi",
+        "english": "for; act as",
+        "radical": "丶",
+        "radical_pinyin": "zhǔ",
+        "components": [
+          "为"
+        ],
+        "compounds": [
+          {
+            "chinese": "因为",
+            "pinyin": "yīn wèi",
+            "english": "because"
+          },
+          {
+            "chinese": "为了",
+            "pinyin": "wèi le",
+            "english": "for the sake of"
+          },
+          {
+            "chinese": "成为",
+            "pinyin": "chéng wéi",
+            "english": "to become"
+          }
+        ],
+        "example_sentence": "因为下雨，我没去。",
+        "example_pinyin": "Yīnwèi xià yǔ, wǒ méi qù.",
+        "example_english": "Because it rained, I didn't go."
+      },
+      {
+        "character": "我",
+        "pinyin": "wǒ",
+        "english": "I; me",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "叫",
+        "pinyin": "jiào",
+        "english": "to be called; to call",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "请问",
+        "pinyin": "qǐngwèn",
+        "english": "may I ask; excuse me",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "请",
+        "pinyin": "qǐng",
+        "english": "please; to request; to invite",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "问",
+        "pinyin": "wèn",
+        "english": "to ask",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "什么",
+        "pinyin": "shénme",
+        "english": "what",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "名字",
+        "pinyin": "míngzi",
+        "english": "name",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "姓",
+        "pinyin": "xìng",
+        "english": "one's surname; surname",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "认识",
+        "pinyin": "rènshi",
+        "english": "to know; to recognize",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "很",
+        "pinyin": "hěn",
+        "english": "very",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "高兴",
+        "pinyin": "gāoxìng",
+        "english": "happy",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "也",
+        "pinyin": "yě",
+        "english": "also; too",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "马大为",
+        "pinyin": "Mǎ Dàwéi",
+        "english": "Ma Dawei, name of an American student.",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      },
+      {
+        "character": "宋华",
+        "pinyin": "Sòng Huá",
+        "english": "Song Hua, name of a Chinese student.",
+        "radical": "",
+        "radical_pinyin": "",
+        "components": [],
+        "compounds": [],
+        "example_sentence": "",
+        "example_pinyin": "",
+        "example_english": ""
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "您",
+        "pinyin": "nín",
+        "english": "you (polite)",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "你",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "您好",
+            "pinyin": "nín hǎo",
+            "english": "hello (polite)"
+          },
+          {
+            "chinese": "您早",
+            "pinyin": "nín zǎo",
+            "english": "good morning (polite)"
+          }
+        ],
+        "example_sentence": "您好，请进！",
+        "example_pinyin": "Nín hǎo, qǐng jìn!",
+        "example_english": "Hello, please come in!"
+      }
+    ]
+  }
+}

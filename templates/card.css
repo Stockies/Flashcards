@@ -52,6 +52,15 @@
   margin: 3px 0;
   padding-left: 4px;
 }
+.compounds-front li.cmp-tb {
+  border-left: 3px solid #004F9F;
+  padding-left: 8px;
+}
+.compounds-front li.cmp-gen {
+  border-left: 3px solid #D8DAE0;
+  padding-left: 8px;
+  opacity: 0.85;
+}
 .stroke-section {
   border-top: 1px solid #D8DAE0;
   padding-top: 10px;
@@ -163,15 +172,14 @@
 }
 .compounds-back-section ol {
   margin: 8px 0;
-  padding: 0 0 0 24px;
-  list-style-position: inside;
+  padding: 0 0 0 20px;
+  list-style-position: outside;
 }
 .compounds-back-section li {
   font-size: 16px;
   margin: 5px 0;
   line-height: 1.5;
-  text-indent: -1.2em;
-  padding-left: 1.2em;
+  padding-left: 6px;
 }
 .cmp-zh {
   font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
@@ -184,6 +192,17 @@
 }
 .cmp-en {
   color: #6B7B8D;
+}
+/* Textbook compounds — accented with blue left border */
+li.cmp-tb {
+  border-left: 3px solid #004F9F;
+  padding-left: 8px;
+}
+/* Generated compounds — subtle style */
+li.cmp-gen {
+  border-left: 3px solid #D8DAE0;
+  padding-left: 8px;
+  opacity: 0.85;
 }
 
 /* ===== RECALL CARD ===== */

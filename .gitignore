@@ -1,6 +1,12 @@
 # Generated output
 output/
 
+# Input images (textbook photos)
+input/
+
+# Secrets
+.env
+
 # Python
 __pycache__/
 *.py[cod]

@@ -24,7 +24,8 @@ Flashcards/
 │   ├── models.py          # genanki Model/Note definitions
 │   ├── audio.py           # Azure Speech TTS — generates mp3 per character
 │   ├── stroke_order.py    # Generates stroke order HTML using Hanzi Writer JS
-│   └── characters.py      # Character data per lesson (source of truth)
+│   ├── characters.py      # Character data per lesson (source of truth)
+│   └── extract_table.py   # Image → lesson JSON via Azure DI / Gemini / Ollama
 ├── data/
 │   └── lessons/           # Per-lesson JSON character lists
 │       ├── lesson_01.json
@@ -46,6 +47,9 @@ Flashcards/
 | **gTTS** | Free TTS fallback via Google Translate API | https://github.com/pndurette/gTTS |
 | **Hanzi Writer** | JS library for stroke order animations (embedded in card HTML) | https://hanziwriter.org/docs.html |
 | **hanzi-writer-data** | Stroke data for all CJK characters | https://github.com/chanind/hanzi-writer-data |
+| **Azure Document Intelligence** | Structured table extraction from photos (prebuilt-layout model) — primary backend | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/ |
+| **Gemini 2.5 Flash** | Vision LLM fallback for table extraction | https://ai.google.dev/ |
+| **Ollama** | Local vision LLM fallback for table extraction | https://ollama.com |
 
 ## Anki Deck Generation (genanki)
 
@@ -165,6 +169,15 @@ python -m src.generate_deck --lesson 1
 
 # Run tests
 pytest tests/
+
+# Extract characters from a photo of a textbook table
+python -m src.extract_table photo.jpg --lesson 2
+
+# Extract and auto-enrich with radicals, compounds, examples
+python -m src.extract_table photo.jpg --lesson 2 --enrich
+
+# Multiple images for one lesson
+python -m src.extract_table page1.jpg page2.jpg --lesson 2
 ```
 
 ## Style & Conventions

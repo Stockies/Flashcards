@@ -62,11 +62,6 @@ def get_model() -> genanki.Model:
                 "qfmt": _read_template("recognition_front.html"),
                 "afmt": _read_template("recognition_back.html"),
             },
-            {
-                "name": "Recall (English → Char)",
-                "qfmt": _read_template("recall_front.html"),
-                "afmt": _read_template("recall_back.html"),
-            },
         ],
         css=_read_template("card.css"),
     )

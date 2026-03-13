@@ -17,6 +17,7 @@ from src.stroke_order import stroke_order_html
 def test_char_to_filename():
     assert char_to_filename("你") == "char_4F60.mp3"
     assert char_to_filename("好") == "char_597D.mp3"
+    assert char_to_filename("请问") == "char_8BF7_95EE.mp3"
 
 
 def test_stroke_order_html_contains_character():
@@ -68,13 +69,15 @@ def test_format_components():
 
 def test_format_compounds_front():
     compounds = [
-        CompoundWord("你好", "nǐ hǎo", "hello"),
-        CompoundWord("你们", "nǐ men", "you all"),
+        CompoundWord("你好", "nǐ hǎo", "hello", source="textbook"),
+        CompoundWord("你们", "nǐ men", "you all", source="generated"),
     ]
     html = format_compounds_front(compounds)
     assert "<ol>" in html
-    assert "<li>你好</li>" in html
-    assert "<li>你们</li>" in html
+    assert "你好" in html
+    assert "你们" in html
+    assert 'cmp-tb' in html  # textbook styling
+    assert 'cmp-gen' in html  # generated styling
     assert "nǐ hǎo" not in html  # front should not show pinyin
 
 
