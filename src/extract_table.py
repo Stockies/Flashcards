@@ -66,23 +66,25 @@ ENRICH_PROMPT = """\
 You are a Chinese language expert. For the character "{character}" ({pinyin} - {english}), provide:
 
 1. "pinyin": the correct pinyin with tone marks for this character/word (e.g. "nǐ")
-2. "radical": the radical of this character (e.g. 亻). For multi-character words, use the radical of the first character.
-3. "radical_pinyin": the pinyin of the radical (e.g. rén)
-4. "components": list of structural components (e.g. ["亻", "尔"]). For multi-character words, list components of the first character.
-5. "compounds": exactly 3 common compound words using this character, each with:
+2. "english": a concise English definition (e.g. "you")
+3. "word_type": the word type abbreviation (V, N, A, Adv, Pr, QPr, QPt, PN, Num, M, Conj, Prep, IE, MdPt, OpPt)
+4. "radical": the radical of this character (e.g. 亻). For multi-character words, use the radical of the first character.
+5. "radical_pinyin": the pinyin of the radical (e.g. rén)
+6. "components": list of structural components (e.g. ["亻", "尔"]). For multi-character words, list components of the first character.
+7. "compounds": exactly 3 common compound words using this character, each with:
    - "chinese": the compound word
    - "pinyin": pinyin with tone marks
    - "english": English translation
-6. "textbook_translations": translations for these specific phrases: {textbook_compounds}
+7. "textbook_translations": translations for these specific phrases: {textbook_compounds}
    For each phrase, provide pinyin and English. If the list is empty, return an empty object.
-7. "example_sentence": a simple example sentence in Chinese using this character
-8. "example_pinyin": pinyin of the example sentence
-9. "example_english": English translation of the example sentence
+8. "example_sentence": a simple example sentence in Chinese using this character
+9. "example_pinyin": pinyin of the example sentence
+10. "example_english": English translation of the example sentence
 
 Return ONLY valid JSON, no other text:
 {{{{
   "pinyin": "nǐ",
-  "radical": "亻",
+  "english": "you",  "word_type": "Pr",  "radical": "亻",
   "radical_pinyin": "rén",
   "components": ["亻", "尔"],
   "compounds": [
@@ -661,6 +663,7 @@ def build_lesson_json(lesson_num: int, title: str, data: dict,
                 "character": entry["character"],
                 "pinyin": entry["pinyin"],
                 "english": entry["english"],
+                "word_type": entry.get("word_type", ""),
                 "radical": "",
                 "radical_pinyin": "",
                 "components": [],
@@ -687,6 +690,14 @@ def build_lesson_json(lesson_num: int, title: str, data: dict,
                     corrected_pinyin = extra.get("pinyin", "")
                     if corrected_pinyin:
                         char_data["pinyin"] = corrected_pinyin
+
+                    # Fill word_type from Gemini if not already set
+                    if not char_data.get("word_type") and extra.get("word_type"):
+                        char_data["word_type"] = extra["word_type"]
+
+                    # Fill english from Gemini if not already set
+                    if not char_data.get("english") and extra.get("english"):
+                        char_data["english"] = extra["english"]
 
                     char_data["radical"] = extra.get("radical", "")
                     char_data["radical_pinyin"] = extra.get("radical_pinyin", "")
@@ -723,7 +734,78 @@ def build_lesson_json(lesson_num: int, title: str, data: dict,
 
             lesson["characters"][section].append(char_data)
 
+    # Decompose multi-character words into individual character cards
+    if enrich:
+        _decompose_multi_char_words(lesson, model)
+
     return lesson
+
+
+def _decompose_multi_char_words(lesson: dict, model: str) -> None:
+    """Add individual character cards for each char in multi-character words.
+
+    Skips proper nouns (PN) and characters that already have their own entry.
+    New characters are added to the same section as their parent word.
+    """
+    # Collect all existing characters across both sections
+    existing: set[str] = set()
+    for section in ("main", "supplementary"):
+        for entry in lesson["characters"][section]:
+            existing.add(entry["character"])
+
+    # Find multi-char non-PN entries and collect missing individual chars
+    to_add: list[tuple[str, str]] = []  # (char, section)
+    seen_new: set[str] = set()
+
+    for section in ("main", "supplementary"):
+        for entry in lesson["characters"][section]:
+            word = entry["character"]
+            word_type = entry.get("word_type", "")
+            if len(word) <= 1 or word_type == "PN":
+                continue
+            for char in word:
+                if char not in existing and char not in seen_new:
+                    seen_new.add(char)
+                    to_add.append((char, section))
+
+    if not to_add:
+        return
+
+    print(f"\n  Decomposing {len(to_add)} individual characters from multi-char words...")
+
+    for char, section in to_add:
+        print(f"  Enriching {char} (from decomposition)...", end=" ", flush=True)
+        try:
+            extra = enrich_character(char, "", "", model=model)
+            if not isinstance(extra, dict):
+                raise ValueError(f"Expected dict, got {type(extra).__name__}")
+
+            char_data = {
+                "character": char,
+                "pinyin": extra.get("pinyin", ""),
+                "english": extra.get("english", ""),
+                "word_type": extra.get("word_type", ""),
+                "radical": extra.get("radical", ""),
+                "radical_pinyin": extra.get("radical_pinyin", ""),
+                "components": extra.get("components", []),
+                "compounds": [
+                    {**c, "source": "generated"}
+                    for c in extra.get("compounds", [])
+                    if isinstance(c, dict)
+                ],
+                "example_sentence": extra.get("example_sentence", ""),
+                "example_pinyin": extra.get("example_pinyin", ""),
+                "example_english": extra.get("example_english", ""),
+            }
+            lesson["characters"][section].append(char_data)
+            existing.add(char)
+            print("done")
+        except (json.JSONDecodeError, requests.RequestException,
+                ValueError, AttributeError, KeyError, TypeError) as exc:
+            print(f"failed ({exc})")
+
+        if os.environ.get("GEMINI_API_KEY"):
+            time.sleep(1)
 
 
 def merge_into_existing(existing_path: Path, new_data: dict) -> dict:

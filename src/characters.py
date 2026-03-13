@@ -25,6 +25,7 @@ class CharacterEntry:
     pinyin: str
     english: str
     char_type: str  # "main" or "supplementary"
+    word_type: str = ""  # V, N, A, Adv, Pr, etc.
     radical: str = ""
     radical_pinyin: str = ""
     components: list[str] = field(default_factory=list)
@@ -71,6 +72,7 @@ def load_lesson(lesson_num: int) -> LessonData:
                 pinyin=entry["pinyin"],
                 english=entry["english"],
                 char_type="main",
+                word_type=entry.get("word_type", ""),
                 radical=entry.get("radical", ""),
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),
@@ -96,6 +98,7 @@ def load_lesson(lesson_num: int) -> LessonData:
                 pinyin=entry["pinyin"],
                 english=entry["english"],
                 char_type="supplementary",
+                word_type=entry.get("word_type", ""),
                 radical=entry.get("radical", ""),
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),

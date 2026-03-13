@@ -29,6 +29,7 @@ def get_model() -> genanki.Model:
         StrokeOrder — HTML/JS for progressive stroke building display
         CharacterType — "main" or "supplementary"
         Lesson — lesson number
+        WordType — word type (V, N, A, Adv, Pr, etc.)
         Radical — radical with pinyin, e.g. "亻 (rén)"
         Components — character components, e.g. "亻 + 尔"
         CompoundsFront — HTML numbered list of compound words (Chinese only)
@@ -48,6 +49,7 @@ def get_model() -> genanki.Model:
             {"name": "StrokeOrder"},
             {"name": "CharacterType"},
             {"name": "Lesson"},
+            {"name": "WordType"},
             {"name": "Radical"},
             {"name": "Components"},
             {"name": "CompoundsFront"},
@@ -72,4 +74,4 @@ class CPRNote(genanki.Note):
 
     @property
     def guid(self) -> str:
-        return genanki.guid_for(self.fields[0], self.fields[6])  # Character + Lesson
+        return genanki.guid_for(self.fields[0], self.fields[7])  # Character + Lesson

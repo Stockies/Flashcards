@@ -7,6 +7,7 @@
         "character": "你",
         "pinyin": "nǐ",
         "english": "you (singular)",
+        "word_type": "Pr",
         "radical": "亻",
         "radical_pinyin": "rén",
         "components": [
@@ -41,6 +42,7 @@
         "character": "好",
         "pinyin": "hǎo",
         "english": "good; well; fine; OK",
+        "word_type": "A",
         "radical": "女",
         "radical_pinyin": "nǚ",
         "components": [
@@ -63,7 +65,7 @@
           {
             "chinese": "好看",
             "pinyin": "hǎo kàn",
-            "english": "good-looking; beautiful",
+            "english": "good-looking; pretty",
             "source": "generated"
           }
         ],
@@ -75,6 +77,7 @@
         "character": "我",
         "pinyin": "wǒ",
         "english": "I; me",
+        "word_type": "Pr",
         "radical": "戈",
         "radical_pinyin": "gē",
         "components": [
@@ -91,13 +94,13 @@
           {
             "chinese": "自我",
             "pinyin": "zìwǒ",
-            "english": "self; oneself",
+            "english": "self",
             "source": "generated"
           },
           {
             "chinese": "忘我",
             "pinyin": "wàngwǒ",
-            "english": "selfless; absorbed",
+            "english": "selfless",
             "source": "generated"
           }
         ],
@@ -109,6 +112,7 @@
         "character": "叫",
         "pinyin": "jiào",
         "english": "to be called; to call",
+        "word_type": "V",
         "radical": "口",
         "radical_pinyin": "kǒu",
         "components": [
@@ -129,9 +133,9 @@
             "source": "generated"
           },
           {
-            "chinese": "叫醒",
-            "pinyin": "jiàoxǐng",
-            "english": "to wake someone up",
+            "chinese": "叫卖",
+            "pinyin": "jiàomài",
+            "english": "to hawk (goods); to peddle",
             "source": "generated"
           }
         ],
@@ -143,17 +147,18 @@
         "character": "请问",
         "pinyin": "qǐngwèn",
         "english": "may I ask; excuse me",
-        "radical": "讠",
+        "word_type": "V",
+        "radical": "言",
         "radical_pinyin": "yán",
         "components": [
-          "讠",
+          "言",
           "青"
         ],
         "compounds": [
           {
             "chinese": "请客",
             "pinyin": "qǐngkè",
-            "english": "to treat (someone to a meal, etc.)",
+            "english": "to treat someone (to a meal, etc.)",
             "source": "generated"
           },
           {
@@ -163,20 +168,21 @@
             "source": "generated"
           },
           {
-            "chinese": "请教",
-            "pinyin": "qǐngjiào",
-            "english": "to ask for advice",
+            "chinese": "请进",
+            "pinyin": "qǐngjìn",
+            "english": "please come in",
             "source": "generated"
           }
         ],
-        "example_sentence": "请问，洗手间在哪里？",
-        "example_pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
-        "example_english": "Excuse me, where is the restroom?"
+        "example_sentence": "请问，去天安门怎么走？",
+        "example_pinyin": "Qǐngwèn, qù Tiān'ānmén zěnme zǒu?",
+        "example_english": "Excuse me, how do I get to Tiananmen Square?"
       },
       {
         "character": "请",
         "pinyin": "qǐng",
         "english": "please; to request; to invite",
+        "word_type": "V",
         "radical": "讠",
         "radical_pinyin": "yán",
         "components": [
@@ -187,13 +193,13 @@
           {
             "chinese": "请问",
             "pinyin": "qǐngwèn",
-            "english": "May I ask...",
+            "english": "excuse me; may I ask",
             "source": "generated"
           },
           {
             "chinese": "请客",
             "pinyin": "qǐngkè",
-            "english": "to treat (someone); to play the host",
+            "english": "to treat (to a meal, etc.); to entertain guests",
             "source": "generated"
           },
           {
@@ -205,12 +211,13 @@
         ],
         "example_sentence": "请坐。",
         "example_pinyin": "Qǐng zuò.",
-        "example_english": "Please sit."
+        "example_english": "Please sit down."
       },
       {
         "character": "问",
         "pinyin": "wèn",
         "english": "to ask",
+        "word_type": "V",
         "radical": "门",
         "radical_pinyin": "mén",
         "components": [
@@ -227,29 +234,30 @@
           {
             "chinese": "访问",
             "pinyin": "fǎngwèn",
-            "english": "to visit; to interview",
+            "english": "to visit; to call on; to interview",
             "source": "generated"
           },
           {
-            "chinese": "疑问",
-            "pinyin": "yíwèn",
-            "english": "doubt; question",
+            "chinese": "询问",
+            "pinyin": "xúnwèn",
+            "english": "to inquire; to ask about",
             "source": "generated"
           }
         ],
-        "example_sentence": "请问，洗手间在哪里？",
-        "example_pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
-        "example_english": "Excuse me, where is the restroom?"
+        "example_sentence": "我有一个问题想问你。",
+        "example_pinyin": "Wǒ yǒu yīgè wèntí xiǎng wèn nǐ.",
+        "example_english": "I have a question I want to ask you."
       },
       {
         "character": "什么",
         "pinyin": "shénme",
         "english": "what",
+        "word_type": "QPr",
         "radical": "亻",
         "radical_pinyin": "rén",
         "components": [
           "亻",
-          "申"
+          "十"
         ],
         "compounds": [
           {
@@ -267,7 +275,7 @@
           {
             "chinese": "没什么",
             "pinyin": "méishénme",
-            "english": "nothing; it's nothing",
+            "english": "nothing; it doesn't matter",
             "source": "generated"
           }
         ],
@@ -279,8 +287,9 @@
         "character": "名字",
         "pinyin": "míngzi",
         "english": "name",
-        "radical": "夕",
-        "radical_pinyin": "xī",
+        "word_type": "N",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
         "components": [
           "夕",
           "口"
@@ -305,15 +314,15 @@
             "source": "generated"
           },
           {
-            "chinese": "名称",
-            "pinyin": "míngchēng",
-            "english": "name (of a thing or organization)",
-            "source": "generated"
-          },
-          {
             "chinese": "名字叫",
             "pinyin": "míngzi jiào",
             "english": "named",
+            "source": "generated"
+          },
+          {
+            "chinese": "大名",
+            "pinyin": "dàmíng",
+            "english": "famous name; one's given name (polite)",
             "source": "generated"
           }
         ],
@@ -325,6 +334,7 @@
         "character": "姓",
         "pinyin": "xìng",
         "english": "one's surname is / surname",
+        "word_type": "V/N",
         "radical": "女",
         "radical_pinyin": "nǚ",
         "components": [
@@ -353,13 +363,13 @@
           {
             "chinese": "贵姓",
             "pinyin": "guìxìng",
-            "english": "your honorable surname (polite)",
+            "english": "what is your honorable surname?",
             "source": "generated"
           },
           {
-            "chinese": "百姓",
-            "pinyin": "bǎixìng",
-            "english": "common people",
+            "chinese": "同姓",
+            "pinyin": "tóngxìng",
+            "english": "same surname",
             "source": "generated"
           }
         ],
@@ -371,12 +381,12 @@
         "character": "认识",
         "pinyin": "rènshi",
         "english": "to know",
+        "word_type": "V",
         "radical": "讠",
         "radical_pinyin": "yán",
         "components": [
           "讠",
-          "人",
-          "言"
+          "刃"
         ],
         "compounds": [
           {
@@ -404,26 +414,27 @@
             "source": "generated"
           },
           {
-            "chinese": "认知",
-            "pinyin": "rènzhī",
-            "english": "cognition; to recognize",
+            "chinese": "认识到",
+            "pinyin": "rènshi dào",
+            "english": "to realize; to recognize",
             "source": "generated"
           },
           {
-            "chinese": "认同",
-            "pinyin": "rèntóng",
-            "english": "to identify with; to approve of",
+            "chinese": "重新认识",
+            "pinyin": "chóngxīn rènshi",
+            "english": "to re-evaluate; to get to know again",
             "source": "generated"
           }
         ],
-        "example_sentence": "很高兴认识你。",
-        "example_pinyin": "Hěn gāoxìng rènshi nǐ.",
-        "example_english": "Very happy to meet you."
+        "example_sentence": "我很高兴认识你。",
+        "example_pinyin": "Wǒ hěn gāoxìng rènshi nǐ.",
+        "example_english": "I am very happy to know you."
       },
       {
         "character": "很",
         "pinyin": "hěn",
         "english": "very",
+        "word_type": "Adv",
         "radical": "彳",
         "radical_pinyin": "chì",
         "components": [
@@ -440,13 +451,13 @@
           {
             "chinese": "很多",
             "pinyin": "hěn duō",
-            "english": "many; a lot of",
+            "english": "many; much",
             "source": "generated"
           },
           {
             "chinese": "很少",
             "pinyin": "hěn shǎo",
-            "english": "very few; seldom",
+            "english": "seldom; very few",
             "source": "generated"
           }
         ],
@@ -458,6 +469,7 @@
         "character": "高兴",
         "pinyin": "gāoxìng",
         "english": "happy",
+        "word_type": "A",
         "radical": "高",
         "radical_pinyin": "gāo",
         "components": [
@@ -467,25 +479,25 @@
           {
             "chinese": "很高兴",
             "pinyin": "hěn gāoxìng",
-            "english": "very happy; pleased",
+            "english": "very happy; very glad",
             "source": "textbook"
           },
           {
             "chinese": "高兴地",
-            "pinyin": "gāoxìngde",
+            "pinyin": "gāoxìng de",
             "english": "happily",
             "source": "generated"
           },
           {
-            "chinese": "高兴劲儿",
-            "pinyin": "gāoxìngjìnr",
-            "english": "excitement; high spirits",
+            "chinese": "不高兴",
+            "pinyin": "bù gāoxìng",
+            "english": "unhappy; displeased",
             "source": "generated"
           },
           {
-            "chinese": "高兴事",
-            "pinyin": "gāoxìngshì",
-            "english": "happy event",
+            "chinese": "祝你高兴",
+            "pinyin": "zhù nǐ gāoxìng",
+            "english": "wish you happiness",
             "source": "generated"
           }
         ],
@@ -497,10 +509,12 @@
         "character": "也",
         "pinyin": "yě",
         "english": "also; too",
+        "word_type": "Adv",
         "radical": "乙",
         "radical_pinyin": "yǐ",
         "components": [
-          "乙"
+          "乙",
+          "丨"
         ],
         "compounds": [
           {
@@ -528,9 +542,9 @@
             "source": "generated"
           },
           {
-            "chinese": "也是",
-            "pinyin": "yěshì",
-            "english": "also is; too is",
+            "chinese": "也罢",
+            "pinyin": "yěbà",
+            "english": "whether... or...; no matter whether...",
             "source": "generated"
           }
         ],
@@ -542,6 +556,7 @@
         "character": "马大为",
         "pinyin": "Mǎ Dàwéi",
         "english": "Ma Dawei, name of an American student",
+        "word_type": "PN",
         "radical": "马",
         "radical_pinyin": "mǎ",
         "components": [
@@ -551,30 +566,31 @@
           {
             "chinese": "马上",
             "pinyin": "mǎshàng",
-            "english": "immediately",
+            "english": "immediately; right away",
             "source": "generated"
           },
           {
             "chinese": "马路",
             "pinyin": "mǎlù",
-            "english": "road",
+            "english": "road; street",
             "source": "generated"
           },
           {
             "chinese": "马车",
             "pinyin": "mǎchē",
-            "english": "carriage",
+            "english": "horse-drawn carriage",
             "source": "generated"
           }
         ],
-        "example_sentence": "马大为是美国学生。",
-        "example_pinyin": "Mǎ Dàwéi shì Měiguó xuésheng.",
-        "example_english": "Ma Dawei is an American student."
+        "example_sentence": "马大为是我的美国朋友。",
+        "example_pinyin": "Mǎ Dàwéi shì wǒ de Měiguó péngyou.",
+        "example_english": "Ma Dawei is my American friend."
       },
       {
         "character": "宋华",
         "pinyin": "Sòng Huá",
         "english": "Song Hua, name of a Chinese student",
+        "word_type": "PN",
         "radical": "宀",
         "radical_pinyin": "mián",
         "components": [
@@ -591,24 +607,25 @@
           {
             "chinese": "宋体",
             "pinyin": "Sòngtǐ",
-            "english": "Song typeface (a common Chinese font style)",
+            "english": "Song typeface",
             "source": "generated"
           },
           {
             "chinese": "宋词",
             "pinyin": "Sòngcí",
-            "english": "Song poetry (a genre of classical Chinese poetry from the Song Dynasty)",
+            "english": "Song poetry",
             "source": "generated"
           }
         ],
-        "example_sentence": "宋华是我的好朋友。",
-        "example_pinyin": "Sòng Huá shì wǒ de hǎo péngyǒu.",
-        "example_english": "Song Hua is my good friend."
+        "example_sentence": "宋华是我的同学。",
+        "example_pinyin": "Sòng Huá shì wǒ de tóngxué.",
+        "example_english": "Song Hua is my classmate."
       },
       {
         "character": "在",
         "pinyin": "zài",
         "english": "to be (here, there); to be (in, on, at)",
+        "word_type": "V",
         "radical": "土",
         "radical_pinyin": "tǔ",
         "components": [
@@ -635,14 +652,15 @@
             "source": "generated"
           }
         ],
-        "example_sentence": "我正在学习中文。",
-        "example_pinyin": "Wǒ zhèngzài xuéxí Zhōngwén.",
-        "example_english": "I am currently studying Chinese."
+        "example_sentence": "他现在在家。",
+        "example_pinyin": "Tā xiànzài zài jiā.",
+        "example_english": "He is at home now."
       },
       {
         "character": "吗",
         "pinyin": "ma",
         "english": "a modal particle used for a question expecting a yes- no answer",
+        "word_type": "QPt",
         "radical": "口",
         "radical_pinyin": "kǒu",
         "components": [
@@ -659,25 +677,25 @@
           {
             "chinese": "宋华在吗",
             "pinyin": "Sòng Huá zài ma?",
-            "english": "Is Song Hua here?",
+            "english": "Is Song Hua here/in?",
             "source": "textbook"
           },
           {
             "chinese": "好吗",
             "pinyin": "hǎo ma",
-            "english": "Is it good? / Okay?",
-            "source": "generated"
-          },
-          {
-            "chinese": "对吗",
-            "pinyin": "duì ma",
-            "english": "Is that right?",
+            "english": "Is it good? / OK?",
             "source": "generated"
           },
           {
             "chinese": "是吗",
             "pinyin": "shì ma",
             "english": "Really? / Is that so?",
+            "source": "generated"
+          },
+          {
+            "chinese": "对吗",
+            "pinyin": "duì ma",
+            "english": "Is that right?",
             "source": "generated"
           }
         ],
@@ -689,6 +707,7 @@
         "character": "进",
         "pinyin": "jìn",
         "english": "to enter",
+        "word_type": "V",
         "radical": "辶",
         "radical_pinyin": "chuò",
         "components": [
@@ -705,13 +724,13 @@
           {
             "chinese": "进步",
             "pinyin": "jìnbù",
-            "english": "progress",
+            "english": "to make progress; progress",
             "source": "generated"
           },
           {
             "chinese": "进口",
             "pinyin": "jìnkǒu",
-            "english": "to import",
+            "english": "to import; imported",
             "source": "generated"
           },
           {
@@ -721,19 +740,21 @@
             "source": "generated"
           }
         ],
-        "example_sentence": "他走进房间。",
-        "example_pinyin": "Tā zǒujìn fángjiān.",
-        "example_english": "He walked into the room."
+        "example_sentence": "请进，里面有空位。",
+        "example_pinyin": "Qǐng jìn, lǐmiàn yǒu kòngwèi.",
+        "example_english": "Please come in, there are empty seats inside."
       },
       {
         "character": "坐",
         "pinyin": "zuò",
         "english": "to sit",
+        "word_type": "V",
         "radical": "土",
         "radical_pinyin": "tǔ",
         "components": [
           "土",
-          "人人"
+          "人",
+          "人"
         ],
         "compounds": [
           {
@@ -769,6 +790,7 @@
         "character": "谢谢",
         "pinyin": "xièxie",
         "english": "to thank",
+        "word_type": "V",
         "radical": "讠",
         "radical_pinyin": "yán",
         "components": [
@@ -779,7 +801,7 @@
           {
             "chinese": "谢谢你",
             "pinyin": "xièxie nǐ",
-            "english": "Thank you",
+            "english": "thank you",
             "source": "textbook"
           },
           {
@@ -789,9 +811,9 @@
             "source": "generated"
           },
           {
-            "chinese": "谢绝",
-            "pinyin": "xièjué",
-            "english": "to politely refuse",
+            "chinese": "道谢",
+            "pinyin": "dàoxiè",
+            "english": "to express thanks",
             "source": "generated"
           }
         ],
@@ -803,14 +825,21 @@
         "character": "最近",
         "pinyin": "zuìjìn",
         "english": "lately; recently",
+        "word_type": "Adv",
         "radical": "日",
         "radical_pinyin": "rì",
         "components": [
           "日",
           "耳",
-          "又"
+          "斤"
         ],
         "compounds": [
+          {
+            "chinese": "最近的",
+            "pinyin": "zuìjìn de",
+            "english": "the most recent; nearest",
+            "source": "generated"
+          },
           {
             "chinese": "最近几年",
             "pinyin": "zuìjìn jǐ nián",
@@ -822,22 +851,17 @@
             "pinyin": "zuìjìn xiāoxi",
             "english": "latest news",
             "source": "generated"
-          },
-          {
-            "chinese": "最近的",
-            "pinyin": "zuìjìn de",
-            "english": "most recent; nearest",
-            "source": "generated"
           }
         ],
         "example_sentence": "你最近怎么样？",
         "example_pinyin": "Nǐ zuìjìn zěnmeyàng?",
-        "example_english": "How have you been lately?"
+        "example_english": "How have you been recently?"
       },
       {
         "character": "怎么样",
         "pinyin": "zěnmeyàng",
         "english": "how (is, are); how about",
+        "word_type": "QPr",
         "radical": "心",
         "radical_pinyin": "xīn",
         "components": [
@@ -858,21 +882,21 @@
             "source": "textbook"
           },
           {
-            "chinese": "怎么样",
-            "pinyin": "zěnmeyàng",
-            "english": "how (is, are); how about",
+            "chinese": "怎么样了",
+            "pinyin": "zěnmeyàng le",
+            "english": "how is it going now?",
             "source": "generated"
           },
           {
-            "chinese": "怎么样",
-            "pinyin": "zěnmeyàng",
-            "english": "how (is, are); how about",
+            "chinese": "怎么样都行",
+            "pinyin": "zěnmeyàng dōu xíng",
+            "english": "anything is fine",
             "source": "generated"
           },
           {
-            "chinese": "怎么样",
-            "pinyin": "zěnmeyàng",
-            "english": "how (is, are); how about",
+            "chinese": "怎么样才能",
+            "pinyin": "zěnmeyàng cái néng",
+            "english": "how can one",
             "source": "generated"
           }
         ],
@@ -884,6 +908,7 @@
         "character": "呢",
         "pinyin": "ne",
         "english": "a modal particle used for an elliptical question",
+        "word_type": "QPt",
         "radical": "口",
         "radical_pinyin": "kǒu",
         "components": [
@@ -906,24 +931,25 @@
           {
             "chinese": "好呢",
             "pinyin": "hǎo ne",
-            "english": "okay then; how about it?",
+            "english": "how about it?",
             "source": "generated"
           },
           {
-            "chinese": "是呢",
-            "pinyin": "shì ne",
-            "english": "that's right; indeed",
+            "chinese": "去呢",
+            "pinyin": "qù ne",
+            "english": "to go then?",
             "source": "generated"
           }
         ],
-        "example_sentence": "我喜欢吃苹果，你呢？",
-        "example_pinyin": "Wǒ xǐhuān chī píngguǒ, nǐ ne?",
-        "example_english": "I like to eat apples, how about you?"
+        "example_sentence": "我很好，你呢？",
+        "example_pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "example_english": "I'm fine, how about you?"
       },
       {
         "character": "忙",
         "pinyin": "máng",
         "english": "busy",
+        "word_type": "A",
         "radical": "忄",
         "radical_pinyin": "xīn",
         "components": [
@@ -956,14 +982,15 @@
             "source": "generated"
           }
         ],
-        "example_sentence": "我今天很忙，没有时间。",
-        "example_pinyin": "Wǒ jīntiān hěn máng, méiyǒu shíjiān.",
-        "example_english": "I am very busy today and don't have time."
+        "example_sentence": "我今天很忙。",
+        "example_pinyin": "Wǒ jīntiān hěn máng.",
+        "example_english": "I am very busy today."
       },
       {
         "character": "不",
         "pinyin": "bù",
         "english": "not; no",
+        "word_type": "Adv",
         "radical": "一",
         "radical_pinyin": "yī",
         "components": [
@@ -992,37 +1019,38 @@
           },
           {
             "chinese": "不在",
-            "pinyin": "bù zài",
-            "english": "not at; not present",
+            "pinyin": "bú zài",
+            "english": "not at; not in; not present",
             "source": "textbook"
           },
           {
             "chinese": "不是",
-            "pinyin": "bù shì",
+            "pinyin": "bú shì",
             "english": "no; not be",
             "source": "generated"
           },
           {
             "chinese": "不用",
-            "pinyin": "bù yòng",
-            "english": "no need; don't",
+            "pinyin": "bú yòng",
+            "english": "need not; no need",
             "source": "generated"
           },
           {
             "chinese": "不但",
-            "pinyin": "bù dàn",
+            "pinyin": "bú dàn",
             "english": "not only",
             "source": "generated"
           }
         ],
         "example_sentence": "我不是学生。",
-        "example_pinyin": "Wǒ bù shì xuésheng.",
+        "example_pinyin": "Wǒ bú shì xuésheng.",
         "example_english": "I am not a student."
       },
       {
         "character": "太",
         "pinyin": "tài",
         "english": "too; extremely",
+        "word_type": "Adv",
         "radical": "大",
         "radical_pinyin": "dà",
         "components": [
@@ -1045,7 +1073,7 @@
           {
             "chinese": "太太",
             "pinyin": "tài tai",
-            "english": "wife; Mrs.",
+            "english": "Mrs.; wife",
             "source": "generated"
           },
           {
@@ -1061,14 +1089,15 @@
             "source": "generated"
           }
         ],
-        "example_sentence": "这个苹果太大了。",
-        "example_pinyin": "Zhège píngguǒ tài dà le.",
-        "example_english": "This apple is too big."
+        "example_sentence": "今天太热了。",
+        "example_pinyin": "Jīntiān tài rè le.",
+        "example_english": "It's too hot today."
       },
       {
         "character": "他",
         "pinyin": "tā",
         "english": "he; him",
+        "word_type": "Pr",
         "radical": "亻",
         "radical_pinyin": "rén",
         "components": [
@@ -1083,26 +1112,27 @@
             "source": "generated"
           },
           {
-            "chinese": "其他",
-            "pinyin": "qítā",
-            "english": "other; else",
-            "source": "generated"
-          },
-          {
             "chinese": "他日",
             "pinyin": "tārì",
             "english": "another day; some other day",
             "source": "generated"
+          },
+          {
+            "chinese": "其他",
+            "pinyin": "qítā",
+            "english": "other; else",
+            "source": "generated"
           }
         ],
         "example_sentence": "他是一个好学生。",
-        "example_pinyin": "Tā shì yī gè hǎo xuésheng.",
+        "example_pinyin": "Tā shì yīgè hǎo xuésheng.",
         "example_english": "He is a good student."
       },
       {
         "character": "丁力波",
         "pinyin": "Dīng Lìbō",
         "english": "Ding Libo, name of a Canadian student",
+        "word_type": "PN",
         "radical": "丁",
         "radical_pinyin": "dīng",
         "components": [
@@ -1113,7 +1143,7 @@
           {
             "chinese": "丁香",
             "pinyin": "dīngxiāng",
-            "english": "lilac",
+            "english": "lilac; clove",
             "source": "generated"
           },
           {
@@ -1125,7 +1155,7 @@
           {
             "chinese": "丁点儿",
             "pinyin": "dīngdiǎnr",
-            "english": "a tiny bit",
+            "english": "a tiny bit; a speck",
             "source": "generated"
           }
         ],
@@ -1137,6 +1167,7 @@
         "character": "林娜",
         "pinyin": "Lín Nà",
         "english": "Lin Na, name of a British student",
+        "word_type": "PN",
         "radical": "木",
         "radical_pinyin": "mù",
         "components": [
@@ -1151,21 +1182,479 @@
             "source": "generated"
           },
           {
-            "chinese": "林地",
-            "pinyin": "líndì",
-            "english": "woodland",
-            "source": "generated"
-          },
-          {
             "chinese": "林业",
             "pinyin": "línyè",
             "english": "forestry",
             "source": "generated"
+          },
+          {
+            "chinese": "林区",
+            "pinyin": "línqū",
+            "english": "forest area",
+            "source": "generated"
           }
         ],
-        "example_sentence": "林娜是我的好朋友。",
-        "example_pinyin": "Lín Nà shì wǒ de hǎo péngyǒu.",
-        "example_english": "Lin Na is my good friend."
+        "example_sentence": "林娜是英国学生。",
+        "example_pinyin": "Lín Nà shì Yīngguó xuésheng.",
+        "example_english": "Lin Na is a British student."
+      },
+      {
+        "character": "什",
+        "pinyin": "shén",
+        "english": "what",
+        "word_type": "QPr",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "十"
+        ],
+        "compounds": [
+          {
+            "chinese": "什么",
+            "pinyin": "shénme",
+            "english": "what",
+            "source": "generated"
+          },
+          {
+            "chinese": "什锦",
+            "pinyin": "shíjǐn",
+            "english": "assorted; mixed",
+            "source": "generated"
+          },
+          {
+            "chinese": "什物",
+            "pinyin": "shíwù",
+            "english": "miscellaneous articles; odds and ends",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你叫什么名字？",
+        "example_pinyin": "Nǐ jiào shénme míngzi?",
+        "example_english": "What is your name?"
+      },
+      {
+        "character": "么",
+        "pinyin": "me",
+        "english": "interrogative particle; suffix",
+        "word_type": "QPt",
+        "radical": "厶",
+        "radical_pinyin": "sī",
+        "components": [
+          "厶",
+          "乚"
+        ],
+        "compounds": [
+          {
+            "chinese": "什么",
+            "pinyin": "shénme",
+            "english": "what",
+            "source": "generated"
+          },
+          {
+            "chinese": "怎么",
+            "pinyin": "zěnme",
+            "english": "how",
+            "source": "generated"
+          },
+          {
+            "chinese": "多么",
+            "pinyin": "duōme",
+            "english": "how (wonderful, etc.)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你喜欢吃什么？",
+        "example_pinyin": "Nǐ xǐhuān chī shénme?",
+        "example_english": "What do you like to eat?"
+      },
+      {
+        "character": "名",
+        "pinyin": "míng",
+        "english": "name; reputation; famous",
+        "word_type": "N",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "夕",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "名字",
+            "pinyin": "míngzi",
+            "english": "name",
+            "source": "generated"
+          },
+          {
+            "chinese": "有名",
+            "pinyin": "yǒumíng",
+            "english": "famous; well-known",
+            "source": "generated"
+          },
+          {
+            "chinese": "名牌",
+            "pinyin": "míngpái",
+            "english": "famous brand; brand name",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的名字叫李明。",
+        "example_pinyin": "Tā de míngzi jiào Lǐ Míng.",
+        "example_english": "His name is Li Ming."
+      },
+      {
+        "character": "字",
+        "pinyin": "zì",
+        "english": "character; word; writing",
+        "word_type": "N",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "子"
+        ],
+        "compounds": [
+          {
+            "chinese": "汉字",
+            "pinyin": "Hànzì",
+            "english": "Chinese character",
+            "source": "generated"
+          },
+          {
+            "chinese": "名字",
+            "pinyin": "míngzi",
+            "english": "name",
+            "source": "generated"
+          },
+          {
+            "chinese": "字母",
+            "pinyin": "zìmǔ",
+            "english": "letter (of an alphabet)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个字怎么写？",
+        "example_pinyin": "Zhège zì zěnme xiě?",
+        "example_english": "How do you write this character?"
+      },
+      {
+        "character": "认",
+        "pinyin": "rèn",
+        "english": "to recognize; to admit; to acknowledge",
+        "word_type": "V",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "刃"
+        ],
+        "compounds": [
+          {
+            "chinese": "认识",
+            "pinyin": "rènshi",
+            "english": "to know; to recognize",
+            "source": "generated"
+          },
+          {
+            "chinese": "认为",
+            "pinyin": "rènwéi",
+            "english": "to think; to believe",
+            "source": "generated"
+          },
+          {
+            "chinese": "认真",
+            "pinyin": "rènzhēn",
+            "english": "conscientious; serious",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我认识他。",
+        "example_pinyin": "Wǒ rènshi tā.",
+        "example_english": "I know him."
+      },
+      {
+        "character": "识",
+        "pinyin": "shí",
+        "english": "to know; to recognize; knowledge",
+        "word_type": "V",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "只"
+        ],
+        "compounds": [
+          {
+            "chinese": "认识",
+            "pinyin": "rènshi",
+            "english": "to know; to recognize",
+            "source": "generated"
+          },
+          {
+            "chinese": "常识",
+            "pinyin": "chángshí",
+            "english": "common sense; general knowledge",
+            "source": "generated"
+          },
+          {
+            "chinese": "知识",
+            "pinyin": "zhīshi",
+            "english": "knowledge; intellect",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他很有学识。",
+        "example_pinyin": "Tā hěn yǒu xuéshí.",
+        "example_english": "He is very learned."
+      },
+      {
+        "character": "高",
+        "pinyin": "gāo",
+        "english": "tall; high; loud; surname Gao",
+        "word_type": "A",
+        "radical": "高",
+        "radical_pinyin": "gāo",
+        "components": [
+          "亠",
+          "口",
+          "冂"
+        ],
+        "compounds": [
+          {
+            "chinese": "高山",
+            "pinyin": "gāoshān",
+            "english": "high mountain",
+            "source": "generated"
+          },
+          {
+            "chinese": "提高",
+            "pinyin": "tígāo",
+            "english": "to improve; to raise",
+            "source": "generated"
+          },
+          {
+            "chinese": "高科技",
+            "pinyin": "gāokējì",
+            "english": "high technology",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这座楼很高。",
+        "example_pinyin": "Zhè zuò lóu hěn gāo.",
+        "example_english": "This building is very tall."
+      },
+      {
+        "character": "兴",
+        "pinyin": "xīng",
+        "english": "prosper; rise; be popular",
+        "word_type": "V",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "同",
+          "廾"
+        ],
+        "compounds": [
+          {
+            "chinese": "兴奋",
+            "pinyin": "xīngfèn",
+            "english": "excited",
+            "source": "generated"
+          },
+          {
+            "chinese": "兴趣",
+            "pinyin": "xìngqù",
+            "english": "interest",
+            "source": "generated"
+          },
+          {
+            "chinese": "兴起",
+            "pinyin": "xīngqǐ",
+            "english": "rise; spring up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他对学习汉语很感兴趣。",
+        "example_pinyin": "Tā duì xuéxí Hànyǔ hěn gǎn xìngqù.",
+        "example_english": "He is very interested in learning Chinese."
+      },
+      {
+        "character": "谢",
+        "pinyin": "xiè",
+        "english": "to thank; to apologize; to wither; to decline; surname Xie",
+        "word_type": "V",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "射"
+        ],
+        "compounds": [
+          {
+            "chinese": "谢谢",
+            "pinyin": "xièxie",
+            "english": "to thank; thanks",
+            "source": "generated"
+          },
+          {
+            "chinese": "感谢",
+            "pinyin": "gǎnxiè",
+            "english": "to thank; to be grateful",
+            "source": "generated"
+          },
+          {
+            "chinese": "谢绝",
+            "pinyin": "xièjué",
+            "english": "to politely refuse",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "谢谢你的帮助。",
+        "example_pinyin": "Xièxie nǐ de bāngzhù.",
+        "example_english": "Thank you for your help."
+      },
+      {
+        "character": "最",
+        "pinyin": "zuì",
+        "english": "most; -est",
+        "word_type": "Adv",
+        "radical": "曰",
+        "radical_pinyin": "yuē",
+        "components": [
+          "曰",
+          "耳",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "最好",
+            "pinyin": "zuìhǎo",
+            "english": "best; had better",
+            "source": "generated"
+          },
+          {
+            "chinese": "最近",
+            "pinyin": "zuìjìn",
+            "english": "recently; nearest",
+            "source": "generated"
+          },
+          {
+            "chinese": "最多",
+            "pinyin": "zuìduō",
+            "english": "at most; maximum",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是我最喜欢的颜色。",
+        "example_pinyin": "Zhè shì wǒ zuì xǐhuān de yánsè.",
+        "example_english": "This is my favorite color."
+      },
+      {
+        "character": "近",
+        "pinyin": "jìn",
+        "english": "near; close; recent",
+        "word_type": "A",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "斤"
+        ],
+        "compounds": [
+          {
+            "chinese": "附近",
+            "pinyin": "fùjìn",
+            "english": "nearby; vicinity",
+            "source": "generated"
+          },
+          {
+            "chinese": "最近",
+            "pinyin": "zuìjìn",
+            "english": "recently; lately; nearest",
+            "source": "generated"
+          },
+          {
+            "chinese": "接近",
+            "pinyin": "jiējìn",
+            "english": "to approach; to be close to",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家离学校很近。",
+        "example_pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+        "example_english": "My home is very close to the school."
+      },
+      {
+        "character": "怎",
+        "pinyin": "zěn",
+        "english": "how; why; what",
+        "word_type": "QPr",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "乍",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "怎么办",
+            "pinyin": "zěnme bàn",
+            "english": "what to do; how to handle",
+            "source": "generated"
+          },
+          {
+            "chinese": "怎么样",
+            "pinyin": "zěnmeyàng",
+            "english": "how; what about",
+            "source": "generated"
+          },
+          {
+            "chinese": "怎么说",
+            "pinyin": "zěnme shuō",
+            "english": "how to say; what to say",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你今天怎么了？",
+        "example_pinyin": "Nǐ jīntiān zěnme le?",
+        "example_english": "What's wrong with you today?"
+      },
+      {
+        "character": "样",
+        "pinyin": "yàng",
+        "english": "manner; pattern; kind; appearance; sample",
+        "word_type": "N",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "羊"
+        ],
+        "compounds": [
+          {
+            "chinese": "样子",
+            "pinyin": "yàngzi",
+            "english": "appearance; manner; sample",
+            "source": "generated"
+          },
+          {
+            "chinese": "一样",
+            "pinyin": "yīyàng",
+            "english": "same; alike",
+            "source": "generated"
+          },
+          {
+            "chinese": "这样",
+            "pinyin": "zhèyàng",
+            "english": "this kind; such; so; like this",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个样子的衣服很漂亮。",
+        "example_pinyin": "Zhège yàngzi de yīfu hěn piàoliang.",
+        "example_english": "Clothes of this style are very beautiful."
       }
     ],
     "supplementary": [
@@ -1173,6 +1662,7 @@
         "character": "困",
         "pinyin": "kùn",
         "english": "sleepy",
+        "word_type": "A",
         "radical": "囗",
         "radical_pinyin": "wéi",
         "components": [
@@ -1199,21 +1689,21 @@
             "source": "textbook"
           },
           {
+            "chinese": "困倦",
+            "pinyin": "kùnjuàn",
+            "english": "sleepy; tired",
+            "source": "generated"
+          },
+          {
             "chinese": "困难",
             "pinyin": "kùnnan",
-            "english": "difficulty; difficult",
+            "english": "difficulty; problem",
             "source": "generated"
           },
           {
-            "chinese": "困扰",
-            "pinyin": "kùnrǎo",
-            "english": "to trouble; to bother",
-            "source": "generated"
-          },
-          {
-            "chinese": "困境",
-            "pinyin": "kùnjìng",
-            "english": "predicament; dilemma",
+            "chinese": "围困",
+            "pinyin": "wéikùn",
+            "english": "to besiege; to hem in",
             "source": "generated"
           }
         ],
@@ -1225,6 +1715,7 @@
         "character": "渴",
         "pinyin": "kě",
         "english": "thirsty",
+        "word_type": "A",
         "radical": "氵",
         "radical_pinyin": "shuǐ",
         "components": [
@@ -1263,9 +1754,9 @@
             "source": "generated"
           },
           {
-            "chinese": "渴望",
-            "pinyin": "kě wàng",
-            "english": "to long for; to yearn for",
+            "chinese": "饥渴",
+            "pinyin": "jī kě",
+            "english": "hunger and thirst; famished",
             "source": "generated"
           }
         ],
@@ -1277,6 +1768,7 @@
         "character": "饿",
         "pinyin": "è",
         "english": "hungry",
+        "word_type": "A",
         "radical": "饣",
         "radical_pinyin": "shí",
         "components": [
@@ -1298,14 +1790,14 @@
           },
           {
             "chinese": "不太饿",
-            "pinyin": "bù tài è",
+            "pinyin": "bú tài è",
             "english": "not too hungry",
             "source": "textbook"
           },
           {
             "chinese": "饥饿",
             "pinyin": "jī'è",
-            "english": "hungry; starvation",
+            "english": "hunger; hungry",
             "source": "generated"
           },
           {
@@ -1317,7 +1809,7 @@
           {
             "chinese": "饿饭",
             "pinyin": "èfàn",
-            "english": "to go hungry; to miss a meal",
+            "english": "to go hungry",
             "source": "generated"
           }
         ],
@@ -1329,11 +1821,12 @@
         "character": "累",
         "pinyin": "lèi",
         "english": "tired",
+        "word_type": "A",
         "radical": "糸",
-        "radical_pinyin": "mì",
+        "radical_pinyin": "sī",
         "components": [
-          "田",
-          "糸"
+          "糸",
+          "田"
         ],
         "compounds": [
           {
@@ -1361,31 +1854,32 @@
             "source": "generated"
           },
           {
-            "chinese": "累死",
-            "pinyin": "lèisǐ",
-            "english": "exhausted; tired to death",
-            "source": "generated"
-          },
-          {
             "chinese": "累赘",
             "pinyin": "léizhui",
             "english": "burden; encumbrance",
             "source": "generated"
+          },
+          {
+            "chinese": "累死",
+            "pinyin": "lèisǐ",
+            "english": "exhausted; dead tired",
+            "source": "generated"
           }
         ],
-        "example_sentence": "我今天工作了一整天，现在很累。",
-        "example_pinyin": "Wǒ jīntiān gōngzuò le yī zhěng tiān, xiànzài hěn lèi.",
-        "example_english": "I worked all day today, now I'm very tired."
+        "example_sentence": "我今天工作了一整天，感觉很累。",
+        "example_pinyin": "Wǒ jīntiān gōngzuò le yī zhěng tiān, gǎnjué hěn lèi.",
+        "example_english": "I worked all day today and feel very tired."
       },
       {
         "character": "还行",
         "pinyin": "hái xíng",
         "english": "not bad",
+        "word_type": "IE",
         "radical": "辶",
         "radical_pinyin": "chuò",
         "components": [
-          "彳",
-          "亍"
+          "辶",
+          "不"
         ],
         "compounds": [
           {
@@ -1397,7 +1891,7 @@
           {
             "chinese": "还有",
             "pinyin": "hái yǒu",
-            "english": "also; in addition",
+            "english": "also; in addition; still have",
             "source": "generated"
           },
           {
@@ -1415,6 +1909,7 @@
         "character": "马马虎虎",
         "pinyin": "mǎmǎhūhū",
         "english": "SO-SO",
+        "word_type": "A",
         "radical": "马",
         "radical_pinyin": "mǎ",
         "components": [
@@ -1422,32 +1917,33 @@
         ],
         "compounds": [
           {
-            "chinese": "马上",
-            "pinyin": "mǎshàng",
-            "english": "immediately",
+            "chinese": "马虎",
+            "pinyin": "mǎhu",
+            "english": "careless; negligent",
+            "source": "generated"
+          },
+          {
+            "chinese": "马匹",
+            "pinyin": "mǎpǐ",
+            "english": "horse (classifier)",
             "source": "generated"
           },
           {
             "chinese": "马路",
             "pinyin": "mǎlù",
-            "english": "road",
-            "source": "generated"
-          },
-          {
-            "chinese": "赛马",
-            "pinyin": "sàimǎ",
-            "english": "horse racing",
+            "english": "road; street",
             "source": "generated"
           }
         ],
-        "example_sentence": "我的中文说得马马虎虎。",
-        "example_pinyin": "Wǒ de Zhōngwén shuō de mǎmǎhūhū.",
-        "example_english": "My Chinese is so-so."
+        "example_sentence": "你最近学习怎么样？马马虎虎。",
+        "example_pinyin": "Nǐ zuìjìn xuéxí zěnmeyàng? Mǎmǎhūhū.",
+        "example_english": "How's your study recently? So-so."
       },
       {
         "character": "她",
         "pinyin": "tā",
         "english": "she; her",
+        "word_type": "Pr",
         "radical": "女",
         "radical_pinyin": "nǚ",
         "components": [
@@ -1470,13 +1966,151 @@
           {
             "chinese": "她自己",
             "pinyin": "tā zìjǐ",
-            "english": "she herself",
+            "english": "herself",
             "source": "generated"
           }
         ],
         "example_sentence": "她是一个好学生。",
         "example_pinyin": "Tā shì yīgè hǎo xuésheng.",
         "example_english": "She is a good student."
+      },
+      {
+        "character": "还",
+        "pinyin": "hái",
+        "english": "still; yet; also; in addition; even; more",
+        "word_type": "Adv",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "不"
+        ],
+        "compounds": [
+          {
+            "chinese": "还有",
+            "pinyin": "hái yǒu",
+            "english": "also; in addition; still have",
+            "source": "generated"
+          },
+          {
+            "chinese": "还是",
+            "pinyin": "hái shì",
+            "english": "or; still is; had better",
+            "source": "generated"
+          },
+          {
+            "chinese": "还好",
+            "pinyin": "hái hǎo",
+            "english": "not bad; passable; fortunately",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他还在睡觉。",
+        "example_pinyin": "Tā hái zài shuìjiào.",
+        "example_english": "He is still sleeping."
+      },
+      {
+        "character": "行",
+        "pinyin": "xíng",
+        "english": "to walk; to go; to travel; to do; to be all right; capable; competent; OK!",
+        "word_type": "V",
+        "radical": "行",
+        "radical_pinyin": "xíng",
+        "components": [
+          "行"
+        ],
+        "compounds": [
+          {
+            "chinese": "行动",
+            "pinyin": "xíngdòng",
+            "english": "action; to move; to act",
+            "source": "generated"
+          },
+          {
+            "chinese": "旅行",
+            "pinyin": "lǚxíng",
+            "english": "to travel; journey; trip",
+            "source": "generated"
+          },
+          {
+            "chinese": "不行",
+            "pinyin": "bùxíng",
+            "english": "not allowed; won't do; no good; not capable",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个计划行不行？",
+        "example_pinyin": "Zhège jìhuà xíng bù xíng?",
+        "example_english": "Is this plan feasible?"
+      },
+      {
+        "character": "马",
+        "pinyin": "mǎ",
+        "english": "horse",
+        "word_type": "N",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马"
+        ],
+        "compounds": [
+          {
+            "chinese": "马上",
+            "pinyin": "mǎshàng",
+            "english": "immediately; right away",
+            "source": "generated"
+          },
+          {
+            "chinese": "赛马",
+            "pinyin": "sàimǎ",
+            "english": "horse racing",
+            "source": "generated"
+          },
+          {
+            "chinese": "斑马",
+            "pinyin": "bānmǎ",
+            "english": "zebra",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这匹马跑得很快。",
+        "example_pinyin": "Zhè pǐ mǎ pǎo de hěn kuài.",
+        "example_english": "This horse runs very fast."
+      },
+      {
+        "character": "虎",
+        "pinyin": "hǔ",
+        "english": "tiger",
+        "word_type": "N",
+        "radical": "虍",
+        "radical_pinyin": "hū",
+        "components": [
+          "虍",
+          "儿"
+        ],
+        "compounds": [
+          {
+            "chinese": "老虎",
+            "pinyin": "lǎo hǔ",
+            "english": "tiger",
+            "source": "generated"
+          },
+          {
+            "chinese": "虎口",
+            "pinyin": "hǔ kǒu",
+            "english": "tiger's mouth; a dangerous place",
+            "source": "generated"
+          },
+          {
+            "chinese": "虎年",
+            "pinyin": "hǔ nián",
+            "english": "Year of the Tiger",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "老虎是森林之王。",
+        "example_pinyin": "Lǎo hǔ shì sēnlín zhī wáng.",
+        "example_english": "The tiger is the king of the forest."
       }
     ]
   }

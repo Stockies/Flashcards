@@ -67,6 +67,7 @@ def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> 
             stroke_html,                                    # StrokeOrder
             entry.char_type,                                # CharacterType
             str(lesson_num),                                # Lesson
+            entry.word_type,                                # WordType
             format_radical(entry.radical, entry.radical_pinyin),  # Radical
             format_components(entry.components),            # Components
             format_compounds_front(entry.compounds),        # CompoundsFront

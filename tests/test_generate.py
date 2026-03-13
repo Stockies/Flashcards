@@ -40,7 +40,7 @@ def test_model_has_correct_fields():
     assert "CompoundsFront" in field_names
     assert "CompoundsBack" in field_names
     assert "ExampleSentence" in field_names
-    assert len(model.fields) == 14
+    assert len(model.fields) == 15
 
 
 def test_note_guid_stability():
