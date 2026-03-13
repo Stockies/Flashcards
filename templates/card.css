@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+.card {
+  font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", sans-serif;
+  background: #F4F5F7;
+  color: #1A3A5C;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+/* ===== FRONT CARD ===== */
+.card-front {
+  padding: 24px 28px 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+}
+.front-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  flex: 1;
+  align-items: flex-start;
+}
+.front-left {
+  flex: 1 1 calc(50% - 16px);
+  min-width: 140px;
+}
+.main-character {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  font-size: 128px;
+  line-height: 1;
+  color: #004F9F;
+  margin-left: 56px;
+}
+.front-right {
+  flex: 1 1 calc(50% - 16px);
+  min-width: 140px;
+  padding-top: 12px;
+}
+.compounds-front ol {
+  margin: 0;
+  padding: 0 0 0 24px;
+  list-style-type: decimal;
+}
+.compounds-front li {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  font-size: 22px;
+  color: #1A3A5C;
+  margin: 3px 0;
+  padding-left: 4px;
+}
+.stroke-section {
+  border-top: 1px solid #D8DAE0;
+  padding-top: 10px;
+  margin-top: 12px;
+}
+.stroke-prog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.stroke-step {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #D8DAE0;
+  border-radius: 3px;
+  background: #ECEEF2;
+}
+/* ===== AUDIO ===== */
+.audio-inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+}
+.audio-inline:hover {
+  opacity: 0.7;
+}
+.audio-inline .replay-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== BACK CARD ===== */
+.card-back {
+  padding: 20px 24px;
+  min-height: 260px;
+}
+.back-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D8DAE0;
+}
+.back-info {
+  flex: 1;
+  text-align: right;
+  min-width: 120px;
+}
+.info-line {
+  font-size: 16px;
+  color: #3A6B96;
+  margin: 3px 0;
+}
+.label {
+  font-weight: 600;
+  color: #1A3A5C;
+}
+.back-char-line {
+  text-align: left;
+  white-space: nowrap;
+  min-width: 140px;
+}
+.char-back {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  font-size: 52px;
+  color: #004F9F;
+  vertical-align: middle;
+  line-height: 1;
+}
+.pinyin-back {
+  font-size: 24px;
+  color: #3A6B96;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.english-back {
+  font-size: 20px;
+  color: #1A3A5C;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.example-block {
+  background: #ECEEF2;
+  border-left: 3px solid #004F9F;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 14px;
+  margin: 12px 0;
+}
+.ex-zh {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  font-size: 20px;
+  color: #004F9F;
+  margin-bottom: 3px;
+}
+.ex-py {
+  font-size: 15px;
+  color: #3A6B96;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+.ex-en {
+  font-size: 15px;
+  color: #6B7B8D;
+}
+.compounds-back-section ol {
+  margin: 8px 0;
+  padding: 0 0 0 24px;
+  list-style-position: inside;
+}
+.compounds-back-section li {
+  font-size: 16px;
+  margin: 5px 0;
+  line-height: 1.5;
+  text-indent: -1.2em;
+  padding-left: 1.2em;
+}
+.cmp-zh {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  font-size: 18px;
+  color: #004F9F;
+}
+.cmp-py {
+  color: #3A6B96;
+  margin: 0 6px;
+}
+.cmp-en {
+  color: #6B7B8D;
+}
+
+/* ===== RECALL CARD ===== */
+.recall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 280px;
+}
+.recall-prompt {
+  font-size: 36px;
+  color: #1A3A5C;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.recall-hint {
+  font-size: 22px;
+  color: #8B9BB0;
+  font-style: italic;
+}
+
+/* ===== RESPONSIVE — narrow screens (phones) ===== */
+@media (max-width: 480px) {
+  .card-front {
+    padding: 16px 16px 12px;
+  }
+  .main-character {
+    font-size: 96px;
+    margin-left: 16px;
+  }
+  .front-content {
+    gap: 8px 16px;
+  }
+  .compounds-front li {
+    font-size: 19px;
+  }
+  .card-back {
+    padding: 16px;
+  }
+  .char-back {
+    font-size: 40px;
+  }
+  .pinyin-back {
+    font-size: 20px;
+  }
+  .english-back {
+    font-size: 17px;
+  }
+  .back-char-line {
+    white-space: normal;
+  }
+  .back-header {
+    gap: 4px;
+  }
+  .info-line {
+    font-size: 14px;
+  }
+  .recall-prompt {
+    font-size: 28px;
+  }
+  .recall-hint {
+    font-size: 19px;
+  }
+}

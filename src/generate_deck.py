@@ -6,12 +6,45 @@ from pathlib import Path
 import genanki
 
 from src.audio import char_to_filename, generate_audio_batch
-from src.characters import CharacterEntry, LessonData, load_all_lessons, load_lesson
+from src.characters import CharacterEntry, CompoundWord, LessonData, load_all_lessons, load_lesson
 from src.models import DECK_ID_BASE, CPRNote, get_model
 from src.stroke_order import stroke_order_html
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "output"
 MEDIA_DIR = OUTPUT_DIR / "media"
+
+
+def format_radical(radical: str, radical_pinyin: str) -> str:
+    """Format radical display, e.g. '亻 (rén)'."""
+    if radical and radical_pinyin:
+        return f"{radical} ({radical_pinyin})"
+    return radical
+
+
+def format_components(components: list[str]) -> str:
+    """Format components display, e.g. '亻 + 尔'."""
+    return " + ".join(components) if components else ""
+
+
+def format_compounds_front(compounds: list[CompoundWord]) -> str:
+    """Format compound words as a numbered list (Chinese characters only)."""
+    if not compounds:
+        return ""
+    items = "".join(f"<li>{c.chinese}</li>" for c in compounds)
+    return f"<ol>{items}</ol>"
+
+
+def format_compounds_back(compounds: list[CompoundWord]) -> str:
+    """Format compound words with pinyin and English translation."""
+    if not compounds:
+        return ""
+    items = "".join(
+        f'<li><span class="cmp-zh">{c.chinese}</span>'
+        f'<span class="cmp-py">{c.pinyin}</span>'
+        f'<span class="cmp-en">{c.english}</span></li>'
+        for c in compounds
+    )
+    return f"<ol>{items}</ol>"
 
 
 def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> CPRNote:
@@ -22,13 +55,20 @@ def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> 
     return CPRNote(
         model=model,
         fields=[
-            entry.character,
-            entry.pinyin,
-            entry.english,
-            audio_ref,
-            stroke_html,
-            entry.char_type,
-            str(lesson_num),
+            entry.character,                                # Character
+            entry.pinyin,                                   # Pinyin
+            entry.english,                                  # English
+            audio_ref,                                      # Audio
+            stroke_html,                                    # StrokeOrder
+            entry.char_type,                                # CharacterType
+            str(lesson_num),                                # Lesson
+            format_radical(entry.radical, entry.radical_pinyin),  # Radical
+            format_components(entry.components),            # Components
+            format_compounds_front(entry.compounds),        # CompoundsFront
+            format_compounds_back(entry.compounds),         # CompoundsBack
+            entry.example_sentence,                         # ExampleSentence
+            entry.example_pinyin,                           # ExamplePinyin
+            entry.example_english,                          # ExampleEnglish
         ],
     )
 

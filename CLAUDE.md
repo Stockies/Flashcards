@@ -8,7 +8,7 @@ Generate Anki-compatible flashcard decks (`.apkg` files) for the **New Practical
 - Pinyin romanization
 - English definition
 - Stroke order animation (via Hanzi Writer)
-- Audio pronunciation (via gTTS)
+- Audio pronunciation (via Azure Speech TTS, with gTTS fallback)
 
 ## Architecture
 
@@ -22,7 +22,7 @@ Flashcards/
 │   ├── __init__.py
 │   ├── generate_deck.py   # Main entry point — builds .apkg files
 │   ├── models.py          # genanki Model/Note definitions
-│   ├── audio.py           # gTTS wrapper — generates mp3 per character
+│   ├── audio.py           # Azure Speech TTS — generates mp3 per character
 │   ├── stroke_order.py    # Generates stroke order HTML using Hanzi Writer JS
 │   └── characters.py      # Character data per lesson (source of truth)
 ├── data/
@@ -42,7 +42,8 @@ Flashcards/
 | Tool | Purpose | Docs |
 |------|---------|------|
 | **genanki** | Python library for generating `.apkg` Anki decks | https://github.com/kerrickstaley/genanki |
-| **gTTS** | Free TTS via Google Translate API — generates mp3 audio | https://github.com/pndurette/gTTS |
+| **Azure Speech** | Neural TTS via Azure REST API — high-quality mp3 audio | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/ |
+| **gTTS** | Free TTS fallback via Google Translate API | https://github.com/pndurette/gTTS |
 | **Hanzi Writer** | JS library for stroke order animations (embedded in card HTML) | https://hanziwriter.org/docs.html |
 | **hanzi-writer-data** | Stroke data for all CJK characters | https://github.com/chanind/hanzi-writer-data |
 
@@ -97,15 +98,31 @@ Flashcards/
 }
 ```
 
-## Audio Generation (gTTS)
+## Audio Generation (Azure Speech TTS)
+
+Primary backend uses Azure Speech REST API with `zh-CN-XiaoxiaoNeural` voice:
 
 ```python
-from gtts import gTTS
-tts = gTTS('你', lang='zh-cn')
-tts.save('char_4F60.mp3')
+import requests
+
+url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
+ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='zh-CN'><voice name='zh-CN-XiaoxiaoNeural'>你</voice></speak>"
+headers = {
+    "Ocp-Apim-Subscription-Key": key,
+    "Content-Type": "application/ssml+xml",
+    "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3",
+}
+resp = requests.post(url, headers=headers, data=ssml.encode("utf-8"))
 ```
 
-- Language code: `zh-cn` (Mandarin Chinese, simplified)
+### Setup
+```bash
+export AZURE_SPEECH_KEY=your-key
+export AZURE_SPEECH_REGION=eastus   # or your chosen region
+```
+
+- Voice: `zh-CN-XiaoxiaoNeural` (clear, natural female Mandarin)
+- Falls back to gTTS if Azure env vars are not set
 - One mp3 per unique character
 - Cache generated audio to avoid re-generating
 
@@ -135,6 +152,10 @@ document.getElementById('stroke-target').addEventListener('click', function() {
 ```bash
 # Install dependencies
 pip install -r requirements.txt
+
+# Set Azure Speech credentials (required for high-quality audio)
+export AZURE_SPEECH_KEY=your-key
+export AZURE_SPEECH_REGION=eastus
 
 # Generate all decks
 python -m src.generate_deck
@@ -172,8 +193,8 @@ DECK_ID_BASE = 2059400110  # base deck ID; per-lesson decks add lesson number
 
 ## Known Constraints
 
-- gTTS requires internet access (uses Google Translate API)
+- Azure Speech requires an Azure account + Speech resource (free tier: 500K chars/month)
+- Falls back to gTTS (lower quality) when Azure credentials not configured
 - Hanzi Writer CDN also requires internet for stroke data
 - Some rare characters may not have stroke data in hanzi-writer-data
-- Google Translate TTS is undocumented/unofficial — may break
 - Anki's webview may have JS limitations on some platforms

@@ -1,10 +1,21 @@
 """Anki model and note definitions for CPR flashcards."""
 
+from __future__ import annotations
+
+from pathlib import Path
+
 import genanki
 
 # Stable IDs — do not change once decks have been imported into Anki
 MODEL_ID = 1607392319
 DECK_ID_BASE = 2059400110
+
+TEMPLATES_DIR = Path(__file__).resolve().parent.parent / "templates"
+
+
+def _read_template(name: str) -> str:
+    """Read an HTML or CSS template file from the templates/ directory."""
+    return (TEMPLATES_DIR / name).read_text(encoding="utf-8")
 
 
 def get_model() -> genanki.Model:
@@ -15,9 +26,16 @@ def get_model() -> genanki.Model:
         Pinyin — romanization with tone marks
         English — English definition
         Audio — [sound:filename.mp3] reference
-        StrokeOrder — HTML/JS for Hanzi Writer animation
+        StrokeOrder — HTML/JS for progressive stroke building display
         CharacterType — "main" or "supplementary"
         Lesson — lesson number
+        Radical — radical with pinyin, e.g. "亻 (rén)"
+        Components — character components, e.g. "亻 + 尔"
+        CompoundsFront — HTML numbered list of compound words (Chinese only)
+        CompoundsBack — HTML numbered list with pinyin and English
+        ExampleSentence — example sentence in Chinese
+        ExamplePinyin — pinyin for the example sentence
+        ExampleEnglish — English translation of example sentence
     """
     return genanki.Model(
         MODEL_ID,
@@ -30,99 +48,27 @@ def get_model() -> genanki.Model:
             {"name": "StrokeOrder"},
             {"name": "CharacterType"},
             {"name": "Lesson"},
+            {"name": "Radical"},
+            {"name": "Components"},
+            {"name": "CompoundsFront"},
+            {"name": "CompoundsBack"},
+            {"name": "ExampleSentence"},
+            {"name": "ExamplePinyin"},
+            {"name": "ExampleEnglish"},
         ],
         templates=[
             {
                 "name": "Recognition (Char → English)",
-                "qfmt": """
-<div class="card-front">
-  <div class="character">{{Character}}</div>
-  <div class="audio">{{Audio}}</div>
-  <div class="badge {{CharacterType}}">{{CharacterType}}</div>
-</div>
-""",
-                "afmt": """
-<div class="card-back">
-  <div class="character">{{Character}}</div>
-  <div class="pinyin">{{Pinyin}}</div>
-  <div class="english">{{English}}</div>
-  <hr>
-  <div class="stroke-order">{{StrokeOrder}}</div>
-  <div class="audio">{{Audio}}</div>
-</div>
-""",
+                "qfmt": _read_template("recognition_front.html"),
+                "afmt": _read_template("recognition_back.html"),
             },
             {
                 "name": "Recall (English → Char)",
-                "qfmt": """
-<div class="card-front">
-  <div class="english recall-prompt">{{English}}</div>
-  <div class="pinyin hint">{{Pinyin}}</div>
-</div>
-""",
-                "afmt": """
-<div class="card-back">
-  <div class="character">{{Character}}</div>
-  <div class="pinyin">{{Pinyin}}</div>
-  <div class="english">{{English}}</div>
-  <hr>
-  <div class="stroke-order">{{StrokeOrder}}</div>
-  <div class="audio">{{Audio}}</div>
-</div>
-""",
+                "qfmt": _read_template("recall_front.html"),
+                "afmt": _read_template("recall_back.html"),
             },
         ],
-        css="""
-.card {
-  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  text-align: center;
-  padding: 20px;
-  background: #fafafa;
-}
-.character {
-  font-size: 72px;
-  margin: 20px 0;
-  color: #333;
-}
-.pinyin {
-  font-size: 28px;
-  color: #666;
-  margin: 10px 0;
-}
-.english {
-  font-size: 24px;
-  color: #444;
-  margin: 10px 0;
-}
-.recall-prompt {
-  font-size: 32px;
-  margin: 30px 0;
-}
-.hint {
-  font-size: 20px;
-  color: #999;
-}
-.badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 12px;
-  color: white;
-  margin-top: 10px;
-}
-.badge.main { background: #4CAF50; }
-.badge.supplementary { background: #FF9800; }
-.stroke-order {
-  margin: 15px auto;
-  display: flex;
-  justify-content: center;
-}
-hr {
-  border: none;
-  border-top: 1px solid #ddd;
-  margin: 15px 0;
-}
-""",
+        css=_read_template("card.css"),
     )
 
 

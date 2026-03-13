@@ -1,10 +1,19 @@
 """Load character data from lesson JSON files."""
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "lessons"
+
+
+@dataclass
+class CompoundWord:
+    """A compound word that uses the target character."""
+
+    chinese: str
+    pinyin: str
+    english: str
 
 
 @dataclass
@@ -15,6 +24,13 @@ class CharacterEntry:
     pinyin: str
     english: str
     char_type: str  # "main" or "supplementary"
+    radical: str = ""
+    radical_pinyin: str = ""
+    components: list[str] = field(default_factory=list)
+    compounds: list[CompoundWord] = field(default_factory=list)
+    example_sentence: str = ""
+    example_pinyin: str = ""
+    example_english: str = ""
 
 
 @dataclass
@@ -54,6 +70,15 @@ def load_lesson(lesson_num: int) -> LessonData:
                 pinyin=entry["pinyin"],
                 english=entry["english"],
                 char_type="main",
+                radical=entry.get("radical", ""),
+                radical_pinyin=entry.get("radical_pinyin", ""),
+                components=entry.get("components", []),
+                compounds=[
+                    CompoundWord(**c) for c in entry.get("compounds", [])
+                ],
+                example_sentence=entry.get("example_sentence", ""),
+                example_pinyin=entry.get("example_pinyin", ""),
+                example_english=entry.get("example_english", ""),
             )
         )
 
@@ -64,6 +89,15 @@ def load_lesson(lesson_num: int) -> LessonData:
                 pinyin=entry["pinyin"],
                 english=entry["english"],
                 char_type="supplementary",
+                radical=entry.get("radical", ""),
+                radical_pinyin=entry.get("radical_pinyin", ""),
+                components=entry.get("components", []),
+                compounds=[
+                    CompoundWord(**c) for c in entry.get("compounds", [])
+                ],
+                example_sentence=entry.get("example_sentence", ""),
+                example_pinyin=entry.get("example_pinyin", ""),
+                example_english=entry.get("example_english", ""),
             )
         )
 

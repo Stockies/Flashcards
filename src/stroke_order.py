@@ -1,12 +1,18 @@
-"""Generate stroke order HTML snippets using Hanzi Writer (JS, loaded via CDN)."""
+"""Generate stroke order HTML snippets showing progressive stroke building.
+
+Uses hanzi-writer-data from the jsdelivr CDN to fetch stroke SVG paths,
+then renders a series of small boxes — each showing one more stroke completed.
+"""
 
 
 def stroke_order_html(character: str) -> str:
-    """Generate HTML/JS snippet that renders a Hanzi Writer stroke order animation.
+    """Generate HTML/JS that renders progressive stroke-building boxes.
 
-    The snippet creates a self-contained div with an inline script. Clicking the
-    character area replays the stroke animation. The Hanzi Writer library and
-    character data are loaded from the jsdelivr CDN.
+    Each box shows the character outline with an increasing number of strokes
+    filled in, from the first stroke alone to the complete character.
+
+    The stroke data is fetched from the hanzi-writer-data CDN at card display
+    time and rendered as inline SVGs.
 
     Args:
         character: A single Chinese character.
@@ -14,25 +20,41 @@ def stroke_order_html(character: str) -> str:
     Returns:
         HTML string to embed in an Anki card field.
     """
-    # Use a unique ID per character to avoid collisions if multiple are on screen
     codepoint = f"{ord(character):04X}"
-    target_id = f"hw-{codepoint}"
+    container_id = f"sp-{codepoint}"
 
-    return f"""<div id="{target_id}" style="margin:0 auto;"></div>
-<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+    return f"""<div id="{container_id}" class="stroke-prog"></div>
 <script>
 (function() {{
-  if (typeof HanziWriter === 'undefined') return;
-  var el = document.getElementById('{target_id}');
+  var c = '{character}';
+  var el = document.getElementById('{container_id}');
   if (!el) return;
-  var writer = HanziWriter.create('{target_id}', '{character}', {{
-    width: 150, height: 150, padding: 5,
-    showOutline: true,
-    strokeAnimationSpeed: 1,
-    delayBetweenStrokes: 300
-  }});
-  el.style.cursor = 'pointer';
-  el.addEventListener('click', function() {{ writer.animateCharacter(); }});
-  writer.loopCharacterAnimation();
+  var xhr = new XMLHttpRequest();
+  var url = 'https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0/'
+    + encodeURIComponent(c) + '.json';
+  xhr.open('GET', url, true);
+  xhr.onload = function() {{
+    if (xhr.status !== 200) return;
+    var d = JSON.parse(xhr.responseText);
+    var s = d.strokes;
+    var n = s.length;
+    var ns = 'http://www.w3.org/2000/svg';
+    for (var i = 0; i < n; i++) {{
+      var svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('viewBox', '0 0 1024 1024');
+      svg.classList.add('stroke-step');
+      var g = document.createElementNS(ns, 'g');
+      g.setAttribute('transform', 'translate(0,900) scale(1,-1)');
+      for (var k = 0; k < n; k++) {{
+        var p = document.createElementNS(ns, 'path');
+        p.setAttribute('d', s[k]);
+        p.setAttribute('fill', k <= i ? '#1A3A5C' : '#D8DAE0');
+        g.appendChild(p);
+      }}
+      svg.appendChild(g);
+      el.appendChild(svg);
+    }}
+  }};
+  xhr.send();
 }})();
 </script>"""
