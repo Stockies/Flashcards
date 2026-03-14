@@ -359,16 +359,25 @@ def _normalize_rows_gemini(raw_rows: list[str]) -> list[dict]:
     }
 
     print("  Normalizing rows via Gemini...", end=" ", flush=True)
-    resp = requests.post(
-        f"{GEMINI_API_URL}?key={api_key}",
-        json=payload,
-        timeout=30,
-    )
-    resp.raise_for_status()
-    content = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    print("done")
+    for attempt in range(3):
+        resp = requests.post(
+            f"{GEMINI_API_URL}?key={api_key}",
+            json=payload,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        content = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
 
-    entries = _parse_json_response(content)
+        try:
+            entries = _parse_json_response(content)
+            break
+        except json.JSONDecodeError:
+            if attempt < 2:
+                print("retry...", end=" ", flush=True)
+                time.sleep(2)
+            else:
+                raise
+    print("done")
     if isinstance(entries, dict) and "entries" in entries:
         entries = entries["entries"]
     if not isinstance(entries, list):
@@ -638,7 +647,8 @@ def display_extracted(data: dict) -> None:
 
 
 def build_lesson_json(lesson_num: int, title: str, data: dict,
-                      enrich: bool = False, model: str = DEFAULT_OLLAMA_MODEL) -> dict:
+                      enrich: bool = False, model: str = DEFAULT_OLLAMA_MODEL,
+                      prior_chars: set[str] | None = None) -> dict:
     """Build the full lesson JSON structure, optionally enriching each character."""
     lesson = {
         "lesson": lesson_num,
@@ -664,6 +674,7 @@ def build_lesson_json(lesson_num: int, title: str, data: dict,
                 "pinyin": entry["pinyin"],
                 "english": entry["english"],
                 "word_type": entry.get("word_type", ""),
+                "table_ref": entry.get("table_ref", ""),
                 "radical": "",
                 "radical_pinyin": "",
                 "components": [],
@@ -736,25 +747,29 @@ def build_lesson_json(lesson_num: int, title: str, data: dict,
 
     # Decompose multi-character words into individual character cards
     if enrich:
-        _decompose_multi_char_words(lesson, model)
+        _decompose_multi_char_words(lesson, model, prior_chars=prior_chars or set())
 
     return lesson
 
 
-def _decompose_multi_char_words(lesson: dict, model: str) -> None:
+def _decompose_multi_char_words(lesson: dict, model: str,
+                                prior_chars: set[str] | None = None) -> None:
     """Add individual character cards for each char in multi-character words.
 
-    Skips proper nouns (PN) and characters that already have their own entry.
+    Skips proper nouns (PN), characters that already have their own entry
+    in this lesson, and characters that appeared in prior lessons.
     New characters are added to the same section as their parent word.
     """
-    # Collect all existing characters across both sections
+    prior = prior_chars or set()
+
+    # Collect all existing characters across both sections of this lesson
     existing: set[str] = set()
     for section in ("main", "supplementary"):
         for entry in lesson["characters"][section]:
             existing.add(entry["character"])
 
     # Find multi-char non-PN entries and collect missing individual chars
-    to_add: list[tuple[str, str]] = []  # (char, section)
+    to_add: list[tuple[str, str, str]] = []  # (char, section, table_ref)
     seen_new: set[str] = set()
 
     for section in ("main", "supplementary"):
@@ -764,16 +779,18 @@ def _decompose_multi_char_words(lesson: dict, model: str) -> None:
             if len(word) <= 1 or word_type == "PN":
                 continue
             for char in word:
-                if char not in existing and char not in seen_new:
+                if not _is_cjk(char):
+                    continue
+                if char not in existing and char not in seen_new and char not in prior:
                     seen_new.add(char)
-                    to_add.append((char, section))
+                    to_add.append((char, section, entry.get("table_ref", "")))
 
     if not to_add:
         return
 
     print(f"\n  Decomposing {len(to_add)} individual characters from multi-char words...")
 
-    for char, section in to_add:
+    for char, section, parent_table_ref in to_add:
         print(f"  Enriching {char} (from decomposition)...", end=" ", flush=True)
         try:
             extra = enrich_character(char, "", "", model=model)
@@ -785,6 +802,7 @@ def _decompose_multi_char_words(lesson: dict, model: str) -> None:
                 "pinyin": extra.get("pinyin", ""),
                 "english": extra.get("english", ""),
                 "word_type": extra.get("word_type", ""),
+                "table_ref": parent_table_ref,
                 "radical": extra.get("radical", ""),
                 "radical_pinyin": extra.get("radical_pinyin", ""),
                 "components": extra.get("components", []),
@@ -839,9 +857,24 @@ def save_lesson(lesson_data: dict, lesson_num: int) -> Path:
     return filepath
 
 
+def _parse_lesson_from_ref(table_ref: str) -> int | None:
+    """Extract lesson number from table_ref like '2-01-02' → 1."""
+    parts = table_ref.split("-")
+    if len(parts) >= 2:
+        try:
+            return int(parts[1])
+        except ValueError:
+            pass
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Extract character data from a photo of a CPR textbook table."
+        description="Extract character data from CPR textbook table photos.\n\n"
+                    "Processes all images in a single pass, automatically detecting\n"
+                    "lesson numbers from table headers. Multiple lessons can be\n"
+                    "extracted from a single invocation.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
         "image",
@@ -849,16 +882,10 @@ def main() -> None:
         help="Path to one or more image files of the character table.",
     )
     parser.add_argument(
-        "--lesson", "-l",
-        type=int,
-        default=None,
-        help="Lesson number (e.g. 2 for lesson_02.json). Auto-detected from table header if omitted.",
-    )
-    parser.add_argument(
-        "--title", "-t",
+        "--titles",
         type=str,
         default="",
-        help="Lesson title (e.g. '你好'). Required for new lessons.",
+        help="Comma-separated lesson titles in order, e.g. '你好,你是哪国人'.",
     )
     parser.add_argument(
         "--enrich", "-e",
@@ -895,11 +922,16 @@ def main() -> None:
     else:
         print(f"Using Ollama ({args.model})")
 
-    # Extract from all provided images and merge results
-    all_data: dict[str, list] = {"main": [], "supplementary": []}
-    seen_chars: set[str] = set()
+    # Parse title mapping: --titles "你好,你是哪国人" → {1: "你好", 2: "你是哪国人"}
+    title_list = [t.strip() for t in args.titles.split(",") if t.strip()] if args.titles else []
+
+    # ── Phase 1: Extract from all images ──────────────────────────────
+    # Each entry is tagged with its table_ref and grouped by lesson
+    lessons_data: dict[int, dict[str, list]] = {}  # lesson_num → {main: [], supplementary: []}
+    seen_chars: dict[int, set[str]] = {}  # per-lesson dedup
     last_section: str = "main"
-    last_lesson: int | None = args.lesson
+    last_lesson: int | None = None
+    last_table_ref: str = ""
 
     for i, img_path_str in enumerate(args.image):
         img_path = Path(img_path_str)
@@ -907,7 +939,7 @@ def main() -> None:
             print(f"Error: Image not found: {img_path}")
             sys.exit(1)
 
-        # Rate limit for cloud APIs (5 req/min on Gemini free tier)
+        # Rate limit for cloud APIs
         if i > 0 and backend in ("gemini", "azure_ai"):
             print("  Waiting 15s (rate limit)...", flush=True)
             time.sleep(15)
@@ -915,92 +947,109 @@ def main() -> None:
         print(f"Extracting from {img_path.name}...")
         result = extract_from_image(img_path, model=args.model)
 
-        # Parse table_ref to get lesson number (middle part of "02-01-3")
         table_ref = result.get("table_ref") or ""
         section = result.get("section")
 
+        # Detect lesson from table_ref
         if table_ref:
             print(f"  Table ref: {table_ref}")
-            parts = table_ref.split("-")
-            if len(parts) >= 2:
-                try:
-                    detected_lesson = int(parts[1])
-                    if not args.lesson:
-                        last_lesson = detected_lesson
-                        print(f"  Detected lesson: {detected_lesson}")
-                except ValueError:
-                    pass
+            last_table_ref = table_ref
+            detected = _parse_lesson_from_ref(table_ref)
+            if detected is not None:
+                last_lesson = detected
+                print(f"  Detected lesson: {detected}")
 
-        # Handle continuation tables (no header = inherit from previous)
         if section:
             last_section = section
             print(f"  Section: {section}")
         else:
             section = last_section
+            if not table_ref:
+                table_ref = last_table_ref
             print(f"  Section: {section} (continuation)")
+
+        if last_lesson is None:
+            print("  Warning: Could not detect lesson number, skipping entries")
+            continue
+
+        # Initialize lesson bucket
+        if last_lesson not in lessons_data:
+            lessons_data[last_lesson] = {"main": [], "supplementary": []}
+            seen_chars[last_lesson] = set()
 
         for entry in result.get("entries", []):
             char = entry.get("character", "")
-            if char and char not in seen_chars:
-                all_data[section].append(entry)
-                seen_chars.add(char)
+            if char and char not in seen_chars[last_lesson]:
+                entry["table_ref"] = table_ref
+                lessons_data[last_lesson][section].append(entry)
+                seen_chars[last_lesson].add(char)
 
-    # Display and validate
-    display_extracted(all_data)
-
-    # Confirm with user
-    # Resolve lesson number
-    lesson_num = args.lesson or last_lesson
-    if not lesson_num:
-        print("Error: Could not detect lesson number. Use --lesson to specify.")
+    if not lessons_data:
+        print("Error: No lessons detected from images.")
         sys.exit(1)
-    print(f"\nLesson: {lesson_num}")
+
+    # ── Phase 2: Display and confirm ──────────────────────────────────
+    for lesson_num in sorted(lessons_data):
+        print(f"\n{'='*50}")
+        print(f"Lesson {lesson_num}")
+        print(f"{'='*50}")
+        display_extracted(lessons_data[lesson_num])
 
     if not args.yes:
         print()
-        response = input("Proceed with this data? [Y/n/e(dit)] ").strip().lower()
+        response = input("Proceed with this data? [Y/n] ").strip().lower()
         if response == "n":
             print("Aborted.")
             sys.exit(0)
-        elif response == "e":
-            # Dump to temp file for manual editing
-            tmp = Path(f"/tmp/cpr_lesson_{lesson_num:02d}_extract.json")
-            with open(tmp, "w", encoding="utf-8") as f:
-                json.dump(all_data, f, ensure_ascii=False, indent=2)
-            print(f"Edit the file and re-run: {tmp}")
-            sys.exit(0)
 
-    # Build full lesson structure
-    existing_path = DATA_DIR / f"lesson_{lesson_num:02d}.json"
+    # ── Phase 3: Build and save each lesson ───────────────────────────
+    # Track all characters seen in prior lessons to avoid decomposing
+    # characters that were already covered earlier in the book
+    all_prior_chars: set[str] = set()
 
-    if existing_path.exists():
-        print(f"\nMerging into existing {existing_path.name}...")
-        lesson_json = build_lesson_json(
-            lesson_num, "", all_data, enrich=args.enrich, model=args.model
-        )
-        final = merge_into_existing(existing_path, lesson_json)
-    else:
-        title = args.title
-        if not title:
-            title = input("Enter lesson title (e.g. 你好): ").strip()
-        print("\nBuilding lesson data...")
-        final = build_lesson_json(
-            lesson_num, title, all_data, enrich=args.enrich, model=args.model
-        )
+    for lesson_num in sorted(lessons_data):
+        data = lessons_data[lesson_num]
 
-    # Save
-    filepath = save_lesson(final, lesson_num)
-    print(f"\nSaved to {filepath}")
+        # Resolve title: from --titles list, existing JSON, or default
+        existing_path = DATA_DIR / f"lesson_{lesson_num:02d}.json"
+        title_idx = lesson_num - min(lessons_data.keys())
+        if title_idx < len(title_list):
+            title = title_list[title_idx]
+        elif existing_path.exists():
+            with open(existing_path, encoding="utf-8") as f:
+                title = json.load(f).get("title", "")
+        elif args.yes:
+            title = f"Lesson {lesson_num}"
+        else:
+            title = input(f"Enter title for lesson {lesson_num} (e.g. 你好): ").strip()
+            if not title:
+                title = f"Lesson {lesson_num}"
 
-    total = len(final["characters"]["main"]) + len(final["characters"]["supplementary"])
-    print(f"Total characters: {total} "
-          f"({len(final['characters']['main'])} main, "
-          f"{len(final['characters']['supplementary'])} supplementary)")
+        print(f"\nBuilding lesson {lesson_num} — {title}...")
+
+        if existing_path.exists():
+            lesson_json = build_lesson_json(
+                lesson_num, title, data, enrich=args.enrich, model=args.model,
+                prior_chars=all_prior_chars,
+            )
+            final = merge_into_existing(existing_path, lesson_json)
+        else:
+            final = build_lesson_json(
+                lesson_num, title, data, enrich=args.enrich, model=args.model,
+                prior_chars=all_prior_chars,
+            )
+
+        # Add this lesson's characters to the prior set for subsequent lessons
+        for section in ("main", "supplementary"):
+            for entry in final["characters"].get(section, []):
+                all_prior_chars.add(entry["character"])
+
+        filepath = save_lesson(final, lesson_num)
+        total = len(final["characters"]["main"]) + len(final["characters"]["supplementary"])
+        print(f"  Saved to {filepath} ({total} characters)")
 
     if args.enrich:
         print("\nTip: Review the enriched data for accuracy — LLM output may need corrections.")
-    else:
-        print("\nTip: Run with --enrich to auto-generate radicals, compounds, and examples.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,4224 @@
+{
+  "lesson": 8,
+  "title": "Lesson 8",
+  "characters": {
+    "main": [
+      {
+        "character": "快",
+        "pinyin": "kuài",
+        "english": "quickly / quick",
+        "word_type": "Adv/A",
+        "table_ref": "2-08-02",
+        "radical": "忄",
+        "radical_pinyin": "xīn",
+        "components": [
+          "忄",
+          "夬"
+        ],
+        "compounds": [
+          {
+            "chinese": "快来",
+            "pinyin": "kuài lái",
+            "english": "come quickly",
+            "source": "textbook"
+          },
+          {
+            "chinese": "快说",
+            "pinyin": "kuài shuō",
+            "english": "say it quickly",
+            "source": "textbook"
+          },
+          {
+            "chinese": "很快",
+            "pinyin": "hěn kuài",
+            "english": "very fast; very soon",
+            "source": "textbook"
+          },
+          {
+            "chinese": "快点儿",
+            "pinyin": "kuài diǎnr",
+            "english": "hurry up; a bit faster",
+            "source": "textbook"
+          },
+          {
+            "chinese": "快乐",
+            "pinyin": "kuàilè",
+            "english": "happy",
+            "source": "generated"
+          },
+          {
+            "chinese": "快餐",
+            "pinyin": "kuàicān",
+            "english": "fast food",
+            "source": "generated"
+          },
+          {
+            "chinese": "赶快",
+            "pinyin": "gǎnkuài",
+            "english": "hurry up; quickly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他跑得很快。",
+        "example_pinyin": "Tā pǎo de hěn kuài.",
+        "example_english": "He runs very fast."
+      },
+      {
+        "character": "起床",
+        "pinyin": "qǐchuáng",
+        "english": "to get up",
+        "word_type": "VO",
+        "table_ref": "2-08-02",
+        "radical": "走",
+        "radical_pinyin": "zǒu",
+        "components": [
+          "走",
+          "己"
+        ],
+        "compounds": [
+          {
+            "chinese": "快起床",
+            "pinyin": "Kuài qǐchuáng",
+            "english": "Get up quickly!",
+            "source": "textbook"
+          },
+          {
+            "chinese": "六点起床",
+            "pinyin": "Liù diǎn qǐchuáng",
+            "english": "to get up at six o'clock",
+            "source": "textbook"
+          },
+          {
+            "chinese": "起床气",
+            "pinyin": "qǐchuángqì",
+            "english": "morning grumpiness; bad temper upon waking up",
+            "source": "generated"
+          },
+          {
+            "chinese": "早起",
+            "pinyin": "zǎoqǐ",
+            "english": "to get up early",
+            "source": "generated"
+          },
+          {
+            "chinese": "晚起",
+            "pinyin": "wǎnqǐ",
+            "english": "to get up late",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天早上七点起床。",
+        "example_pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
+        "example_english": "I get up at 7 AM every morning."
+      },
+      {
+        "character": "床",
+        "pinyin": "chuáng",
+        "english": "bed",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "广",
+        "radical_pinyin": "guǎng",
+        "components": [
+          "广",
+          "爿"
+        ],
+        "compounds": [
+          {
+            "chinese": "一张床",
+            "pinyin": "yī zhāng chuáng",
+            "english": "a bed",
+            "source": "textbook"
+          },
+          {
+            "chinese": "床单",
+            "pinyin": "chuángdān",
+            "english": "bedsheet",
+            "source": "generated"
+          },
+          {
+            "chinese": "睡觉",
+            "pinyin": "shuìjiào",
+            "english": "to sleep",
+            "source": "generated"
+          },
+          {
+            "chinese": "病床",
+            "pinyin": "bìngchuáng",
+            "english": "hospital bed",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢睡在我的床上。",
+        "example_pinyin": "Wǒ xǐhuān shuì zài wǒ de chuáng shàng.",
+        "example_english": "I like to sleep on my bed."
+      },
+      {
+        "character": "每",
+        "pinyin": "měi",
+        "english": "each; every",
+        "word_type": "Pr",
+        "table_ref": "2-08-02",
+        "radical": "毋",
+        "radical_pinyin": "wú",
+        "components": [
+          "毋",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "每天",
+            "pinyin": "měitiān",
+            "english": "every day",
+            "source": "textbook"
+          },
+          {
+            "chinese": "每年",
+            "pinyin": "měinián",
+            "english": "every year",
+            "source": "textbook"
+          },
+          {
+            "chinese": "每个人",
+            "pinyin": "měi ge rén",
+            "english": "everyone; every person",
+            "source": "textbook"
+          },
+          {
+            "chinese": "每次",
+            "pinyin": "měicì",
+            "english": "every time",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天早上都喝咖啡。",
+        "example_pinyin": "Wǒ měitiān zǎoshang dōu hē kāfēi.",
+        "example_english": "I drink coffee every morning."
+      },
+      {
+        "character": "运动",
+        "pinyin": "yùndòng",
+        "english": "to do sports; to take exercise",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "云",
+        "radical_pinyin": "yún",
+        "components": [
+          "云",
+          "力"
+        ],
+        "compounds": [
+          {
+            "chinese": "去运动",
+            "pinyin": "qù yùndòng",
+            "english": "to go do sports; to go exercise",
+            "source": "textbook"
+          },
+          {
+            "chinese": "运动员",
+            "pinyin": "yùndòngyuán",
+            "english": "athlete",
+            "source": "generated"
+          },
+          {
+            "chinese": "运动会",
+            "pinyin": "yùndònghuì",
+            "english": "sports meeting; games",
+            "source": "generated"
+          },
+          {
+            "chinese": "运动鞋",
+            "pinyin": "yùndòngxié",
+            "english": "sports shoes; sneakers",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天都喜欢运动。",
+        "example_pinyin": "Wǒ měitiān dōu xǐhuān yùndòng.",
+        "example_english": "I like to exercise every day."
+      },
+      {
+        "character": "为什么",
+        "pinyin": "wèi shénme",
+        "english": "why",
+        "word_type": "QPr",
+        "table_ref": "2-08-02",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "为"
+        ],
+        "compounds": [
+          {
+            "chinese": "为什么还不起床",
+            "pinyin": "wèi shénme hái bù qǐchuáng",
+            "english": "Why are you still not getting up?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "为什么不去",
+            "pinyin": "wèi shénme bù qù",
+            "english": "Why not go?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "为什么不",
+            "pinyin": "wèi shénme bù",
+            "english": "why not",
+            "source": "generated"
+          },
+          {
+            "chinese": "为什么说",
+            "pinyin": "wèi shénme shuō",
+            "english": "why say",
+            "source": "generated"
+          },
+          {
+            "chinese": "为什么会",
+            "pinyin": "wèi shénme huì",
+            "english": "why would",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你为什么不开心？",
+        "example_pinyin": "Nǐ wèi shénme bù kāixīn?",
+        "example_english": "Why are you unhappy?"
+      },
+      {
+        "character": "可是",
+        "pinyin": "kěshì",
+        "english": "but",
+        "word_type": "Conj",
+        "table_ref": "2-08-02",
+        "radical": "可",
+        "radical_pinyin": "kě",
+        "components": [
+          "可",
+          "是"
+        ],
+        "compounds": [
+          {
+            "chinese": "可是呢",
+            "pinyin": "kěshì ne",
+            "english": "but what about...",
+            "source": "generated"
+          },
+          {
+            "chinese": "可是我",
+            "pinyin": "kěshì wǒ",
+            "english": "but I...",
+            "source": "generated"
+          },
+          {
+            "chinese": "可是他",
+            "pinyin": "kěshì tā",
+            "english": "but he...",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他想去，可是没有时间。",
+        "example_pinyin": "Tā xiǎng qù, kěshì méiyǒu shíjiān.",
+        "example_english": "He wants to go, but he doesn't have time."
+      },
+      {
+        "character": "头",
+        "pinyin": "tóu",
+        "english": "head",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "豆",
+        "radical_pinyin": "dòu",
+        "components": [
+          "豆",
+          "亠"
+        ],
+        "compounds": [
+          {
+            "chinese": "头发",
+            "pinyin": "tóufa",
+            "english": "hair",
+            "source": "generated"
+          },
+          {
+            "chinese": "点头",
+            "pinyin": "diǎntóu",
+            "english": "to nod one's head",
+            "source": "generated"
+          },
+          {
+            "chinese": "回头",
+            "pinyin": "huítóu",
+            "english": "to turn one's head; to turn around",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的头有点疼。",
+        "example_pinyin": "Wǒ de tóu yǒudiǎn téng.",
+        "example_english": "My head hurts a little."
+      },
+      {
+        "character": "疼",
+        "pinyin": "téng",
+        "english": "painful",
+        "word_type": "A",
+        "table_ref": "2-08-02",
+        "radical": "疒",
+        "radical_pinyin": "bìng",
+        "components": [
+          "疒",
+          "冬"
+        ],
+        "compounds": [
+          {
+            "chinese": "头疼",
+            "pinyin": "tóuténg",
+            "english": "headache",
+            "source": "textbook"
+          },
+          {
+            "chinese": "哪儿疼",
+            "pinyin": "nǎr téng",
+            "english": "where does it hurt?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "疼痛",
+            "pinyin": "téngtòng",
+            "english": "pain; ache",
+            "source": "generated"
+          },
+          {
+            "chinese": "心疼",
+            "pinyin": "xīnténg",
+            "english": "to feel sorry for; to love dearly",
+            "source": "generated"
+          },
+          {
+            "chinese": "疼爱",
+            "pinyin": "téng'ài",
+            "english": "to love dearly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的头很疼。",
+        "example_pinyin": "Wǒ de tóu hěn téng.",
+        "example_english": "My head hurts a lot."
+      },
+      {
+        "character": "对不起",
+        "pinyin": "duìbuqǐ",
+        "english": "(to be) sorry",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "寸",
+        "radical_pinyin": "cùn",
+        "components": [
+          "对",
+          "不",
+          "起"
+        ],
+        "compounds": [
+          {
+            "chinese": "对不起，打扰了",
+            "pinyin": "duìbuqǐ, dǎrǎo le",
+            "english": "Sorry to bother you.",
+            "source": "generated"
+          },
+          {
+            "chinese": "对不起，我错了",
+            "pinyin": "duìbuqǐ, wǒ cuò le",
+            "english": "Sorry, I was wrong.",
+            "source": "generated"
+          },
+          {
+            "chinese": "对不起，请再说一遍",
+            "pinyin": "duìbuqǐ, qǐng zài shuō yī biàn",
+            "english": "Excuse me, please say it again.",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "对不起，我迟到了。",
+        "example_pinyin": "Duìbuqǐ, wǒ chídào le.",
+        "example_english": "Sorry, I'm late."
+      },
+      {
+        "character": "舒服",
+        "pinyin": "shūfu",
+        "english": "comfortable",
+        "word_type": "A",
+        "table_ref": "2-08-02",
+        "radical": "舌",
+        "radical_pinyin": "shé",
+        "components": [
+          "舌",
+          "乎"
+        ],
+        "compounds": [
+          {
+            "chinese": "很舒服",
+            "pinyin": "hěn shūfu",
+            "english": "very comfortable",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不舒服",
+            "pinyin": "bù shūfu",
+            "english": "uncomfortable; unwell",
+            "source": "textbook"
+          },
+          {
+            "chinese": "舒服极了",
+            "pinyin": "shūfu jí le",
+            "english": "extremely comfortable",
+            "source": "generated"
+          },
+          {
+            "chinese": "舒服地",
+            "pinyin": "shūfu de",
+            "english": "comfortably",
+            "source": "generated"
+          },
+          {
+            "chinese": "舒服一下",
+            "pinyin": "shūfu yīxià",
+            "english": "to relax a bit",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我今天感觉很舒服。",
+        "example_pinyin": "Wǒ jīntiān gǎnjué hěn shūfu.",
+        "example_english": "I feel very comfortable today."
+      },
+      {
+        "character": "没关系",
+        "pinyin": "méi guānxi",
+        "english": "it doesn't matter; never mind",
+        "word_type": "IE",
+        "table_ref": "2-08-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "每"
+        ],
+        "compounds": [
+          {
+            "chinese": "没有",
+            "pinyin": "méiyǒu",
+            "english": "to not have; there isn't",
+            "source": "generated"
+          },
+          {
+            "chinese": "没用",
+            "pinyin": "méiyòng",
+            "english": "useless",
+            "source": "generated"
+          },
+          {
+            "chinese": "没事",
+            "pinyin": "méishì",
+            "english": "it's nothing; never mind",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "没关系，我们下次再来。",
+        "example_pinyin": "Méi guānxi, wǒmen xià cì zài lái.",
+        "example_english": "It doesn't matter, we'll come again next time."
+      },
+      {
+        "character": "嗓子",
+        "pinyin": "sǎngzi",
+        "english": "throat",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "丧"
+        ],
+        "compounds": [
+          {
+            "chinese": "嗓子疼",
+            "pinyin": "sǎngzi téng",
+            "english": "sore throat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "嗓子不好",
+            "pinyin": "sǎngzi bù hǎo",
+            "english": "hoarse voice; bad throat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "嗓音",
+            "pinyin": "sǎngyīn",
+            "english": "voice",
+            "source": "generated"
+          },
+          {
+            "chinese": "哑嗓子",
+            "pinyin": "yǎsǎngzi",
+            "english": "hoarse voice",
+            "source": "generated"
+          },
+          {
+            "chinese": "亮嗓子",
+            "pinyin": "liàngsǎngzi",
+            "english": "to clear one's throat; to sing loudly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的嗓子有点不舒服。",
+        "example_pinyin": "Wǒ de sǎngzi yǒudiǎn bù shūfu.",
+        "example_english": "My throat feels a bit uncomfortable."
+      },
+      {
+        "character": "有(一)点儿",
+        "pinyin": "yǒu (yì) diǎnr",
+        "english": "somewhat; a little",
+        "word_type": "Adv",
+        "table_ref": "2-08-02",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "有点儿累",
+            "pinyin": "yǒu diǎnr lèi",
+            "english": "a little tired",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿疼",
+            "pinyin": "yǒu diǎnr téng",
+            "english": "a little painful",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿忙",
+            "pinyin": "yǒu diǎnr máng",
+            "english": "a little busy",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿小",
+            "pinyin": "yǒu diǎnr xiǎo",
+            "english": "a little small",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿着急",
+            "pinyin": "yǒu diǎnr zháojí",
+            "english": "a little anxious",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿意思",
+            "pinyin": "yǒu diǎnr yìsi",
+            "english": "somewhat interesting",
+            "source": "generated"
+          },
+          {
+            "chinese": "有点儿贵",
+            "pinyin": "yǒu diǎnr guì",
+            "english": "a little expensive",
+            "source": "generated"
+          },
+          {
+            "chinese": "有点儿难",
+            "pinyin": "yǒu diǎnr nán",
+            "english": "a bit difficult",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我今天有点儿不舒服。",
+        "example_pinyin": "Wǒ jīntiān yǒu diǎnr bù shūfu.",
+        "example_english": "I'm a little uncomfortable today."
+      },
+      {
+        "character": "应该",
+        "pinyin": "yīnggāi",
+        "english": "should; ought to",
+        "word_type": "OpV",
+        "table_ref": "2-08-02",
+        "radical": "厂",
+        "radical_pinyin": "hǎn",
+        "components": [
+          "厂",
+          "心",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "应该做",
+            "pinyin": "yīnggāi zuò",
+            "english": "should do",
+            "source": "textbook"
+          },
+          {
+            "chinese": "应该知道",
+            "pinyin": "yīnggāi zhīdào",
+            "english": "should know",
+            "source": "textbook"
+          },
+          {
+            "chinese": "应该学习",
+            "pinyin": "yīnggāi xuéxí",
+            "english": "should study",
+            "source": "textbook"
+          },
+          {
+            "chinese": "应该试一下",
+            "pinyin": "yīnggāi shì yīxià",
+            "english": "should try it",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不应该去",
+            "pinyin": "bù yīnggāi qù",
+            "english": "should not go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "应该说",
+            "pinyin": "yīnggāi shuō",
+            "english": "should say",
+            "source": "generated"
+          },
+          {
+            "chinese": "应该去",
+            "pinyin": "yīnggāi qù",
+            "english": "should go",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们应该互相帮助。",
+        "example_pinyin": "Wǒmen yīnggāi hùxiāng bāngzhù.",
+        "example_english": "We should help each other."
+      },
+      {
+        "character": "该",
+        "pinyin": "gāi",
+        "english": "should",
+        "word_type": "OpV",
+        "table_ref": "2-08-02",
+        "radical": "言",
+        "radical_pinyin": "yán",
+        "components": [
+          "言",
+          "亥"
+        ],
+        "compounds": [
+          {
+            "chinese": "该做",
+            "pinyin": "gāi zuò",
+            "english": "should do",
+            "source": "textbook"
+          },
+          {
+            "chinese": "该去",
+            "pinyin": "gāi qù",
+            "english": "should go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不该去",
+            "pinyin": "bù gāi qù",
+            "english": "should not go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "应该",
+            "pinyin": "yīnggāi",
+            "english": "should; ought to",
+            "source": "generated"
+          },
+          {
+            "chinese": "活该",
+            "pinyin": "huógāi",
+            "english": "serve sb right; deserve it",
+            "source": "generated"
+          },
+          {
+            "chinese": "该死",
+            "pinyin": "gāisǐ",
+            "english": "damn it; accursed",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们该走了。",
+        "example_pinyin": "Wǒmen gāi zǒu le.",
+        "example_english": "We should go now."
+      },
+      {
+        "character": "医院",
+        "pinyin": "yīyuàn",
+        "english": "hospital",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "阝",
+        "radical_pinyin": "fù",
+        "components": [
+          "阝",
+          "医"
+        ],
+        "compounds": [
+          {
+            "chinese": "去医院",
+            "pinyin": "qù yīyuàn",
+            "english": "to go to the hospital",
+            "source": "textbook"
+          },
+          {
+            "chinese": "大医院",
+            "pinyin": "dà yīyuàn",
+            "english": "large hospital",
+            "source": "textbook"
+          },
+          {
+            "chinese": "住院",
+            "pinyin": "zhùyuàn",
+            "english": "to be hospitalized",
+            "source": "generated"
+          },
+          {
+            "chinese": "医院院长",
+            "pinyin": "yīyuàn yuànzhǎng",
+            "english": "hospital president/dean",
+            "source": "generated"
+          },
+          {
+            "chinese": "综合医院",
+            "pinyin": "zōnghé yīyuàn",
+            "english": "general hospital",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他生病了，需要去医院。",
+        "example_pinyin": "Tā shēngbìng le, xūyào qù yīyuàn.",
+        "example_english": "He is sick and needs to go to the hospital."
+      },
+      {
+        "character": "看病",
+        "pinyin": "kànbìng",
+        "english": "to see a doctor",
+        "word_type": "VO",
+        "table_ref": "2-08-02",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "手"
+        ],
+        "compounds": [
+          {
+            "chinese": "去看病",
+            "pinyin": "qù kànbìng",
+            "english": "to go see a doctor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去医院看病",
+            "pinyin": "qù yīyuàn kànbìng",
+            "english": "to go to the hospital to see a doctor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "看医生",
+            "pinyin": "kàn yīshēng",
+            "english": "to see a doctor",
+            "source": "generated"
+          },
+          {
+            "chinese": "看病难",
+            "pinyin": "kànbìng nán",
+            "english": "difficulty in seeing a doctor",
+            "source": "generated"
+          },
+          {
+            "chinese": "看病贵",
+            "pinyin": "kànbìng guì",
+            "english": "expensive medical care",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要去看病。",
+        "example_pinyin": "Wǒ xūyào qù kànbìng.",
+        "example_english": "I need to go see a doctor."
+      },
+      {
+        "character": "病",
+        "pinyin": "bìng",
+        "english": "illness / to be sick",
+        "word_type": "N/V",
+        "table_ref": "2-08-02",
+        "radical": "疒",
+        "radical_pinyin": "nè",
+        "components": [
+          "疒",
+          "丙"
+        ],
+        "compounds": [
+          {
+            "chinese": "有病",
+            "pinyin": "yǒu bìng",
+            "english": "to be sick; to have an illness",
+            "source": "textbook"
+          },
+          {
+            "chinese": "没有病",
+            "pinyin": "méiyǒu bìng",
+            "english": "not sick; not to have an illness",
+            "source": "textbook"
+          },
+          {
+            "chinese": "病人",
+            "pinyin": "bìngrén",
+            "english": "patient",
+            "source": "generated"
+          },
+          {
+            "chinese": "生病",
+            "pinyin": "shēngbìng",
+            "english": "to get sick",
+            "source": "generated"
+          },
+          {
+            "chinese": "疾病",
+            "pinyin": "jíbìng",
+            "english": "disease; illness",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他生病了，不能来上课。",
+        "example_pinyin": "Tā shēngbìng le, bù néng lái shàngkè.",
+        "example_english": "He is sick and cannot come to class."
+      },
+      {
+        "character": "身体",
+        "pinyin": "shēntǐ",
+        "english": "body; health",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "身",
+        "radical_pinyin": "shēn",
+        "components": [
+          "身"
+        ],
+        "compounds": [
+          {
+            "chinese": "身体很好",
+            "pinyin": "shēntǐ hěn hǎo",
+            "english": "body is very good; in good health",
+            "source": "textbook"
+          },
+          {
+            "chinese": "身体没问题",
+            "pinyin": "shēntǐ méi wèntí",
+            "english": "body has no problem; in good health",
+            "source": "textbook"
+          },
+          {
+            "chinese": "身体不太好",
+            "pinyin": "shēntǐ bù tài hǎo",
+            "english": "body is not very good; not in good health",
+            "source": "textbook"
+          },
+          {
+            "chinese": "身体健康",
+            "pinyin": "shēntǐ jiànkāng",
+            "english": "healthy body; good health",
+            "source": "generated"
+          },
+          {
+            "chinese": "身体力行",
+            "pinyin": "shēntǐ lìxíng",
+            "english": "to practice what one preaches",
+            "source": "generated"
+          },
+          {
+            "chinese": "身体检查",
+            "pinyin": "shēntǐ jiǎnchá",
+            "english": "physical examination",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他最近身体不太好。",
+        "example_pinyin": "Tā zuìjìn shēntǐ bù tài hǎo.",
+        "example_english": "He hasn't been feeling very well recently."
+      },
+      {
+        "character": "睡觉",
+        "pinyin": "shuìjiào",
+        "english": "to sleep; to go to bed",
+        "word_type": "VO",
+        "table_ref": "2-08-02",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "垂"
+        ],
+        "compounds": [
+          {
+            "chinese": "想睡觉",
+            "pinyin": "xiǎng shuìjiào",
+            "english": "want to sleep; feel sleepy",
+            "source": "textbook"
+          },
+          {
+            "chinese": "快去睡觉",
+            "pinyin": "kuài qù shuìjiào",
+            "english": "go to sleep quickly",
+            "source": "textbook"
+          },
+          {
+            "chinese": "午睡",
+            "pinyin": "wǔshuì",
+            "english": "nap; siesta",
+            "source": "generated"
+          },
+          {
+            "chinese": "睡觉时间",
+            "pinyin": "shuìjiào shíjiān",
+            "english": "bedtime",
+            "source": "generated"
+          },
+          {
+            "chinese": "睡衣",
+            "pinyin": "shuìyī",
+            "english": "pajamas",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天晚上十点睡觉。",
+        "example_pinyin": "Wǒ měitiān wǎnshang shí diǎn shuìjiào.",
+        "example_english": "I go to bed at ten o'clock every night."
+      },
+      {
+        "character": "睡",
+        "pinyin": "shuì",
+        "english": "to sleep",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "垂"
+        ],
+        "compounds": [
+          {
+            "chinese": "想睡一会儿",
+            "pinyin": "xiǎng shuì yī huìr",
+            "english": "want to sleep for a while",
+            "source": "textbook"
+          },
+          {
+            "chinese": "睡觉",
+            "pinyin": "shuì jiào",
+            "english": "to sleep",
+            "source": "generated"
+          },
+          {
+            "chinese": "午睡",
+            "pinyin": "wǔ shuì",
+            "english": "nap; siesta",
+            "source": "generated"
+          },
+          {
+            "chinese": "睡衣",
+            "pinyin": "shuì yī",
+            "english": "pajamas; nightclothes",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我昨晚睡得很好。",
+        "example_pinyin": "Wǒ zuówǎn shuì de hěn hǎo.",
+        "example_english": "I slept very well last night."
+      },
+      {
+        "character": "能",
+        "pinyin": "néng",
+        "english": "can; to be able to",
+        "word_type": "OpV",
+        "table_ref": "2-08-02",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "匕",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "能八点起床",
+            "pinyin": "néng bādiǎn qǐchuáng",
+            "english": "can get up at 8 o'clock",
+            "source": "textbook"
+          },
+          {
+            "chinese": "能参加",
+            "pinyin": "néng cānjiā",
+            "english": "can participate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "恐怕不能来",
+            "pinyin": "kǒngpà bù néng lái",
+            "english": "I'm afraid I can't come",
+            "source": "textbook"
+          },
+          {
+            "chinese": "能力",
+            "pinyin": "nénglì",
+            "english": "ability; capability",
+            "source": "generated"
+          },
+          {
+            "chinese": "可能",
+            "pinyin": "kěnéng",
+            "english": "possible; maybe",
+            "source": "generated"
+          },
+          {
+            "chinese": "才能",
+            "pinyin": "cáinéng",
+            "english": "talent; ability",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我能帮你。",
+        "example_pinyin": "Wǒ néng bāng nǐ.",
+        "example_english": "I can help you."
+      },
+      {
+        "character": "上课",
+        "pinyin": "shàngkè",
+        "english": "to go to class",
+        "word_type": "VO",
+        "table_ref": "2-08-02",
+        "radical": "一",
+        "radical_pinyin": "yī",
+        "components": [
+          "一",
+          "止",
+          "卜"
+        ],
+        "compounds": [
+          {
+            "chinese": "不能上课",
+            "pinyin": "bù néng shàngkè",
+            "english": "cannot attend class",
+            "source": "textbook"
+          },
+          {
+            "chinese": "几点上课",
+            "pinyin": "jǐ diǎn shàngkè",
+            "english": "what time does class start?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "上学",
+            "pinyin": "shàngxué",
+            "english": "to go to school",
+            "source": "generated"
+          },
+          {
+            "chinese": "上班",
+            "pinyin": "shàngbān",
+            "english": "to go to work",
+            "source": "generated"
+          },
+          {
+            "chinese": "上课时间",
+            "pinyin": "shàngkè shíjiān",
+            "english": "class time",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们明天早上八点上课。",
+        "example_pinyin": "Wǒmen míngtiān zǎoshang bā diǎn shàngkè.",
+        "example_english": "We have class at 8 AM tomorrow."
+      },
+      {
+        "character": "还是",
+        "pinyin": "háishi",
+        "english": "(used in a choice-type question) or",
+        "word_type": "Conj",
+        "table_ref": "2-08-02",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "止",
+          "一",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "睡觉还是起床",
+            "pinyin": "shuìjiào háishi qǐchuáng",
+            "english": "sleep or get up",
+            "source": "textbook"
+          },
+          {
+            "chinese": "现在去还是下午去",
+            "pinyin": "xiànzài qù háishi xiàwǔ qù",
+            "english": "go now or go in the afternoon",
+            "source": "textbook"
+          },
+          {
+            "chinese": "还是说",
+            "pinyin": "háishi shuō",
+            "english": "or rather, or to say",
+            "source": "generated"
+          },
+          {
+            "chinese": "还是不",
+            "pinyin": "háishi bù",
+            "english": "still not, or not",
+            "source": "generated"
+          },
+          {
+            "chinese": "还是会",
+            "pinyin": "háishi huì",
+            "english": "still will, or will",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你喜欢喝茶还是咖啡？",
+        "example_pinyin": "Nǐ xǐhuān hē chá háishi kāfēi?",
+        "example_english": "Do you like to drink tea or coffee?"
+      },
+      {
+        "character": "天气",
+        "pinyin": "tiānqì",
+        "english": "weather",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "天",
+        "radical_pinyin": "tiān",
+        "components": [
+          "一",
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "天气很好",
+            "pinyin": "tiānqì hěn hǎo",
+            "english": "The weather is very good.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "好天气",
+            "pinyin": "hǎo tiānqì",
+            "english": "good weather",
+            "source": "textbook"
+          },
+          {
+            "chinese": "天气预报",
+            "pinyin": "tiānqì yùbào",
+            "english": "weather forecast",
+            "source": "generated"
+          },
+          {
+            "chinese": "天气冷",
+            "pinyin": "tiānqì lěng",
+            "english": "cold weather",
+            "source": "generated"
+          },
+          {
+            "chinese": "天气热",
+            "pinyin": "tiānqì rè",
+            "english": "hot weather",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气怎么样？",
+        "example_pinyin": "Jīntiān tiānqì zěnmeyàng?",
+        "example_english": "How is the weather today?"
+      },
+      {
+        "character": "冷",
+        "pinyin": "lěng",
+        "english": "cold",
+        "word_type": "A",
+        "table_ref": "2-08-02",
+        "radical": "冫",
+        "radical_pinyin": "bīng",
+        "components": [
+          "冫",
+          "令"
+        ],
+        "compounds": [
+          {
+            "chinese": "天气很冷",
+            "pinyin": "Tiānqì hěn lěng",
+            "english": "The weather is very cold.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿冷",
+            "pinyin": "Yǒudiǎnr lěng",
+            "english": "A bit cold.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "冷水",
+            "pinyin": "lěngshuǐ",
+            "english": "cold water",
+            "source": "generated"
+          },
+          {
+            "chinese": "冷气",
+            "pinyin": "lěngqì",
+            "english": "air conditioning; cold air",
+            "source": "generated"
+          },
+          {
+            "chinese": "冷淡",
+            "pinyin": "lěngdàn",
+            "english": "cold; indifferent",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气很冷，你多穿点儿衣服。",
+        "example_pinyin": "Jīntiān tiānqì hěn lěng, nǐ duō chuān diǎnr yīfu.",
+        "example_english": "The weather is very cold today, wear more clothes."
+      },
+      {
+        "character": "穿",
+        "pinyin": "chuān",
+        "english": "to wear (clothing); to put on",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "穴",
+        "radical_pinyin": "xué",
+        "components": [
+          "穴",
+          "牙"
+        ],
+        "compounds": [
+          {
+            "chinese": "穿衣服",
+            "pinyin": "chuān yīfu",
+            "english": "to wear clothes; to put on clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "多穿点儿衣服",
+            "pinyin": "duō chuān diǎnr yīfu",
+            "english": "wear more clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿衬衫",
+            "pinyin": "chuān chènshān",
+            "english": "to wear a shirt; to put on a shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿牛仔裤",
+            "pinyin": "chuān niúzǎikù",
+            "english": "to wear jeans; to put on jeans",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿戴",
+            "pinyin": "chuāndài",
+            "english": "to wear; to dress",
+            "source": "generated"
+          },
+          {
+            "chinese": "穿梭",
+            "pinyin": "chuānsuō",
+            "english": "to shuttle; to go back and forth",
+            "source": "generated"
+          },
+          {
+            "chinese": "穿透",
+            "pinyin": "chuāntòu",
+            "english": "to penetrate; to pierce through",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她喜欢穿红色的裙子。",
+        "example_pinyin": "Tā xǐhuan chuān hóngsè de qúnzi.",
+        "example_english": "She likes to wear red dresses."
+      },
+      {
+        "character": "在",
+        "pinyin": "zài",
+        "english": "at, in, on",
+        "word_type": "Prep",
+        "table_ref": "2-08-04",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "才"
+        ],
+        "compounds": [
+          {
+            "chinese": "在这儿等我",
+            "pinyin": "Zài zhè'er děng wǒ",
+            "english": "Wait for me here.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在宿舍学习",
+            "pinyin": "Zài sùshè xuéxí",
+            "english": "study in the dorm",
+            "source": "textbook"
+          },
+          {
+            "chinese": "现在",
+            "pinyin": "xiànzài",
+            "english": "now",
+            "source": "generated"
+          },
+          {
+            "chinese": "存在",
+            "pinyin": "cúnzài",
+            "english": "to exist",
+            "source": "generated"
+          },
+          {
+            "chinese": "正在",
+            "pinyin": "zhèngzài",
+            "english": "in the process of (doing something)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我住在北京。",
+        "example_pinyin": "Wǒ zhù zài Běijīng.",
+        "example_english": "I live in Beijing."
+      },
+      {
+        "character": "挂号",
+        "pinyin": "guàhào",
+        "english": "to register (in a hospital)",
+        "word_type": "VO",
+        "table_ref": "2-08-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "圭"
+        ],
+        "compounds": [
+          {
+            "chinese": "给你挂号",
+            "pinyin": "gěi nǐ guàhào",
+            "english": "to register for you",
+            "source": "textbook"
+          },
+          {
+            "chinese": "挂号费",
+            "pinyin": "guàhàofèi",
+            "english": "registration fee",
+            "source": "generated"
+          },
+          {
+            "chinese": "挂号处",
+            "pinyin": "guàhàochù",
+            "english": "registration office",
+            "source": "generated"
+          },
+          {
+            "chinese": "挂号信",
+            "pinyin": "guàhàoxìn",
+            "english": "registered letter",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，在哪里可以挂号？",
+        "example_pinyin": "Qǐngwèn, zài nǎlǐ kěyǐ guàhào?",
+        "example_english": "Excuse me, where can I register?"
+      },
+      {
+        "character": "挂",
+        "pinyin": "guà",
+        "english": "to register (in a hospital)",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "圭"
+        ],
+        "compounds": [
+          {
+            "chinese": "挂什么号",
+            "pinyin": "guà shénme hào",
+            "english": "What kind of registration (number) do you want?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "挂一个号",
+            "pinyin": "guà yí ge hào",
+            "english": "to register (for a number)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "挂号",
+            "pinyin": "guàhào",
+            "english": "to register (at a hospital, etc.)",
+            "source": "generated"
+          },
+          {
+            "chinese": "挂念",
+            "pinyin": "guàniàn",
+            "english": "to worry about; to miss",
+            "source": "generated"
+          },
+          {
+            "chinese": "挂钩",
+            "pinyin": "guàgōu",
+            "english": "to link up with; to get in touch with",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我想挂一个内科的号。",
+        "example_pinyin": "Wǒ xiǎng guà yí ge nèikē de hào.",
+        "example_english": "I want to register for an internal medicine appointment."
+      },
+      {
+        "character": "科",
+        "pinyin": "kē",
+        "english": "department",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "斗"
+        ],
+        "compounds": [
+          {
+            "chinese": "什么科",
+            "pinyin": "shénme kē",
+            "english": "which department",
+            "source": "textbook"
+          },
+          {
+            "chinese": "挂什么科",
+            "pinyin": "guà shénme kē",
+            "english": "which department to register with",
+            "source": "textbook"
+          },
+          {
+            "chinese": "科学",
+            "pinyin": "kēxué",
+            "english": "science",
+            "source": "generated"
+          },
+          {
+            "chinese": "科目",
+            "pinyin": "kēmù",
+            "english": "subject; course",
+            "source": "generated"
+          },
+          {
+            "chinese": "外科",
+            "pinyin": "wàikē",
+            "english": "surgery; surgical department",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，您想挂哪个科？",
+        "example_pinyin": "Qǐngwèn, nín xiǎng guà nǎge kē?",
+        "example_english": "Excuse me, which department would you like to register with?"
+      },
+      {
+        "character": "内科",
+        "pinyin": "nèikē",
+        "english": "department of internal medicine",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "入",
+        "radical_pinyin": "rù",
+        "components": [
+          "入",
+          "冂"
+        ],
+        "compounds": [
+          {
+            "chinese": "挂内科",
+            "pinyin": "guà nèikē",
+            "english": "to register at the internal medicine department",
+            "source": "textbook"
+          },
+          {
+            "chinese": "看内科",
+            "pinyin": "kàn nèikē",
+            "english": "to see a doctor in internal medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "内科医生",
+            "pinyin": "nèikē yīshēng",
+            "english": "internal medicine doctor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "内科病房",
+            "pinyin": "nèikē bìngfáng",
+            "english": "internal medicine ward",
+            "source": "generated"
+          },
+          {
+            "chinese": "内科检查",
+            "pinyin": "nèikē jiǎnchá",
+            "english": "internal medicine examination",
+            "source": "generated"
+          },
+          {
+            "chinese": "内科诊所",
+            "pinyin": "nèikē zhěnsuǒ",
+            "english": "internal medicine clinic",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他去了医院的内科看病。",
+        "example_pinyin": "Tā qù le yīyuàn de nèikē kànbìng.",
+        "example_english": "He went to the internal medicine department of the hospital to see a doctor."
+      },
+      {
+        "character": "内",
+        "pinyin": "nèi",
+        "english": "internal; inside",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "入",
+        "radical_pinyin": "rù",
+        "components": [
+          "入",
+          "冂"
+        ],
+        "compounds": [
+          {
+            "chinese": "办公楼内",
+            "pinyin": "bàngōnglóu nèi",
+            "english": "inside the office building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "医院内",
+            "pinyin": "yīyuàn nèi",
+            "english": "inside the hospital",
+            "source": "textbook"
+          },
+          {
+            "chinese": "内部",
+            "pinyin": "nèibù",
+            "english": "internal; inside; interior",
+            "source": "generated"
+          },
+          {
+            "chinese": "内容",
+            "pinyin": "nèiróng",
+            "english": "content; substance",
+            "source": "generated"
+          },
+          {
+            "chinese": "国内",
+            "pinyin": "guónèi",
+            "english": "domestic; internal (to a country)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请在室内等候。",
+        "example_pinyin": "Qǐng zài shìnèi děnghòu.",
+        "example_english": "Please wait indoors."
+      },
+      {
+        "character": "层",
+        "pinyin": "céng",
+        "english": "floor",
+        "word_type": "M",
+        "table_ref": "2-08-04",
+        "radical": "尸",
+        "radical_pinyin": "shī",
+        "components": [
+          "尸",
+          "曾"
+        ],
+        "compounds": [
+          {
+            "chinese": "一层",
+            "pinyin": "yī céng",
+            "english": "first floor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "二层",
+            "pinyin": "èr céng",
+            "english": "second floor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "十层",
+            "pinyin": "shí céng",
+            "english": "tenth floor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "楼层",
+            "pinyin": "lóucéng",
+            "english": "floor; story (of a building)",
+            "source": "generated"
+          },
+          {
+            "chinese": "层次",
+            "pinyin": "céngcì",
+            "english": "level; layer; arrangement of ideas",
+            "source": "generated"
+          },
+          {
+            "chinese": "高层",
+            "pinyin": "gāocéng",
+            "english": "high-level; high-rise",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的办公室在三层。",
+        "example_pinyin": "Wǒ de bàngōngshì zài sān céng.",
+        "example_english": "My office is on the third floor."
+      },
+      {
+        "character": "全身",
+        "pinyin": "quánshēn",
+        "english": "the whole body; all over",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "入",
+        "radical_pinyin": "rù",
+        "components": [
+          "人",
+          "王"
+        ],
+        "compounds": [
+          {
+            "chinese": "全身不舒服",
+            "pinyin": "quánshēn bù shūfu",
+            "english": "unwell all over; feel uncomfortable all over",
+            "source": "textbook"
+          },
+          {
+            "chinese": "全身疼",
+            "pinyin": "quánshēn téng",
+            "english": "ache all over; whole body aches",
+            "source": "textbook"
+          },
+          {
+            "chinese": "全身心",
+            "pinyin": "quánshēnxīn",
+            "english": "wholeheartedly; with all one's heart and soul",
+            "source": "generated"
+          },
+          {
+            "chinese": "全身像",
+            "pinyin": "quánshēnxìang",
+            "english": "full-length portrait",
+            "source": "generated"
+          },
+          {
+            "chinese": "全身而退",
+            "pinyin": "quánshēn'értuì",
+            "english": "to retreat unscathed; to get away without harm",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他全身都湿透了。",
+        "example_pinyin": "Tā quánshēn dōu shītòule.",
+        "example_english": "His whole body was soaked."
+      },
+      {
+        "character": "全",
+        "pinyin": "quán",
+        "english": "whole; complete; total",
+        "word_type": "A",
+        "table_ref": "2-08-04",
+        "radical": "入",
+        "radical_pinyin": "rù",
+        "components": [
+          "人",
+          "王"
+        ],
+        "compounds": [
+          {
+            "chinese": "全校",
+            "pinyin": "quánxiào",
+            "english": "the whole school",
+            "source": "textbook"
+          },
+          {
+            "chinese": "全班",
+            "pinyin": "quánbān",
+            "english": "the whole class",
+            "source": "textbook"
+          },
+          {
+            "chinese": "全家",
+            "pinyin": "quánjiā",
+            "english": "the whole family",
+            "source": "textbook"
+          },
+          {
+            "chinese": "全部",
+            "pinyin": "quánbù",
+            "english": "all; whole; complete",
+            "source": "generated"
+          },
+          {
+            "chinese": "全国",
+            "pinyin": "quánguó",
+            "english": "whole nation; nationwide",
+            "source": "generated"
+          },
+          {
+            "chinese": "安全",
+            "pinyin": "ānquán",
+            "english": "safe; secure; safety",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们全家都喜欢吃中国菜。",
+        "example_pinyin": "Wǒmen quánjiā dōu xǐhuān chī Zhōngguó cài.",
+        "example_english": "Our whole family likes to eat Chinese food."
+      },
+      {
+        "character": "量",
+        "pinyin": "liáng",
+        "english": "to measure",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "里",
+        "radical_pinyin": "lǐ",
+        "components": [
+          "日",
+          "里"
+        ],
+        "compounds": [
+          {
+            "chinese": "量衣服",
+            "pinyin": "liáng yīfu",
+            "english": "to measure clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "测量",
+            "pinyin": "cè liáng",
+            "english": "to survey; to measure",
+            "source": "generated"
+          },
+          {
+            "chinese": "量尺",
+            "pinyin": "liáng chǐ",
+            "english": "measuring ruler",
+            "source": "generated"
+          },
+          {
+            "chinese": "量体温",
+            "pinyin": "liáng tǐ wēn",
+            "english": "to take one's temperature",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你帮我量一下身高。",
+        "example_pinyin": "Qǐng nǐ bāng wǒ liáng yīxià shēnggāo.",
+        "example_english": "Please help me measure my height."
+      },
+      {
+        "character": "体温",
+        "pinyin": "tǐwēn",
+        "english": "body temperature",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "本"
+        ],
+        "compounds": [
+          {
+            "chinese": "量体温",
+            "pinyin": "liáng tǐwēn",
+            "english": "to take one's temperature",
+            "source": "textbook"
+          },
+          {
+            "chinese": "体温计",
+            "pinyin": "tǐwēnjì",
+            "english": "thermometer",
+            "source": "generated"
+          },
+          {
+            "chinese": "体温过高",
+            "pinyin": "tǐwēn guògāo",
+            "english": "high body temperature",
+            "source": "generated"
+          },
+          {
+            "chinese": "体温正常",
+            "pinyin": "tǐwēn zhèngcháng",
+            "english": "normal body temperature",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生给我量了体温。",
+        "example_pinyin": "Yīshēng gěi wǒ liáng le tǐwēn.",
+        "example_english": "The doctor took my temperature."
+      },
+      {
+        "character": "大夫",
+        "pinyin": "dàifu",
+        "english": "doctor",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "大",
+        "radical_pinyin": "dà",
+        "components": [
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "王大夫",
+            "pinyin": "Wáng dàifu",
+            "english": "Doctor Wang",
+            "source": "textbook"
+          },
+          {
+            "chinese": "女大夫",
+            "pinyin": "nǚ dàifu",
+            "english": "female doctor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "内科大夫",
+            "pinyin": "nèikē dàifu",
+            "english": "internal medicine doctor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "医生",
+            "pinyin": "yīshēng",
+            "english": "doctor",
+            "source": "generated"
+          },
+          {
+            "chinese": "大夫诊所",
+            "pinyin": "dàifu zhěnsuǒ",
+            "english": "doctor's clinic",
+            "source": "generated"
+          },
+          {
+            "chinese": "看大夫",
+            "pinyin": "kàn dàifu",
+            "english": "to see a doctor",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他是一位很有经验的大夫。",
+        "example_pinyin": "Tā shì yī wèi hěn yǒu jīngyàn de dàifu.",
+        "example_english": "He is a very experienced doctor."
+      },
+      {
+        "character": "度",
+        "pinyin": "dù",
+        "english": "degree",
+        "word_type": "M",
+        "table_ref": "2-08-04",
+        "radical": "广",
+        "radical_pinyin": "guǎng",
+        "components": [
+          "广",
+          "廿",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "37 度",
+            "pinyin": "sānshíqī dù",
+            "english": "37 degrees",
+            "source": "textbook"
+          },
+          {
+            "chinese": "38度",
+            "pinyin": "sānshíbā dù",
+            "english": "38 degrees",
+            "source": "textbook"
+          },
+          {
+            "chinese": "4 多少度",
+            "pinyin": "sì duōshao dù",
+            "english": "How many degrees is 4?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "温度",
+            "pinyin": "wēndù",
+            "english": "temperature",
+            "source": "generated"
+          },
+          {
+            "chinese": "程度",
+            "pinyin": "chéngdù",
+            "english": "degree; extent",
+            "source": "generated"
+          },
+          {
+            "chinese": "度假",
+            "pinyin": "dùjià",
+            "english": "to go on holiday/vacation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天的温度是二十五度。",
+        "example_pinyin": "Jīntiān de wēndù shì èrshíwǔ dù.",
+        "example_english": "Today's temperature is 25 degrees."
+      },
+      {
+        "character": "发炎",
+        "pinyin": "fāyán",
+        "english": "to be inflamed",
+        "word_type": "VO",
+        "table_ref": "2-08-04",
+        "radical": "疒",
+        "radical_pinyin": "nè",
+        "components": [
+          "疒",
+          "发"
+        ],
+        "compounds": [
+          {
+            "chinese": "嗓子发炎",
+            "pinyin": "sǎngzi fāyán",
+            "english": "sore throat; inflamed throat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿发炎",
+            "pinyin": "yǒudiǎnr fāyán",
+            "english": "a bit inflamed",
+            "source": "textbook"
+          },
+          {
+            "chinese": "炎症",
+            "pinyin": "yánzhèng",
+            "english": "inflammation",
+            "source": "generated"
+          },
+          {
+            "chinese": "发烧",
+            "pinyin": "fāshāo",
+            "english": "to have a fever",
+            "source": "generated"
+          },
+          {
+            "chinese": "发炎性",
+            "pinyin": "fāyánxìng",
+            "english": "inflammatory",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的眼睛有点儿发炎，需要去看医生。",
+        "example_pinyin": "Wǒ de yǎnjīng yǒudiǎnr fāyán, xūyào qù kàn yīshēng.",
+        "example_english": "My eyes are a bit inflamed, I need to see a doctor."
+      },
+      {
+        "character": "验血",
+        "pinyin": "yànxiě",
+        "english": "to have a blood test",
+        "word_type": "VO",
+        "table_ref": "2-08-04",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马",
+          "佥"
+        ],
+        "compounds": [
+          {
+            "chinese": "验一下血",
+            "pinyin": "yàn yīxià xiě",
+            "english": "to have a blood test (briefly)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "检验",
+            "pinyin": "jiǎnyàn",
+            "english": "to inspect; to examine; to test",
+            "source": "generated"
+          },
+          {
+            "chinese": "经验",
+            "pinyin": "jīngyàn",
+            "english": "experience",
+            "source": "generated"
+          },
+          {
+            "chinese": "实验",
+            "pinyin": "shíyàn",
+            "english": "experiment; test",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生建议我验血检查身体。",
+        "example_pinyin": "Yīshēng jiànyì wǒ yànxiě jiǎnchá shēntǐ.",
+        "example_english": "The doctor suggested I have a blood test to check my health."
+      },
+      {
+        "character": "血",
+        "pinyin": "xiě",
+        "english": "blood",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "血",
+        "radical_pinyin": "xuè",
+        "components": [
+          "血"
+        ],
+        "compounds": [
+          {
+            "chinese": "血液",
+            "pinyin": "xuèyè",
+            "english": "blood; plasma",
+            "source": "generated"
+          },
+          {
+            "chinese": "流血",
+            "pinyin": "liúxiě",
+            "english": "to bleed",
+            "source": "generated"
+          },
+          {
+            "chinese": "血型",
+            "pinyin": "xuèxíng",
+            "english": "blood type",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的手上流了很多血。",
+        "example_pinyin": "Tā de shǒushàng liúle hěn duō xiě.",
+        "example_english": "A lot of blood flowed from his hand."
+      },
+      {
+        "character": "打针",
+        "pinyin": "dǎzhēn",
+        "english": "to give an injection; to get a shot",
+        "word_type": "VO",
+        "table_ref": "2-08-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "不想打针",
+            "pinyin": "bù xiǎng dǎzhēn",
+            "english": "don't want to get a shot",
+            "source": "textbook"
+          },
+          {
+            "chinese": "要不要打针",
+            "pinyin": "yào bu yào dǎzhēn",
+            "english": "do you need to get a shot?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打针吃药",
+            "pinyin": "dǎzhēn chīyào",
+            "english": "to get an injection and take medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "打针器",
+            "pinyin": "dǎzhēnqì",
+            "english": "injector",
+            "source": "generated"
+          },
+          {
+            "chinese": "打针剂",
+            "pinyin": "dǎzhēnjì",
+            "english": "injectable preparation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生说我需要打针。",
+        "example_pinyin": "Yīshēng shuō wǒ xūyào dǎzhēn.",
+        "example_english": "The doctor said I need to get an injection."
+      },
+      {
+        "character": "针",
+        "pinyin": "zhēn",
+        "english": "injection",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "十",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "打一针",
+            "pinyin": "dǎ yī zhēn",
+            "english": "to get an injection; to give an injection",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打几针",
+            "pinyin": "dǎ jǐ zhēn",
+            "english": "to get a few injections; to give a few injections",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打针",
+            "pinyin": "dǎ zhēn",
+            "english": "to give an injection; to get an injection",
+            "source": "generated"
+          },
+          {
+            "chinese": "针灸",
+            "pinyin": "zhēnjiǔ",
+            "english": "acupuncture",
+            "source": "generated"
+          },
+          {
+            "chinese": "针线",
+            "pinyin": "zhēnxiàn",
+            "english": "needle and thread; needlework",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生给我打了一针。",
+        "example_pinyin": "Yīshēng gěi wǒ dǎ le yī zhēn.",
+        "example_english": "The doctor gave me an injection."
+      },
+      {
+        "character": "不用",
+        "pinyin": "búyòng",
+        "english": "no need",
+        "word_type": "Adv",
+        "table_ref": "2-08-04",
+        "radical": "用",
+        "radical_pinyin": "yòng",
+        "components": [
+          "用"
+        ],
+        "compounds": [
+          {
+            "chinese": "不用打针",
+            "pinyin": "búyòng dǎzhēn",
+            "english": "no need for an injection",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不用验血",
+            "pinyin": "búyòng yànxuè",
+            "english": "no need for a blood test",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不用说",
+            "pinyin": "búyòng shuō",
+            "english": "needless to say; it goes without saying",
+            "source": "generated"
+          },
+          {
+            "chinese": "不用谢",
+            "pinyin": "búyòng xiè",
+            "english": "you're welcome; don't mention it",
+            "source": "generated"
+          },
+          {
+            "chinese": "不用担心",
+            "pinyin": "búyòng dānxīn",
+            "english": "don't worry",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你不用担心，我会帮你。",
+        "example_pinyin": "Nǐ búyòng dānxīn, wǒ huì bāng nǐ.",
+        "example_english": "You don't need to worry, I will help you."
+      },
+      {
+        "character": "水",
+        "pinyin": "shuǐ",
+        "english": "water",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "水",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "水"
+        ],
+        "compounds": [
+          {
+            "chinese": "喝水",
+            "pinyin": "hē shuǐ",
+            "english": "drink water",
+            "source": "textbook"
+          },
+          {
+            "chinese": "多喝水",
+            "pinyin": "duō hē shuǐ",
+            "english": "drink more water",
+            "source": "textbook"
+          },
+          {
+            "chinese": "开水",
+            "pinyin": "kāishuǐ",
+            "english": "boiled water",
+            "source": "generated"
+          },
+          {
+            "chinese": "河水",
+            "pinyin": "héshuǐ",
+            "english": "river water",
+            "source": "generated"
+          },
+          {
+            "chinese": "水平",
+            "pinyin": "shuǐpíng",
+            "english": "level; standard",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢喝水。",
+        "example_pinyin": "Wǒ xǐhuān hē shuǐ.",
+        "example_english": "I like to drink water."
+      },
+      {
+        "character": "休息",
+        "pinyin": "xiūxi",
+        "english": "to rest; to take a break",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "休"
+        ],
+        "compounds": [
+          {
+            "chinese": "多休息",
+            "pinyin": "duō xiūxi",
+            "english": "rest more",
+            "source": "textbook"
+          },
+          {
+            "chinese": "休息一下",
+            "pinyin": "xiūxi yīxià",
+            "english": "to rest for a bit",
+            "source": "textbook"
+          },
+          {
+            "chinese": "休息一会儿",
+            "pinyin": "xiūxi yīhuìr",
+            "english": "to rest for a while",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不用休息",
+            "pinyin": "bùyòng xiūxi",
+            "english": "no need to rest",
+            "source": "textbook"
+          },
+          {
+            "chinese": "休息日",
+            "pinyin": "xiūxīrì",
+            "english": "day off; holiday",
+            "source": "generated"
+          },
+          {
+            "chinese": "午休",
+            "pinyin": "wǔxiū",
+            "english": "lunch break; noon break",
+            "source": "generated"
+          },
+          {
+            "chinese": "休假",
+            "pinyin": "xiūjià",
+            "english": "to take a holiday; to go on leave",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们工作了很长时间，应该休息一下。",
+        "example_pinyin": "Wǒmen gōngzuò le hěn cháng shíjiān, yīnggāi xiūxi yīxià.",
+        "example_english": "We have worked for a long time, we should take a break."
+      },
+      {
+        "character": "中药",
+        "pinyin": "zhōngyào",
+        "english": "traditional Chinese medicine",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "丨",
+        "radical_pinyin": "gǔn",
+        "components": [
+          "丨",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "吃中药",
+            "pinyin": "chī zhōngyào",
+            "english": "to take traditional Chinese medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买中药",
+            "pinyin": "mǎi zhōngyào",
+            "english": "to buy traditional Chinese medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "中药店",
+            "pinyin": "zhōngyàodiàn",
+            "english": "traditional Chinese medicine pharmacy",
+            "source": "generated"
+          },
+          {
+            "chinese": "中药材",
+            "pinyin": "zhōngyàocái",
+            "english": "medicinal materials of traditional Chinese medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "中药方",
+            "pinyin": "zhōngyàofāng",
+            "english": "prescription of traditional Chinese medicine",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她正在吃中药调理身体。",
+        "example_pinyin": "Tā zhèngzài chī zhōngyào tiáolǐ shēntǐ.",
+        "example_english": "She is taking traditional Chinese medicine to regulate her body."
+      },
+      {
+        "character": "药",
+        "pinyin": "yào",
+        "english": "medicine",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "勺"
+        ],
+        "compounds": [
+          {
+            "chinese": "吃药",
+            "pinyin": "chī yào",
+            "english": "to take medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "吃点儿药",
+            "pinyin": "chī diǎnr yào",
+            "english": "to take some medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买药",
+            "pinyin": "mǎi yào",
+            "english": "to buy medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "中药",
+            "pinyin": "zhōngyào",
+            "english": "traditional Chinese medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "西药",
+            "pinyin": "xīyào",
+            "english": "Western medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "药店",
+            "pinyin": "yàodiàn",
+            "english": "pharmacy; drugstore",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要吃药。",
+        "example_pinyin": "Wǒ xūyào chī yào.",
+        "example_english": "I need to take medicine."
+      },
+      {
+        "character": "为",
+        "pinyin": "wèi",
+        "english": "for; because of; to do; to act as",
+        "word_type": "Prep",
+        "table_ref": "2-08-02",
+        "radical": "丶",
+        "radical_pinyin": "zhǔ",
+        "components": [
+          "丶",
+          "爪",
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "为什么",
+            "pinyin": "wèi shénme",
+            "english": "why",
+            "source": "generated"
+          },
+          {
+            "chinese": "为了",
+            "pinyin": "wèi le",
+            "english": "for; in order to",
+            "source": "generated"
+          },
+          {
+            "chinese": "认为",
+            "pinyin": "rènwéi",
+            "english": "to think; to believe",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我为你感到骄傲。",
+        "example_pinyin": "Wǒ wèi nǐ gǎndào jiāo'ào.",
+        "example_english": "I am proud of you."
+      },
+      {
+        "character": "舒",
+        "pinyin": "shū",
+        "english": "comfortable;舒畅;舒展",
+        "word_type": "A",
+        "table_ref": "2-08-02",
+        "radical": "舌",
+        "radical_pinyin": "shé",
+        "components": [
+          "舌",
+          "予"
+        ],
+        "compounds": [
+          {
+            "chinese": "舒服",
+            "pinyin": "shūfu",
+            "english": "comfortable",
+            "source": "generated"
+          },
+          {
+            "chinese": "舒展",
+            "pinyin": "shūzhǎn",
+            "english": "to unfold; to stretch",
+            "source": "generated"
+          },
+          {
+            "chinese": "舒畅",
+            "pinyin": "shūchàng",
+            "english": "happy; entirely free from worry",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气很好，感觉很舒服。",
+        "example_pinyin": "Jīntiān tiānqì hěn hǎo, gǎnjué hěn shūfu.",
+        "example_english": "The weather is very good today, I feel very comfortable."
+      },
+      {
+        "character": "关",
+        "pinyin": "guān",
+        "english": "to close; to shut; to turn off; mountain pass; barrier",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "示",
+          "小"
+        ],
+        "compounds": [
+          {
+            "chinese": "关系",
+            "pinyin": "guānxì",
+            "english": "relationship; connection",
+            "source": "generated"
+          },
+          {
+            "chinese": "关闭",
+            "pinyin": "guānbì",
+            "english": "to close; to shut down",
+            "source": "generated"
+          },
+          {
+            "chinese": "海关",
+            "pinyin": "hǎiguān",
+            "english": "customs (i.e. border crossing inspection)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请关上门。",
+        "example_pinyin": "Qǐng guānshàng mén.",
+        "example_english": "Please close the door."
+      },
+      {
+        "character": "系",
+        "pinyin": "xì",
+        "english": "system; department; tie; relate to",
+        "word_type": "N/V",
+        "table_ref": "2-08-02",
+        "radical": "糸",
+        "radical_pinyin": "sī",
+        "components": [
+          "糸",
+          "系"
+        ],
+        "compounds": [
+          {
+            "chinese": "系统",
+            "pinyin": "xìtǒng",
+            "english": "system",
+            "source": "generated"
+          },
+          {
+            "chinese": "关系",
+            "pinyin": "guānxì",
+            "english": "relationship; connection",
+            "source": "generated"
+          },
+          {
+            "chinese": "系鞋带",
+            "pinyin": "jì xiédài",
+            "english": "to tie shoelaces",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个大学有许多不同的系。",
+        "example_pinyin": "Zhège dàxué yǒu xǔduō bùtóng de xì.",
+        "example_english": "This university has many different departments."
+      },
+      {
+        "character": "嗓",
+        "pinyin": "sǎng",
+        "english": "throat; voice",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "丧"
+        ],
+        "compounds": [
+          {
+            "chinese": "嗓子",
+            "pinyin": "sǎngzi",
+            "english": "throat; voice",
+            "source": "generated"
+          },
+          {
+            "chinese": "嗓音",
+            "pinyin": "sǎngyīn",
+            "english": "voice",
+            "source": "generated"
+          },
+          {
+            "chinese": "哑嗓",
+            "pinyin": "yǎsǎng",
+            "english": "hoarse voice",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的嗓子有点不舒服。",
+        "example_pinyin": "Wǒ de sǎngzi yǒudiǎn bù shūfu.",
+        "example_english": "My throat feels a bit uncomfortable."
+      },
+      {
+        "character": "应",
+        "pinyin": "yīng",
+        "english": "should; ought to; must; to answer; to respond",
+        "word_type": "V",
+        "table_ref": "2-08-02",
+        "radical": "广",
+        "radical_pinyin": "guǎng",
+        "components": [
+          "广",
+          "厂",
+          "心",
+          "木"
+        ],
+        "compounds": [
+          {
+            "chinese": "应该",
+            "pinyin": "yīnggāi",
+            "english": "should; ought to",
+            "source": "generated"
+          },
+          {
+            "chinese": "应用",
+            "pinyin": "yìngyòng",
+            "english": "to apply; application",
+            "source": "generated"
+          },
+          {
+            "chinese": "回应",
+            "pinyin": "huíyīng",
+            "english": "to respond; to answer",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你应该多休息。",
+        "example_pinyin": "Nǐ yīnggāi duō xiūxi.",
+        "example_english": "You should rest more."
+      },
+      {
+        "character": "院",
+        "pinyin": "yuàn",
+        "english": "courtyard; institution; hospital",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "阜",
+        "radical_pinyin": "fù",
+        "components": [
+          "阜",
+          "完"
+        ],
+        "compounds": [
+          {
+            "chinese": "医院",
+            "pinyin": "yīyuàn",
+            "english": "hospital",
+            "source": "generated"
+          },
+          {
+            "chinese": "法院",
+            "pinyin": "fǎyuàn",
+            "english": "court of law",
+            "source": "generated"
+          },
+          {
+            "chinese": "学院",
+            "pinyin": "xuéyuàn",
+            "english": "college; academy",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家医院很大。",
+        "example_pinyin": "Zhè jiā yīyuàn hěn dà.",
+        "example_english": "This hospital is very big."
+      },
+      {
+        "character": "身",
+        "pinyin": "shēn",
+        "english": "body; torso; life; status; person; personally; oneself",
+        "word_type": "N",
+        "table_ref": "2-08-02",
+        "radical": "身",
+        "radical_pinyin": "shēn",
+        "components": [
+          "身"
+        ],
+        "compounds": [
+          {
+            "chinese": "身体",
+            "pinyin": "shēntǐ",
+            "english": "body; health",
+            "source": "generated"
+          },
+          {
+            "chinese": "身上",
+            "pinyin": "shēnshang",
+            "english": "on one's body; on one's person",
+            "source": "generated"
+          },
+          {
+            "chinese": "转身",
+            "pinyin": "zhuǎnshēn",
+            "english": "to turn around",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他身体很好。",
+        "example_pinyin": "Tā shēntǐ hěn hǎo.",
+        "example_english": "He is in good health."
+      },
+      {
+        "character": "温",
+        "pinyin": "wēn",
+        "english": "warm; mild; gentle",
+        "word_type": "A",
+        "table_ref": "2-08-04",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "囚",
+          "皿"
+        ],
+        "compounds": [
+          {
+            "chinese": "温度",
+            "pinyin": "wēndù",
+            "english": "temperature",
+            "source": "generated"
+          },
+          {
+            "chinese": "温暖",
+            "pinyin": "wēnnuǎn",
+            "english": "warm; warmth",
+            "source": "generated"
+          },
+          {
+            "chinese": "温和",
+            "pinyin": "wēnhé",
+            "english": "gentle; mild",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天的天气很温暖。",
+        "example_pinyin": "Jīntiān de tiānqì hěn wēnnuǎn.",
+        "example_english": "Today's weather is very warm."
+      },
+      {
+        "character": "夫",
+        "pinyin": "fū",
+        "english": "husband; man; manual worker",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "夫",
+        "radical_pinyin": "fū",
+        "components": [
+          "大",
+          "一"
+        ],
+        "compounds": [
+          {
+            "chinese": "丈夫",
+            "pinyin": "zhàngfu",
+            "english": "husband",
+            "source": "generated"
+          },
+          {
+            "chinese": "农夫",
+            "pinyin": "nóngfū",
+            "english": "farmer",
+            "source": "generated"
+          },
+          {
+            "chinese": "渔夫",
+            "pinyin": "yúfū",
+            "english": "fisherman",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她和她的丈夫一起去旅行。",
+        "example_pinyin": "Tā hé tā de zhàngfu yīqǐ qù lǚxíng.",
+        "example_english": "She travels with her husband."
+      },
+      {
+        "character": "发",
+        "pinyin": "fā",
+        "english": "to send out; to issue; to emit; to develop; to get rich; hair",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "癶",
+        "radical_pinyin": "bō",
+        "components": [
+          "癶",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "发展",
+            "pinyin": "fāzhǎn",
+            "english": "to develop; development",
+            "source": "generated"
+          },
+          {
+            "chinese": "发现",
+            "pinyin": "fāxiàn",
+            "english": "to discover; to find",
+            "source": "generated"
+          },
+          {
+            "chinese": "发生",
+            "pinyin": "fāshēng",
+            "english": "to happen; to occur; to take place",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他发了一封电子邮件。",
+        "example_pinyin": "Tā fā le yī fēng diànzǐ yóujiàn.",
+        "example_english": "He sent an email."
+      },
+      {
+        "character": "炎",
+        "pinyin": "yán",
+        "english": "flame; inflammation",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火",
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "发炎",
+            "pinyin": "fāyán",
+            "english": "to become inflamed",
+            "source": "generated"
+          },
+          {
+            "chinese": "肺炎",
+            "pinyin": "fèiyán",
+            "english": "pneumonia",
+            "source": "generated"
+          },
+          {
+            "chinese": "炎症",
+            "pinyin": "yánzhèng",
+            "english": "inflammation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的喉咙有点发炎。",
+        "example_pinyin": "Tā de hóulóng yǒudiǎn fāyán.",
+        "example_english": "His throat is a bit inflamed."
+      },
+      {
+        "character": "验",
+        "pinyin": "yàn",
+        "english": "to examine; to test; to verify",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马",
+          "佥"
+        ],
+        "compounds": [
+          {
+            "chinese": "经验",
+            "pinyin": "jīngyàn",
+            "english": "experience",
+            "source": "generated"
+          },
+          {
+            "chinese": "检验",
+            "pinyin": "jiǎnyàn",
+            "english": "to inspect; to examine; to test",
+            "source": "generated"
+          },
+          {
+            "chinese": "验证",
+            "pinyin": "yànzhèng",
+            "english": "to verify; to authenticate",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们需要对产品进行严格的检验。",
+        "example_pinyin": "Wǒmen xūyào duì chǎnpǐn jìnxíng yángé de jiǎnyàn.",
+        "example_english": "We need to conduct a strict inspection of the product."
+      },
+      {
+        "character": "用",
+        "pinyin": "yòng",
+        "english": "to use; to employ; to apply",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "用",
+        "radical_pinyin": "yòng",
+        "components": [
+          "用"
+        ],
+        "compounds": [
+          {
+            "chinese": "使用",
+            "pinyin": "shǐyòng",
+            "english": "to use; to employ; to apply",
+            "source": "generated"
+          },
+          {
+            "chinese": "作用",
+            "pinyin": "zuòyòng",
+            "english": "action; function; effect",
+            "source": "generated"
+          },
+          {
+            "chinese": "用心",
+            "pinyin": "yòngxīn",
+            "english": "to be diligent; to be attentive; to be careful",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个词怎么用？",
+        "example_pinyin": "Zhège cí zěnme yòng?",
+        "example_english": "How is this word used?"
+      },
+      {
+        "character": "休",
+        "pinyin": "xiū",
+        "english": "to rest; to stop",
+        "word_type": "V",
+        "table_ref": "2-08-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "木"
+        ],
+        "compounds": [
+          {
+            "chinese": "休息",
+            "pinyin": "xiūxi",
+            "english": "to rest",
+            "source": "generated"
+          },
+          {
+            "chinese": "休假",
+            "pinyin": "xiūjià",
+            "english": "to take a holiday/vacation",
+            "source": "generated"
+          },
+          {
+            "chinese": "退休",
+            "pinyin": "tuìxiū",
+            "english": "to retire",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们今天下午休息。",
+        "example_pinyin": "Wǒmen jīntiān xiàwǔ xiūxi.",
+        "example_english": "We are resting this afternoon."
+      },
+      {
+        "character": "息",
+        "pinyin": "xī",
+        "english": "breath; cease; rest; interest",
+        "word_type": "N",
+        "table_ref": "2-08-04",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "自",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "休息",
+            "pinyin": "xiūxī",
+            "english": "to rest",
+            "source": "generated"
+          },
+          {
+            "chinese": "消息",
+            "pinyin": "xiāoxī",
+            "english": "news; information",
+            "source": "generated"
+          },
+          {
+            "chinese": "利息",
+            "pinyin": "lìxī",
+            "english": "interest (on a loan)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你休息一下。",
+        "example_pinyin": "Qǐng nǐ xiūxī yīxià.",
+        "example_english": "Please take a rest."
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "眼睛",
+        "pinyin": "yǎnjing",
+        "english": "eye",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "艮"
+        ],
+        "compounds": [
+          {
+            "chinese": "大眼睛",
+            "pinyin": "dà yǎnjing",
+            "english": "big eyes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "眼睛小",
+            "pinyin": "yǎnjing xiǎo",
+            "english": "small eyes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "眼镜",
+            "pinyin": "yǎnjìng",
+            "english": "glasses",
+            "source": "generated"
+          },
+          {
+            "chinese": "眼泪",
+            "pinyin": "yǎnlèi",
+            "english": "tears",
+            "source": "generated"
+          },
+          {
+            "chinese": "眼神",
+            "pinyin": "yǎnshén",
+            "english": "expression in one's eyes",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她的眼睛很漂亮。",
+        "example_pinyin": "Tā de yǎnjing hěn piàoliang.",
+        "example_english": "Her eyes are very beautiful."
+      },
+      {
+        "character": "牙",
+        "pinyin": "yá",
+        "english": "tooth",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "牙",
+        "radical_pinyin": "yá",
+        "components": [
+          "牙"
+        ],
+        "compounds": [
+          {
+            "chinese": "牙疼",
+            "pinyin": "yáténg",
+            "english": "toothache",
+            "source": "textbook"
+          },
+          {
+            "chinese": "牙刷",
+            "pinyin": "yáshuā",
+            "english": "toothbrush",
+            "source": "generated"
+          },
+          {
+            "chinese": "牙膏",
+            "pinyin": "yágāo",
+            "english": "toothpaste",
+            "source": "generated"
+          },
+          {
+            "chinese": "牙医",
+            "pinyin": "yáyī",
+            "english": "dentist",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的牙很白。",
+        "example_pinyin": "Wǒ de yá hěn bái.",
+        "example_english": "My teeth are very white."
+      },
+      {
+        "character": "胃",
+        "pinyin": "wèi",
+        "english": "stomach",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "田"
+        ],
+        "compounds": [
+          {
+            "chinese": "胃不舒服",
+            "pinyin": "wèi bù shūfu",
+            "english": "stomach discomfort",
+            "source": "textbook"
+          },
+          {
+            "chinese": "胃口",
+            "pinyin": "wèikǒu",
+            "english": "appetite",
+            "source": "generated"
+          },
+          {
+            "chinese": "胃病",
+            "pinyin": "wèibìng",
+            "english": "stomach illness",
+            "source": "generated"
+          },
+          {
+            "chinese": "胃酸",
+            "pinyin": "wèisuān",
+            "english": "stomach acid",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最近胃有点不舒服。",
+        "example_pinyin": "Wǒ zuìjìn wèi yǒudiǎn bù shūfu.",
+        "example_english": "My stomach has been a bit uncomfortable recently."
+      },
+      {
+        "character": "脖子",
+        "pinyin": "bózi",
+        "english": "neck",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "⺼",
+        "radical_pinyin": "ròu",
+        "components": [
+          "⺼",
+          "孛"
+        ],
+        "compounds": [
+          {
+            "chinese": "脖颈",
+            "pinyin": "bó jǐng",
+            "english": "neck",
+            "source": "generated"
+          },
+          {
+            "chinese": "长脖子",
+            "pinyin": "cháng bózi",
+            "english": "long neck",
+            "source": "generated"
+          },
+          {
+            "chinese": "伸脖子",
+            "pinyin": "shēn bózi",
+            "english": "to crane one's neck",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她的脖子很长。",
+        "example_pinyin": "Tā de bózi hěn cháng.",
+        "example_english": "Her neck is very long."
+      },
+      {
+        "character": "胳膊",
+        "pinyin": "gēbo",
+        "english": "arm",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "各"
+        ],
+        "compounds": [
+          {
+            "chinese": "胳膊肘",
+            "pinyin": "gēbozhǒu",
+            "english": "elbow",
+            "source": "generated"
+          },
+          {
+            "chinese": "胳膊腿",
+            "pinyin": "gēbotǔi",
+            "english": "limbs (arms and legs)",
+            "source": "generated"
+          },
+          {
+            "chinese": "挽胳膊",
+            "pinyin": "wǎn gēbo",
+            "english": "to link arms",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的胳膊很强壮。",
+        "example_pinyin": "Tā de gēbo hěn qiángzhuàng.",
+        "example_english": "His arm is very strong."
+      },
+      {
+        "character": "腰",
+        "pinyin": "yāo",
+        "english": "lower back; waist",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "⺼",
+        "radical_pinyin": "ròu",
+        "components": [
+          "⺼",
+          "要"
+        ],
+        "compounds": [
+          {
+            "chinese": "腰带",
+            "pinyin": "yāodài",
+            "english": "belt",
+            "source": "generated"
+          },
+          {
+            "chinese": "腰围",
+            "pinyin": "yāowéi",
+            "english": "waistline; waist measurement",
+            "source": "generated"
+          },
+          {
+            "chinese": "弯腰",
+            "pinyin": "wān yāo",
+            "english": "to bend one's back; to stoop",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他最近腰有点疼。",
+        "example_pinyin": "Tā zuìjìn yāo yǒudiǎn téng.",
+        "example_english": "His lower back has been a bit sore recently."
+      },
+      {
+        "character": "腿",
+        "pinyin": "tuǐ",
+        "english": "leg",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "退"
+        ],
+        "compounds": [
+          {
+            "chinese": "大腿",
+            "pinyin": "dàtuǐ",
+            "english": "thigh",
+            "source": "generated"
+          },
+          {
+            "chinese": "小腿",
+            "pinyin": "xiǎotuǐ",
+            "english": "calf",
+            "source": "generated"
+          },
+          {
+            "chinese": "腿脚",
+            "pinyin": "tuǐjiǎo",
+            "english": "legs and feet; ability to walk",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的腿很长。",
+        "example_pinyin": "Tā de tuǐ hěn cháng.",
+        "example_english": "His legs are very long."
+      },
+      {
+        "character": "发烧",
+        "pinyin": "fāshāo",
+        "english": "to have a fever",
+        "word_type": "VO",
+        "table_ref": "2-08-06",
+        "radical": "癶",
+        "radical_pinyin": "bō",
+        "components": [
+          "癶",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "有点儿发烧",
+            "pinyin": "yǒudiǎnr fāshāo",
+            "english": "to have a slight fever",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不发烧",
+            "pinyin": "bù fāshāo",
+            "english": "not to have a fever",
+            "source": "textbook"
+          },
+          {
+            "chinese": "发烧友",
+            "pinyin": "fāshāoyǒu",
+            "english": "enthusiast; fan",
+            "source": "generated"
+          },
+          {
+            "chinese": "高烧",
+            "pinyin": "gāoshāo",
+            "english": "high fever",
+            "source": "generated"
+          },
+          {
+            "chinese": "退烧",
+            "pinyin": "tuìshāo",
+            "english": "to bring down a fever",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他昨天晚上开始发烧了。",
+        "example_pinyin": "Tā zuótiān wǎnshang kāishǐ fāshāo le.",
+        "example_english": "He started to have a fever last night."
+      },
+      {
+        "character": "拉肚子",
+        "pinyin": "lā dùzi",
+        "english": "to have loose bowels; to have diarrhea",
+        "word_type": "VO",
+        "table_ref": "2-08-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "立",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "不拉肚子",
+            "pinyin": "bù lā dùzi",
+            "english": "not have diarrhea",
+            "source": "textbook"
+          },
+          {
+            "chinese": "拉肚子药",
+            "pinyin": "lā dùzi yào",
+            "english": "diarrhea medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "拉肚子水",
+            "pinyin": "lā dùzi shuǐ",
+            "english": "watery diarrhea",
+            "source": "generated"
+          },
+          {
+            "chinese": "拉肚子了",
+            "pinyin": "lā dùzi le",
+            "english": "had diarrhea",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他昨天吃了不干净的东西，今天开始拉肚子了。",
+        "example_pinyin": "Tā zuótiān chīle bù gānjìng de dōngxi, jīntiān kāishǐ lā dùzi le.",
+        "example_english": "He ate something unclean yesterday and started having diarrhea today."
+      },
+      {
+        "character": "感冒",
+        "pinyin": "gǎnmào",
+        "english": "to have a cold",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "厂",
+          "咸",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "有点儿感冒",
+            "pinyin": "yǒudiǎnr gǎnmào",
+            "english": "to have a bit of a cold",
+            "source": "textbook"
+          },
+          {
+            "chinese": "伤风感冒",
+            "pinyin": "shāngfēng gǎnmào",
+            "english": "to catch a cold",
+            "source": "generated"
+          },
+          {
+            "chinese": "流行性感冒",
+            "pinyin": "liúxíngxìng gǎnmào",
+            "english": "influenza, flu",
+            "source": "generated"
+          },
+          {
+            "chinese": "感冒药",
+            "pinyin": "gǎnmào yào",
+            "english": "cold medicine",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我感冒了，头很疼。",
+        "example_pinyin": "Wǒ gǎnmào le, tóu hěn téng.",
+        "example_english": "I have a cold, and my head hurts a lot."
+      },
+      {
+        "character": "急诊",
+        "pinyin": "jízhěn",
+        "english": "emergency",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "疒",
+        "radical_pinyin": "bìng",
+        "components": [
+          "疒",
+          "及"
+        ],
+        "compounds": [
+          {
+            "chinese": "挂急诊",
+            "pinyin": "guà jízhěn",
+            "english": "to register for emergency treatment",
+            "source": "textbook"
+          },
+          {
+            "chinese": "急诊室",
+            "pinyin": "jízhěnshì",
+            "english": "emergency room",
+            "source": "generated"
+          },
+          {
+            "chinese": "急诊科",
+            "pinyin": "jízhěnkē",
+            "english": "emergency department",
+            "source": "generated"
+          },
+          {
+            "chinese": "看急诊",
+            "pinyin": "kàn jízhěn",
+            "english": "to see an emergency doctor",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他因为突发疾病去了急诊。",
+        "example_pinyin": "Tā yīnwèi túfā jíyìng qù le jízhěn.",
+        "example_english": "He went to the emergency room because of a sudden illness."
+      },
+      {
+        "character": "外科",
+        "pinyin": "wàikē",
+        "english": "surgical department",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "夕",
+        "radical_pinyin": "xī",
+        "components": [
+          "夕",
+          "卜"
+        ],
+        "compounds": [
+          {
+            "chinese": "外科医生",
+            "pinyin": "wàikē yīshēng",
+            "english": "surgeon",
+            "source": "generated"
+          },
+          {
+            "chinese": "外科手术",
+            "pinyin": "wàikē shǒushù",
+            "english": "surgical operation",
+            "source": "generated"
+          },
+          {
+            "chinese": "内外科",
+            "pinyin": "nèi wàikē",
+            "english": "internal and surgical departments",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他被送进了外科病房。",
+        "example_pinyin": "Tā bèi sòng jìnle wàikē bìngfáng.",
+        "example_english": "He was sent to the surgical ward."
+      },
+      {
+        "character": "西药",
+        "pinyin": "xīyào",
+        "english": "Western medicine",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "西",
+        "radical_pinyin": "xī",
+        "components": [
+          "西"
+        ],
+        "compounds": [
+          {
+            "chinese": "吃西药",
+            "pinyin": "chī xīyào",
+            "english": "to take Western medicine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "中西医",
+            "pinyin": "zhōngxīyī",
+            "english": "traditional Chinese and Western medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "西药房",
+            "pinyin": "xīyàofáng",
+            "english": "Western pharmacy",
+            "source": "generated"
+          },
+          {
+            "chinese": "西药片",
+            "pinyin": "xīyàopiàn",
+            "english": "Western medicine tablet",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生建议我吃西药。",
+        "example_pinyin": "Yīshēng jiànyì wǒ chī xīyào.",
+        "example_english": "The doctor advised me to take Western medicine."
+      },
+      {
+        "character": "透视",
+        "pinyin": "tòushì",
+        "english": "to have an X-ray exam",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "秀"
+        ],
+        "compounds": [
+          {
+            "chinese": "要不要透视",
+            "pinyin": "yào bù yào tòushì",
+            "english": "Do you need an X-ray exam?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "透视画",
+            "pinyin": "tòushìhuà",
+            "english": "perspective drawing",
+            "source": "generated"
+          },
+          {
+            "chinese": "透视镜",
+            "pinyin": "tòushìjìng",
+            "english": "fluoroscope",
+            "source": "generated"
+          },
+          {
+            "chinese": "透视表",
+            "pinyin": "tòushìbiǎo",
+            "english": "pivot table (computing)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生建议他做一次胸部透视。",
+        "example_pinyin": "Yīshēng jiànyì tā zuò yī cì xiōngbù tòushì.",
+        "example_english": "The doctor advised him to have a chest X-ray."
+      },
+      {
+        "character": "针灸",
+        "pinyin": "zhēnjiǔ",
+        "english": "acupuncture and moxibustion",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "十",
+          "占"
+        ],
+        "compounds": [
+          {
+            "chinese": "要针灸",
+            "pinyin": "yào zhēnjiǔ",
+            "english": "to need acupuncture",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不用针灸",
+            "pinyin": "bùyòng zhēnjiǔ",
+            "english": "no need for acupuncture",
+            "source": "textbook"
+          },
+          {
+            "chinese": "针灸科",
+            "pinyin": "zhēnjiǔkē",
+            "english": "acupuncture department",
+            "source": "generated"
+          },
+          {
+            "chinese": "针灸疗法",
+            "pinyin": "zhēnjiǔ liáofǎ",
+            "english": "acupuncture therapy",
+            "source": "generated"
+          },
+          {
+            "chinese": "针灸师",
+            "pinyin": "zhēnjiǔshī",
+            "english": "acupuncturist",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她通过针灸治疗缓解了疼痛。",
+        "example_pinyin": "Tā tōngguò zhēnjiǔ zhìliáo huǎnjiě le téngtòng.",
+        "example_english": "She relieved her pain through acupuncture treatment."
+      },
+      {
+        "character": "大便",
+        "pinyin": "dàbiàn",
+        "english": "feces, stool",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "大",
+        "radical_pinyin": "dà",
+        "components": [
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "化验大便",
+            "pinyin": "huàyàn dàbiàn",
+            "english": "stool test",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小便",
+            "pinyin": "xiǎobiàn",
+            "english": "urine",
+            "source": "generated"
+          },
+          {
+            "chinese": "便秘",
+            "pinyin": "biànmì",
+            "english": "constipation",
+            "source": "generated"
+          },
+          {
+            "chinese": "便池",
+            "pinyin": "biànchí",
+            "english": "urinal, toilet bowl",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生要求他做大便检查。",
+        "example_pinyin": "Yīshēng yāoqiú tā zuò dàbiàn jiǎnchá.",
+        "example_english": "The doctor asked him to do a stool examination."
+      },
+      {
+        "character": "小便",
+        "pinyin": "xiǎobiàn",
+        "english": "urine",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "水",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "小",
+          "水",
+          "亦"
+        ],
+        "compounds": [
+          {
+            "chinese": "化验小便",
+            "pinyin": "huàyàn xiǎobiàn",
+            "english": "to test urine; urinalysis",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小便池",
+            "pinyin": "xiǎobiànchí",
+            "english": "urinal",
+            "source": "generated"
+          },
+          {
+            "chinese": "小便斗",
+            "pinyin": "xiǎobiàndòu",
+            "english": "urinal",
+            "source": "generated"
+          },
+          {
+            "chinese": "小便器",
+            "pinyin": "xiǎobiànqì",
+            "english": "urinal",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他需要去小便。",
+        "example_pinyin": "Tā xūyào qù xiǎobiàn.",
+        "example_english": "He needs to go urinate."
+      },
+      {
+        "character": "眼",
+        "pinyin": "yǎn",
+        "english": "eye",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "艮"
+        ],
+        "compounds": [
+          {
+            "chinese": "眼睛",
+            "pinyin": "yǎnjing",
+            "english": "eye",
+            "source": "generated"
+          },
+          {
+            "chinese": "眼泪",
+            "pinyin": "yǎnlèi",
+            "english": "tears",
+            "source": "generated"
+          },
+          {
+            "chinese": "眼光",
+            "pinyin": "yǎnguāng",
+            "english": "vision; insight",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她的眼睛很漂亮。",
+        "example_pinyin": "Tā de yǎnjing hěn piàoliang.",
+        "example_english": "Her eyes are very beautiful."
+      },
+      {
+        "character": "睛",
+        "pinyin": "jīng",
+        "english": "eye; eyeball; pupil",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "青"
+        ],
+        "compounds": [
+          {
+            "chinese": "眼睛",
+            "pinyin": "yǎnjīng",
+            "english": "eye",
+            "source": "generated"
+          },
+          {
+            "chinese": "眼珠睛",
+            "pinyin": "yǎnzhūjīng",
+            "english": "eyeball",
+            "source": "generated"
+          },
+          {
+            "chinese": "画龙点睛",
+            "pinyin": "huàlóngdiǎnjīng",
+            "english": "to add the finishing touch (idiom)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她的眼睛很漂亮。",
+        "example_pinyin": "Tā de yǎnjīng hěn piàoliang.",
+        "example_english": "Her eyes are very beautiful."
+      },
+      {
+        "character": "脖",
+        "pinyin": "bó",
+        "english": "neck",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "孛"
+        ],
+        "compounds": [
+          {
+            "chinese": "脖子",
+            "pinyin": "bózi",
+            "english": "neck",
+            "source": "generated"
+          },
+          {
+            "chinese": "脖颈",
+            "pinyin": "bógěng",
+            "english": "nape of the neck",
+            "source": "generated"
+          },
+          {
+            "chinese": "长脖子",
+            "pinyin": "cháng bózi",
+            "english": "long neck",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她的脖子很长。",
+        "example_pinyin": "Tā de bózi hěn cháng.",
+        "example_english": "Her neck is very long."
+      },
+      {
+        "character": "胳",
+        "pinyin": "gē",
+        "english": "armpit; upper arm",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "各"
+        ],
+        "compounds": [
+          {
+            "chinese": "胳膊",
+            "pinyin": "gēbo",
+            "english": "arm",
+            "source": "generated"
+          },
+          {
+            "chinese": "胳肢窝",
+            "pinyin": "gēzhiwō",
+            "english": "armpit",
+            "source": "generated"
+          },
+          {
+            "chinese": "胳肢",
+            "pinyin": "gēzhi",
+            "english": "to tickle",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的胳膊很强壮。",
+        "example_pinyin": "Tā de gēbo hěn qiángzhuàng.",
+        "example_english": "His arms are very strong."
+      },
+      {
+        "character": "膊",
+        "pinyin": "bó",
+        "english": "shoulder; upper arm",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "尃"
+        ],
+        "compounds": [
+          {
+            "chinese": "胳膊",
+            "pinyin": "gēbo",
+            "english": "arm",
+            "source": "generated"
+          },
+          {
+            "chinese": "赤膊",
+            "pinyin": "chìbó",
+            "english": "bare-chested",
+            "source": "generated"
+          },
+          {
+            "chinese": "膊头",
+            "pinyin": "bótou",
+            "english": "shoulder",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的胳膊很强壮。",
+        "example_pinyin": "Tā de gēbo hěn qiángzhuàng.",
+        "example_english": "His arms are very strong."
+      },
+      {
+        "character": "烧",
+        "pinyin": "shāo",
+        "english": "to burn; to cook; to roast; to run a fever",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火",
+          "尧"
+        ],
+        "compounds": [
+          {
+            "chinese": "烧饭",
+            "pinyin": "shāofàn",
+            "english": "to cook a meal",
+            "source": "generated"
+          },
+          {
+            "chinese": "发烧",
+            "pinyin": "fāshāo",
+            "english": "to have a fever",
+            "source": "generated"
+          },
+          {
+            "chinese": "烧烤",
+            "pinyin": "shāokǎo",
+            "english": "barbecue; to barbecue",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我今天有点发烧。",
+        "example_pinyin": "Wǒ jīntiān yǒudiǎn fāshāo.",
+        "example_english": "I have a bit of a fever today."
+      },
+      {
+        "character": "拉",
+        "pinyin": "lā",
+        "english": "to pull; to draw; to drag; to play (string instruments); to chat",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "立",
+          "乚"
+        ],
+        "compounds": [
+          {
+            "chinese": "拉手",
+            "pinyin": "lāshǒu",
+            "english": "to hold hands",
+            "source": "generated"
+          },
+          {
+            "chinese": "拉链",
+            "pinyin": "lāliàn",
+            "english": "zipper",
+            "source": "generated"
+          },
+          {
+            "chinese": "拉肚子",
+            "pinyin": "lādùzi",
+            "english": "to have diarrhea",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请帮我拉一下门。",
+        "example_pinyin": "Qǐng bāng wǒ lā yīxià mén.",
+        "example_english": "Please help me pull the door."
+      },
+      {
+        "character": "肚",
+        "pinyin": "dù",
+        "english": "belly; abdomen",
+        "word_type": "N",
+        "table_ref": "2-08-06",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "土"
+        ],
+        "compounds": [
+          {
+            "chinese": "肚子",
+            "pinyin": "dùzi",
+            "english": "belly; abdomen",
+            "source": "generated"
+          },
+          {
+            "chinese": "肚皮",
+            "pinyin": "dùpí",
+            "english": "belly; abdomen",
+            "source": "generated"
+          },
+          {
+            "chinese": "大肚",
+            "pinyin": "dàdù",
+            "english": "big belly; pregnant",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的肚子很饿。",
+        "example_pinyin": "Wǒ de dùzi hěn è.",
+        "example_english": "My stomach is very hungry."
+      },
+      {
+        "character": "感",
+        "pinyin": "gǎn",
+        "english": "feel; sense; emotion",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "咸",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "感觉",
+            "pinyin": "gǎnjué",
+            "english": "feeling; sense; to feel",
+            "source": "generated"
+          },
+          {
+            "chinese": "感谢",
+            "pinyin": "gǎnxiè",
+            "english": "to thank; gratitude",
+            "source": "generated"
+          },
+          {
+            "chinese": "感情",
+            "pinyin": "gǎnqíng",
+            "english": "emotion; feeling; affection",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我感到非常高兴。",
+        "example_pinyin": "Wǒ gǎndào fēicháng gāoxìng.",
+        "example_english": "I feel very happy."
+      },
+      {
+        "character": "冒",
+        "pinyin": "mào",
+        "english": "to emit; to send out; to brave; to risk",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "曰",
+        "radical_pinyin": "yuē",
+        "components": [
+          "曰",
+          "冃"
+        ],
+        "compounds": [
+          {
+            "chinese": "冒犯",
+            "pinyin": "mào fàn",
+            "english": "to offend; to affront",
+            "source": "generated"
+          },
+          {
+            "chinese": "冒烟",
+            "pinyin": "mào yān",
+            "english": "to smoke; to give off smoke",
+            "source": "generated"
+          },
+          {
+            "chinese": "冒充",
+            "pinyin": "mào chōng",
+            "english": "to impersonate; to feign",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他冒着大雨去上班。",
+        "example_pinyin": "Tā màozhe dàyǔ qù shàngbān.",
+        "example_english": "He braved the heavy rain to go to work."
+      },
+      {
+        "character": "诊",
+        "pinyin": "zhěn",
+        "english": "to diagnose; to examine (a patient)",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "疒",
+        "radical_pinyin": "nè",
+        "components": [
+          "疒",
+          "㐱"
+        ],
+        "compounds": [
+          {
+            "chinese": "诊断",
+            "pinyin": "zhěnduàn",
+            "english": "to diagnose; diagnosis",
+            "source": "generated"
+          },
+          {
+            "chinese": "门诊",
+            "pinyin": "ménzhěn",
+            "english": "outpatient service",
+            "source": "generated"
+          },
+          {
+            "chinese": "会诊",
+            "pinyin": "huìzhěn",
+            "english": "consultation (of doctors)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生正在给病人诊病。",
+        "example_pinyin": "Yīshēng zhèngzài gěi bìngrén zhěnbìng.",
+        "example_english": "The doctor is diagnosing the patient."
+      },
+      {
+        "character": "透",
+        "pinyin": "tòu",
+        "english": "penetrate; thorough; transparent",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "秀"
+        ],
+        "compounds": [
+          {
+            "chinese": "透明",
+            "pinyin": "tòumíng",
+            "english": "transparent",
+            "source": "generated"
+          },
+          {
+            "chinese": "透露",
+            "pinyin": "tòulù",
+            "english": "disclose; reveal",
+            "source": "generated"
+          },
+          {
+            "chinese": "透彻",
+            "pinyin": "tòuchè",
+            "english": "thorough; penetrating",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "阳光透过窗户照进来。",
+        "example_pinyin": "Yángguāng tòuguò chuānghù zhào jìnlái.",
+        "example_english": "The sunlight shines in through the window."
+      },
+      {
+        "character": "灸",
+        "pinyin": "jiǔ",
+        "english": "moxibustion; to cauterize",
+        "word_type": "V",
+        "table_ref": "2-08-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "久",
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "艾灸",
+            "pinyin": "ài jiǔ",
+            "english": "moxibustion",
+            "source": "generated"
+          },
+          {
+            "chinese": "灸法",
+            "pinyin": "jiǔ fǎ",
+            "english": "moxibustion therapy",
+            "source": "generated"
+          },
+          {
+            "chinese": "针灸",
+            "pinyin": "zhēn jiǔ",
+            "english": "acupuncture and moxibustion",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "医生建议他尝试针灸治疗。",
+        "example_pinyin": "Yīshēng jiànyì tā chángshì zhēnjiǔ zhìliáo.",
+        "example_english": "The doctor suggested he try acupuncture and moxibustion treatment."
+      }
+    ]
+  }
+}

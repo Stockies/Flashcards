@@ -2,6 +2,7 @@
 
 import argparse
 from pathlib import Path
+from typing import Optional
 
 import genanki
 
@@ -68,6 +69,7 @@ def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> 
             entry.char_type,                                # CharacterType
             str(lesson_num),                                # Lesson
             entry.word_type,                                # WordType
+            entry.table_ref,                                # TableRef
             format_radical(entry.radical, entry.radical_pinyin),  # Radical
             format_components(entry.components),            # Components
             format_compounds_front(entry.compounds),        # CompoundsFront
@@ -79,12 +81,11 @@ def build_note(entry: CharacterEntry, lesson_num: int, model: genanki.Model) -> 
     )
 
 
-def build_deck(lesson: LessonData, model: genanki.Model) -> list[genanki.Deck]:
+def build_decks(lesson: LessonData, model: genanki.Model) -> tuple[genanki.Deck, Optional[genanki.Deck]]:
     """Build genanki Decks for a single lesson, split by character type.
 
-    Returns a list of decks:
-      - CPR Book 1 3rd Edition::Lesson XX - Title::New Words
-      - CPR Book 1 3rd Edition::Lesson XX - Title::Supplementary Words
+    Returns:
+        (main_deck, supp_deck_or_None)
     """
     base_name = f"CPR Book 1 3rd Edition::Lesson {lesson.lesson:02d} - {lesson.title}"
 
@@ -100,38 +101,63 @@ def build_deck(lesson: LessonData, model: genanki.Model) -> list[genanki.Deck]:
         else:
             main_deck.add_note(note)
 
-    decks = [main_deck]
-    if supp_deck.notes:
-        decks.append(supp_deck)
-    return decks
+    return main_deck, supp_deck if supp_deck.notes else None
 
 
-def generate_lesson_package(lesson: LessonData, model: genanki.Model) -> Path:
-    """Generate audio, build deck, and write .apkg for one lesson.
+def generate_packages(lessons: list[LessonData], model: genanki.Model) -> list[Path]:
+    """Generate two .apkg packages across all lessons.
+
+    - cpr3_new_words.apkg: all lessons' New Words decks
+    - cpr3_supplementary_words.apkg: all lessons' Supplementary Words decks
 
     Returns:
-        Path to the generated .apkg file.
+        List of output .apkg paths.
     """
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     MEDIA_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Generate audio for all characters in the lesson
-    all_chars = [e.character for e in lesson.characters]
-    audio_paths = generate_audio_batch(all_chars, MEDIA_DIR)
+    main_decks: list[genanki.Deck] = []
+    supp_decks: list[genanki.Deck] = []
+    all_audio: dict[str, Path] = {}
 
-    # Build the decks (split by character type)
-    decks = build_deck(lesson, model)
+    for lesson in lessons:
+        # Generate audio for all characters in the lesson
+        all_chars = [e.character for e in lesson.characters]
+        audio_paths = generate_audio_batch(all_chars, MEDIA_DIR)
+        all_audio.update(audio_paths)
 
-    # Create package with media
-    pkg = genanki.Package(decks)
-    pkg.media_files = [str(path) for path in audio_paths.values()]
+        main_deck, supp_deck = build_decks(lesson, model)
+        main_deck_count = len(main_deck.notes)
+        supp_deck_count = len(supp_deck.notes) if supp_deck else 0
+        print(f"  Lesson {lesson.lesson:02d}: {main_deck_count} new + {supp_deck_count} supplementary")
 
-    output_path = OUTPUT_DIR / f"cpr3_lesson_{lesson.lesson:02d}.apkg"
-    pkg.write_to_file(str(output_path))
-    main_count = sum(1 for e in lesson.characters if e.char_type != "supplementary")
-    supp_count = sum(1 for e in lesson.characters if e.char_type == "supplementary")
-    print(f"✅ Generated: {output_path} ({main_count} new + {supp_count} supplementary)")
-    return output_path
+        main_decks.append(main_deck)
+        if supp_deck:
+            supp_decks.append(supp_deck)
+
+    media_files = [str(path) for path in all_audio.values()]
+    output_paths: list[Path] = []
+
+    # New Words package
+    main_pkg = genanki.Package(main_decks)
+    main_pkg.media_files = media_files
+    main_path = OUTPUT_DIR / "cpr3_new_words.apkg"
+    main_pkg.write_to_file(str(main_path))
+    total_main = sum(len(d.notes) for d in main_decks)
+    print(f"✅ {main_path.name}: {total_main} cards across {len(main_decks)} lessons")
+    output_paths.append(main_path)
+
+    # Supplementary Words package
+    if supp_decks:
+        supp_pkg = genanki.Package(supp_decks)
+        supp_pkg.media_files = media_files
+        supp_path = OUTPUT_DIR / "cpr3_supplementary_words.apkg"
+        supp_pkg.write_to_file(str(supp_path))
+        total_supp = sum(len(d.notes) for d in supp_decks)
+        print(f"✅ {supp_path.name}: {total_supp} cards across {len(supp_decks)} lessons")
+        output_paths.append(supp_path)
+
+    return output_paths
 
 
 def main() -> None:
@@ -142,22 +168,22 @@ def main() -> None:
         "--lesson",
         type=int,
         default=None,
-        help="Generate deck for a specific lesson number. If omitted, generates all.",
+        help="Generate decks for a specific lesson number. If omitted, generates all.",
     )
     args = parser.parse_args()
 
     model = get_model()
 
     if args.lesson is not None:
-        lesson = load_lesson(args.lesson)
-        generate_lesson_package(lesson, model)
+        lessons = [load_lesson(args.lesson)]
     else:
         lessons = load_all_lessons()
-        if not lessons:
-            print("⚠️  No lesson data found in data/lessons/. Add lesson JSON files first.")
-            return
-        for lesson in lessons:
-            generate_lesson_package(lesson, model)
+
+    if not lessons:
+        print("⚠️  No lesson data found in data/lessons/. Add lesson JSON files first.")
+        return
+
+    generate_packages(lessons, model)
 
     print("🎉 Done!")
 

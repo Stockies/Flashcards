@@ -1,0 +1,4690 @@
+{
+  "lesson": 6,
+  "title": "Lesson 6",
+  "characters": {
+    "main": [
+      {
+        "character": "新",
+        "pinyin": "xīn",
+        "english": "new",
+        "word_type": "A",
+        "table_ref": "2-06-02",
+        "radical": "斤",
+        "radical_pinyin": "jīn",
+        "components": [
+          "立",
+          "木",
+          "斤"
+        ],
+        "compounds": [
+          {
+            "chinese": "新老师",
+            "pinyin": "xīn lǎoshī",
+            "english": "new teacher",
+            "source": "textbook"
+          },
+          {
+            "chinese": "新年",
+            "pinyin": "xīnnián",
+            "english": "New Year",
+            "source": "textbook"
+          },
+          {
+            "chinese": "新闻",
+            "pinyin": "xīnwén",
+            "english": "news",
+            "source": "generated"
+          },
+          {
+            "chinese": "新鲜",
+            "pinyin": "xīnxiān",
+            "english": "fresh",
+            "source": "generated"
+          },
+          {
+            "chinese": "创新",
+            "pinyin": "chuàngxīn",
+            "english": "to innovate; innovation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我买了一件新衣服。",
+        "example_pinyin": "Wǒ mǎi le yī jiàn xīn yīfu.",
+        "example_english": "I bought a new piece of clothing."
+      },
+      {
+        "character": "同学",
+        "pinyin": "tóngxué",
+        "english": "classmate; schoolmate",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "亠",
+          "口",
+          "一"
+        ],
+        "compounds": [
+          {
+            "chinese": "我的同学",
+            "pinyin": "wǒ de tóngxué",
+            "english": "my classmate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "新同学",
+            "pinyin": "xīn tóngxué",
+            "english": "new classmate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "同学会",
+            "pinyin": "tóngxuéhuì",
+            "english": "class reunion",
+            "source": "generated"
+          },
+          {
+            "chinese": "男同学",
+            "pinyin": "nán tóngxué",
+            "english": "male classmate",
+            "source": "generated"
+          },
+          {
+            "chinese": "女同学",
+            "pinyin": "nǚ tóngxué",
+            "english": "female classmate",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她是我最好的同学。",
+        "example_pinyin": "Tā shì wǒ zuì hǎo de tóngxué.",
+        "example_english": "She is my best classmate."
+      },
+      {
+        "character": "食堂",
+        "pinyin": "shítáng",
+        "english": "cafeteria; dining hall",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "饣",
+        "radical_pinyin": "shí",
+        "components": [
+          "饣",
+          "舌"
+        ],
+        "compounds": [
+          {
+            "chinese": "学校的食堂",
+            "pinyin": "xuéxiào de shítáng",
+            "english": "school cafeteria",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去食堂",
+            "pinyin": "qù shítáng",
+            "english": "go to the cafeteria",
+            "source": "textbook"
+          },
+          {
+            "chinese": "大食堂",
+            "pinyin": "dà shítáng",
+            "english": "large cafeteria",
+            "source": "generated"
+          },
+          {
+            "chinese": "职工食堂",
+            "pinyin": "zhígōng shítáng",
+            "english": "staff cafeteria",
+            "source": "generated"
+          },
+          {
+            "chinese": "学生食堂",
+            "pinyin": "xuésheng shítáng",
+            "english": "student cafeteria",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去食堂吃午饭吧。",
+        "example_pinyin": "Wǒmen qù shítáng chī wǔfàn ba.",
+        "example_english": "Let's go to the cafeteria for lunch."
+      },
+      {
+        "character": "哪儿",
+        "pinyin": "nǎr",
+        "english": "where",
+        "word_type": "QPr",
+        "table_ref": "2-06-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "那",
+          "儿"
+        ],
+        "compounds": [
+          {
+            "chinese": "在哪儿",
+            "pinyin": "zài nǎr",
+            "english": "to be at where; where is/are",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去哪儿",
+            "pinyin": "qù nǎr",
+            "english": "to go where",
+            "source": "textbook"
+          },
+          {
+            "chinese": "哪里",
+            "pinyin": "nǎlǐ",
+            "english": "where",
+            "source": "generated"
+          },
+          {
+            "chinese": "哪边",
+            "pinyin": "nǎbiān",
+            "english": "which side; where",
+            "source": "generated"
+          },
+          {
+            "chinese": "哪样",
+            "pinyin": "nǎyàng",
+            "english": "what kind; which sort",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你的书在哪儿？",
+        "example_pinyin": "Nǐ de shū zài nǎr?",
+        "example_english": "Where is your book?"
+      },
+      {
+        "character": "校门",
+        "pinyin": "xiàomén",
+        "english": "school gate; campus entrance",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "交"
+        ],
+        "compounds": [
+          {
+            "chinese": "校车",
+            "pinyin": "xiàochē",
+            "english": "school bus",
+            "source": "generated"
+          },
+          {
+            "chinese": "校长",
+            "pinyin": "xiàozhǎng",
+            "english": "principal; headmaster",
+            "source": "generated"
+          },
+          {
+            "chinese": "校园",
+            "pinyin": "xiàoyuán",
+            "english": "campus",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们每天早上在校门集合。",
+        "example_pinyin": "Wǒmen měitiān zǎoshang zài xiàomén jíhé.",
+        "example_english": "We gather at the school gate every morning."
+      },
+      {
+        "character": "门",
+        "pinyin": "mén",
+        "english": "door; gate; entrance",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "门",
+        "radical_pinyin": "mén",
+        "components": [
+          "门"
+        ],
+        "compounds": [
+          {
+            "chinese": "大门",
+            "pinyin": "dàmén",
+            "english": "main entrance; main gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "门口",
+            "pinyin": "ménkǒu",
+            "english": "doorway; entrance",
+            "source": "generated"
+          },
+          {
+            "chinese": "开门",
+            "pinyin": "kāimén",
+            "english": "to open the door",
+            "source": "generated"
+          },
+          {
+            "chinese": "关门",
+            "pinyin": "guānmén",
+            "english": "to close the door",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请关上门。",
+        "example_pinyin": "Qǐng guānshàng mén.",
+        "example_english": "Please close the door."
+      },
+      {
+        "character": "右边",
+        "pinyin": "yòubian",
+        "english": "right (side)",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "右边的同学",
+            "pinyin": "yòubian de tóngxué",
+            "english": "the classmate on the right",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在校门右边",
+            "pinyin": "zài xiàomén yòubian",
+            "english": "on the right side of the school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "右边锋",
+            "pinyin": "yòubiānfēng",
+            "english": "right winger",
+            "source": "generated"
+          },
+          {
+            "chinese": "右边球",
+            "pinyin": "yòubianqiú",
+            "english": "right-side ball (in sports)",
+            "source": "generated"
+          },
+          {
+            "chinese": "右边路",
+            "pinyin": "yòubianlù",
+            "english": "right flank/wing (in sports)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把书放在桌子的右边。",
+        "example_pinyin": "Qǐng bǎ shū fàng zài zhuōzi de yòubian.",
+        "example_english": "Please put the book on the right side of the table."
+      },
+      {
+        "character": "右",
+        "pinyin": "yòu",
+        "english": "right",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "又",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "右手",
+            "pinyin": "yòushǒu",
+            "english": "right hand",
+            "source": "generated"
+          },
+          {
+            "chinese": "右边",
+            "pinyin": "yòubiān",
+            "english": "right side",
+            "source": "generated"
+          },
+          {
+            "chinese": "右派",
+            "pinyin": "yòupài",
+            "english": "right wing; rightist",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请往右转。",
+        "example_pinyin": "Qǐng wǎng yòu zhuǎn.",
+        "example_english": "Please turn right."
+      },
+      {
+        "character": "边",
+        "pinyin": "biān",
+        "english": "side",
+        "word_type": "Suf",
+        "table_ref": "2-06-02",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "方"
+        ],
+        "compounds": [
+          {
+            "chinese": "旁边",
+            "pinyin": "pángbiān",
+            "english": "side; nearby",
+            "source": "generated"
+          },
+          {
+            "chinese": "这边",
+            "pinyin": "zhèbiān",
+            "english": "this side; here",
+            "source": "generated"
+          },
+          {
+            "chinese": "一边",
+            "pinyin": "yībiān",
+            "english": "one side; at the same time",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把书放在桌子边上。",
+        "example_pinyin": "Qǐng bǎ shū fàng zài zhuōzi biān shàng.",
+        "example_english": "Please put the book on the side of the table."
+      },
+      {
+        "character": "跟",
+        "pinyin": "gēn",
+        "english": "with",
+        "word_type": "Prep",
+        "table_ref": "2-06-02",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "足",
+          "艮"
+        ],
+        "compounds": [
+          {
+            "chinese": "跟老师学",
+            "pinyin": "gēn lǎoshī xué",
+            "english": "to study with the teacher",
+            "source": "textbook"
+          },
+          {
+            "chinese": "跟我来",
+            "pinyin": "gēn wǒ lái",
+            "english": "come with me",
+            "source": "textbook"
+          },
+          {
+            "chinese": "跟着",
+            "pinyin": "gēnzhe",
+            "english": "to follow; to go with",
+            "source": "generated"
+          },
+          {
+            "chinese": "跟前",
+            "pinyin": "gēnqián",
+            "english": "in front of; close to",
+            "source": "generated"
+          },
+          {
+            "chinese": "跟上",
+            "pinyin": "gēnshàng",
+            "english": "to catch up with; to keep pace with",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢跟朋友一起玩。",
+        "example_pinyin": "Wǒ xǐhuān gēn péngyǒu yīqǐ wán.",
+        "example_english": "I like to play with friends."
+      },
+      {
+        "character": "这儿",
+        "pinyin": "zhèr",
+        "english": "here",
+        "word_type": "Pr",
+        "table_ref": "2-06-02",
+        "radical": "这",
+        "radical_pinyin": "zhè",
+        "components": [
+          "这",
+          "儿"
+        ],
+        "compounds": [
+          {
+            "chinese": "来这儿",
+            "pinyin": "lái zhèr",
+            "english": "come here",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在这儿",
+            "pinyin": "zài zhèr",
+            "english": "be here / at here",
+            "source": "textbook"
+          },
+          {
+            "chinese": "这儿是",
+            "pinyin": "zhèr shì",
+            "english": "this is here",
+            "source": "generated"
+          },
+          {
+            "chinese": "这儿有",
+            "pinyin": "zhèr yǒu",
+            "english": "there is here",
+            "source": "generated"
+          },
+          {
+            "chinese": "这儿没有",
+            "pinyin": "zhèr méiyǒu",
+            "english": "there isn't here",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你在这儿等我。",
+        "example_pinyin": "Nǐ zài zhèr děng wǒ.",
+        "example_english": "You wait for me here."
+      },
+      {
+        "character": "地图",
+        "pinyin": "dìtú",
+        "english": "map",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "也"
+        ],
+        "compounds": [
+          {
+            "chinese": "学校的地图",
+            "pinyin": "xuéxiào de dìtú",
+            "english": "school map",
+            "source": "textbook"
+          },
+          {
+            "chinese": "北京地图",
+            "pinyin": "Běijīng dìtú",
+            "english": "Beijing map",
+            "source": "textbook"
+          },
+          {
+            "chinese": "看地图",
+            "pinyin": "kàn dìtú",
+            "english": "to look at a map",
+            "source": "textbook"
+          },
+          {
+            "chinese": "世界地图",
+            "pinyin": "shìjiè dìtú",
+            "english": "world map",
+            "source": "generated"
+          },
+          {
+            "chinese": "地图册",
+            "pinyin": "dìtúcè",
+            "english": "atlas",
+            "source": "generated"
+          },
+          {
+            "chinese": "导航地图",
+            "pinyin": "dǎoháng dìtú",
+            "english": "navigation map",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请给我一张中国地图。",
+        "example_pinyin": "Qǐng gěi wǒ yī zhāng Zhōngguó dìtú.",
+        "example_english": "Please give me a map of China."
+      },
+      {
+        "character": "给",
+        "pinyin": "gěi",
+        "english": "to; for",
+        "word_type": "Prep",
+        "table_ref": "2-06-02",
+        "radical": "纟",
+        "radical_pinyin": "sī",
+        "components": [
+          "纟",
+          "合"
+        ],
+        "compounds": [
+          {
+            "chinese": "给你介绍一下",
+            "pinyin": "gěi nǐ jièshào yīxià",
+            "english": "Let me introduce to you",
+            "source": "textbook"
+          },
+          {
+            "chinese": "给我们唱歌",
+            "pinyin": "gěi wǒmen chànggē",
+            "english": "sing for us",
+            "source": "textbook"
+          },
+          {
+            "chinese": "给我们上课",
+            "pinyin": "gěi wǒmen shàngkè",
+            "english": "teach us (give us a lesson)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "送给",
+            "pinyin": "sòng gěi",
+            "english": "to give as a present",
+            "source": "generated"
+          },
+          {
+            "chinese": "交给",
+            "pinyin": "jiāo gěi",
+            "english": "to hand over; to give to",
+            "source": "generated"
+          },
+          {
+            "chinese": "给与",
+            "pinyin": "gěi yǔ",
+            "english": "to give; to grant",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你给我一杯水。",
+        "example_pinyin": "Qǐng nǐ gěi wǒ yī bēi shuǐ.",
+        "example_english": "Please give me a glass of water."
+      },
+      {
+        "character": "旁边",
+        "pinyin": "pángbiān",
+        "english": "side; beside",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "方",
+        "radical_pinyin": "fāng",
+        "components": [
+          "方",
+          "旁"
+        ],
+        "compounds": [
+          {
+            "chinese": "旁边的同学",
+            "pinyin": "pángbiān de tóngxué",
+            "english": "the classmate next to me/him/her",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在食堂旁边",
+            "pinyin": "zài shítáng pángbiān",
+            "english": "beside the canteen",
+            "source": "textbook"
+          },
+          {
+            "chinese": "旁边儿",
+            "pinyin": "pángbiānr",
+            "english": "side; beside",
+            "source": "generated"
+          },
+          {
+            "chinese": "旁边站",
+            "pinyin": "pángbiān zhàn",
+            "english": "stand by",
+            "source": "generated"
+          },
+          {
+            "chinese": "旁边看",
+            "pinyin": "pángbiān kàn",
+            "english": "watch from the side",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的书包在桌子旁边。",
+        "example_pinyin": "Wǒ de shūbāo zài zhuōzi pángbiān.",
+        "example_english": "My backpack is beside the table."
+      },
+      {
+        "character": "办公楼",
+        "pinyin": "bàngōnglóu",
+        "english": "office building; administration building",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "广",
+        "radical_pinyin": "guǎng",
+        "components": [
+          "广",
+          "厶",
+          "一",
+          "丨"
+        ],
+        "compounds": [
+          {
+            "chinese": "学校的办公楼",
+            "pinyin": "xuéxiào de bàngōnglóu",
+            "english": "the school's office building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去办公楼",
+            "pinyin": "qù bàngōnglóu",
+            "english": "to go to the office building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "办公",
+            "pinyin": "bàngōng",
+            "english": "to handle official business; to work (in an office)",
+            "source": "generated"
+          },
+          {
+            "chinese": "楼房",
+            "pinyin": "lóufáng",
+            "english": "multi-storied building",
+            "source": "generated"
+          },
+          {
+            "chinese": "写字楼",
+            "pinyin": "xiězìlóu",
+            "english": "office building",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们公司的新办公楼很高。",
+        "example_pinyin": "Wǒmen gōngsī de xīn bàngōnglóu hěn gāo.",
+        "example_english": "Our company's new office building is very tall."
+      },
+      {
+        "character": "办公",
+        "pinyin": "bàngōng",
+        "english": "to handle official business; to work (usu. in an office)",
+        "word_type": "VO",
+        "table_ref": "2-06-02",
+        "radical": "力",
+        "radical_pinyin": "lì",
+        "components": [
+          "力",
+          "办"
+        ],
+        "compounds": [
+          {
+            "chinese": "今天不办公",
+            "pinyin": "jīntiān bù bàngōng",
+            "english": "No work today.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "办公室",
+            "pinyin": "bàngōngshì",
+            "english": "office",
+            "source": "generated"
+          },
+          {
+            "chinese": "办公楼",
+            "pinyin": "bàngōnglóu",
+            "english": "office building",
+            "source": "generated"
+          },
+          {
+            "chinese": "办公用品",
+            "pinyin": "bàngōngyòngpǐn",
+            "english": "office supplies",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他每天都在办公室办公。",
+        "example_pinyin": "Tā měitiān dōu zài bàngōngshì bàngōng.",
+        "example_english": "He works in the office every day."
+      },
+      {
+        "character": "楼",
+        "pinyin": "lóu",
+        "english": "building",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "娄"
+        ],
+        "compounds": [
+          {
+            "chinese": "二楼",
+            "pinyin": "èrlóu",
+            "english": "second floor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在五楼",
+            "pinyin": "zài wǔlóu",
+            "english": "on the fifth floor",
+            "source": "textbook"
+          },
+          {
+            "chinese": "楼上",
+            "pinyin": "lóushàng",
+            "english": "upstairs",
+            "source": "textbook"
+          },
+          {
+            "chinese": "楼下",
+            "pinyin": "lóuxià",
+            "english": "downstairs",
+            "source": "textbook"
+          },
+          {
+            "chinese": "大楼",
+            "pinyin": "dàlóu",
+            "english": "large building; mansion",
+            "source": "generated"
+          },
+          {
+            "chinese": "高楼",
+            "pinyin": "gāolóu",
+            "english": "tall building; skyscraper",
+            "source": "generated"
+          },
+          {
+            "chinese": "楼梯",
+            "pinyin": "lóutī",
+            "english": "stairs; staircase",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "图书馆在教学楼的旁边。",
+        "example_pinyin": "Túshūguǎn zài jiàoxuélóu de pángbiān.",
+        "example_english": "The library is next to the teaching building."
+      },
+      {
+        "character": "图书馆",
+        "pinyin": "túshūguǎn",
+        "english": "library",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "亠",
+        "radical_pinyin": "tóu",
+        "components": [
+          "亠",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "去图书馆",
+            "pinyin": "qù túshūguǎn",
+            "english": "go to the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有图书馆",
+            "pinyin": "yǒu túshūguǎn",
+            "english": "there is a library / have a library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "图书馆右边",
+            "pinyin": "túshūguǎn yòubiān",
+            "english": "right side of the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "图书馆员",
+            "pinyin": "túshūguǎnyuán",
+            "english": "librarian",
+            "source": "generated"
+          },
+          {
+            "chinese": "市立图书馆",
+            "pinyin": "shìlì túshūguǎn",
+            "english": "city library",
+            "source": "generated"
+          },
+          {
+            "chinese": "图书馆卡",
+            "pinyin": "túshūguǎn kǎ",
+            "english": "library card",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢去图书馆看书。",
+        "example_pinyin": "Wǒ xǐhuān qù túshūguǎn kànshū.",
+        "example_english": "I like to go to the library to read books."
+      },
+      {
+        "character": "书",
+        "pinyin": "shū",
+        "english": "book",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "曰",
+        "radical_pinyin": "yuē",
+        "components": [
+          "曰",
+          "乚"
+        ],
+        "compounds": [
+          {
+            "chinese": "看书",
+            "pinyin": "kàn shū",
+            "english": "to read a book",
+            "source": "textbook"
+          },
+          {
+            "chinese": "图书馆",
+            "pinyin": "túshūguǎn",
+            "english": "library",
+            "source": "generated"
+          },
+          {
+            "chinese": "书店",
+            "pinyin": "shūdiàn",
+            "english": "bookstore",
+            "source": "generated"
+          },
+          {
+            "chinese": "教科书",
+            "pinyin": "jiàokēshū",
+            "english": "textbook",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢看书。",
+        "example_pinyin": "Wǒ xǐhuān kàn shū.",
+        "example_english": "I like to read books."
+      },
+      {
+        "character": "北边",
+        "pinyin": "běibian",
+        "english": "north (side)",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "匕",
+        "radical_pinyin": "bǐ",
+        "components": [
+          "匕",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "北边的办公楼",
+            "pinyin": "běibian de bàngōnglóu",
+            "english": "the office building on the north side",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在学校北边",
+            "pinyin": "zài xuéxiào běibian",
+            "english": "on the north side of the school",
+            "source": "textbook"
+          },
+          {
+            "chinese": "北方",
+            "pinyin": "běifāng",
+            "english": "north; northern part",
+            "source": "generated"
+          },
+          {
+            "chinese": "北京",
+            "pinyin": "Běijīng",
+            "english": "Beijing",
+            "source": "generated"
+          },
+          {
+            "chinese": "东北",
+            "pinyin": "dōngběi",
+            "english": "northeast",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家在公园的北边。",
+        "example_pinyin": "Wǒ jiā zài gōngyuán de běibian.",
+        "example_english": "My home is on the north side of the park."
+      },
+      {
+        "character": "北",
+        "pinyin": "běi",
+        "english": "north",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "匕",
+        "radical_pinyin": "bǐ",
+        "components": [
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "北门",
+            "pinyin": "běimén",
+            "english": "north gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "北校门",
+            "pinyin": "běi xiàomén",
+            "english": "north school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "北京",
+            "pinyin": "Běijīng",
+            "english": "Beijing",
+            "source": "generated"
+          },
+          {
+            "chinese": "北方",
+            "pinyin": "běifāng",
+            "english": "north; northern part",
+            "source": "generated"
+          },
+          {
+            "chinese": "东北",
+            "pinyin": "dōngběi",
+            "english": "northeast",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家在城市的北边。",
+        "example_pinyin": "Wǒ jiā zài chéngshì de běibian.",
+        "example_english": "My home is on the north side of the city."
+      },
+      {
+        "character": "西边",
+        "pinyin": "xībian",
+        "english": "west (side)",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "西",
+        "radical_pinyin": "xī",
+        "components": [
+          "西"
+        ],
+        "compounds": [
+          {
+            "chinese": "西边的食堂",
+            "pinyin": "xībian de shítáng",
+            "english": "the dining hall on the west side",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在图书馆西边",
+            "pinyin": "zài túshūguǎn xībian",
+            "english": "to the west of the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "西方",
+            "pinyin": "xīfāng",
+            "english": "the West",
+            "source": "generated"
+          },
+          {
+            "chinese": "西部",
+            "pinyin": "xībù",
+            "english": "western part; the West",
+            "source": "generated"
+          },
+          {
+            "chinese": "西瓜",
+            "pinyin": "xīguā",
+            "english": "watermelon",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家在学校西边。",
+        "example_pinyin": "Wǒ jiā zài xuéxiào xībian.",
+        "example_english": "My home is to the west of the school."
+      },
+      {
+        "character": "西",
+        "pinyin": "xī",
+        "english": "west",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "西",
+        "radical_pinyin": "xī",
+        "components": [
+          "西"
+        ],
+        "compounds": [
+          {
+            "chinese": "西门",
+            "pinyin": "xīmén",
+            "english": "west gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "西校门",
+            "pinyin": "xī xiàomén",
+            "english": "west school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "西方",
+            "pinyin": "xīfāng",
+            "english": "the West; Western countries",
+            "source": "generated"
+          },
+          {
+            "chinese": "西部",
+            "pinyin": "xībù",
+            "english": "western part; the west",
+            "source": "generated"
+          },
+          {
+            "chinese": "西瓜",
+            "pinyin": "xīguā",
+            "english": "watermelon",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家在学校的西边。",
+        "example_pinyin": "Wǒ jiā zài xuéxiào de xībiān.",
+        "example_english": "My home is to the west of the school."
+      },
+      {
+        "character": "体育馆",
+        "pinyin": "tǐyùguǎn",
+        "english": "gym; stadium",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "立",
+        "radical_pinyin": "lì",
+        "components": [
+          "立",
+          "体"
+        ],
+        "compounds": [
+          {
+            "chinese": "去体育馆",
+            "pinyin": "qù tǐyùguǎn",
+            "english": "go to the gym/stadium",
+            "source": "textbook"
+          },
+          {
+            "chinese": "北京体育馆",
+            "pinyin": "Běijīng Tǐyùguǎn",
+            "english": "Beijing Gymnasium",
+            "source": "textbook"
+          },
+          {
+            "chinese": "体育馆的北边",
+            "pinyin": "tǐyùguǎn de běibiān",
+            "english": "north side of the gym/stadium",
+            "source": "textbook"
+          },
+          {
+            "chinese": "体育",
+            "pinyin": "tǐyù",
+            "english": "physical education; sports",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育场",
+            "pinyin": "tǐyùchǎng",
+            "english": "sports field; stadium",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育课",
+            "pinyin": "tǐyùkè",
+            "english": "PE class",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们今天下午要去体育馆打篮球。",
+        "example_pinyin": "Wǒmen jīntiān xiàwǔ yào qù tǐyùguǎn dǎ lánqiú.",
+        "example_english": "We are going to the gym to play basketball this afternoon."
+      },
+      {
+        "character": "体育",
+        "pinyin": "tǐyù",
+        "english": "physical education; physical training",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "本"
+        ],
+        "compounds": [
+          {
+            "chinese": "体育课",
+            "pinyin": "tǐyùkè",
+            "english": "PE class; physical education class",
+            "source": "textbook"
+          },
+          {
+            "chinese": "学体育",
+            "pinyin": "xué tǐyù",
+            "english": "to study physical education; to learn sports",
+            "source": "textbook"
+          },
+          {
+            "chinese": "体育馆",
+            "pinyin": "tǐyùguǎn",
+            "english": "gymnasium; stadium",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育运动",
+            "pinyin": "tǐyù yùndòng",
+            "english": "sports; physical exercise",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育老师",
+            "pinyin": "tǐyù lǎoshī",
+            "english": "physical education teacher",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢的课是体育课。",
+        "example_pinyin": "Wǒ zuì xǐhuān de kè shì tǐyùkè.",
+        "example_english": "My favorite class is PE class."
+      },
+      {
+        "character": "里边",
+        "pinyin": "lǐbian",
+        "english": "in; inside",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "里",
+        "radical_pinyin": "lǐ",
+        "components": [
+          "里"
+        ],
+        "compounds": [
+          {
+            "chinese": "在里边",
+            "pinyin": "zài lǐbian",
+            "english": "inside; in there",
+            "source": "textbook"
+          },
+          {
+            "chinese": "图书馆里边",
+            "pinyin": "túshūguǎn lǐbian",
+            "english": "inside the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "里边儿",
+            "pinyin": "lǐbianr",
+            "english": "inside",
+            "source": "generated"
+          },
+          {
+            "chinese": "屋里边",
+            "pinyin": "wū lǐbian",
+            "english": "inside the house",
+            "source": "generated"
+          },
+          {
+            "chinese": "箱子里边",
+            "pinyin": "xiāngzi lǐbian",
+            "english": "inside the box",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "书包里边有什么？",
+        "example_pinyin": "Shūbāo lǐbian yǒu shénme?",
+        "example_english": "What's inside the backpack?"
+      },
+      {
+        "character": "里",
+        "pinyin": "lǐ",
+        "english": "in; inside",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "里",
+        "radical_pinyin": "lǐ",
+        "components": [
+          "田",
+          "土"
+        ],
+        "compounds": [
+          {
+            "chinese": "图书馆里",
+            "pinyin": "túshūguǎn lǐ",
+            "english": "in the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "学校里",
+            "pinyin": "xuéxiào lǐ",
+            "english": "in the school",
+            "source": "textbook"
+          },
+          {
+            "chinese": "班里",
+            "pinyin": "bān lǐ",
+            "english": "in the class",
+            "source": "textbook"
+          },
+          {
+            "chinese": "家里",
+            "pinyin": "jiālǐ",
+            "english": "at home; in the house",
+            "source": "textbook"
+          },
+          {
+            "chinese": "楼里",
+            "pinyin": "lóu lǐ",
+            "english": "in the building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "里面",
+            "pinyin": "lǐmiàn",
+            "english": "inside; within",
+            "source": "generated"
+          },
+          {
+            "chinese": "公里",
+            "pinyin": "gōnglǐ",
+            "english": "kilometer",
+            "source": "generated"
+          },
+          {
+            "chinese": "邻里",
+            "pinyin": "línlǐ",
+            "english": "neighborhood; neighbors",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "书在包里。",
+        "example_pinyin": "Shū zài bāo lǐ.",
+        "example_english": "The book is in the bag."
+      },
+      {
+        "character": "银行",
+        "pinyin": "yín háng",
+        "english": "bank",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "金",
+        "radical_pinyin": "jīn",
+        "components": [
+          "金",
+          "艮"
+        ],
+        "compounds": [
+          {
+            "chinese": "去银行",
+            "pinyin": "qù yín háng",
+            "english": "go to the bank",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在银行",
+            "pinyin": "zài yín háng",
+            "english": "at the bank",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有银行",
+            "pinyin": "yǒu yín háng",
+            "english": "have a bank",
+            "source": "textbook"
+          },
+          {
+            "chinese": "中国银行",
+            "pinyin": "Zhōngguó Yínháng",
+            "english": "Bank of China",
+            "source": "textbook"
+          },
+          {
+            "chinese": "银行里",
+            "pinyin": "yín háng lǐ",
+            "english": "inside the bank",
+            "source": "textbook"
+          },
+          {
+            "chinese": "银行卡",
+            "pinyin": "yín háng kǎ",
+            "english": "bank card",
+            "source": "generated"
+          },
+          {
+            "chinese": "银行家",
+            "pinyin": "yín háng jiā",
+            "english": "banker",
+            "source": "generated"
+          },
+          {
+            "chinese": "银行账户",
+            "pinyin": "yín háng zhàng hù",
+            "english": "bank account",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我要去银行取钱。",
+        "example_pinyin": "Wǒ yào qù yín háng qǔ qián.",
+        "example_english": "I need to go to the bank to withdraw money."
+      },
+      {
+        "character": "东边",
+        "pinyin": "dōngbian",
+        "english": "east (side)",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "一",
+        "radical_pinyin": "yī",
+        "components": [
+          "一",
+          "木"
+        ],
+        "compounds": [
+          {
+            "chinese": "东边的体育馆",
+            "pinyin": "dōngbian de tǐyùguǎn",
+            "english": "the gymnasium on the east side",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在校门东边",
+            "pinyin": "zài xiàomén dōngbian",
+            "english": "on the east side of the school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "东方",
+            "pinyin": "dōngfāng",
+            "english": "the East; oriental",
+            "source": "generated"
+          },
+          {
+            "chinese": "东北",
+            "pinyin": "dōngběi",
+            "english": "northeast",
+            "source": "generated"
+          },
+          {
+            "chinese": "东风",
+            "pinyin": "dōngfēng",
+            "english": "east wind",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我家在学校的东边。",
+        "example_pinyin": "Wǒ jiā zài xuéxiào de dōngbian.",
+        "example_english": "My home is on the east side of the school."
+      },
+      {
+        "character": "东",
+        "pinyin": "dōng",
+        "english": "east",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "一",
+        "radical_pinyin": "yī",
+        "components": [
+          "一",
+          "木"
+        ],
+        "compounds": [
+          {
+            "chinese": "东门",
+            "pinyin": "dōngmén",
+            "english": "east gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "东校门",
+            "pinyin": "dōng xiàomén",
+            "english": "east school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "东方",
+            "pinyin": "dōngfāng",
+            "english": "the East; oriental",
+            "source": "generated"
+          },
+          {
+            "chinese": "东北",
+            "pinyin": "dōngběi",
+            "english": "northeast",
+            "source": "generated"
+          },
+          {
+            "chinese": "东边",
+            "pinyin": "dōngbian",
+            "english": "east side; eastern part",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "太阳从东方升起。",
+        "example_pinyin": "Tàiyáng cóng dōngfāng shēngqǐ.",
+        "example_english": "The sun rises from the east."
+      },
+      {
+        "character": "宿舍",
+        "pinyin": "sùshè",
+        "english": "dormitory",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "宿"
+        ],
+        "compounds": [
+          {
+            "chinese": "回宿舍",
+            "pinyin": "huí sùshè",
+            "english": "return to the dormitory",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去宿舍",
+            "pinyin": "qù sùshè",
+            "english": "go to the dormitory",
+            "source": "textbook"
+          },
+          {
+            "chinese": "学生宿舍",
+            "pinyin": "xuésheng sùshè",
+            "english": "student dormitory",
+            "source": "textbook"
+          },
+          {
+            "chinese": "女生宿舍",
+            "pinyin": "nǚshēng sùshè",
+            "english": "girls' dormitory",
+            "source": "textbook"
+          },
+          {
+            "chinese": "宿舍里",
+            "pinyin": "sùshè lǐ",
+            "english": "inside the dormitory",
+            "source": "textbook"
+          },
+          {
+            "chinese": "宿舍楼",
+            "pinyin": "sùshèlóu",
+            "english": "dormitory building",
+            "source": "generated"
+          },
+          {
+            "chinese": "集体宿舍",
+            "pinyin": "jí tǐ sùshè",
+            "english": "collective dormitory",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的宿舍在三楼。",
+        "example_pinyin": "Wǒ de sùshè zài sān lóu.",
+        "example_english": "My dormitory is on the third floor."
+      },
+      {
+        "character": "教学",
+        "pinyin": "jiàoxué",
+        "english": "teaching and learning",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "文",
+        "radical_pinyin": "wén",
+        "components": [
+          "孝",
+          "文"
+        ],
+        "compounds": [
+          {
+            "chinese": "教学楼",
+            "pinyin": "jiàoxuélóu",
+            "english": "teaching building; academic building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "汉语教学",
+            "pinyin": "hànyǔ jiàoxué",
+            "english": "Chinese language teaching",
+            "source": "textbook"
+          },
+          {
+            "chinese": "教学法",
+            "pinyin": "jiàoxuéfǎ",
+            "english": "teaching method",
+            "source": "generated"
+          },
+          {
+            "chinese": "教学计划",
+            "pinyin": "jiàoxué jìhuà",
+            "english": "teaching plan; curriculum",
+            "source": "generated"
+          },
+          {
+            "chinese": "教学质量",
+            "pinyin": "jiàoxué zhìliàng",
+            "english": "quality of teaching",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这所大学的教学水平很高。",
+        "example_pinyin": "Zhè suǒ dàxué de jiàoxué shuǐpíng hěn gāo.",
+        "example_english": "The teaching level of this university is very high."
+      },
+      {
+        "character": "先",
+        "pinyin": "xiān",
+        "english": "first; before",
+        "word_type": "Adv",
+        "table_ref": "2-06-02",
+        "radical": "儿",
+        "radical_pinyin": "ér",
+        "components": [
+          "牛",
+          "儿"
+        ],
+        "compounds": [
+          {
+            "chinese": "先去",
+            "pinyin": "xiān qù",
+            "english": "go first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先看",
+            "pinyin": "xiān kàn",
+            "english": "look first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先说",
+            "pinyin": "xiān shuō",
+            "english": "speak first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先做",
+            "pinyin": "xiān zuò",
+            "english": "do first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先学",
+            "pinyin": "xiān xué",
+            "english": "learn first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先问",
+            "pinyin": "xiān wèn",
+            "english": "ask first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先认识",
+            "pinyin": "xiān rènshi",
+            "english": "get to know first",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先生",
+            "pinyin": "xiān sheng",
+            "english": "Mr.; sir; teacher",
+            "source": "generated"
+          },
+          {
+            "chinese": "首先",
+            "pinyin": "shǒu xiān",
+            "english": "first of all; in the first place",
+            "source": "generated"
+          },
+          {
+            "chinese": "先前",
+            "pinyin": "xiān qián",
+            "english": "before; previously",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你先走吧，我一会儿就来。",
+        "example_pinyin": "Nǐ xiān zǒu ba, wǒ yīhuìr jiù lái.",
+        "example_english": "You go first, I'll be there in a moment."
+      },
+      {
+        "character": "别",
+        "pinyin": "bié",
+        "english": "don't",
+        "word_type": "Adv",
+        "table_ref": "2-06-04",
+        "radical": "刂",
+        "radical_pinyin": "dāo",
+        "components": [
+          "别",
+          "刂"
+        ],
+        "compounds": [
+          {
+            "chinese": "别客气",
+            "pinyin": "bié kèqi",
+            "english": "You're welcome; Don't be so polite",
+            "source": "textbook"
+          },
+          {
+            "chinese": "别看",
+            "pinyin": "bié kàn",
+            "english": "Don't look",
+            "source": "textbook"
+          },
+          {
+            "chinese": "别去",
+            "pinyin": "bié qù",
+            "english": "Don't go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "别人",
+            "pinyin": "biérén",
+            "english": "other people; others",
+            "source": "generated"
+          },
+          {
+            "chinese": "特别",
+            "pinyin": "tèbié",
+            "english": "especially; special",
+            "source": "generated"
+          },
+          {
+            "chinese": "分别",
+            "pinyin": "fēnbié",
+            "english": "to part; to distinguish; difference",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你别担心，我会帮你。",
+        "example_pinyin": "Nǐ bié dānxīn, wǒ huì bāng nǐ.",
+        "example_english": "Don't worry, I will help you."
+      },
+      {
+        "character": "着急",
+        "pinyin": "zháojí",
+        "english": "worried; anxious",
+        "word_type": "A",
+        "table_ref": "2-06-04",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "扌",
+          "目",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "别着急",
+            "pinyin": "bié zháojí",
+            "english": "Don't worry; Don't be anxious",
+            "source": "textbook"
+          },
+          {
+            "chinese": "很着急",
+            "pinyin": "hěn zháojí",
+            "english": "very worried; very anxious",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不着急",
+            "pinyin": "bù zháojí",
+            "english": "not worried; not anxious",
+            "source": "textbook"
+          },
+          {
+            "chinese": "着急忙慌",
+            "pinyin": "zháojímánghuāng",
+            "english": "in a great hurry; flustered",
+            "source": "generated"
+          },
+          {
+            "chinese": "着急上火",
+            "pinyin": "zháojí shànghuǒ",
+            "english": "to get anxious and upset",
+            "source": "generated"
+          },
+          {
+            "chinese": "着急万分",
+            "pinyin": "zháojí wànfēn",
+            "english": "extremely anxious",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他很着急，因为他找不到他的钥匙。",
+        "example_pinyin": "Tā hěn zháojí, yīnwèi tā zhǎobudào tā de yàoshi.",
+        "example_english": "He is very anxious because he can't find his keys."
+      },
+      {
+        "character": "小姐",
+        "pinyin": "xiǎojiě",
+        "english": "Miss; young lady",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "小",
+        "radical_pinyin": "xiǎo",
+        "components": [
+          "小"
+        ],
+        "compounds": [
+          {
+            "chinese": "林小姐",
+            "pinyin": "Lín Xiǎojiě",
+            "english": "Miss Lin",
+            "source": "textbook"
+          },
+          {
+            "chinese": "王小姐",
+            "pinyin": "Wáng Xiǎojiě",
+            "english": "Miss Wang",
+            "source": "textbook"
+          },
+          {
+            "chinese": "大小姐",
+            "pinyin": "dàxiǎojiě",
+            "english": "eldest daughter of a wealthy family; pampered young lady",
+            "source": "generated"
+          },
+          {
+            "chinese": "服务小姐",
+            "pinyin": "fúwù xiǎojiě",
+            "english": "waitress; stewardess",
+            "source": "generated"
+          },
+          {
+            "chinese": "小姐们",
+            "pinyin": "xiǎojiěmen",
+            "english": "ladies; young women",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，您是李小姐吗？",
+        "example_pinyin": "Qǐngwèn, nín shì Lǐ Xiǎojiě ma?",
+        "example_english": "Excuse me, are you Miss Li?"
+      },
+      {
+        "character": "地方",
+        "pinyin": "dìfang",
+        "english": "place; region",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "方"
+        ],
+        "compounds": [
+          {
+            "chinese": "一个地方",
+            "pinyin": "yí ge dìfang",
+            "english": "a place",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在什么地方",
+            "pinyin": "zài shénme dìfang",
+            "english": "where; in what place",
+            "source": "textbook"
+          },
+          {
+            "chinese": "是什么地方",
+            "pinyin": "shì shénme dìfang",
+            "english": "what kind of place is it",
+            "source": "textbook"
+          },
+          {
+            "chinese": "地方病",
+            "pinyin": "dìfangbìng",
+            "english": "endemic disease",
+            "source": "generated"
+          },
+          {
+            "chinese": "地方官",
+            "pinyin": "dìfangguān",
+            "english": "local official",
+            "source": "generated"
+          },
+          {
+            "chinese": "地方税",
+            "pinyin": "dìfangshuì",
+            "english": "local tax",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个地方很漂亮。",
+        "example_pinyin": "Zhège dìfang hěn piàoliang.",
+        "example_english": "This place is very beautiful."
+      },
+      {
+        "character": "知道",
+        "pinyin": "zhīdào",
+        "english": "to know",
+        "word_type": "V",
+        "table_ref": "2-06-04",
+        "radical": "矢",
+        "radical_pinyin": "shǐ",
+        "components": [
+          "矢",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "不知道",
+            "pinyin": "bù zhīdào",
+            "english": "don't know",
+            "source": "textbook"
+          },
+          {
+            "chinese": "我知道",
+            "pinyin": "wǒ zhīdào",
+            "english": "I know",
+            "source": "textbook"
+          },
+          {
+            "chinese": "知道吗",
+            "pinyin": "zhīdào ma",
+            "english": "Do you know?",
+            "source": "generated"
+          },
+          {
+            "chinese": "知道分子",
+            "pinyin": "zhīdào fēnzǐ",
+            "english": "intellectual (archaic)",
+            "source": "generated"
+          },
+          {
+            "chinese": "知道自己",
+            "pinyin": "zhīdào zìjǐ",
+            "english": "to know oneself",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你知道他叫什么名字吗？",
+        "example_pinyin": "Nǐ zhīdào tā jiào shénme míngzi ma?",
+        "example_english": "Do you know what his name is?"
+      },
+      {
+        "character": "超市",
+        "pinyin": "chāoshì",
+        "english": "supermarket",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "巾",
+        "radical_pinyin": "jīn",
+        "components": [
+          "亠",
+          "小",
+          "巾"
+        ],
+        "compounds": [
+          {
+            "chinese": "一个超市",
+            "pinyin": "yí gè chāoshì",
+            "english": "a supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去超市",
+            "pinyin": "qù chāoshì",
+            "english": "to go to the supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小超市",
+            "pinyin": "xiǎo chāoshì",
+            "english": "small supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "超市里",
+            "pinyin": "chāoshì lǐ",
+            "english": "inside the supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "市场",
+            "pinyin": "shìchǎng",
+            "english": "market",
+            "source": "generated"
+          },
+          {
+            "chinese": "市中心",
+            "pinyin": "shìzhōngxīn",
+            "english": "city center",
+            "source": "generated"
+          },
+          {
+            "chinese": "城市",
+            "pinyin": "chéngshì",
+            "english": "city",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要去超市买一些水果。",
+        "example_pinyin": "Wǒ xūyào qù chāoshì mǎi yīxiē shuǐguǒ.",
+        "example_english": "I need to go to the supermarket to buy some fruit."
+      },
+      {
+        "character": "前边",
+        "pinyin": "qiánbian",
+        "english": "front; in front of",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "刀",
+        "radical_pinyin": "dāo",
+        "components": [
+          "䒑",
+          "舟",
+          "刂"
+        ],
+        "compounds": [
+          {
+            "chinese": "前边的同学",
+            "pinyin": "qiánbian de tóngxué",
+            "english": "the classmate in front",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在超市前边",
+            "pinyin": "zài chāoshì qiánbian",
+            "english": "in front of the supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "前面",
+            "pinyin": "qiánmiàn",
+            "english": "front; in front",
+            "source": "generated"
+          },
+          {
+            "chinese": "以前",
+            "pinyin": "yǐqián",
+            "english": "before; formerly",
+            "source": "generated"
+          },
+          {
+            "chinese": "前进",
+            "pinyin": "qiánjìn",
+            "english": "to go forward; to advance",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把书放在前边。",
+        "example_pinyin": "Qǐng bǎ shū fàng zài qiánbian.",
+        "example_english": "Please put the book in the front."
+      },
+      {
+        "character": "前",
+        "pinyin": "qián",
+        "english": "front",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "刀",
+        "radical_pinyin": "dāo",
+        "components": [
+          "䒑",
+          "舟",
+          "刀"
+        ],
+        "compounds": [
+          {
+            "chinese": "图书馆前",
+            "pinyin": "túshūguǎn qián",
+            "english": "in front of the library",
+            "source": "textbook"
+          },
+          {
+            "chinese": "门前",
+            "pinyin": "mén qián",
+            "english": "in front of the door",
+            "source": "textbook"
+          },
+          {
+            "chinese": "以前",
+            "pinyin": "yǐqián",
+            "english": "before; formerly",
+            "source": "generated"
+          },
+          {
+            "chinese": "前面",
+            "pinyin": "qiánmiàn",
+            "english": "front; in front",
+            "source": "generated"
+          },
+          {
+            "chinese": "前进",
+            "pinyin": "qiánjìn",
+            "english": "to go forward; to advance",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把书放在桌子前。",
+        "example_pinyin": "Qǐng bǎ shū fàng zài zhuōzi qián.",
+        "example_english": "Please put the book in front of the table."
+      },
+      {
+        "character": "对面",
+        "pinyin": "duìmiàn",
+        "english": "opposite; across (from)",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "寸",
+        "radical_pinyin": "cùn",
+        "components": [
+          "对",
+          "面"
+        ],
+        "compounds": [
+          {
+            "chinese": "对面的大楼",
+            "pinyin": "duìmiàn de dàlóu",
+            "english": "the building opposite",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在我家对面",
+            "pinyin": "zài wǒ jiā duìmiàn",
+            "english": "across from my house",
+            "source": "textbook"
+          },
+          {
+            "chinese": "对面人",
+            "pinyin": "duìmiànrén",
+            "english": "person opposite",
+            "source": "generated"
+          },
+          {
+            "chinese": "对面坐",
+            "pinyin": "duìmiàn zuò",
+            "english": "sit opposite",
+            "source": "generated"
+          },
+          {
+            "chinese": "对面看",
+            "pinyin": "duìmiàn kàn",
+            "english": "look opposite",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他坐在我的对面。",
+        "example_pinyin": "Tā zuò zài wǒ de duìmiàn.",
+        "example_english": "He sat opposite me."
+      },
+      {
+        "character": "饭馆",
+        "pinyin": "fànguǎn",
+        "english": "restaurant",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "饣",
+        "radical_pinyin": "shí",
+        "components": [
+          "饣",
+          "反"
+        ],
+        "compounds": [
+          {
+            "chinese": "去饭馆",
+            "pinyin": "qù fànguǎn",
+            "english": "to go to a restaurant",
+            "source": "textbook"
+          },
+          {
+            "chinese": "饭馆里",
+            "pinyin": "fànguǎn lǐ",
+            "english": "inside the restaurant",
+            "source": "textbook"
+          },
+          {
+            "chinese": "饭店",
+            "pinyin": "fàndiàn",
+            "english": "restaurant; hotel",
+            "source": "generated"
+          },
+          {
+            "chinese": "餐馆",
+            "pinyin": "cānguǎn",
+            "english": "restaurant",
+            "source": "generated"
+          },
+          {
+            "chinese": "小饭馆",
+            "pinyin": "xiǎo fànguǎn",
+            "english": "small restaurant",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去饭馆吃饭吧。",
+        "example_pinyin": "Wǒmen qù fànguǎn chīfàn ba.",
+        "example_english": "Let's go to a restaurant to eat."
+      },
+      {
+        "character": "过",
+        "pinyin": "guò",
+        "english": "to cross; to pass",
+        "word_type": "V",
+        "table_ref": "2-06-04",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "过去",
+            "pinyin": "guòqù",
+            "english": "past; to go over; to pass by",
+            "source": "generated"
+          },
+          {
+            "chinese": "经过",
+            "pinyin": "jīngguò",
+            "english": "to pass through; to undergo; process",
+            "source": "generated"
+          },
+          {
+            "chinese": "过年",
+            "pinyin": "guònián",
+            "english": "to celebrate the New Year",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我没去过中国。",
+        "example_pinyin": "Wǒ méi qùguò Zhōngguó.",
+        "example_english": "I haven't been to China."
+      },
+      {
+        "character": "马路",
+        "pinyin": "mǎlù",
+        "english": "road; street",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马"
+        ],
+        "compounds": [
+          {
+            "chinese": "马路的对面",
+            "pinyin": "mǎlù de duìmiàn",
+            "english": "the opposite side of the road",
+            "source": "textbook"
+          },
+          {
+            "chinese": "过马路",
+            "pinyin": "guò mǎlù",
+            "english": "to cross the road",
+            "source": "textbook"
+          },
+          {
+            "chinese": "高速公路",
+            "pinyin": "gāosù gōnglù",
+            "english": "highway",
+            "source": "generated"
+          },
+          {
+            "chinese": "铁路",
+            "pinyin": "tiělù",
+            "english": "railway",
+            "source": "generated"
+          },
+          {
+            "chinese": "路线",
+            "pinyin": "lùxiàn",
+            "english": "route; itinerary",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条马路很宽。",
+        "example_pinyin": "Zhè tiáo mǎlù hěn kuān.",
+        "example_english": "This road is very wide."
+      },
+      {
+        "character": "路",
+        "pinyin": "lù",
+        "english": "road; way; path",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "足",
+          "各"
+        ],
+        "compounds": [
+          {
+            "chinese": "大路",
+            "pinyin": "dàlù",
+            "english": "main road; highway",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小路",
+            "pinyin": "xiǎolù",
+            "english": "path; lane",
+            "source": "textbook"
+          },
+          {
+            "chinese": "马路",
+            "pinyin": "mǎlù",
+            "english": "road; street",
+            "source": "generated"
+          },
+          {
+            "chinese": "公路",
+            "pinyin": "gōnglù",
+            "english": "highway; public road",
+            "source": "generated"
+          },
+          {
+            "chinese": "道路",
+            "pinyin": "dàolù",
+            "english": "road; path; way",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条路很长。",
+        "example_pinyin": "Zhè tiáo lù hěn cháng.",
+        "example_english": "This road is very long."
+      },
+      {
+        "character": "后边",
+        "pinyin": "hòubian",
+        "english": "back; behind; rear",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "幺",
+          "夂"
+        ],
+        "compounds": [
+          {
+            "chinese": "超市后边",
+            "pinyin": "chāoshì hòubian",
+            "english": "behind the supermarket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在饭馆后边",
+            "pinyin": "zài fànguǎn hòubian",
+            "english": "behind the restaurant",
+            "source": "textbook"
+          },
+          {
+            "chinese": "后边儿",
+            "pinyin": "hòubianr",
+            "english": "back; behind",
+            "source": "generated"
+          },
+          {
+            "chinese": "后方",
+            "pinyin": "hòufāng",
+            "english": "rear; behind",
+            "source": "generated"
+          },
+          {
+            "chinese": "后退",
+            "pinyin": "hòutuì",
+            "english": "to fall back; to retreat",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的家在学校后边。",
+        "example_pinyin": "Wǒ de jiā zài xuéxiào hòubian.",
+        "example_english": "My home is behind the school."
+      },
+      {
+        "character": "后",
+        "pinyin": "hòu",
+        "english": "back",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "厂",
+          "口",
+          "夂"
+        ],
+        "compounds": [
+          {
+            "chinese": "后门",
+            "pinyin": "hòumén",
+            "english": "back door",
+            "source": "textbook"
+          },
+          {
+            "chinese": "后来",
+            "pinyin": "hòulái",
+            "english": "afterwards; later",
+            "source": "generated"
+          },
+          {
+            "chinese": "后面",
+            "pinyin": "hòumiàn",
+            "english": "behind; back; rear",
+            "source": "generated"
+          },
+          {
+            "chinese": "以后",
+            "pinyin": "yǐhòu",
+            "english": "after; later; hereafter",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请在后面排队。",
+        "example_pinyin": "Qǐng zài hòumiàn páiduì.",
+        "example_english": "Please queue at the back."
+      },
+      {
+        "character": "条",
+        "pinyin": "tiáo",
+        "english": "(a measure word for something long, narrow or thin, like rivers, dragons, trousers, etc.) strip; long narrow piece",
+        "word_type": "M",
+        "table_ref": "2-06-04",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "夂",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "一条马路",
+            "pinyin": "yì tiáo mǎlù",
+            "english": "a road",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一条龙",
+            "pinyin": "yì tiáo lóng",
+            "english": "a dragon",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一条狗",
+            "pinyin": "yì tiáo gǒu",
+            "english": "a dog",
+            "source": "textbook"
+          },
+          {
+            "chinese": "条件",
+            "pinyin": "tiáojiàn",
+            "english": "condition; term",
+            "source": "generated"
+          },
+          {
+            "chinese": "条款",
+            "pinyin": "tiáokuǎn",
+            "english": "clause; article (of a document)",
+            "source": "generated"
+          },
+          {
+            "chinese": "条纹",
+            "pinyin": "tiáowén",
+            "english": "stripe; streak",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我买了一条新裤子。",
+        "example_pinyin": "Wǒ mǎi le yì tiáo xīn kùzi.",
+        "example_english": "I bought a new pair of trousers."
+      },
+      {
+        "character": "胡同",
+        "pinyin": "hútòng",
+        "english": "hutong; alley",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "古"
+        ],
+        "compounds": [
+          {
+            "chinese": "北京的胡同",
+            "pinyin": "Běijīng de hútòng",
+            "english": "Beijing's hutongs",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一条胡同",
+            "pinyin": "yì tiáo hútòng",
+            "english": "an alley",
+            "source": "textbook"
+          },
+          {
+            "chinese": "胡同口",
+            "pinyin": "hútòngkǒu",
+            "english": "hutong entrance",
+            "source": "generated"
+          },
+          {
+            "chinese": "胡同文化",
+            "pinyin": "hútòng wénhuà",
+            "english": "hutong culture",
+            "source": "generated"
+          },
+          {
+            "chinese": "胡同游",
+            "pinyin": "hútòng yóu",
+            "english": "hutong tour",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "北京有很多古老的胡同。",
+        "example_pinyin": "Běijīng yǒu hěn duō gǔlǎo de hútòng.",
+        "example_english": "Beijing has many ancient hutongs."
+      },
+      {
+        "character": "等",
+        "pinyin": "děng",
+        "english": "to wait",
+        "word_type": "V",
+        "table_ref": "2-06-04",
+        "radical": "竹",
+        "radical_pinyin": "zhú",
+        "components": [
+          "竹",
+          "寺"
+        ],
+        "compounds": [
+          {
+            "chinese": "等人",
+            "pinyin": "děng rén",
+            "english": "to wait for someone",
+            "source": "textbook"
+          },
+          {
+            "chinese": "等他们",
+            "pinyin": "děng tāmen",
+            "english": "to wait for them",
+            "source": "textbook"
+          },
+          {
+            "chinese": "等一下",
+            "pinyin": "děng yíxià",
+            "english": "to wait a moment; wait a bit",
+            "source": "textbook"
+          },
+          {
+            "chinese": "等一会儿",
+            "pinyin": "děng yīhuìr",
+            "english": "to wait a moment; wait a bit",
+            "source": "textbook"
+          },
+          {
+            "chinese": "等待",
+            "pinyin": "děngdài",
+            "english": "to wait; to await",
+            "source": "generated"
+          },
+          {
+            "chinese": "等等",
+            "pinyin": "děngděng",
+            "english": "etc.; and so on",
+            "source": "generated"
+          },
+          {
+            "chinese": "等候",
+            "pinyin": "děnghòu",
+            "english": "to wait; to await",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请等我一下。",
+        "example_pinyin": "Qǐng děng wǒ yíxià.",
+        "example_english": "Please wait for me for a moment."
+      },
+      {
+        "character": "街道",
+        "pinyin": "jiēdào",
+        "english": "street",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "行",
+        "radical_pinyin": "xíng",
+        "components": [
+          "行",
+          "圭"
+        ],
+        "compounds": [
+          {
+            "chinese": "一条街道",
+            "pinyin": "yì tiáo jiēdào",
+            "english": "a street",
+            "source": "textbook"
+          },
+          {
+            "chinese": "街道的对面",
+            "pinyin": "jiēdào de duìmiàn",
+            "english": "across the street",
+            "source": "textbook"
+          },
+          {
+            "chinese": "街口",
+            "pinyin": "jiēkǒu",
+            "english": "street intersection",
+            "source": "generated"
+          },
+          {
+            "chinese": "街灯",
+            "pinyin": "jiēdēng",
+            "english": "street lamp",
+            "source": "generated"
+          },
+          {
+            "chinese": "大街",
+            "pinyin": "dàjiē",
+            "english": "main street; avenue",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条街道很宽敞。",
+        "example_pinyin": "Zhè tiáo jiēdào hěn kuānchang.",
+        "example_english": "This street is very spacious."
+      },
+      {
+        "character": "街",
+        "pinyin": "jiē",
+        "english": "street",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "行",
+        "radical_pinyin": "xíng",
+        "components": [
+          "行",
+          "圭"
+        ],
+        "compounds": [
+          {
+            "chinese": "大街",
+            "pinyin": "dàjiē",
+            "english": "main street; avenue",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小街",
+            "pinyin": "xiǎojiē",
+            "english": "small street; lane",
+            "source": "textbook"
+          },
+          {
+            "chinese": "街上",
+            "pinyin": "jiē shàng",
+            "english": "on the street",
+            "source": "textbook"
+          },
+          {
+            "chinese": "街道",
+            "pinyin": "jiēdào",
+            "english": "street; neighborhood",
+            "source": "generated"
+          },
+          {
+            "chinese": "街区",
+            "pinyin": "jiēqū",
+            "english": "city block; district",
+            "source": "generated"
+          },
+          {
+            "chinese": "街头",
+            "pinyin": "jiētóu",
+            "english": "street corner; street",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条街很热闹。",
+        "example_pinyin": "Zhè tiáo jiē hěn rènào.",
+        "example_english": "This street is very lively."
+      },
+      {
+        "character": "老",
+        "pinyin": "lǎo",
+        "english": "old",
+        "word_type": "A",
+        "table_ref": "2-06-04",
+        "radical": "老",
+        "radical_pinyin": "lǎo",
+        "components": [
+          "耂",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "老人",
+            "pinyin": "lǎo rén",
+            "english": "elderly person; old people",
+            "source": "textbook"
+          },
+          {
+            "chinese": "老北京",
+            "pinyin": "lǎo Běijīng",
+            "english": "Old Beijing (referring to the traditional culture or people of Beijing)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "老上海",
+            "pinyin": "lǎo Shànghǎi",
+            "english": "Old Shanghai (referring to the traditional culture or people of Shanghai)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "老师",
+            "pinyin": "lǎo shī",
+            "english": "teacher",
+            "source": "generated"
+          },
+          {
+            "chinese": "老板",
+            "pinyin": "lǎo bǎn",
+            "english": "boss",
+            "source": "generated"
+          },
+          {
+            "chinese": "老家",
+            "pinyin": "lǎo jiā",
+            "english": "hometown",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他是一个老实人。",
+        "example_pinyin": "Tā shì yī gè lǎo shí rén.",
+        "example_english": "He is an honest person."
+      },
+      {
+        "character": "食",
+        "pinyin": "shí",
+        "english": "food; to eat",
+        "word_type": "N/V",
+        "table_ref": "2-06-02",
+        "radical": "食",
+        "radical_pinyin": "shí",
+        "components": [
+          "食"
+        ],
+        "compounds": [
+          {
+            "chinese": "食物",
+            "pinyin": "shíwù",
+            "english": "food",
+            "source": "generated"
+          },
+          {
+            "chinese": "吃饭",
+            "pinyin": "chīfàn",
+            "english": "to eat a meal",
+            "source": "generated"
+          },
+          {
+            "chinese": "食品",
+            "pinyin": "shípǐn",
+            "english": "foodstuff; food product",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们应该多吃健康的食物。",
+        "example_pinyin": "Wǒmen yīnggāi duō chī jiànkāng de shíwù.",
+        "example_english": "We should eat more healthy food."
+      },
+      {
+        "character": "堂",
+        "pinyin": "táng",
+        "english": "hall; main room; court",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "尚"
+        ],
+        "compounds": [
+          {
+            "chinese": "食堂",
+            "pinyin": "shítáng",
+            "english": "canteen; dining hall",
+            "source": "generated"
+          },
+          {
+            "chinese": "课堂",
+            "pinyin": "kètáng",
+            "english": "classroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "殿堂",
+            "pinyin": "diàntáng",
+            "english": "palace hall; temple",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们学校的食堂很大。",
+        "example_pinyin": "Wǒmen xuéxiào de shítáng hěn dà.",
+        "example_english": "Our school's canteen is very big."
+      },
+      {
+        "character": "地",
+        "pinyin": "de",
+        "english": "adverbial particle",
+        "word_type": "MdPt",
+        "table_ref": "2-06-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "也"
+        ],
+        "compounds": [
+          {
+            "chinese": "的确",
+            "pinyin": "díquè",
+            "english": "indeed; really",
+            "source": "generated"
+          },
+          {
+            "chinese": "地方",
+            "pinyin": "dìfang",
+            "english": "place; region",
+            "source": "generated"
+          },
+          {
+            "chinese": "地球",
+            "pinyin": "dìqiú",
+            "english": "the Earth; globe",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他高兴地笑了。",
+        "example_pinyin": "Tā gāoxìng de xiàole.",
+        "example_english": "He smiled happily."
+      },
+      {
+        "character": "图",
+        "pinyin": "tú",
+        "english": "map; drawing; picture; chart; to plan; to scheme; to covet",
+        "word_type": "N/V",
+        "table_ref": "2-06-02",
+        "radical": "囗",
+        "radical_pinyin": "wéi",
+        "components": [
+          "囗",
+          "冃"
+        ],
+        "compounds": [
+          {
+            "chinese": "地图",
+            "pinyin": "dìtú",
+            "english": "map",
+            "source": "generated"
+          },
+          {
+            "chinese": "图片",
+            "pinyin": "túpiàn",
+            "english": "picture; image",
+            "source": "generated"
+          },
+          {
+            "chinese": "图书馆",
+            "pinyin": "túshūguǎn",
+            "english": "library",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请给我一张世界地图。",
+        "example_pinyin": "Qǐng gěi wǒ yī zhāng shìjiè dìtú.",
+        "example_english": "Please give me a world map."
+      },
+      {
+        "character": "旁",
+        "pinyin": "páng",
+        "english": "side; beside; other",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "方",
+        "radical_pinyin": "fāng",
+        "components": [
+          "方",
+          "亠",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "旁边",
+            "pinyin": "pángbiān",
+            "english": "side; beside",
+            "source": "generated"
+          },
+          {
+            "chinese": "旁观者",
+            "pinyin": "pángguānzhě",
+            "english": "bystander; onlooker",
+            "source": "generated"
+          },
+          {
+            "chinese": "旁门左道",
+            "pinyin": "pángménzuǒdào",
+            "english": "heresy; unorthodox ways",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他坐在我旁边。",
+        "example_pinyin": "Tā zuò zài wǒ pángbiān.",
+        "example_english": "He sat beside me."
+      },
+      {
+        "character": "办",
+        "pinyin": "bàn",
+        "english": "to do; to handle; to manage; to set up; to run; to deal with",
+        "word_type": "V",
+        "table_ref": "2-06-02",
+        "radical": "力",
+        "radical_pinyin": "lì",
+        "components": [
+          "力",
+          "丶"
+        ],
+        "compounds": [
+          {
+            "chinese": "办法",
+            "pinyin": "bànfǎ",
+            "english": "method; way; means",
+            "source": "generated"
+          },
+          {
+            "chinese": "办公室",
+            "pinyin": "bàngōngshì",
+            "english": "office",
+            "source": "generated"
+          },
+          {
+            "chinese": "办理",
+            "pinyin": "bànlǐ",
+            "english": "to handle; to conduct; to transact",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件事你打算怎么办？",
+        "example_pinyin": "Zhè jiàn shì nǐ dǎsuàn zěnme bàn?",
+        "example_english": "How do you plan to handle this matter?"
+      },
+      {
+        "character": "公",
+        "pinyin": "gōng",
+        "english": "public; common; male",
+        "word_type": "A",
+        "table_ref": "2-06-02",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "公司",
+            "pinyin": "gōngsī",
+            "english": "company",
+            "source": "generated"
+          },
+          {
+            "chinese": "公共",
+            "pinyin": "gōnggòng",
+            "english": "public",
+            "source": "generated"
+          },
+          {
+            "chinese": "公园",
+            "pinyin": "gōngyuán",
+            "english": "park",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是一个公共场所。",
+        "example_pinyin": "Zhè shì yīgè gōnggòng chǎngsuǒ.",
+        "example_english": "This is a public place."
+      },
+      {
+        "character": "馆",
+        "pinyin": "guǎn",
+        "english": "house; establishment; embassy",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "饣",
+        "radical_pinyin": "shí",
+        "components": [
+          "饣",
+          "官"
+        ],
+        "compounds": [
+          {
+            "chinese": "饭馆",
+            "pinyin": "fànguǎn",
+            "english": "restaurant",
+            "source": "generated"
+          },
+          {
+            "chinese": "图书馆",
+            "pinyin": "túshūguǎn",
+            "english": "library",
+            "source": "generated"
+          },
+          {
+            "chinese": "博物馆",
+            "pinyin": "bówùguǎn",
+            "english": "museum",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家饭馆的菜很好吃。",
+        "example_pinyin": "Zhè jiā fànguǎn de cài hěn hǎochī.",
+        "example_english": "The food at this restaurant is very delicious."
+      },
+      {
+        "character": "体",
+        "pinyin": "tǐ",
+        "english": "body; form; style",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "本"
+        ],
+        "compounds": [
+          {
+            "chinese": "身体",
+            "pinyin": "shēntǐ",
+            "english": "body; health",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育",
+            "pinyin": "tǐyù",
+            "english": "physical education; sports",
+            "source": "generated"
+          },
+          {
+            "chinese": "具体",
+            "pinyin": "jùtǐ",
+            "english": "concrete; specific",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的身体很健康。",
+        "example_pinyin": "Tā de shēntǐ hěn jiànkāng.",
+        "example_english": "His body is very healthy."
+      },
+      {
+        "character": "育",
+        "pinyin": "yù",
+        "english": "to educate; to raise; to nurture",
+        "word_type": "V",
+        "table_ref": "2-06-02",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "月",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "教育",
+            "pinyin": "jiàoyù",
+            "english": "education; to educate",
+            "source": "generated"
+          },
+          {
+            "chinese": "体育",
+            "pinyin": "tǐyù",
+            "english": "physical education; sports",
+            "source": "generated"
+          },
+          {
+            "chinese": "抚育",
+            "pinyin": "fǔyù",
+            "english": "to foster; to bring up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "学校的职责是育人。",
+        "example_pinyin": "Xuéxiào de zhízé shì yùrén.",
+        "example_english": "The school's responsibility is to educate people."
+      },
+      {
+        "character": "银",
+        "pinyin": "yín",
+        "english": "silver; money",
+        "word_type": "N",
+        "table_ref": "2-06-02",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "艮"
+        ],
+        "compounds": [
+          {
+            "chinese": "银行",
+            "pinyin": "yínháng",
+            "english": "bank",
+            "source": "generated"
+          },
+          {
+            "chinese": "银色",
+            "pinyin": "yínsè",
+            "english": "silver color",
+            "source": "generated"
+          },
+          {
+            "chinese": "银牌",
+            "pinyin": "yínpái",
+            "english": "silver medal",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她戴着一个银色的项链。",
+        "example_pinyin": "Tā dàizhe yīgè yínsè de xiàngliàn.",
+        "example_english": "She is wearing a silver necklace."
+      },
+      {
+        "character": "宿",
+        "pinyin": "sù",
+        "english": "lodge; stay overnight; old; former",
+        "word_type": "V",
+        "table_ref": "2-06-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "人",
+          "百"
+        ],
+        "compounds": [
+          {
+            "chinese": "宿舍",
+            "pinyin": "sùshè",
+            "english": "dormitory",
+            "source": "generated"
+          },
+          {
+            "chinese": "住宿",
+            "pinyin": "zhùsù",
+            "english": "to stay; to lodge",
+            "source": "generated"
+          },
+          {
+            "chinese": "宿命",
+            "pinyin": "sùmìng",
+            "english": "fate; destiny",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们今晚住在学校宿舍。",
+        "example_pinyin": "Wǒmen jīnwǎn zhù zài xuéxiào sùshè.",
+        "example_english": "We are staying in the school dormitory tonight."
+      },
+      {
+        "character": "舍",
+        "pinyin": "shě",
+        "english": "to give up; to abandon",
+        "word_type": "V",
+        "table_ref": "2-06-02",
+        "radical": "舌",
+        "radical_pinyin": "shé",
+        "components": [
+          "舌",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "舍弃",
+            "pinyin": "shěqì",
+            "english": "to abandon; to give up",
+            "source": "generated"
+          },
+          {
+            "chinese": "舍得",
+            "pinyin": "shěde",
+            "english": "to be willing to part with; to not begrudge",
+            "source": "generated"
+          },
+          {
+            "chinese": "取舍",
+            "pinyin": "qǔshě",
+            "english": "to accept or reject; to make a choice",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他舍弃了高薪工作，去追求自己的梦想。",
+        "example_pinyin": "Tā shěqì le gāoxīn gōngzuò, qù zhuīqiú zìjǐ de mèngxiǎng.",
+        "example_english": "He gave up a high-paying job to pursue his dream."
+      },
+      {
+        "character": "着",
+        "pinyin": "zhe",
+        "english": "particle indicating an action in progress or a state of being",
+        "word_type": "MdPt",
+        "table_ref": "2-06-04",
+        "radical": "目",
+        "radical_pinyin": "mù",
+        "components": [
+          "目",
+          "羊"
+        ],
+        "compounds": [
+          {
+            "chinese": "穿着",
+            "pinyin": "chuānzhe",
+            "english": "wearing",
+            "source": "generated"
+          },
+          {
+            "chinese": "看着",
+            "pinyin": "kànzhe",
+            "english": "looking at",
+            "source": "generated"
+          },
+          {
+            "chinese": "坐着",
+            "pinyin": "zuòzhe",
+            "english": "sitting",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他正看着书。",
+        "example_pinyin": "Tā zhèng kànzhe shū.",
+        "example_english": "He is reading a book."
+      },
+      {
+        "character": "急",
+        "pinyin": "jí",
+        "english": "urgent; anxious; rapid",
+        "word_type": "A",
+        "table_ref": "2-06-04",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "及",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "着急",
+            "pinyin": "zháojí",
+            "english": "to worry; to feel anxious",
+            "source": "generated"
+          },
+          {
+            "chinese": "急忙",
+            "pinyin": "jímáng",
+            "english": "hastily; in a hurry",
+            "source": "generated"
+          },
+          {
+            "chinese": "急诊",
+            "pinyin": "jízhěn",
+            "english": "emergency treatment",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他很急，因为快迟到了。",
+        "example_pinyin": "Tā hěn jí, yīnwèi kuài chídào le.",
+        "example_english": "He is very anxious because he is almost late."
+      },
+      {
+        "character": "方",
+        "pinyin": "fāng",
+        "english": "square; direction; method; side",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "方",
+        "radical_pinyin": "fāng",
+        "components": [
+          "方"
+        ],
+        "compounds": [
+          {
+            "chinese": "方向",
+            "pinyin": "fāngxiàng",
+            "english": "direction",
+            "source": "generated"
+          },
+          {
+            "chinese": "方法",
+            "pinyin": "fāngfǎ",
+            "english": "method; way",
+            "source": "generated"
+          },
+          {
+            "chinese": "地方",
+            "pinyin": "dìfang",
+            "english": "place; region",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个盒子是方的。",
+        "example_pinyin": "Zhège hézi shì fāng de.",
+        "example_english": "This box is square."
+      },
+      {
+        "character": "知",
+        "pinyin": "zhī",
+        "english": "to know; to be aware of",
+        "word_type": "V",
+        "table_ref": "2-06-04",
+        "radical": "矢",
+        "radical_pinyin": "shǐ",
+        "components": [
+          "矢",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "知道",
+            "pinyin": "zhī dào",
+            "english": "to know; to be aware of",
+            "source": "generated"
+          },
+          {
+            "chinese": "知识",
+            "pinyin": "zhī shi",
+            "english": "knowledge",
+            "source": "generated"
+          },
+          {
+            "chinese": "通知",
+            "pinyin": "tōng zhī",
+            "english": "to inform; notice",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我知道这个答案。",
+        "example_pinyin": "Wǒ zhīdào zhège dá'àn.",
+        "example_english": "I know this answer."
+      },
+      {
+        "character": "道",
+        "pinyin": "dào",
+        "english": "way; path; road; principle; truth; doctrine; say; speak; a measure word for long, winding things, rivers, questions, etc.",
+        "word_type": "N/V/M",
+        "table_ref": "2-06-04",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "首"
+        ],
+        "compounds": [
+          {
+            "chinese": "知道",
+            "pinyin": "zhīdào",
+            "english": "to know",
+            "source": "generated"
+          },
+          {
+            "chinese": "道理",
+            "pinyin": "dàoli",
+            "english": "reason; principle; truth",
+            "source": "generated"
+          },
+          {
+            "chinese": "道路",
+            "pinyin": "dàolù",
+            "english": "road; path",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条路通向哪里？",
+        "example_pinyin": "Zhè tiáo lù tōngxiàng nǎlǐ?",
+        "example_english": "Where does this road lead?"
+      },
+      {
+        "character": "超",
+        "pinyin": "chāo",
+        "english": "to exceed; to surpass; to overtake",
+        "word_type": "V",
+        "table_ref": "2-06-04",
+        "radical": "走",
+        "radical_pinyin": "zǒu",
+        "components": [
+          "走",
+          "召"
+        ],
+        "compounds": [
+          {
+            "chinese": "超过",
+            "pinyin": "chāoguò",
+            "english": "to exceed; to surpass",
+            "source": "generated"
+          },
+          {
+            "chinese": "超级",
+            "pinyin": "chāojí",
+            "english": "super; ultra",
+            "source": "generated"
+          },
+          {
+            "chinese": "超越",
+            "pinyin": "chāoyuè",
+            "english": "to surmount; to transcend",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他的成绩超越了所有同学。",
+        "example_pinyin": "Tā de chéngjì chāoyuè le suǒyǒu tóngxué.",
+        "example_english": "His grades surpassed all his classmates."
+      },
+      {
+        "character": "市",
+        "pinyin": "shì",
+        "english": "market; city",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "巾",
+        "radical_pinyin": "jīn",
+        "components": [
+          "亠",
+          "巾"
+        ],
+        "compounds": [
+          {
+            "chinese": "市场",
+            "pinyin": "shìchǎng",
+            "english": "market",
+            "source": "generated"
+          },
+          {
+            "chinese": "城市",
+            "pinyin": "chéngshì",
+            "english": "city",
+            "source": "generated"
+          },
+          {
+            "chinese": "市长",
+            "pinyin": "shìzhǎng",
+            "english": "mayor",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个城市很漂亮。",
+        "example_pinyin": "Zhège chéngshì hěn piàoliang.",
+        "example_english": "This city is very beautiful."
+      },
+      {
+        "character": "胡",
+        "pinyin": "hú",
+        "english": "beard; mustache; recklessly; non-Han people",
+        "word_type": "N",
+        "table_ref": "2-06-04",
+        "radical": "月",
+        "radical_pinyin": "yuè",
+        "components": [
+          "古",
+          "月"
+        ],
+        "compounds": [
+          {
+            "chinese": "胡子",
+            "pinyin": "húzi",
+            "english": "beard; mustache",
+            "source": "generated"
+          },
+          {
+            "chinese": "胡说",
+            "pinyin": "húshuō",
+            "english": "to talk nonsense",
+            "source": "generated"
+          },
+          {
+            "chinese": "胡同",
+            "pinyin": "hútòng",
+            "english": "hutong; alley",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他留着长长的胡子。",
+        "example_pinyin": "Tā liúzhe chángcháng de húzi.",
+        "example_english": "He has a long beard."
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "卫生间",
+        "pinyin": "wèishēngjiān",
+        "english": "washroom; bathroom",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "未"
+        ],
+        "compounds": [
+          {
+            "chinese": "去卫生间",
+            "pinyin": "qù wèishēngjiān",
+            "english": "to go to the washroom",
+            "source": "textbook"
+          },
+          {
+            "chinese": "卫生间在哪儿",
+            "pinyin": "wèishēngjiān zài nǎr",
+            "english": "Where is the washroom?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "公共卫生间",
+            "pinyin": "gōnggòng wèishēngjiān",
+            "english": "public restroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "男卫生间",
+            "pinyin": "nán wèishēngjiān",
+            "english": "men's restroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "女卫生间",
+            "pinyin": "nǚ wèishēngjiān",
+            "english": "women's restroom",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，卫生间在哪里？",
+        "example_pinyin": "Qǐngwèn, wèishēngjiān zài nǎlǐ?",
+        "example_english": "Excuse me, where is the washroom?"
+      },
+      {
+        "character": "卧室",
+        "pinyin": "wòshì",
+        "english": "bedroom",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "室",
+        "radical_pinyin": "shì",
+        "components": [
+          "宀",
+          "至"
+        ],
+        "compounds": [
+          {
+            "chinese": "回卧室",
+            "pinyin": "huí wòshì",
+            "english": "return to the bedroom",
+            "source": "textbook"
+          },
+          {
+            "chinese": "卧室旁边",
+            "pinyin": "wòshì pángbiān",
+            "english": "next to the bedroom",
+            "source": "textbook"
+          },
+          {
+            "chinese": "主卧室",
+            "pinyin": "zhǔ wòshì",
+            "english": "master bedroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "儿童卧室",
+            "pinyin": "értóng wòshì",
+            "english": "children's bedroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "卧室家具",
+            "pinyin": "wòshì jiājù",
+            "english": "bedroom furniture",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的卧室很宽敞。",
+        "example_pinyin": "Wǒ de wòshì hěn kuānchǎng.",
+        "example_english": "My bedroom is very spacious."
+      },
+      {
+        "character": "客厅",
+        "pinyin": "kètīng",
+        "english": "living room",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "广",
+        "radical_pinyin": "guǎng",
+        "components": [
+          "广",
+          "客"
+        ],
+        "compounds": [
+          {
+            "chinese": "在客厅",
+            "pinyin": "zài kètīng",
+            "english": "in the living room",
+            "source": "textbook"
+          },
+          {
+            "chinese": "客厅后边",
+            "pinyin": "kètīng hòubian",
+            "english": "behind the living room",
+            "source": "textbook"
+          },
+          {
+            "chinese": "客厅家具",
+            "pinyin": "kètīng jiājù",
+            "english": "living room furniture",
+            "source": "generated"
+          },
+          {
+            "chinese": "客厅灯",
+            "pinyin": "kètīng dēng",
+            "english": "living room lamp",
+            "source": "generated"
+          },
+          {
+            "chinese": "客厅电视",
+            "pinyin": "kètīng diànshì",
+            "english": "living room TV",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们家的客厅很大。",
+        "example_pinyin": "Wǒmen jiā de kètīng hěn dà.",
+        "example_english": "Our living room is very big."
+      },
+      {
+        "character": "阳台",
+        "pinyin": "yángtái",
+        "english": "balcony",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "阜",
+        "radical_pinyin": "fù",
+        "components": [
+          "阝",
+          "昜"
+        ],
+        "compounds": [
+          {
+            "chinese": "在阳台",
+            "pinyin": "zài yángtái",
+            "english": "on the balcony",
+            "source": "textbook"
+          },
+          {
+            "chinese": "阳台里",
+            "pinyin": "yángtái lǐ",
+            "english": "inside the balcony",
+            "source": "textbook"
+          },
+          {
+            "chinese": "露台",
+            "pinyin": "lùtái",
+            "english": "terrace; open balcony",
+            "source": "generated"
+          },
+          {
+            "chinese": "平台",
+            "pinyin": "píngtái",
+            "english": "platform; terrace",
+            "source": "generated"
+          },
+          {
+            "chinese": "观景台",
+            "pinyin": "guānjǐngtái",
+            "english": "viewing platform",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢在阳台上喝咖啡。",
+        "example_pinyin": "Wǒ xǐhuān zài yángtái shàng hē kāfēi.",
+        "example_english": "I like to drink coffee on the balcony."
+      },
+      {
+        "character": "厨房",
+        "pinyin": "chúfáng",
+        "english": "kitchen",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "厂",
+        "radical_pinyin": "hǎn",
+        "components": [
+          "厂",
+          "付"
+        ],
+        "compounds": [
+          {
+            "chinese": "厨房里",
+            "pinyin": "chúfáng lǐ",
+            "english": "in the kitchen",
+            "source": "textbook"
+          },
+          {
+            "chinese": "厨房左边",
+            "pinyin": "chúfáng zuǒbiān",
+            "english": "left side of the kitchen",
+            "source": "textbook"
+          },
+          {
+            "chinese": "厨房用具",
+            "pinyin": "chúfáng yòngjù",
+            "english": "kitchenware",
+            "source": "generated"
+          },
+          {
+            "chinese": "开放式厨房",
+            "pinyin": "kāifàngshì chúfáng",
+            "english": "open kitchen",
+            "source": "generated"
+          },
+          {
+            "chinese": "厨房电器",
+            "pinyin": "chúfáng diànqì",
+            "english": "kitchen appliances",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我妈妈正在厨房里做饭。",
+        "example_pinyin": "Wǒ māma zhèngzài chúfáng lǐ zuòfàn.",
+        "example_english": "My mom is cooking in the kitchen."
+      },
+      {
+        "character": "书房",
+        "pinyin": "shūfáng",
+        "english": "study",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "聿",
+        "radical_pinyin": "yù",
+        "components": [
+          "聿",
+          "曰"
+        ],
+        "compounds": [
+          {
+            "chinese": "在书房写字",
+            "pinyin": "zài shūfáng xiězì",
+            "english": "to write characters in the study",
+            "source": "textbook"
+          },
+          {
+            "chinese": "图书馆",
+            "pinyin": "túshūguǎn",
+            "english": "library",
+            "source": "generated"
+          },
+          {
+            "chinese": "书本",
+            "pinyin": "shūběn",
+            "english": "book",
+            "source": "generated"
+          },
+          {
+            "chinese": "书店",
+            "pinyin": "shūdiàn",
+            "english": "bookstore",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的书房里有很多书。",
+        "example_pinyin": "Wǒ de shūfáng lǐ yǒu hěn duō shū.",
+        "example_english": "There are many books in my study."
+      },
+      {
+        "character": "咖啡厅",
+        "pinyin": "kāfēitīng",
+        "english": "coffee shop; café",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "力"
+        ],
+        "compounds": [
+          {
+            "chinese": "去咖啡厅",
+            "pinyin": "qù kāfēitīng",
+            "english": "go to the coffee shop",
+            "source": "textbook"
+          },
+          {
+            "chinese": "咖啡厅里",
+            "pinyin": "kāfēitīng lǐ",
+            "english": "inside the coffee shop",
+            "source": "textbook"
+          },
+          {
+            "chinese": "咖啡",
+            "pinyin": "kāfēi",
+            "english": "coffee",
+            "source": "generated"
+          },
+          {
+            "chinese": "餐厅",
+            "pinyin": "cāntīng",
+            "english": "dining hall; restaurant",
+            "source": "generated"
+          },
+          {
+            "chinese": "酒吧",
+            "pinyin": "jiǔbā",
+            "english": "bar; pub",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去咖啡厅喝咖啡吧。",
+        "example_pinyin": "Wǒmen qù kāfēitīng hē kāfēi ba.",
+        "example_english": "Let's go to the coffee shop to drink coffee."
+      },
+      {
+        "character": "酒吧",
+        "pinyin": "jiǔbā",
+        "english": "bar",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "酉"
+        ],
+        "compounds": [
+          {
+            "chinese": "酒吧前面",
+            "pinyin": "jiǔbā qiánmiàn",
+            "english": "in front of the bar",
+            "source": "textbook"
+          },
+          {
+            "chinese": "酒吧间",
+            "pinyin": "jiǔbājiān",
+            "english": "barroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "酒吧女郎",
+            "pinyin": "jiǔbānǚláng",
+            "english": "bar girl",
+            "source": "generated"
+          },
+          {
+            "chinese": "酒吧文化",
+            "pinyin": "jiǔbā wénhuà",
+            "english": "bar culture",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去酒吧喝一杯吧。",
+        "example_pinyin": "Wǒmen qù jiǔbā hē yī bēi ba.",
+        "example_english": "Let's go to the bar for a drink."
+      },
+      {
+        "character": "清真餐厅",
+        "pinyin": "qīngzhēn cāntīng",
+        "english": "Muslim restaurant; halal restaurant",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "青"
+        ],
+        "compounds": [
+          {
+            "chinese": "在清真餐厅吃饭",
+            "pinyin": "zài qīngzhēn cāntīng chīfàn",
+            "english": "to eat at a Muslim restaurant",
+            "source": "textbook"
+          },
+          {
+            "chinese": "清真寺",
+            "pinyin": "qīngzhēnsì",
+            "english": "mosque",
+            "source": "generated"
+          },
+          {
+            "chinese": "清真食品",
+            "pinyin": "qīngzhēn shípǐn",
+            "english": "halal food",
+            "source": "generated"
+          },
+          {
+            "chinese": "清真教",
+            "pinyin": "qīngzhēnjiào",
+            "english": "Islam",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家清真餐厅的羊肉串很好吃。",
+        "example_pinyin": "Zhè jiā qīngzhēn cāntīng de yángròuchuàn hěn hǎochī.",
+        "example_english": "The lamb skewers at this halal restaurant are very delicious."
+      },
+      {
+        "character": "操场",
+        "pinyin": "cāochǎng",
+        "english": "sports field",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "喿"
+        ],
+        "compounds": [
+          {
+            "chinese": "操场南边",
+            "pinyin": "cāochǎng nánbiān",
+            "english": "south of the sports field",
+            "source": "textbook"
+          },
+          {
+            "chinese": "操场上",
+            "pinyin": "cāochǎng shàng",
+            "english": "on the sports field",
+            "source": "textbook"
+          },
+          {
+            "chinese": "体操",
+            "pinyin": "tǐcāo",
+            "english": "gymnastics; calisthenics",
+            "source": "generated"
+          },
+          {
+            "chinese": "操作",
+            "pinyin": "cāozuò",
+            "english": "to operate; to manipulate",
+            "source": "generated"
+          },
+          {
+            "chinese": "操心",
+            "pinyin": "cāoxīn",
+            "english": "to worry; to be concerned",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "学生们在操场上踢足球。",
+        "example_pinyin": "Xuéshengmen zài cāochǎng shàng tī zúqiú.",
+        "example_english": "The students are playing soccer on the sports field."
+      },
+      {
+        "character": "那儿",
+        "pinyin": "nàr",
+        "english": "there",
+        "word_type": "Pr",
+        "table_ref": "2-06-06",
+        "radical": "阝",
+        "radical_pinyin": "yì",
+        "components": [
+          "阝",
+          "内"
+        ],
+        "compounds": [
+          {
+            "chinese": "去那儿",
+            "pinyin": "qù nàr",
+            "english": "go there",
+            "source": "textbook"
+          },
+          {
+            "chinese": "那里",
+            "pinyin": "nàlǐ",
+            "english": "there",
+            "source": "generated"
+          },
+          {
+            "chinese": "那儿去",
+            "pinyin": "nàr qù",
+            "english": "go there",
+            "source": "generated"
+          },
+          {
+            "chinese": "那儿有",
+            "pinyin": "nàr yǒu",
+            "english": "there is/are",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去那儿吃饭吧。",
+        "example_pinyin": "Wǒmen qù nàr chīfàn ba.",
+        "example_english": "Let's go eat there."
+      },
+      {
+        "character": "左边",
+        "pinyin": "zuǒbian",
+        "english": "left (side)",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "工",
+        "radical_pinyin": "gōng",
+        "components": [
+          "工",
+          "𠂇"
+        ],
+        "compounds": [
+          {
+            "chinese": "左边的办公楼",
+            "pinyin": "zuǒbian de bàngōnglóu",
+            "english": "the office building on the left",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在食堂左边",
+            "pinyin": "zài shítáng zuǒbian",
+            "english": "on the left side of the cafeteria",
+            "source": "textbook"
+          },
+          {
+            "chinese": "左手",
+            "pinyin": "zuǒshǒu",
+            "english": "left hand",
+            "source": "generated"
+          },
+          {
+            "chinese": "左派",
+            "pinyin": "zuǒpài",
+            "english": "left wing (politics)",
+            "source": "generated"
+          },
+          {
+            "chinese": "左转",
+            "pinyin": "zuǒzhuǎn",
+            "english": "turn left",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，洗手间在左边还是右边？",
+        "example_pinyin": "Qǐngwèn, xǐshǒujiān zài zuǒbian háishì yòubian?",
+        "example_english": "Excuse me, is the restroom on the left or right side?"
+      },
+      {
+        "character": "上边",
+        "pinyin": "shàngbian",
+        "english": "above; over; on top of",
+        "word_type": "N",
+        "table_ref": "2-06-07",
+        "radical": "一",
+        "radical_pinyin": "yī",
+        "components": [
+          "一",
+          "止"
+        ],
+        "compounds": [
+          {
+            "chinese": "钢琴上边",
+            "pinyin": "gāngqín shàngbian",
+            "english": "on top of the piano",
+            "source": "textbook"
+          },
+          {
+            "chinese": "上边儿",
+            "pinyin": "shàngbianr",
+            "english": "above; over; on top of",
+            "source": "generated"
+          },
+          {
+            "chinese": "上边人",
+            "pinyin": "shàngbianrén",
+            "english": "superiors; people above",
+            "source": "generated"
+          },
+          {
+            "chinese": "上边去",
+            "pinyin": "shàngbian qù",
+            "english": "go up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "书在桌子上边。",
+        "example_pinyin": "Shū zài zhuōzi shàngbian.",
+        "example_english": "The book is on top of the table."
+      },
+      {
+        "character": "下边",
+        "pinyin": "xiàbian",
+        "english": "below; under; underneath",
+        "word_type": "N",
+        "table_ref": "2-06-07",
+        "radical": "一",
+        "radical_pinyin": "yī",
+        "components": [
+          "一",
+          "卜"
+        ],
+        "compounds": [
+          {
+            "chinese": "楼下边",
+            "pinyin": "lóuxiàbian",
+            "english": "downstairs; below the building",
+            "source": "textbook"
+          },
+          {
+            "chinese": "下面",
+            "pinyin": "xiàmiàn",
+            "english": "below; under; underneath",
+            "source": "generated"
+          },
+          {
+            "chinese": "下水",
+            "pinyin": "xiàshuǐ",
+            "english": "to go into the water; to launch (a boat)",
+            "source": "generated"
+          },
+          {
+            "chinese": "下班",
+            "pinyin": "xiàbān",
+            "english": "to get off work",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "书在桌子下边。",
+        "example_pinyin": "Shū zài zhuōzi xiàbian.",
+        "example_english": "The book is under the table."
+      },
+      {
+        "character": "外边",
+        "pinyin": "wàibian",
+        "english": "outside",
+        "word_type": "N",
+        "table_ref": "2-06-07",
+        "radical": "夕",
+        "radical_pinyin": "xī",
+        "components": [
+          "夕",
+          "卜"
+        ],
+        "compounds": [
+          {
+            "chinese": "去外边",
+            "pinyin": "qù wàibian",
+            "english": "go outside",
+            "source": "textbook"
+          },
+          {
+            "chinese": "银行外边",
+            "pinyin": "yínháng wàibian",
+            "english": "outside the bank",
+            "source": "textbook"
+          },
+          {
+            "chinese": "外面",
+            "pinyin": "wàimiàn",
+            "english": "outside",
+            "source": "generated"
+          },
+          {
+            "chinese": "外地",
+            "pinyin": "wàidì",
+            "english": "other places",
+            "source": "generated"
+          },
+          {
+            "chinese": "外语",
+            "pinyin": "wàiyǔ",
+            "english": "foreign language",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去外边吃饭吧。",
+        "example_pinyin": "Wǒmen qù wàibian chīfàn ba.",
+        "example_english": "Let's go eat outside."
+      },
+      {
+        "character": "卫",
+        "pinyin": "wèi",
+        "english": "to guard; to protect; defense",
+        "word_type": "V",
+        "table_ref": "2-06-06",
+        "radical": "卩",
+        "radical_pinyin": "jié",
+        "components": [
+          "卫"
+        ],
+        "compounds": [
+          {
+            "chinese": "卫生",
+            "pinyin": "wèishēng",
+            "english": "hygiene; sanitation",
+            "source": "generated"
+          },
+          {
+            "chinese": "保卫",
+            "pinyin": "bǎowèi",
+            "english": "to defend; to safeguard",
+            "source": "generated"
+          },
+          {
+            "chinese": "卫兵",
+            "pinyin": "wèibīng",
+            "english": "guard; sentry",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们需要保卫我们的家园。",
+        "example_pinyin": "Wǒmen xūyào bǎowèi wǒmen de jiāyuán.",
+        "example_english": "We need to protect our homeland."
+      },
+      {
+        "character": "卧",
+        "pinyin": "wò",
+        "english": "to lie down; to crouch; to recline",
+        "word_type": "V",
+        "table_ref": "2-06-06",
+        "radical": "臣",
+        "radical_pinyin": "chén",
+        "components": [
+          "臣",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "卧床",
+            "pinyin": "wòchuáng",
+            "english": "to be confined to bed",
+            "source": "generated"
+          },
+          {
+            "chinese": "卧底",
+            "pinyin": "wòdǐ",
+            "english": "undercover (agent)",
+            "source": "generated"
+          },
+          {
+            "chinese": "卧房",
+            "pinyin": "wòfáng",
+            "english": "bedroom",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢在沙发上卧着看书。",
+        "example_pinyin": "Tā xǐhuān zài shāfā shàng wòzhe kànshū.",
+        "example_english": "He likes to lie on the sofa and read."
+      },
+      {
+        "character": "室",
+        "pinyin": "shì",
+        "english": "room; chamber; office",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "至"
+        ],
+        "compounds": [
+          {
+            "chinese": "卧室",
+            "pinyin": "wòshì",
+            "english": "bedroom",
+            "source": "generated"
+          },
+          {
+            "chinese": "办公室",
+            "pinyin": "bàngōngshì",
+            "english": "office",
+            "source": "generated"
+          },
+          {
+            "chinese": "教室",
+            "pinyin": "jiàoshì",
+            "english": "classroom",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这间卧室很大。",
+        "example_pinyin": "Zhè jiān wòshì hěn dà.",
+        "example_english": "This bedroom is very big."
+      },
+      {
+        "character": "厅",
+        "pinyin": "tīng",
+        "english": "hall; office",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "厂",
+        "radical_pinyin": "chǎng",
+        "components": [
+          "厂",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "餐厅",
+            "pinyin": "cāntīng",
+            "english": "dining hall; restaurant",
+            "source": "generated"
+          },
+          {
+            "chinese": "客厅",
+            "pinyin": "kètīng",
+            "english": "living room",
+            "source": "generated"
+          },
+          {
+            "chinese": "办公厅",
+            "pinyin": "bàngōngtīng",
+            "english": "general office",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们学校有一个很大的餐厅。",
+        "example_pinyin": "Wǒmen xuéxiào yǒu yīgè hěn dà de cāntīng.",
+        "example_english": "Our school has a very large dining hall."
+      },
+      {
+        "character": "阳",
+        "pinyin": "yáng",
+        "english": "sun; male principle; positive",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "阝",
+        "radical_pinyin": "fù",
+        "components": [
+          "阝",
+          "昜"
+        ],
+        "compounds": [
+          {
+            "chinese": "太阳",
+            "pinyin": "tàiyáng",
+            "english": "sun",
+            "source": "generated"
+          },
+          {
+            "chinese": "阳光",
+            "pinyin": "yángguāng",
+            "english": "sunlight",
+            "source": "generated"
+          },
+          {
+            "chinese": "阳台",
+            "pinyin": "yángtái",
+            "english": "balcony",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天阳光很好。",
+        "example_pinyin": "Jīntiān yángguāng hěn hǎo.",
+        "example_english": "The sunlight is very good today."
+      },
+      {
+        "character": "台",
+        "pinyin": "tái",
+        "english": "platform; stage; desk; stand; support; station; broadcasting station; typhoon",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "厶",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "台湾",
+            "pinyin": "Táiwān",
+            "english": "Taiwan",
+            "source": "generated"
+          },
+          {
+            "chinese": "舞台",
+            "pinyin": "wǔtái",
+            "english": "stage; arena",
+            "source": "generated"
+          },
+          {
+            "chinese": "电台",
+            "pinyin": "diàntái",
+            "english": "broadcasting station; radio station",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个台子很高。",
+        "example_pinyin": "Zhège táizi hěn gāo.",
+        "example_english": "This platform is very high."
+      },
+      {
+        "character": "厨",
+        "pinyin": "chú",
+        "english": "kitchen; chef",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "厂",
+        "radical_pinyin": "chǎng",
+        "components": [
+          "厂",
+          "尌"
+        ],
+        "compounds": [
+          {
+            "chinese": "厨房",
+            "pinyin": "chúfáng",
+            "english": "kitchen",
+            "source": "generated"
+          },
+          {
+            "chinese": "厨师",
+            "pinyin": "chúshī",
+            "english": "chef; cook",
+            "source": "generated"
+          },
+          {
+            "chinese": "主厨",
+            "pinyin": "zhǔchú",
+            "english": "head chef",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢在厨房里做饭。",
+        "example_pinyin": "Wǒ xǐhuān zài chúfáng lǐ zuòfàn.",
+        "example_english": "I like cooking in the kitchen."
+      },
+      {
+        "character": "房",
+        "pinyin": "fáng",
+        "english": "house; room; building",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "户",
+        "radical_pinyin": "hù",
+        "components": [
+          "户",
+          "方"
+        ],
+        "compounds": [
+          {
+            "chinese": "房间",
+            "pinyin": "fángjiān",
+            "english": "room",
+            "source": "generated"
+          },
+          {
+            "chinese": "房子",
+            "pinyin": "fángzi",
+            "english": "house",
+            "source": "generated"
+          },
+          {
+            "chinese": "房地产",
+            "pinyin": "fángdìchǎn",
+            "english": "real estate",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这所房子很大。",
+        "example_pinyin": "Zhè suǒ fángzi hěn dà.",
+        "example_english": "This house is very big."
+      },
+      {
+        "character": "酒",
+        "pinyin": "jiǔ",
+        "english": "alcohol; liquor; wine",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "酉",
+        "radical_pinyin": "yǒu",
+        "components": [
+          "酉",
+          "氵"
+        ],
+        "compounds": [
+          {
+            "chinese": "啤酒",
+            "pinyin": "píjiǔ",
+            "english": "beer",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄酒",
+            "pinyin": "pútáojiǔ",
+            "english": "grape wine",
+            "source": "generated"
+          },
+          {
+            "chinese": "白酒",
+            "pinyin": "báijiǔ",
+            "english": "Chinese liquor; baijiu",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢喝啤酒。",
+        "example_pinyin": "Tā xǐhuān hē píjiǔ.",
+        "example_english": "He likes to drink beer."
+      },
+      {
+        "character": "清",
+        "pinyin": "qīng",
+        "english": "clear; distinct; pure; clean",
+        "word_type": "A",
+        "table_ref": "2-06-06",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "青"
+        ],
+        "compounds": [
+          {
+            "chinese": "清楚",
+            "pinyin": "qīngchu",
+            "english": "clear; distinct",
+            "source": "generated"
+          },
+          {
+            "chinese": "清洁",
+            "pinyin": "qīngjié",
+            "english": "clean; to clean",
+            "source": "generated"
+          },
+          {
+            "chinese": "清晨",
+            "pinyin": "qīngchén",
+            "english": "early morning",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "河水很清澈。",
+        "example_pinyin": "Héshuǐ hěn qīngchè.",
+        "example_english": "The river water is very clear."
+      },
+      {
+        "character": "餐",
+        "pinyin": "cān",
+        "english": "meal; eat; restaurant",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "食",
+        "radical_pinyin": "shí",
+        "components": [
+          "食",
+          "又",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "餐厅",
+            "pinyin": "cāntīng",
+            "english": "dining hall; restaurant",
+            "source": "generated"
+          },
+          {
+            "chinese": "早餐",
+            "pinyin": "zǎocān",
+            "english": "breakfast",
+            "source": "generated"
+          },
+          {
+            "chinese": "午餐",
+            "pinyin": "wǔcān",
+            "english": "lunch",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们一起去吃晚餐吧。",
+        "example_pinyin": "Wǒmen yīqǐ qù chī wǎncān ba.",
+        "example_english": "Let's go eat dinner together."
+      },
+      {
+        "character": "操",
+        "pinyin": "cāo",
+        "english": "to grasp; to hold; to operate; to exercise; to worry; to fuck (vulgar)",
+        "word_type": "V",
+        "table_ref": "2-06-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "喿"
+        ],
+        "compounds": [
+          {
+            "chinese": "操作",
+            "pinyin": "cāozuò",
+            "english": "to operate; to manipulate",
+            "source": "generated"
+          },
+          {
+            "chinese": "体操",
+            "pinyin": "tǐcāo",
+            "english": "gymnastics",
+            "source": "generated"
+          },
+          {
+            "chinese": "操心",
+            "pinyin": "cāoxīn",
+            "english": "to worry about; to take pains",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他正在操纵机器。",
+        "example_pinyin": "Tā zhèngzài cāozòng jīqì.",
+        "example_english": "He is operating the machine."
+      },
+      {
+        "character": "场",
+        "pinyin": "chǎng",
+        "english": "field; place; stage; scene (of a play); classifier for events and some places",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "𠃑",
+          "日"
+        ],
+        "compounds": [
+          {
+            "chinese": "广场",
+            "pinyin": "guǎngchǎng",
+            "english": "public square; plaza",
+            "source": "generated"
+          },
+          {
+            "chinese": "市场",
+            "pinyin": "shìchǎng",
+            "english": "market; marketplace",
+            "source": "generated"
+          },
+          {
+            "chinese": "飞机场",
+            "pinyin": "fēijīchǎng",
+            "english": "airport",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个体育场很大。",
+        "example_pinyin": "Zhège tǐyùchǎng hěn dà.",
+        "example_english": "This stadium is very big."
+      },
+      {
+        "character": "左",
+        "pinyin": "zuǒ",
+        "english": "left",
+        "word_type": "N",
+        "table_ref": "2-06-06",
+        "radical": "工",
+        "radical_pinyin": "gōng",
+        "components": [
+          "工",
+          "丿"
+        ],
+        "compounds": [
+          {
+            "chinese": "左边",
+            "pinyin": "zuǒbiān",
+            "english": "left side",
+            "source": "generated"
+          },
+          {
+            "chinese": "左手",
+            "pinyin": "zuǒshǒu",
+            "english": "left hand",
+            "source": "generated"
+          },
+          {
+            "chinese": "左转",
+            "pinyin": "zuǒzhuǎn",
+            "english": "turn left",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请向左转。",
+        "example_pinyin": "Qǐng xiàng zuǒ zhuǎn.",
+        "example_english": "Please turn left."
+      },
+      {
+        "character": "外",
+        "pinyin": "wài",
+        "english": "outside; external; foreign",
+        "word_type": "N",
+        "table_ref": "2-06-07",
+        "radical": "夕",
+        "radical_pinyin": "xī",
+        "components": [
+          "夕",
+          "卜"
+        ],
+        "compounds": [
+          {
+            "chinese": "外国",
+            "pinyin": "wàiguó",
+            "english": "foreign country",
+            "source": "generated"
+          },
+          {
+            "chinese": "外面",
+            "pinyin": "wàimiàn",
+            "english": "outside",
+            "source": "generated"
+          },
+          {
+            "chinese": "例外",
+            "pinyin": "lìwài",
+            "english": "exception",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "外面下雨了。",
+        "example_pinyin": "Wàimiàn xiàyǔ le.",
+        "example_english": "It's raining outside."
+      }
+    ]
+  }
+}

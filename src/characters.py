@@ -26,6 +26,7 @@ class CharacterEntry:
     english: str
     char_type: str  # "main" or "supplementary"
     word_type: str = ""  # V, N, A, Adv, Pr, etc.
+    table_ref: str = ""  # e.g. "2-01-02" — source table identifier
     radical: str = ""
     radical_pinyin: str = ""
     components: list[str] = field(default_factory=list)
@@ -73,6 +74,7 @@ def load_lesson(lesson_num: int) -> LessonData:
                 english=entry["english"],
                 char_type="main",
                 word_type=entry.get("word_type", ""),
+                table_ref=entry.get("table_ref", ""),
                 radical=entry.get("radical", ""),
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),
@@ -99,6 +101,7 @@ def load_lesson(lesson_num: int) -> LessonData:
                 english=entry["english"],
                 char_type="supplementary",
                 word_type=entry.get("word_type", ""),
+                table_ref=entry.get("table_ref", ""),
                 radical=entry.get("radical", ""),
                 radical_pinyin=entry.get("radical_pinyin", ""),
                 components=entry.get("components", []),

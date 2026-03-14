@@ -1,0 +1,4578 @@
+{
+  "lesson": 7,
+  "title": "Lesson 7",
+  "characters": {
+    "main": [
+      {
+        "character": "老板",
+        "pinyin": "lǎobǎn",
+        "english": "shopkeeper; proprietor; boss",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "老",
+        "radical_pinyin": "lǎo",
+        "components": [
+          "耂",
+          "匕"
+        ],
+        "compounds": [
+          {
+            "chinese": "王老板",
+            "pinyin": "Wáng lǎobǎn",
+            "english": "Boss Wang; Mr. Wang (as a boss)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "丁老板",
+            "pinyin": "Dīng lǎobǎn",
+            "english": "Boss Ding; Mr. Ding (as a boss)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "老板娘",
+            "pinyin": "lǎobǎnniáng",
+            "english": "boss's wife; proprietress",
+            "source": "generated"
+          },
+          {
+            "chinese": "大老板",
+            "pinyin": "dà lǎobǎn",
+            "english": "big boss; major proprietor",
+            "source": "generated"
+          },
+          {
+            "chinese": "小老板",
+            "pinyin": "xiǎo lǎobǎn",
+            "english": "small business owner; petty boss",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们的老板对员工很好。",
+        "example_pinyin": "Wǒmen de lǎobǎn duì yuángōng hěn hǎo.",
+        "example_english": "Our boss is very good to the employees."
+      },
+      {
+        "character": "想",
+        "pinyin": "xiǎng",
+        "english": "to think; to think about / to want; would like",
+        "word_type": "V/OpV",
+        "table_ref": "2-07-02",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "相",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "想一下",
+            "pinyin": "xiǎng yīxià",
+            "english": "to think for a moment",
+            "source": "textbook"
+          },
+          {
+            "chinese": "想来",
+            "pinyin": "xiǎnglái",
+            "english": "to think; to suppose (often used to introduce a conclusion)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "想参加",
+            "pinyin": "xiǎng cānjiā",
+            "english": "to want to participate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "想看电影",
+            "pinyin": "xiǎng kàn diànyǐng",
+            "english": "to want to watch a movie",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不想去上海",
+            "pinyin": "bù xiǎng qù Shànghǎi",
+            "english": "don't want to go to Shanghai",
+            "source": "textbook"
+          },
+          {
+            "chinese": "想法",
+            "pinyin": "xiǎngfǎ",
+            "english": "idea; opinion",
+            "source": "generated"
+          },
+          {
+            "chinese": "想念",
+            "pinyin": "xiǎngniàn",
+            "english": "to miss; to long for",
+            "source": "generated"
+          },
+          {
+            "chinese": "思想",
+            "pinyin": "sīxiǎng",
+            "english": "thought; ideology",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我今天想吃面条。",
+        "example_pinyin": "Wǒ jīntiān xiǎng chī miàntiáo.",
+        "example_english": "I want to eat noodles today."
+      },
+      {
+        "character": "买",
+        "pinyin": "mǎi",
+        "english": "to buy",
+        "word_type": "V",
+        "table_ref": "2-07-02",
+        "radical": "头",
+        "radical_pinyin": "tóu",
+        "components": [
+          "头",
+          "买"
+        ],
+        "compounds": [
+          {
+            "chinese": "买点心",
+            "pinyin": "mǎi diǎnxīn",
+            "english": "to buy snacks",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买书",
+            "pinyin": "mǎi shū",
+            "english": "to buy books",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买礼物",
+            "pinyin": "mǎi lǐwù",
+            "english": "to buy gifts",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不买",
+            "pinyin": "bù mǎi",
+            "english": "not to buy",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买什么",
+            "pinyin": "mǎi shénme",
+            "english": "to buy what",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买卖",
+            "pinyin": "mǎimài",
+            "english": "buying and selling; business",
+            "source": "generated"
+          },
+          {
+            "chinese": "购买",
+            "pinyin": "gòumǎi",
+            "english": "to purchase; to buy",
+            "source": "generated"
+          },
+          {
+            "chinese": "买单",
+            "pinyin": "mǎidān",
+            "english": "to pay the bill",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我想买一件新衣服。",
+        "example_pinyin": "Wǒ xiǎng mǎi yī jiàn xīn yīfu.",
+        "example_english": "I want to buy a new piece of clothing."
+      },
+      {
+        "character": "(一)点儿",
+        "pinyin": "diǎnr",
+        "english": "a little; some",
+        "word_type": "Nu-M",
+        "table_ref": "2-07-02",
+        "radical": "丶",
+        "radical_pinyin": "zhǔ",
+        "components": [
+          "丶",
+          "占"
+        ],
+        "compounds": [
+          {
+            "chinese": "吃点儿饺子",
+            "pinyin": "chī diǎnr jiǎozi",
+            "english": "eat some dumplings",
+            "source": "textbook"
+          },
+          {
+            "chinese": "喝点儿什么",
+            "pinyin": "hē diǎnr shénme",
+            "english": "drink something",
+            "source": "textbook"
+          },
+          {
+            "chinese": "看点儿书",
+            "pinyin": "kàn diǎnr shū",
+            "english": "read some books",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一点儿",
+            "pinyin": "yìdiǎnr",
+            "english": "a little bit; some",
+            "source": "generated"
+          },
+          {
+            "chinese": "优点",
+            "pinyin": "yōudiǎn",
+            "english": "merit; strong point",
+            "source": "generated"
+          },
+          {
+            "chinese": "特点",
+            "pinyin": "tèdiǎn",
+            "english": "characteristic; feature",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我有点儿累。",
+        "example_pinyin": "Wǒ yǒudiǎnr lèi.",
+        "example_english": "I'm a little tired."
+      },
+      {
+        "character": "苹果",
+        "pinyin": "píngguǒ",
+        "english": "apple",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "平"
+        ],
+        "compounds": [
+          {
+            "chinese": "买点儿苹果",
+            "pinyin": "mǎi diǎnr píngguǒ",
+            "english": "buy some apples",
+            "source": "textbook"
+          },
+          {
+            "chinese": "好吃的苹果",
+            "pinyin": "hǎochī de píngguǒ",
+            "english": "delicious apple",
+            "source": "textbook"
+          },
+          {
+            "chinese": "苹果汁",
+            "pinyin": "píngguǒ zhī",
+            "english": "apple juice",
+            "source": "generated"
+          },
+          {
+            "chinese": "苹果派",
+            "pinyin": "píngguǒ pài",
+            "english": "apple pie",
+            "source": "generated"
+          },
+          {
+            "chinese": "苹果树",
+            "pinyin": "píngguǒ shù",
+            "english": "apple tree",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃红色的苹果。",
+        "example_pinyin": "Wǒ xǐhuān chī hóngsè de píngguǒ.",
+        "example_english": "I like to eat red apples."
+      },
+      {
+        "character": "先生",
+        "pinyin": "xiānsheng",
+        "english": "sir; Mr.",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "牛",
+        "radical_pinyin": "niú",
+        "components": [
+          "牛",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "张先生",
+            "pinyin": "Zhāng xiānsheng",
+            "english": "Mr. Zhang",
+            "source": "textbook"
+          },
+          {
+            "chinese": "宋先生",
+            "pinyin": "Sòng xiānsheng",
+            "english": "Mr. Song",
+            "source": "textbook"
+          },
+          {
+            "chinese": "先生们",
+            "pinyin": "xiānshengmen",
+            "english": "gentlemen",
+            "source": "generated"
+          },
+          {
+            "chinese": "李先生",
+            "pinyin": "Lǐ xiānsheng",
+            "english": "Mr. Li",
+            "source": "generated"
+          },
+          {
+            "chinese": "王先生",
+            "pinyin": "Wáng xiānsheng",
+            "english": "Mr. Wang",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "先生，请问洗手间在哪里？",
+        "example_pinyin": "Xiānsheng, qǐngwèn xǐshǒujiān zài nǎlǐ?",
+        "example_english": "Sir, may I ask where the restroom is?"
+      },
+      {
+        "character": "哪里",
+        "pinyin": "nǎli",
+        "english": "(an expression of modesty) not at all",
+        "word_type": "IE",
+        "table_ref": "2-07-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "那"
+        ],
+        "compounds": [
+          {
+            "chinese": "哪里哪里",
+            "pinyin": "nǎli nǎli",
+            "english": "not at all; you flatter me",
+            "source": "textbook"
+          },
+          {
+            "chinese": "哪里",
+            "pinyin": "nǎli",
+            "english": "where",
+            "source": "generated"
+          },
+          {
+            "chinese": "哪里有",
+            "pinyin": "nǎli yǒu",
+            "english": "where is there",
+            "source": "generated"
+          },
+          {
+            "chinese": "哪里去",
+            "pinyin": "nǎli qù",
+            "english": "where to go",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "您过奖了，哪里哪里。",
+        "example_pinyin": "Nín guòjiǎng le, nǎli nǎli.",
+        "example_english": "You flatter me, not at all."
+      },
+      {
+        "character": "钱",
+        "pinyin": "qián",
+        "english": "money",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "戋"
+        ],
+        "compounds": [
+          {
+            "chinese": "多少钱",
+            "pinyin": "duōshao qián",
+            "english": "how much money",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有钱的人",
+            "pinyin": "yǒuqián de rén",
+            "english": "rich person",
+            "source": "textbook"
+          },
+          {
+            "chinese": "没有钱",
+            "pinyin": "méiyǒu qián",
+            "english": "to have no money; to be broke",
+            "source": "textbook"
+          },
+          {
+            "chinese": "银行",
+            "pinyin": "yínháng",
+            "english": "bank",
+            "source": "generated"
+          },
+          {
+            "chinese": "零钱",
+            "pinyin": "língqián",
+            "english": "small change",
+            "source": "generated"
+          },
+          {
+            "chinese": "赚钱",
+            "pinyin": "zhuànqián",
+            "english": "to earn money",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服多少钱？",
+        "example_pinyin": "Zhè jiàn yīfu duōshao qián?",
+        "example_english": "How much is this piece of clothing?"
+      },
+      {
+        "character": "斤",
+        "pinyin": "jīn",
+        "english": "jin (500g)",
+        "word_type": "M",
+        "table_ref": "2-07-02",
+        "radical": "斤",
+        "radical_pinyin": "jīn",
+        "components": [
+          "斤"
+        ],
+        "compounds": [
+          {
+            "chinese": "一斤",
+            "pinyin": "yī jīn",
+            "english": "one jin (500g)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "十斤苹果",
+            "pinyin": "shí jīn píngguǒ",
+            "english": "ten jin of apples",
+            "source": "textbook"
+          },
+          {
+            "chinese": "多少钱一斤",
+            "pinyin": "duōshǎo qián yī jīn",
+            "english": "How much is one jin?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "公斤",
+            "pinyin": "gōngjīn",
+            "english": "kilogram",
+            "source": "generated"
+          },
+          {
+            "chinese": "市斤",
+            "pinyin": "shìjīn",
+            "english": "market jin (500g)",
+            "source": "generated"
+          },
+          {
+            "chinese": "半斤八两",
+            "pinyin": "bànjīnbāliǎng",
+            "english": "six of one and half a dozen of the other (idiom)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我买了三斤香蕉。",
+        "example_pinyin": "Wǒ mǎi le sān jīn xiāngjiāo.",
+        "example_english": "I bought three jin of bananas."
+      },
+      {
+        "character": "问题",
+        "pinyin": "wèntí",
+        "english": "question; problem; issue",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "门",
+        "radical_pinyin": "mén",
+        "components": [
+          "门",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "有问题",
+            "pinyin": "yǒu wèntí",
+            "english": "to have a question/problem; there is a problem",
+            "source": "textbook"
+          },
+          {
+            "chinese": "没有问题",
+            "pinyin": "méiyǒu wèntí",
+            "english": "no problem; no question",
+            "source": "textbook"
+          },
+          {
+            "chinese": "提出问题",
+            "pinyin": "tíchū wèntí",
+            "english": "to raise a question",
+            "source": "generated"
+          },
+          {
+            "chinese": "解决问题",
+            "pinyin": "jiějué wèntí",
+            "english": "to solve a problem",
+            "source": "generated"
+          },
+          {
+            "chinese": "主要问题",
+            "pinyin": "zhǔyào wèntí",
+            "english": "main problem",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你有什么问题吗？",
+        "example_pinyin": "Nǐ yǒu shénme wèntí ma?",
+        "example_english": "Do you have any questions?"
+      },
+      {
+        "character": "块(钱)",
+        "pinyin": "kuài (qián)",
+        "english": "kuai (a colloquial measure word for dollar)",
+        "word_type": "M",
+        "table_ref": "2-07-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "夬"
+        ],
+        "compounds": [
+          {
+            "chinese": "五块(钱)",
+            "pinyin": "wǔ kuài (qián)",
+            "english": "five kuai (dollars)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "五块(钱)一斤",
+            "pinyin": "wǔ kuài (qián) yī jīn",
+            "english": "five kuai (dollars) per jin (500g)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一块儿",
+            "pinyin": "yī kuàir",
+            "english": "together",
+            "source": "generated"
+          },
+          {
+            "chinese": "块头",
+            "pinyin": "kuàitou",
+            "english": "build; physique",
+            "source": "generated"
+          },
+          {
+            "chinese": "冰块",
+            "pinyin": "bīngkuài",
+            "english": "ice cube",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个苹果三块钱。",
+        "example_pinyin": "Zhège píngguǒ sān kuài qián.",
+        "example_english": "This apple is three kuai."
+      },
+      {
+        "character": "怎么",
+        "pinyin": "zěnme",
+        "english": "how",
+        "word_type": "QPr",
+        "table_ref": "2-07-02",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "心",
+          "乍"
+        ],
+        "compounds": [
+          {
+            "chinese": "怎么说",
+            "pinyin": "zěnme shuō",
+            "english": "how to say; how do you say",
+            "source": "textbook"
+          },
+          {
+            "chinese": "怎么做",
+            "pinyin": "zěnme zuò",
+            "english": "how to do; how do you do",
+            "source": "textbook"
+          },
+          {
+            "chinese": "怎么写",
+            "pinyin": "zěnme xiě",
+            "english": "how to write; how do you write",
+            "source": "textbook"
+          },
+          {
+            "chinese": "怎么去",
+            "pinyin": "zěnme qù",
+            "english": "how to go; how do you go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "怎么学",
+            "pinyin": "zěnme xué",
+            "english": "how to learn; how do you learn",
+            "source": "textbook"
+          },
+          {
+            "chinese": "怎么样",
+            "pinyin": "zěnmeyàng",
+            "english": "how about; how is it",
+            "source": "generated"
+          },
+          {
+            "chinese": "怎么了",
+            "pinyin": "zěnme le",
+            "english": "what's wrong; what happened",
+            "source": "generated"
+          },
+          {
+            "chinese": "怎么回事",
+            "pinyin": "zěnme huí shì",
+            "english": "what's going on; what's the matter",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你怎么还没来？",
+        "example_pinyin": "Nǐ zěnme hái méi lái?",
+        "example_english": "How come you haven't arrived yet?"
+      },
+      {
+        "character": "草莓",
+        "pinyin": "cǎoméi",
+        "english": "strawberry",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "早"
+        ],
+        "compounds": [
+          {
+            "chinese": "买点儿草莓",
+            "pinyin": "mǎi diǎnr cǎoméi",
+            "english": "buy some strawberries",
+            "source": "textbook"
+          },
+          {
+            "chinese": "两斤草莓",
+            "pinyin": "liǎng jīn cǎoméi",
+            "english": "two jin (kilograms) of strawberries",
+            "source": "textbook"
+          },
+          {
+            "chinese": "草莓酱",
+            "pinyin": "cǎoméi jiàng",
+            "english": "strawberry jam",
+            "source": "generated"
+          },
+          {
+            "chinese": "草莓派",
+            "pinyin": "cǎoméi pài",
+            "english": "strawberry pie",
+            "source": "generated"
+          },
+          {
+            "chinese": "草莓牛奶",
+            "pinyin": "cǎoméi niúnǎi",
+            "english": "strawberry milk",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃甜甜的草莓。",
+        "example_pinyin": "Wǒ xǐhuān chī tiántián de cǎoméi.",
+        "example_english": "I like to eat sweet strawberries."
+      },
+      {
+        "character": "卖",
+        "pinyin": "mài",
+        "english": "to sell",
+        "word_type": "V",
+        "table_ref": "2-07-02",
+        "radical": "士",
+        "radical_pinyin": "shì",
+        "components": [
+          "士",
+          "十",
+          "口",
+          "贝"
+        ],
+        "compounds": [
+          {
+            "chinese": "卖苹果",
+            "pinyin": "mài píngguǒ",
+            "english": "to sell apples",
+            "source": "textbook"
+          },
+          {
+            "chinese": "草莓怎么卖",
+            "pinyin": "cǎoméi zěnme mài",
+            "english": "How much are the strawberries?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买卖",
+            "pinyin": "mǎi mài",
+            "english": "buying and selling; business",
+            "source": "generated"
+          },
+          {
+            "chinese": "卖掉",
+            "pinyin": "mài diào",
+            "english": "to sell off",
+            "source": "generated"
+          },
+          {
+            "chinese": "卖光",
+            "pinyin": "mài guāng",
+            "english": "to sell out; to be sold out",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家商店卖很多种水果。",
+        "example_pinyin": "Zhè jiā shāngdiàn mài hěn duō zhǒng shuǐguǒ.",
+        "example_english": "This store sells many kinds of fruit."
+      },
+      {
+        "character": "贵",
+        "pinyin": "guì",
+        "english": "expensive",
+        "word_type": "A",
+        "table_ref": "2-07-02",
+        "radical": "贝",
+        "radical_pinyin": "bèi",
+        "components": [
+          "中",
+          "贝"
+        ],
+        "compounds": [
+          {
+            "chinese": "真贵",
+            "pinyin": "zhēn guì",
+            "english": "really expensive",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不贵",
+            "pinyin": "bù guì",
+            "english": "not expensive",
+            "source": "textbook"
+          },
+          {
+            "chinese": "价格",
+            "pinyin": "jiàgé",
+            "english": "price",
+            "source": "generated"
+          },
+          {
+            "chinese": "贵族",
+            "pinyin": "guìzú",
+            "english": "nobleman; aristocrat",
+            "source": "generated"
+          },
+          {
+            "chinese": "昂贵",
+            "pinyin": "ángguì",
+            "english": "expensive; costly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服太贵了。",
+        "example_pinyin": "Zhè jiàn yīfu tài guì le.",
+        "example_english": "This piece of clothing is too expensive."
+      },
+      {
+        "character": "可以",
+        "pinyin": "kěyǐ",
+        "english": "may; can",
+        "word_type": "OpV",
+        "table_ref": "2-07-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "可以参加",
+            "pinyin": "kěyǐ cānjiā",
+            "english": "can participate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可以去",
+            "pinyin": "kěyǐ qù",
+            "english": "can go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可以看一下",
+            "pinyin": "kěyǐ kàn yīxià",
+            "english": "can take a look",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不可以",
+            "pinyin": "bù kěyǐ",
+            "english": "cannot; not allowed",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可以吗",
+            "pinyin": "kěyǐ ma",
+            "english": "Is it okay?",
+            "source": "generated"
+          },
+          {
+            "chinese": "可以了",
+            "pinyin": "kěyǐ le",
+            "english": "It's fine now; It's ready",
+            "source": "generated"
+          },
+          {
+            "chinese": "可以接受",
+            "pinyin": "kěyǐ jiēshòu",
+            "english": "acceptable",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你现在可以走了。",
+        "example_pinyin": "Nǐ xiànzài kěyǐ zǒu le.",
+        "example_english": "You can leave now."
+      },
+      {
+        "character": "尝",
+        "pinyin": "cháng",
+        "english": "to taste",
+        "word_type": "V",
+        "table_ref": "2-07-02",
+        "radical": "小",
+        "radical_pinyin": "xiǎo",
+        "components": [
+          "小",
+          "尚"
+        ],
+        "compounds": [
+          {
+            "chinese": "尝一下",
+            "pinyin": "cháng yī xià",
+            "english": "to taste a bit; to try a little",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可以尝一下",
+            "pinyin": "kěyǐ cháng yī xià",
+            "english": "Can I taste it?; You can taste it.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "尝试",
+            "pinyin": "chángshì",
+            "english": "to try; to attempt",
+            "source": "generated"
+          },
+          {
+            "chinese": "品尝",
+            "pinyin": "pǐncháng",
+            "english": "to taste; to sample",
+            "source": "generated"
+          },
+          {
+            "chinese": "尝鲜",
+            "pinyin": "chángxiān",
+            "english": "to taste something new/fresh",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我想尝尝这个新菜。",
+        "example_pinyin": "Wǒ xiǎng chángcháng zhège xīn cài.",
+        "example_english": "I want to try this new dish."
+      },
+      {
+        "character": "便宜",
+        "pinyin": "piányi",
+        "english": "inexpensive; cheap",
+        "word_type": "A",
+        "table_ref": "2-07-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "便"
+        ],
+        "compounds": [
+          {
+            "chinese": "很便宜",
+            "pinyin": "hěn piányi",
+            "english": "very cheap",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不便宜",
+            "pinyin": "bù piányi",
+            "english": "not cheap; expensive",
+            "source": "textbook"
+          },
+          {
+            "chinese": "便宜点儿",
+            "pinyin": "piányi diǎnr",
+            "english": "a bit cheaper; make it cheaper",
+            "source": "textbook"
+          },
+          {
+            "chinese": "便宜货",
+            "pinyin": "piányi huò",
+            "english": "cheap goods; bargain",
+            "source": "generated"
+          },
+          {
+            "chinese": "占便宜",
+            "pinyin": "zhàn piányi",
+            "english": "to take advantage of; to profit at others' expense",
+            "source": "generated"
+          },
+          {
+            "chinese": "便宜坊",
+            "pinyin": "Piányifāng",
+            "english": "Pianyifang (a famous roast duck restaurant in Beijing)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个手机很便宜。",
+        "example_pinyin": "Zhège shǒujī hěn piányi.",
+        "example_english": "This phone is very cheap."
+      },
+      {
+        "character": "给",
+        "pinyin": "gěi",
+        "english": "to give",
+        "word_type": "V",
+        "table_ref": "2-07-02",
+        "radical": "纟",
+        "radical_pinyin": "sī",
+        "components": [
+          "纟",
+          "合"
+        ],
+        "compounds": [
+          {
+            "chinese": "给老板钱",
+            "pinyin": "gěi lǎobǎn qián",
+            "english": "to give money to the boss",
+            "source": "textbook"
+          },
+          {
+            "chinese": "给他草莓",
+            "pinyin": "gěi tā cǎoméi",
+            "english": "to give him strawberries",
+            "source": "textbook"
+          },
+          {
+            "chinese": "给你咖啡",
+            "pinyin": "gěi nǐ kāfēi",
+            "english": "to give you coffee",
+            "source": "textbook"
+          },
+          {
+            "chinese": "送给",
+            "pinyin": "sòng gěi",
+            "english": "to give as a present",
+            "source": "generated"
+          },
+          {
+            "chinese": "交给",
+            "pinyin": "jiāo gěi",
+            "english": "to hand over; to give to",
+            "source": "generated"
+          },
+          {
+            "chinese": "给力",
+            "pinyin": "gěi lì",
+            "english": "awesome; cool (slang)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你给我一杯水。",
+        "example_pinyin": "Qǐng nǐ gěi wǒ yī bēi shuǐ.",
+        "example_english": "Please give me a glass of water."
+      },
+      {
+        "character": "找",
+        "pinyin": "zhǎo",
+        "english": "to give change",
+        "word_type": "V",
+        "table_ref": "2-07-02",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "戈",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "找钱",
+            "pinyin": "zhǎoqián",
+            "english": "to give change; to look for money",
+            "source": "textbook"
+          },
+          {
+            "chinese": "找我两块",
+            "pinyin": "zhǎo wǒ liǎng kuài",
+            "english": "give me two yuan in change",
+            "source": "textbook"
+          },
+          {
+            "chinese": "找工作",
+            "pinyin": "zhǎo gōngzuò",
+            "english": "to look for a job",
+            "source": "generated"
+          },
+          {
+            "chinese": "找麻烦",
+            "pinyin": "zhǎo máfan",
+            "english": "to look for trouble",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请找我五块钱。",
+        "example_pinyin": "Qǐng zhǎo wǒ wǔ kuài qián.",
+        "example_english": "Please give me five yuan in change."
+      },
+      {
+        "character": "再",
+        "pinyin": "zài",
+        "english": "again",
+        "word_type": "Adv",
+        "table_ref": "2-07-02",
+        "radical": "冂",
+        "radical_pinyin": "jiōng",
+        "components": [
+          "冂",
+          "一",
+          "土"
+        ],
+        "compounds": [
+          {
+            "chinese": "再吃点儿",
+            "pinyin": "zài chī diǎnr",
+            "english": "eat a bit more",
+            "source": "textbook"
+          },
+          {
+            "chinese": "再坐一会儿",
+            "pinyin": "zài zuò yīhuìr",
+            "english": "sit for a while longer",
+            "source": "textbook"
+          },
+          {
+            "chinese": "再等一会儿",
+            "pinyin": "zài děng yīhuìr",
+            "english": "wait for a while longer",
+            "source": "textbook"
+          },
+          {
+            "chinese": "再唱一个",
+            "pinyin": "zài chàng yī ge",
+            "english": "sing one more (song)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "再见",
+            "pinyin": "zàijiàn",
+            "english": "goodbye",
+            "source": "generated"
+          },
+          {
+            "chinese": "再三",
+            "pinyin": "zàisān",
+            "english": "again and again; repeatedly",
+            "source": "generated"
+          },
+          {
+            "chinese": "不再",
+            "pinyin": "bùzài",
+            "english": "no longer; no more",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你再说一遍。",
+        "example_pinyin": "Qǐng nǐ zài shuō yī biàn.",
+        "example_english": "Please say it again."
+      },
+      {
+        "character": "件",
+        "pinyin": "jiàn",
+        "english": "item/article (of clothing)",
+        "word_type": "M",
+        "table_ref": "2-07-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "牛"
+        ],
+        "compounds": [
+          {
+            "chinese": "两件",
+            "pinyin": "liǎng jiàn",
+            "english": "two items/pieces",
+            "source": "textbook"
+          },
+          {
+            "chinese": "这件",
+            "pinyin": "zhè jiàn",
+            "english": "this item/piece",
+            "source": "textbook"
+          },
+          {
+            "chinese": "文件",
+            "pinyin": "wénjiàn",
+            "english": "document",
+            "source": "generated"
+          },
+          {
+            "chinese": "事件",
+            "pinyin": "shìjiàn",
+            "english": "incident",
+            "source": "generated"
+          },
+          {
+            "chinese": "零件",
+            "pinyin": "língjiàn",
+            "english": "part (of a machine)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我买了两件衣服。",
+        "example_pinyin": "Wǒ mǎi le liǎng jiàn yīfu.",
+        "example_english": "I bought two pieces of clothing."
+      },
+      {
+        "character": "衬衫",
+        "pinyin": "chènshān",
+        "english": "shirt; blouse",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "一件衬衫",
+            "pinyin": "yī jiàn chènshān",
+            "english": "a shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买衬衫",
+            "pinyin": "mǎi chènshān",
+            "english": "to buy a shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "新衬衫",
+            "pinyin": "xīn chènshān",
+            "english": "new shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "汗衫",
+            "pinyin": "hànshān",
+            "english": "undershirt; T-shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "衬衣",
+            "pinyin": "chènyī",
+            "english": "shirt; blouse",
+            "source": "generated"
+          },
+          {
+            "chinese": "棉衬衫",
+            "pinyin": "miánchènshān",
+            "english": "cotton shirt",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他今天穿了一件白衬衫。",
+        "example_pinyin": "Tā jīntiān chuānle yī jiàn bái chènshān.",
+        "example_english": "He wore a white shirt today."
+      },
+      {
+        "character": "售货员",
+        "pinyin": "shòuhuòyuán",
+        "english": "salesperson",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "员",
+        "radical_pinyin": "yuán",
+        "components": [
+          "口",
+          "贝"
+        ],
+        "compounds": [
+          {
+            "chinese": "女售货员",
+            "pinyin": "nǚ shòuhuòyuán",
+            "english": "saleswoman",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一个售货员",
+            "pinyin": "yí gè shòuhuòyuán",
+            "english": "a salesperson",
+            "source": "textbook"
+          },
+          {
+            "chinese": "售货",
+            "pinyin": "shòuhuò",
+            "english": "to sell goods",
+            "source": "generated"
+          },
+          {
+            "chinese": "售票员",
+            "pinyin": "shòupiàoyuán",
+            "english": "ticket seller; conductor",
+            "source": "generated"
+          },
+          {
+            "chinese": "营业员",
+            "pinyin": "yíngyèyuán",
+            "english": "shop assistant; clerk",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "那位售货员很热情。",
+        "example_pinyin": "Nà wèi shòuhuòyuán hěn rèqíng.",
+        "example_english": "That salesperson is very enthusiastic."
+      },
+      {
+        "character": "员",
+        "pinyin": "yuán",
+        "english": "(a suffix attached to persons in certain fields) person",
+        "word_type": "Suf",
+        "table_ref": "2-07-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "贝"
+        ],
+        "compounds": [
+          {
+            "chinese": "成员",
+            "pinyin": "chéngyuán",
+            "english": "member",
+            "source": "generated"
+          },
+          {
+            "chinese": "职员",
+            "pinyin": "zhíyuán",
+            "english": "staff member; employee",
+            "source": "generated"
+          },
+          {
+            "chinese": "演员",
+            "pinyin": "yǎnyuán",
+            "english": "actor; actress",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他是我们公司的职员。",
+        "example_pinyin": "Tā shì wǒmen gōngsī de zhíyuán.",
+        "example_english": "He is an employee of our company."
+      },
+      {
+        "character": "百",
+        "pinyin": "bǎi",
+        "english": "hundred",
+        "word_type": "Nu",
+        "table_ref": "2-07-04",
+        "radical": "白",
+        "radical_pinyin": "bái",
+        "components": [
+          "一",
+          "白"
+        ],
+        "compounds": [
+          {
+            "chinese": "一百",
+            "pinyin": "yì bǎi",
+            "english": "one hundred",
+            "source": "textbook"
+          },
+          {
+            "chinese": "三百九十九",
+            "pinyin": "sān bǎi jiǔ shí jiǔ",
+            "english": "three hundred ninety-nine",
+            "source": "textbook"
+          },
+          {
+            "chinese": "五百八十七",
+            "pinyin": "wǔ bǎi bā shí qī",
+            "english": "five hundred eighty-seven",
+            "source": "textbook"
+          },
+          {
+            "chinese": "百姓",
+            "pinyin": "bǎixìng",
+            "english": "common people",
+            "source": "generated"
+          },
+          {
+            "chinese": "百分之",
+            "pinyin": "bǎifēnzhī",
+            "english": "percent",
+            "source": "generated"
+          },
+          {
+            "chinese": "百货商店",
+            "pinyin": "bǎihuò shāngdiàn",
+            "english": "department store",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服要一百块钱。",
+        "example_pinyin": "Zhè jiàn yīfu yào yì bǎi kuài qián.",
+        "example_english": "This piece of clothing costs one hundred yuan."
+      },
+      {
+        "character": "试",
+        "pinyin": "shì",
+        "english": "to try; to try on",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "式"
+        ],
+        "compounds": [
+          {
+            "chinese": "试一下",
+            "pinyin": "shì yí xià",
+            "english": "to try (a bit); to try on",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可以试一下",
+            "pinyin": "kěyǐ shì yí xià",
+            "english": "Can I try it on?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "考试",
+            "pinyin": "kǎoshì",
+            "english": "to take an exam; exam",
+            "source": "generated"
+          },
+          {
+            "chinese": "尝试",
+            "pinyin": "chángshì",
+            "english": "to try; to attempt",
+            "source": "generated"
+          },
+          {
+            "chinese": "面试",
+            "pinyin": "miànshì",
+            "english": "to interview; interview",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我想试一下这件衣服。",
+        "example_pinyin": "Wǒ xiǎng shì yí xià zhè jiàn yīfu.",
+        "example_english": "I want to try on this piece of clothing."
+      },
+      {
+        "character": "当然",
+        "pinyin": "dāngrán",
+        "english": "of course",
+        "word_type": "Adv",
+        "table_ref": "2-07-04",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "日",
+          "小",
+          "口",
+          "犬",
+          "月"
+        ],
+        "compounds": [
+          {
+            "chinese": "当然可以",
+            "pinyin": "dāngrán kěyǐ",
+            "english": "of course you can; certainly",
+            "source": "textbook"
+          },
+          {
+            "chinese": "当然想去",
+            "pinyin": "dāngrán xiǎng qù",
+            "english": "of course I want to go",
+            "source": "textbook"
+          },
+          {
+            "chinese": "当然喜欢",
+            "pinyin": "dāngrán xǐhuān",
+            "english": "of course I like it",
+            "source": "textbook"
+          },
+          {
+            "chinese": "当然参加",
+            "pinyin": "dāngrán cānjiā",
+            "english": "of course I will participate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "当然了",
+            "pinyin": "dāngrán le",
+            "english": "of course; certainly",
+            "source": "generated"
+          },
+          {
+            "chinese": "理所当然",
+            "pinyin": "lǐsuǒdāngrán",
+            "english": "it goes without saying; as a matter of course",
+            "source": "generated"
+          },
+          {
+            "chinese": "当然不",
+            "pinyin": "dāngrán bù",
+            "english": "of course not",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你当然知道这个答案。",
+        "example_pinyin": "Nǐ dāngrán zhīdào zhège dá'àn.",
+        "example_english": "Of course you know this answer."
+      },
+      {
+        "character": "左边",
+        "pinyin": "zuǒbian",
+        "english": "left (side)",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "工",
+        "radical_pinyin": "gōng",
+        "components": [
+          "工",
+          "𠂇"
+        ],
+        "compounds": [
+          {
+            "chinese": "左边的同学",
+            "pinyin": "zuǒbian de tóngxué",
+            "english": "the classmate on the left",
+            "source": "textbook"
+          },
+          {
+            "chinese": "在校门左边",
+            "pinyin": "zài xiàomén zuǒbian",
+            "english": "to the left of the school gate",
+            "source": "textbook"
+          },
+          {
+            "chinese": "左手",
+            "pinyin": "zuǒshǒu",
+            "english": "left hand",
+            "source": "generated"
+          },
+          {
+            "chinese": "左转",
+            "pinyin": "zuǒzhuǎn",
+            "english": "turn left",
+            "source": "generated"
+          },
+          {
+            "chinese": "左派",
+            "pinyin": "zuǒpài",
+            "english": "left wing (politics)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，洗手间在左边还是右边？",
+        "example_pinyin": "Qǐngwèn, xǐshǒujiān zài zuǒbian háishì yòubian?",
+        "example_english": "Excuse me, is the restroom on the left or right side?"
+      },
+      {
+        "character": "左",
+        "pinyin": "zuǒ",
+        "english": "left",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "工",
+        "radical_pinyin": "gōng",
+        "components": [
+          "工",
+          "丿"
+        ],
+        "compounds": [
+          {
+            "chinese": "左边",
+            "pinyin": "zuǒbiān",
+            "english": "left side",
+            "source": "generated"
+          },
+          {
+            "chinese": "左手",
+            "pinyin": "zuǒshǒu",
+            "english": "left hand",
+            "source": "generated"
+          },
+          {
+            "chinese": "左转",
+            "pinyin": "zuǒzhuǎn",
+            "english": "turn left",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请往左看。",
+        "example_pinyin": "Qǐng wǎng zuǒ kàn.",
+        "example_english": "Please look to the left."
+      },
+      {
+        "character": "合适",
+        "pinyin": "héshì",
+        "english": "suitable; fitting",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "一",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "很合适",
+            "pinyin": "hěn héshì",
+            "english": "very suitable",
+            "source": "textbook"
+          },
+          {
+            "chinese": "真合适",
+            "pinyin": "zhēn héshì",
+            "english": "really suitable",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不合适",
+            "pinyin": "bù héshì",
+            "english": "not suitable",
+            "source": "textbook"
+          },
+          {
+            "chinese": "合适人选",
+            "pinyin": "héshì rénxuǎn",
+            "english": "suitable candidate",
+            "source": "generated"
+          },
+          {
+            "chinese": "合适时机",
+            "pinyin": "héshì shíji",
+            "english": "opportune moment",
+            "source": "generated"
+          },
+          {
+            "chinese": "合适价格",
+            "pinyin": "héshì jiàgé",
+            "english": "suitable price",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服很合适你。",
+        "example_pinyin": "Zhè jiàn yīfu hěn héshì nǐ.",
+        "example_english": "This dress suits you very well."
+      },
+      {
+        "character": "牛仔裤",
+        "pinyin": "niú zǎi kù",
+        "english": "jeans",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "牜",
+        "radical_pinyin": "niú",
+        "components": [
+          "牜",
+          "一"
+        ],
+        "compounds": [
+          {
+            "chinese": "一条牛仔裤",
+            "pinyin": "yī tiáo niú zǎi kù",
+            "english": "a pair of jeans",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买牛仔裤",
+            "pinyin": "mǎi niú zǎi kù",
+            "english": "to buy jeans",
+            "source": "textbook"
+          },
+          {
+            "chinese": "牛仔",
+            "pinyin": "niú zǎi",
+            "english": "cowboy",
+            "source": "generated"
+          },
+          {
+            "chinese": "裤子",
+            "pinyin": "kù zi",
+            "english": "trousers; pants",
+            "source": "generated"
+          },
+          {
+            "chinese": "短裤",
+            "pinyin": "duǎn kù",
+            "english": "shorts",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢穿牛仔裤。",
+        "example_pinyin": "Wǒ xǐhuān chuān niú zǎi kù.",
+        "example_english": "I like to wear jeans."
+      },
+      {
+        "character": "羽绒服",
+        "pinyin": "yǔróngfú",
+        "english": "down coat; down jacket",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "羽",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "羽"
+        ],
+        "compounds": [
+          {
+            "chinese": "一件羽绒服",
+            "pinyin": "yī jiàn yǔróngfú",
+            "english": "a down coat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买羽绒服",
+            "pinyin": "mǎi yǔróngfú",
+            "english": "buy a down coat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "羽毛",
+            "pinyin": "yǔmáo",
+            "english": "feather",
+            "source": "generated"
+          },
+          {
+            "chinese": "羽绒",
+            "pinyin": "yǔróng",
+            "english": "down (feathers)",
+            "source": "generated"
+          },
+          {
+            "chinese": "羽扇",
+            "pinyin": "yǔshàn",
+            "english": "feather fan",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "冬天很冷，我需要一件羽绒服。",
+        "example_pinyin": "Dōngtiān hěn lěng, wǒ xūyào yī jiàn yǔróngfú.",
+        "example_english": "Winter is very cold, I need a down coat."
+      },
+      {
+        "character": "黑色",
+        "pinyin": "hēisè",
+        "english": "black",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "黑",
+        "radical_pinyin": "hēi",
+        "components": [
+          "里",
+          "灬"
+        ],
+        "compounds": [
+          {
+            "chinese": "喜欢黑色",
+            "pinyin": "xǐhuān hēisè",
+            "english": "like black color",
+            "source": "textbook"
+          },
+          {
+            "chinese": "黑色的衬衫",
+            "pinyin": "hēisè de chènshān",
+            "english": "black shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "黑板",
+            "pinyin": "hēibǎn",
+            "english": "blackboard",
+            "source": "generated"
+          },
+          {
+            "chinese": "黑暗",
+            "pinyin": "hēi'àn",
+            "english": "dark; darkness",
+            "source": "generated"
+          },
+          {
+            "chinese": "黑咖啡",
+            "pinyin": "hēi kāfēi",
+            "english": "black coffee",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢黑色。",
+        "example_pinyin": "Wǒ zuì xǐhuān hēisè.",
+        "example_english": "I like black the most."
+      },
+      {
+        "character": "黑",
+        "pinyin": "hēi",
+        "english": "black",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "黑",
+        "radical_pinyin": "hēi",
+        "components": [
+          "里",
+          "灬"
+        ],
+        "compounds": [
+          {
+            "chinese": "黑牛仔裤",
+            "pinyin": "hēi niúzǎikù",
+            "english": "black jeans",
+            "source": "textbook"
+          },
+          {
+            "chinese": "黑衬衫",
+            "pinyin": "hēi chènshān",
+            "english": "black shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "黑色",
+            "pinyin": "hēi sè",
+            "english": "black color",
+            "source": "generated"
+          },
+          {
+            "chinese": "黑板",
+            "pinyin": "hēi bǎn",
+            "english": "blackboard",
+            "source": "generated"
+          },
+          {
+            "chinese": "黑暗",
+            "pinyin": "hēi àn",
+            "english": "dark; darkness",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢穿黑色的衣服。",
+        "example_pinyin": "Wǒ xǐhuān chuān hēisè de yīfu.",
+        "example_english": "I like to wear black clothes."
+      },
+      {
+        "character": "绿色",
+        "pinyin": "lǜsè",
+        "english": "green",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "糸",
+        "radical_pinyin": "mì",
+        "components": [
+          "糸",
+          "录"
+        ],
+        "compounds": [
+          {
+            "chinese": "喜欢绿色",
+            "pinyin": "xǐhuān lǜsè",
+            "english": "like green",
+            "source": "textbook"
+          },
+          {
+            "chinese": "绿色的羽绒服",
+            "pinyin": "lǜsè de yǔróngfú",
+            "english": "green down jacket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "绿色植物",
+            "pinyin": "lǜsè zhíwù",
+            "english": "green plant",
+            "source": "generated"
+          },
+          {
+            "chinese": "绿茶",
+            "pinyin": "lǜchá",
+            "english": "green tea",
+            "source": "generated"
+          },
+          {
+            "chinese": "绿灯",
+            "pinyin": "lǜdēng",
+            "english": "green light",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢的颜色是绿色。",
+        "example_pinyin": "Wǒ zuì xǐhuān de yánsè shì lǜsè.",
+        "example_english": "My favorite color is green."
+      },
+      {
+        "character": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "糸",
+        "radical_pinyin": "sī",
+        "components": [
+          "糸",
+          "彔"
+        ],
+        "compounds": [
+          {
+            "chinese": "绿衬衫",
+            "pinyin": "lǜ chènshān",
+            "english": "green shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "绿色",
+            "pinyin": "lǜ sè",
+            "english": "green color",
+            "source": "generated"
+          },
+          {
+            "chinese": "绿茶",
+            "pinyin": "lǜ chá",
+            "english": "green tea",
+            "source": "generated"
+          },
+          {
+            "chinese": "绿灯",
+            "pinyin": "lǜ dēng",
+            "english": "green light",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢绿色的草地。",
+        "example_pinyin": "Wǒ xǐhuān lǜsè de cǎodì.",
+        "example_english": "I like green lawns."
+      },
+      {
+        "character": "不错",
+        "pinyin": "búcuò",
+        "english": "pretty good",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "不",
+        "radical_pinyin": "bù",
+        "components": [
+          "不"
+        ],
+        "compounds": [
+          {
+            "chinese": "很不错",
+            "pinyin": "hěn búcuò",
+            "english": "very good; quite good",
+            "source": "textbook"
+          },
+          {
+            "chinese": "真不错",
+            "pinyin": "zhēn búcuò",
+            "english": "really good; truly excellent",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不错过",
+            "pinyin": "bú cuòguò",
+            "english": "not miss",
+            "source": "generated"
+          },
+          {
+            "chinese": "不错眼",
+            "pinyin": "bú cuòyǎn",
+            "english": "not blink; stare fixedly",
+            "source": "generated"
+          },
+          {
+            "chinese": "不错字",
+            "pinyin": "bú cuòzì",
+            "english": "not miswrite a character",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家餐厅的菜味道很不错。",
+        "example_pinyin": "Zhè jiā cāntīng de cài wèidào hěn búcuò.",
+        "example_english": "The food at this restaurant tastes pretty good."
+      },
+      {
+        "character": "错",
+        "pinyin": "cuò",
+        "english": "wrong",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "昔"
+        ],
+        "compounds": [
+          {
+            "chinese": "错误",
+            "pinyin": "cuòwù",
+            "english": "error; mistake",
+            "source": "generated"
+          },
+          {
+            "chinese": "没错",
+            "pinyin": "méi cuò",
+            "english": "that's right; correct",
+            "source": "generated"
+          },
+          {
+            "chinese": "犯错",
+            "pinyin": "fàncuò",
+            "english": "to make a mistake",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你错了，这不是我的书。",
+        "example_pinyin": "Nǐ cuò le, zhè bú shì wǒ de shū.",
+        "example_english": "You are wrong, this is not my book."
+      },
+      {
+        "character": "些",
+        "pinyin": "xiē",
+        "english": "some; a few",
+        "word_type": "M",
+        "table_ref": "2-07-04",
+        "radical": "此",
+        "radical_pinyin": "cǐ",
+        "components": [
+          "此",
+          "二"
+        ],
+        "compounds": [
+          {
+            "chinese": "一些学生",
+            "pinyin": "yī xiē xuéshēng",
+            "english": "some students",
+            "source": "textbook"
+          },
+          {
+            "chinese": "这些苹果",
+            "pinyin": "zhè xiē píngguǒ",
+            "english": "these apples",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一些",
+            "pinyin": "yī xiē",
+            "english": "some; a few",
+            "source": "generated"
+          },
+          {
+            "chinese": "这些",
+            "pinyin": "zhè xiē",
+            "english": "these",
+            "source": "generated"
+          },
+          {
+            "chinese": "那些",
+            "pinyin": "nà xiē",
+            "english": "those",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我有一些书。",
+        "example_pinyin": "Wǒ yǒu yī xiē shū.",
+        "example_english": "I have some books."
+      },
+      {
+        "character": "衣服",
+        "pinyin": "yīfu",
+        "english": "clothing",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "夫"
+        ],
+        "compounds": [
+          {
+            "chinese": "这些衣服",
+            "pinyin": "zhèxiē yīfu",
+            "english": "these clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一件衣服",
+            "pinyin": "yī jiàn yīfu",
+            "english": "a piece of clothing",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买衣服",
+            "pinyin": "mǎi yīfu",
+            "english": "to buy clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿衣服",
+            "pinyin": "chuān yīfu",
+            "english": "to wear clothes",
+            "source": "generated"
+          },
+          {
+            "chinese": "新衣服",
+            "pinyin": "xīn yīfu",
+            "english": "new clothes",
+            "source": "generated"
+          },
+          {
+            "chinese": "洗衣服",
+            "pinyin": "xǐ yīfu",
+            "english": "to wash clothes",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢穿漂亮的衣服。",
+        "example_pinyin": "Wǒ xǐhuān chuān piàoliang de yīfu.",
+        "example_english": "I like to wear beautiful clothes."
+      },
+      {
+        "character": "千",
+        "pinyin": "qiān",
+        "english": "thousand",
+        "word_type": "Nu",
+        "table_ref": "2-07-04",
+        "radical": "十",
+        "radical_pinyin": "shí",
+        "components": [
+          "十",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "一千",
+            "pinyin": "yī qiān",
+            "english": "one thousand",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一千二百六十五",
+            "pinyin": "yī qiān èr bǎi liù shí wǔ",
+            "english": "one thousand two hundred sixty-five",
+            "source": "textbook"
+          },
+          {
+            "chinese": "两千二百五十一",
+            "pinyin": "liǎng qiān èr bǎi wǔ shí yī",
+            "english": "two thousand two hundred fifty-one",
+            "source": "textbook"
+          },
+          {
+            "chinese": "千万",
+            "pinyin": "qiānwàn",
+            "english": "ten million; by all means; absolutely must",
+            "source": "generated"
+          },
+          {
+            "chinese": "千克",
+            "pinyin": "qiānkè",
+            "english": "kilogram",
+            "source": "generated"
+          },
+          {
+            "chinese": "千米",
+            "pinyin": "qiānmǐ",
+            "english": "kilometer",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个城市有几千年的历史。",
+        "example_pinyin": "Zhège chéngshì yǒu jǐ qiān nián de lìshǐ.",
+        "example_english": "This city has thousands of years of history."
+      },
+      {
+        "character": "零",
+        "pinyin": "líng",
+        "english": "zero",
+        "word_type": "Nu",
+        "table_ref": "2-07-04",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "雨",
+          "令"
+        ],
+        "compounds": [
+          {
+            "chinese": "一千二百零五块",
+            "pinyin": "yī qiān èr bǎi líng wǔ kuài",
+            "english": "one thousand two hundred and five yuan",
+            "source": "textbook"
+          },
+          {
+            "chinese": "三块零五分钱",
+            "pinyin": "sān kuài líng wǔ fēn qián",
+            "english": "three yuan and five fen",
+            "source": "textbook"
+          },
+          {
+            "chinese": "零食",
+            "pinyin": "língshí",
+            "english": "snack",
+            "source": "generated"
+          },
+          {
+            "chinese": "零钱",
+            "pinyin": "língqián",
+            "english": "small change",
+            "source": "generated"
+          },
+          {
+            "chinese": "零用钱",
+            "pinyin": "língyòngqián",
+            "english": "pocket money",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天气温是零下五度。",
+        "example_pinyin": "Jīntiān qìwēn shì língxià wǔ dù.",
+        "example_english": "Today's temperature is five degrees below zero."
+      },
+      {
+        "character": "打折",
+        "pinyin": "dǎzhé",
+        "english": "to offer a discount",
+        "word_type": "VO",
+        "table_ref": "2-07-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "可以打折",
+            "pinyin": "kěyǐ dǎzhé",
+            "english": "can offer a discount",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打六折",
+            "pinyin": "dǎ liùzhé",
+            "english": "to give a 40% discount (60% of original price)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不打折",
+            "pinyin": "bù dǎzhé",
+            "english": "no discount",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打折卡",
+            "pinyin": "dǎzhékǎ",
+            "english": "discount card",
+            "source": "generated"
+          },
+          {
+            "chinese": "打折商品",
+            "pinyin": "dǎzhé shāngpǐn",
+            "english": "discounted goods",
+            "source": "generated"
+          },
+          {
+            "chinese": "打折促销",
+            "pinyin": "dǎzhé cùxiāo",
+            "english": "discount promotion",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家商店经常打折。",
+        "example_pinyin": "Zhè jiā shāngdiàn jīngcháng dǎzhé.",
+        "example_english": "This store often offers discounts."
+      },
+      {
+        "character": "刷卡",
+        "pinyin": "shuākǎ",
+        "english": "to pay with a credit/debit card",
+        "word_type": "VO",
+        "table_ref": "2-07-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "刷"
+        ],
+        "compounds": [
+          {
+            "chinese": "可以刷卡",
+            "pinyin": "kěyǐ shuākǎ",
+            "english": "Can I pay by card?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "刷牙",
+            "pinyin": "shuāyá",
+            "english": "to brush teeth",
+            "source": "generated"
+          },
+          {
+            "chinese": "刷子",
+            "pinyin": "shuāzi",
+            "english": "brush",
+            "source": "generated"
+          },
+          {
+            "chinese": "刷屏",
+            "pinyin": "shuāpíng",
+            "english": "to flood a screen (with posts/comments)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这里可以刷卡吗？",
+        "example_pinyin": "Zhèlǐ kěyǐ shuākǎ ma?",
+        "example_english": "Can I pay by card here?"
+      },
+      {
+        "character": "卡",
+        "pinyin": "kǎ",
+        "english": "card",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "卜",
+        "radical_pinyin": "bǔ",
+        "components": [
+          "卜",
+          "上"
+        ],
+        "compounds": [
+          {
+            "chinese": "银行卡",
+            "pinyin": "yínhángkǎ",
+            "english": "bank card",
+            "source": "textbook"
+          },
+          {
+            "chinese": "信用卡",
+            "pinyin": "xìnyòngkǎ",
+            "english": "credit card",
+            "source": "generated"
+          },
+          {
+            "chinese": "卡车",
+            "pinyin": "kǎchē",
+            "english": "truck",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的银行卡丢了。",
+        "example_pinyin": "Wǒ de yínhángkǎ diū le.",
+        "example_english": "My bank card is lost."
+      },
+      {
+        "character": "没问题",
+        "pinyin": "méi wèntí",
+        "english": "no problem",
+        "word_type": "IE",
+        "table_ref": "2-07-04",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "每"
+        ],
+        "compounds": [
+          {
+            "chinese": "没有",
+            "pinyin": "méiyǒu",
+            "english": "to not have; there isn't",
+            "source": "generated"
+          },
+          {
+            "chinese": "没事",
+            "pinyin": "méi shì",
+            "english": "it's nothing; never mind",
+            "source": "generated"
+          },
+          {
+            "chinese": "没关系",
+            "pinyin": "méi guānxi",
+            "english": "it doesn't matter; never mind",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你放心，没问题。",
+        "example_pinyin": "Nǐ fàngxīn, méi wèntí.",
+        "example_english": "Don't worry, no problem."
+      },
+      {
+        "character": "板",
+        "pinyin": "bǎn",
+        "english": "board; plank; slab",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "反"
+        ],
+        "compounds": [
+          {
+            "chinese": "老板",
+            "pinyin": "lǎobǎn",
+            "english": "boss; proprietor",
+            "source": "generated"
+          },
+          {
+            "chinese": "黑板",
+            "pinyin": "hēibǎn",
+            "english": "blackboard",
+            "source": "generated"
+          },
+          {
+            "chinese": "地板",
+            "pinyin": "dìbǎn",
+            "english": "floor",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这块木板很厚。",
+        "example_pinyin": "Zhè kuài mùbǎn hěn hòu.",
+        "example_english": "This wooden board is very thick."
+      },
+      {
+        "character": "苹",
+        "pinyin": "píng",
+        "english": "apple",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "平"
+        ],
+        "compounds": [
+          {
+            "chinese": "苹果",
+            "pinyin": "píngguǒ",
+            "english": "apple",
+            "source": "generated"
+          },
+          {
+            "chinese": "苹果树",
+            "pinyin": "píngguǒshù",
+            "english": "apple tree",
+            "source": "generated"
+          },
+          {
+            "chinese": "苹果派",
+            "pinyin": "píngguǒpài",
+            "english": "apple pie",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃苹果。",
+        "example_pinyin": "Wǒ xǐhuān chī píngguǒ.",
+        "example_english": "I like to eat apples."
+      },
+      {
+        "character": "果",
+        "pinyin": "guǒ",
+        "english": "fruit; result; really",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "田"
+        ],
+        "compounds": [
+          {
+            "chinese": "水果",
+            "pinyin": "shuǐguǒ",
+            "english": "fruit",
+            "source": "generated"
+          },
+          {
+            "chinese": "结果",
+            "pinyin": "jiéguǒ",
+            "english": "result; as a result",
+            "source": "generated"
+          },
+          {
+            "chinese": "如果",
+            "pinyin": "rúguǒ",
+            "english": "if; in case",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个苹果很甜，是个好果子。",
+        "example_pinyin": "Zhège píngguǒ hěn tián, shì ge hǎo guǒzi.",
+        "example_english": "This apple is very sweet, it's a good fruit."
+      },
+      {
+        "character": "题",
+        "pinyin": "tí",
+        "english": "topic; question; problem; to inscribe; to mention",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "页",
+        "radical_pinyin": "yè",
+        "components": [
+          "是",
+          "页"
+        ],
+        "compounds": [
+          {
+            "chinese": "问题",
+            "pinyin": "wèntí",
+            "english": "question; problem",
+            "source": "generated"
+          },
+          {
+            "chinese": "题目",
+            "pinyin": "tímù",
+            "english": "title; topic; subject; problem (on a test)",
+            "source": "generated"
+          },
+          {
+            "chinese": "话题",
+            "pinyin": "huàtí",
+            "english": "topic of conversation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个问题很难回答。",
+        "example_pinyin": "Zhège wèntí hěn nán huídá.",
+        "example_english": "This question is very difficult to answer."
+      },
+      {
+        "character": "块",
+        "pinyin": "kuài",
+        "english": "lump; piece; chunk; (measure word for pieces of something, or for money)",
+        "word_type": "M",
+        "table_ref": "2-07-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "夬"
+        ],
+        "compounds": [
+          {
+            "chinese": "一块儿",
+            "pinyin": "yī kuàir",
+            "english": "together",
+            "source": "generated"
+          },
+          {
+            "chinese": "块头",
+            "pinyin": "kuàitou",
+            "english": "build; physique",
+            "source": "generated"
+          },
+          {
+            "chinese": "冰块",
+            "pinyin": "bīngkuài",
+            "english": "ice cube",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请给我一块蛋糕。",
+        "example_pinyin": "Qǐng gěi wǒ yī kuài dàngāo.",
+        "example_english": "Please give me a piece of cake."
+      },
+      {
+        "character": "草",
+        "pinyin": "cǎo",
+        "english": "grass; straw; draft (of a document)",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "早"
+        ],
+        "compounds": [
+          {
+            "chinese": "草地",
+            "pinyin": "cǎo dì",
+            "english": "lawn; grassland",
+            "source": "generated"
+          },
+          {
+            "chinese": "草药",
+            "pinyin": "cǎo yào",
+            "english": "herbal medicine",
+            "source": "generated"
+          },
+          {
+            "chinese": "野草",
+            "pinyin": "yě cǎo",
+            "english": "weed",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "小狗在草地上玩耍。",
+        "example_pinyin": "Xiǎo gǒu zài cǎo dì shàng wánshuǎ.",
+        "example_english": "The puppy is playing on the grass."
+      },
+      {
+        "character": "莓",
+        "pinyin": "méi",
+        "english": "berry; strawberry",
+        "word_type": "N",
+        "table_ref": "2-07-02",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "每"
+        ],
+        "compounds": [
+          {
+            "chinese": "草莓",
+            "pinyin": "cǎoméi",
+            "english": "strawberry",
+            "source": "generated"
+          },
+          {
+            "chinese": "蓝莓",
+            "pinyin": "lánméi",
+            "english": "blueberry",
+            "source": "generated"
+          },
+          {
+            "chinese": "树莓",
+            "pinyin": "shùmèi",
+            "english": "raspberry",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃草莓。",
+        "example_pinyin": "Wǒ xǐhuān chī cǎoméi.",
+        "example_english": "I like to eat strawberries."
+      },
+      {
+        "character": "以",
+        "pinyin": "yǐ",
+        "english": "to use; according to; so as to; by means of",
+        "word_type": "Prep",
+        "table_ref": "2-07-02",
+        "radical": "人",
+        "radical_pinyin": "rén",
+        "components": [
+          "人",
+          "乚"
+        ],
+        "compounds": [
+          {
+            "chinese": "以前",
+            "pinyin": "yǐqián",
+            "english": "before; formerly",
+            "source": "generated"
+          },
+          {
+            "chinese": "以后",
+            "pinyin": "yǐhòu",
+            "english": "after; later",
+            "source": "generated"
+          },
+          {
+            "chinese": "以为",
+            "pinyin": "yǐwéi",
+            "english": "to think; to believe (often mistakenly)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他以优异的成绩毕业了。",
+        "example_pinyin": "Tā yǐ yōuyì de chéngjì bìyè le.",
+        "example_english": "He graduated with excellent grades."
+      },
+      {
+        "character": "便",
+        "pinyin": "biàn",
+        "english": "convenient; plain; informal; then; in that case",
+        "word_type": "A",
+        "table_ref": "2-07-02",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "更"
+        ],
+        "compounds": [
+          {
+            "chinese": "方便",
+            "pinyin": "fāngbiàn",
+            "english": "convenient",
+            "source": "generated"
+          },
+          {
+            "chinese": "便宜",
+            "pinyin": "piányi",
+            "english": "cheap",
+            "source": "generated"
+          },
+          {
+            "chinese": "便饭",
+            "pinyin": "biànfàn",
+            "english": "simple meal",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这里交通很方便。",
+        "example_pinyin": "Zhèlǐ jiāotōng hěn fāngbiàn.",
+        "example_english": "The transportation here is very convenient."
+      },
+      {
+        "character": "宜",
+        "pinyin": "yí",
+        "english": "suitable; proper; should; ought to",
+        "word_type": "A",
+        "table_ref": "2-07-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "且"
+        ],
+        "compounds": [
+          {
+            "chinese": "适宜",
+            "pinyin": "shìyí",
+            "english": "suitable; appropriate",
+            "source": "generated"
+          },
+          {
+            "chinese": "便宜",
+            "pinyin": "piányi",
+            "english": "cheap; inexpensive",
+            "source": "generated"
+          },
+          {
+            "chinese": "宜人",
+            "pinyin": "yírén",
+            "english": "pleasant; delightful",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个地方很宜居。",
+        "example_pinyin": "Zhège dìfang hěn yíjū.",
+        "example_english": "This place is very livable."
+      },
+      {
+        "character": "衬",
+        "pinyin": "chèn",
+        "english": "to line; to set off; to contrast",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "衬衫",
+            "pinyin": "chènshān",
+            "english": "shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "衬托",
+            "pinyin": "chèntuō",
+            "english": "to set off; to serve as a foil",
+            "source": "generated"
+          },
+          {
+            "chinese": "衬里",
+            "pinyin": "chènlǐ",
+            "english": "lining",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服里面有衬里。",
+        "example_pinyin": "Zhè jiàn yīfu lǐmiàn yǒu chènlǐ.",
+        "example_english": "This piece of clothing has a lining inside."
+      },
+      {
+        "character": "衫",
+        "pinyin": "shān",
+        "english": "shirt; garment",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "彡"
+        ],
+        "compounds": [
+          {
+            "chinese": "衬衫",
+            "pinyin": "chènshān",
+            "english": "shirt; blouse",
+            "source": "generated"
+          },
+          {
+            "chinese": "汗衫",
+            "pinyin": "hànshān",
+            "english": "undershirt; T-shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "毛衫",
+            "pinyin": "máoshān",
+            "english": "woolen sweater",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衬衫很漂亮。",
+        "example_pinyin": "Zhè jiàn chènshān hěn piàoliang.",
+        "example_english": "This shirt is very beautiful."
+      },
+      {
+        "character": "售",
+        "pinyin": "shòu",
+        "english": "to sell; to vend",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "圭",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "销售",
+            "pinyin": "xiāoshòu",
+            "english": "to sell; sales",
+            "source": "generated"
+          },
+          {
+            "chinese": "零售",
+            "pinyin": "língshòu",
+            "english": "retail",
+            "source": "generated"
+          },
+          {
+            "chinese": "出售",
+            "pinyin": "chūshòu",
+            "english": "to sell; to offer for sale",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这家商店售卖各种商品。",
+        "example_pinyin": "Zhè jiā shāngdiàn shòumài gèzhǒng shāngpǐn.",
+        "example_english": "This store sells various goods."
+      },
+      {
+        "character": "货",
+        "pinyin": "huò",
+        "english": "goods; money; commodity",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "贝",
+        "radical_pinyin": "bèi",
+        "components": [
+          "贝",
+          "化"
+        ],
+        "compounds": [
+          {
+            "chinese": "货物",
+            "pinyin": "huòwù",
+            "english": "goods; cargo",
+            "source": "generated"
+          },
+          {
+            "chinese": "货车",
+            "pinyin": "huòchē",
+            "english": "truck; freight car",
+            "source": "generated"
+          },
+          {
+            "chinese": "百货",
+            "pinyin": "bǎihuò",
+            "english": "general merchandise",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这批货什么时候能到？",
+        "example_pinyin": "Zhè pī huò shénme shíhou néng dào?",
+        "example_english": "When will this batch of goods arrive?"
+      },
+      {
+        "character": "当",
+        "pinyin": "dāng",
+        "english": "should; ought to; act as; be; work as; manage; match; equal; pawn; mortgage; just at (a time or place); on the spot; right then and there",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "小",
+        "radical_pinyin": "xiǎo",
+        "components": [
+          "小",
+          "田"
+        ],
+        "compounds": [
+          {
+            "chinese": "当然",
+            "pinyin": "dāngrán",
+            "english": "of course",
+            "source": "generated"
+          },
+          {
+            "chinese": "当时",
+            "pinyin": "dāngshí",
+            "english": "at that time",
+            "source": "generated"
+          },
+          {
+            "chinese": "担当",
+            "pinyin": "dāndāng",
+            "english": "to take on; to undertake",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们应当互相帮助。",
+        "example_pinyin": "Wǒmen yīngdāng hùxiāng bāngzhù.",
+        "example_english": "We should help each other."
+      },
+      {
+        "character": "然",
+        "pinyin": "rán",
+        "english": "correct; right; so; thus; like this; -ly",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "灬",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "⺼",
+          "犬",
+          "灬"
+        ],
+        "compounds": [
+          {
+            "chinese": "然后",
+            "pinyin": "ránhòu",
+            "english": "then; after that",
+            "source": "generated"
+          },
+          {
+            "chinese": "虽然",
+            "pinyin": "suīrán",
+            "english": "although; even though",
+            "source": "generated"
+          },
+          {
+            "chinese": "当然",
+            "pinyin": "dāngrán",
+            "english": "of course; certainly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他虽然很累，但仍然坚持工作。",
+        "example_pinyin": "Tā suīrán hěn lèi, dàn réngrán jiānchí gōngzuò.",
+        "example_english": "Although he is very tired, he still insists on working."
+      },
+      {
+        "character": "合",
+        "pinyin": "hé",
+        "english": "to close; to combine; to suit; whole; together",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "一",
+          "人",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "合作",
+            "pinyin": "hézuò",
+            "english": "to cooperate; to collaborate",
+            "source": "generated"
+          },
+          {
+            "chinese": "合适",
+            "pinyin": "héshì",
+            "english": "suitable; appropriate",
+            "source": "generated"
+          },
+          {
+            "chinese": "合同",
+            "pinyin": "hétong",
+            "english": "contract",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把门合上。",
+        "example_pinyin": "Qǐng bǎ mén héshàng.",
+        "example_english": "Please close the door."
+      },
+      {
+        "character": "适",
+        "pinyin": "shì",
+        "english": "suitable; appropriate; comfortable",
+        "word_type": "A",
+        "table_ref": "2-07-04",
+        "radical": "辶",
+        "radical_pinyin": "chuò",
+        "components": [
+          "辶",
+          "适"
+        ],
+        "compounds": [
+          {
+            "chinese": "适合",
+            "pinyin": "shìhé",
+            "english": "to suit; to fit; suitable",
+            "source": "generated"
+          },
+          {
+            "chinese": "舒适",
+            "pinyin": "shūshì",
+            "english": "comfortable; cozy",
+            "source": "generated"
+          },
+          {
+            "chinese": "适应",
+            "pinyin": "shìyìng",
+            "english": "to adapt; to adjust; to get used to",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这双鞋很适合我。",
+        "example_pinyin": "Zhè shuāng xié hěn shìhé wǒ.",
+        "example_english": "This pair of shoes is very suitable for me."
+      },
+      {
+        "character": "仔",
+        "pinyin": "zǎi",
+        "english": "young animal; young man; boy",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "子"
+        ],
+        "compounds": [
+          {
+            "chinese": "牛仔",
+            "pinyin": "niúzǎi",
+            "english": "cowboy",
+            "source": "generated"
+          },
+          {
+            "chinese": "仔細",
+            "pinyin": "zǐxì",
+            "english": "careful; attentive",
+            "source": "generated"
+          },
+          {
+            "chinese": "豬仔",
+            "pinyin": "zhūzǎi",
+            "english": "piglet",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "這隻小狗仔很可愛。",
+        "example_pinyin": "Zhè zhī xiǎo gǒuzǎi hěn kě'ài.",
+        "example_english": "This puppy is very cute."
+      },
+      {
+        "character": "裤",
+        "pinyin": "kù",
+        "english": "trousers; pants",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "库"
+        ],
+        "compounds": [
+          {
+            "chinese": "裤子",
+            "pinyin": "kùzi",
+            "english": "trousers; pants",
+            "source": "generated"
+          },
+          {
+            "chinese": "短裤",
+            "pinyin": "duǎnkù",
+            "english": "shorts",
+            "source": "generated"
+          },
+          {
+            "chinese": "牛仔裤",
+            "pinyin": "niúzǎikù",
+            "english": "jeans",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条裤子很舒服。",
+        "example_pinyin": "Zhè tiáo kùzi hěn shūfu.",
+        "example_english": "These pants are very comfortable."
+      },
+      {
+        "character": "羽",
+        "pinyin": "yǔ",
+        "english": "feather; plume; wings",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "羽",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "羽"
+        ],
+        "compounds": [
+          {
+            "chinese": "羽毛",
+            "pinyin": "yǔmáo",
+            "english": "feather",
+            "source": "generated"
+          },
+          {
+            "chinese": "羽绒服",
+            "pinyin": "yǔróngfú",
+            "english": "down jacket",
+            "source": "generated"
+          },
+          {
+            "chinese": "羽毛球",
+            "pinyin": "yǔmáoqiú",
+            "english": "badminton",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这只鸟的羽毛很漂亮。",
+        "example_pinyin": "Zhè zhī niǎo de yǔmáo hěn piàoliang.",
+        "example_english": "This bird's feathers are very beautiful."
+      },
+      {
+        "character": "绒",
+        "pinyin": "róng",
+        "english": "down; floss; velvet",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "纟",
+        "radical_pinyin": "sī",
+        "components": [
+          "纟",
+          "戎"
+        ],
+        "compounds": [
+          {
+            "chinese": "绒毛",
+            "pinyin": "róngmáo",
+            "english": "down; fluff",
+            "source": "generated"
+          },
+          {
+            "chinese": "天鹅绒",
+            "pinyin": "tiān'éróng",
+            "english": "velvet",
+            "source": "generated"
+          },
+          {
+            "chinese": "羊绒",
+            "pinyin": "yángróng",
+            "english": "cashmere",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件毛衣是羊绒的，非常柔软。",
+        "example_pinyin": "Zhè jiàn máoyī shì yángróng de, fēicháng róuruǎn.",
+        "example_english": "This sweater is cashmere, very soft."
+      },
+      {
+        "character": "色",
+        "pinyin": "sè",
+        "english": "color; look; expression; lust",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "色",
+        "radical_pinyin": "sè",
+        "components": [
+          "色"
+        ],
+        "compounds": [
+          {
+            "chinese": "颜色",
+            "pinyin": "yánsè",
+            "english": "color",
+            "source": "generated"
+          },
+          {
+            "chinese": "脸色",
+            "pinyin": "liǎnsè",
+            "english": "facial expression; complexion",
+            "source": "generated"
+          },
+          {
+            "chinese": "红色",
+            "pinyin": "hóngsè",
+            "english": "red color",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你喜欢什么颜色？",
+        "example_pinyin": "Nǐ xǐhuān shénme yánsè?",
+        "example_english": "What color do you like?"
+      },
+      {
+        "character": "衣",
+        "pinyin": "yī",
+        "english": "clothes; garment; (radical)",
+        "word_type": "N",
+        "table_ref": "2-07-04",
+        "radical": "衣",
+        "radical_pinyin": "yī",
+        "components": [
+          "亠",
+          "口",
+          "𠃑"
+        ],
+        "compounds": [
+          {
+            "chinese": "衣服",
+            "pinyin": "yīfu",
+            "english": "clothes",
+            "source": "generated"
+          },
+          {
+            "chinese": "内衣",
+            "pinyin": "nèiyī",
+            "english": "underwear",
+            "source": "generated"
+          },
+          {
+            "chinese": "外套",
+            "pinyin": "wàitào",
+            "english": "coat; jacket",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服很漂亮。",
+        "example_pinyin": "Zhè jiàn yīfu hěn piàoliang.",
+        "example_english": "This piece of clothing is very beautiful."
+      },
+      {
+        "character": "打",
+        "pinyin": "dǎ",
+        "english": "to hit; to strike; to play (ball games); to make (a call); to fetch; to mix; to build",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "打电话",
+            "pinyin": "dǎ diànhuà",
+            "english": "to make a phone call",
+            "source": "generated"
+          },
+          {
+            "chinese": "打篮球",
+            "pinyin": "dǎ lánqiú",
+            "english": "to play basketball",
+            "source": "generated"
+          },
+          {
+            "chinese": "打扫",
+            "pinyin": "dǎsǎo",
+            "english": "to clean; to sweep",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢打篮球。",
+        "example_pinyin": "Tā xǐhuān dǎ lánqiú.",
+        "example_english": "He likes to play basketball."
+      },
+      {
+        "character": "折",
+        "pinyin": "zhé",
+        "english": "to break; to fold; to turn; to suffer loss",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "斤"
+        ],
+        "compounds": [
+          {
+            "chinese": "折扣",
+            "pinyin": "zhékòu",
+            "english": "discount",
+            "source": "generated"
+          },
+          {
+            "chinese": "折叠",
+            "pinyin": "zhédié",
+            "english": "to fold",
+            "source": "generated"
+          },
+          {
+            "chinese": "折磨",
+            "pinyin": "zhémó",
+            "english": "to torment; to torture",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请把纸折起来。",
+        "example_pinyin": "Qǐng bǎ zhǐ zhé qǐlái.",
+        "example_english": "Please fold the paper."
+      },
+      {
+        "character": "刷",
+        "pinyin": "shuā",
+        "english": "to brush; to scrub; to swipe (a card)",
+        "word_type": "V",
+        "table_ref": "2-07-04",
+        "radical": "巾",
+        "radical_pinyin": "jīn",
+        "components": [
+          "刷"
+        ],
+        "compounds": [
+          {
+            "chinese": "刷牙",
+            "pinyin": "shuāyá",
+            "english": "to brush teeth",
+            "source": "generated"
+          },
+          {
+            "chinese": "刷卡",
+            "pinyin": "shuākǎ",
+            "english": "to swipe a card; to pay by card",
+            "source": "generated"
+          },
+          {
+            "chinese": "刷新",
+            "pinyin": "shuāxīn",
+            "english": "to refresh; to renovate",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天早上都要刷牙。",
+        "example_pinyin": "Wǒ měitiān zǎoshang dōu yào shuāyá.",
+        "example_english": "I brush my teeth every morning."
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "元",
+        "pinyin": "yuán",
+        "english": "yuan (the official measure word for dollar)",
+        "word_type": "M",
+        "table_ref": "2-07-06",
+        "radical": "儿",
+        "radical_pinyin": "ér",
+        "components": [
+          "二",
+          "儿"
+        ],
+        "compounds": [
+          {
+            "chinese": "一百二十九元",
+            "pinyin": "yì bǎi èr shí jiǔ yuán",
+            "english": "one hundred twenty-nine yuan",
+            "source": "textbook"
+          },
+          {
+            "chinese": "美元",
+            "pinyin": "Měiyuán",
+            "english": "US dollar",
+            "source": "generated"
+          },
+          {
+            "chinese": "元旦",
+            "pinyin": "Yuándàn",
+            "english": "New Year's Day",
+            "source": "generated"
+          },
+          {
+            "chinese": "万元",
+            "pinyin": "wànyuán",
+            "english": "ten thousand yuan",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服多少钱？一百元。",
+        "example_pinyin": "Zhè jiàn yīfu duōshǎo qián? Yì bǎi yuán.",
+        "example_english": "How much is this piece of clothing? One hundred yuan."
+      },
+      {
+        "character": "角",
+        "pinyin": "jiǎo",
+        "english": "jiao (the official measure word for 10 cents)",
+        "word_type": "M",
+        "table_ref": "2-07-06",
+        "radical": "角",
+        "radical_pinyin": "jiǎo",
+        "components": [
+          "角"
+        ],
+        "compounds": [
+          {
+            "chinese": "八十元六角",
+            "pinyin": "bāshí yuán liù jiǎo",
+            "english": "eighty yuan and sixty cents",
+            "source": "textbook"
+          },
+          {
+            "chinese": "三角",
+            "pinyin": "sān jiǎo",
+            "english": "thirty cents",
+            "source": "generated"
+          },
+          {
+            "chinese": "一角钱",
+            "pinyin": "yī jiǎo qián",
+            "english": "ten cents",
+            "source": "generated"
+          },
+          {
+            "chinese": "几角",
+            "pinyin": "jǐ jiǎo",
+            "english": "how many jiao (tens of cents)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服多少钱？八十元六角。",
+        "example_pinyin": "Zhè jiàn yīfu duōshǎo qián? Bāshí yuán liù jiǎo.",
+        "example_english": "How much is this piece of clothing? Eighty yuan and sixty cents."
+      },
+      {
+        "character": "毛",
+        "pinyin": "máo",
+        "english": "mao (a colloquial measure word for 10 cents)",
+        "word_type": "M",
+        "table_ref": "2-07-06",
+        "radical": "毛",
+        "radical_pinyin": "máo",
+        "components": [
+          "毛"
+        ],
+        "compounds": [
+          {
+            "chinese": "五毛钱",
+            "pinyin": "wǔ máo qián",
+            "english": "fifty cents",
+            "source": "textbook"
+          },
+          {
+            "chinese": "毛钱",
+            "pinyin": "máoqián",
+            "english": "ten cents",
+            "source": "generated"
+          },
+          {
+            "chinese": "一毛",
+            "pinyin": "yī máo",
+            "english": "one dime",
+            "source": "generated"
+          },
+          {
+            "chinese": "几毛",
+            "pinyin": "jǐ máo",
+            "english": "several dimes",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个苹果两块五毛钱。",
+        "example_pinyin": "Zhège píngguǒ liǎng kuài wǔ máo qián.",
+        "example_english": "This apple costs two yuan and fifty cents."
+      },
+      {
+        "character": "分",
+        "pinyin": "fēn",
+        "english": "fen (a measure word for one cent)",
+        "word_type": "M",
+        "table_ref": "2-07-06",
+        "radical": "刀",
+        "radical_pinyin": "dāo",
+        "components": [
+          "八",
+          "刀"
+        ],
+        "compounds": [
+          {
+            "chinese": "三元五角五分",
+            "pinyin": "sān yuán wǔ jiǎo wǔ fēn",
+            "english": "three yuan, five jiao, five fen",
+            "source": "textbook"
+          },
+          {
+            "chinese": "分钟",
+            "pinyin": "fēnzhōng",
+            "english": "minute",
+            "source": "generated"
+          },
+          {
+            "chinese": "百分之",
+            "pinyin": "bǎifēnzhī",
+            "english": "percent",
+            "source": "generated"
+          },
+          {
+            "chinese": "分数",
+            "pinyin": "fēnshù",
+            "english": "fraction; score",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衣服只要五十分。",
+        "example_pinyin": "Zhè jiàn yīfu zhǐyào wǔshí fēn.",
+        "example_english": "This piece of clothing only costs fifty fen."
+      },
+      {
+        "character": "橙子",
+        "pinyin": "chéngzi",
+        "english": "orange",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "丁",
+          "口",
+          "一",
+          "厂"
+        ],
+        "compounds": [
+          {
+            "chinese": "一个橙子",
+            "pinyin": "yí gè chéngzi",
+            "english": "an orange",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买橙子",
+            "pinyin": "mǎi chéngzi",
+            "english": "buy oranges",
+            "source": "textbook"
+          },
+          {
+            "chinese": "橙汁",
+            "pinyin": "chéngzhī",
+            "english": "orange juice",
+            "source": "generated"
+          },
+          {
+            "chinese": "橙色",
+            "pinyin": "chéngsè",
+            "english": "orange color",
+            "source": "generated"
+          },
+          {
+            "chinese": "甜橙",
+            "pinyin": "tiánchéng",
+            "english": "sweet orange",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃橙子。",
+        "example_pinyin": "Wǒ xǐhuān chī chéngzi.",
+        "example_english": "I like to eat oranges."
+      },
+      {
+        "character": "葡萄",
+        "pinyin": "pútao",
+        "english": "grape",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "甫"
+        ],
+        "compounds": [
+          {
+            "chinese": "两个葡萄",
+            "pinyin": "liǎng ge pútao",
+            "english": "two grapes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "葡萄干",
+            "pinyin": "pútaogān",
+            "english": "raisin",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄酒",
+            "pinyin": "pútaojiǔ",
+            "english": "wine",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄糖",
+            "pinyin": "pútaotáng",
+            "english": "glucose",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃甜甜的葡萄。",
+        "example_pinyin": "Wǒ xǐhuān chī tiántián de pútao.",
+        "example_english": "I like to eat sweet grapes."
+      },
+      {
+        "character": "香蕉",
+        "pinyin": "xiāngjiāo",
+        "english": "banana",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "日",
+          "曰"
+        ],
+        "compounds": [
+          {
+            "chinese": "香蕉皮",
+            "pinyin": "xiāngjiāopí",
+            "english": "banana peel",
+            "source": "generated"
+          },
+          {
+            "chinese": "香蕉船",
+            "pinyin": "xiāngjiāochuán",
+            "english": "banana boat",
+            "source": "generated"
+          },
+          {
+            "chinese": "香蕉树",
+            "pinyin": "xiāngjiāoshù",
+            "english": "banana tree",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃香蕉。",
+        "example_pinyin": "Wǒ xǐhuān chī xiāngjiāo.",
+        "example_english": "I like to eat bananas."
+      },
+      {
+        "character": "樱桃",
+        "pinyin": "yīngtao",
+        "english": "cherry",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "婴"
+        ],
+        "compounds": [
+          {
+            "chinese": "樱花",
+            "pinyin": "yīnghuā",
+            "english": "cherry blossom",
+            "source": "generated"
+          },
+          {
+            "chinese": "樱桃树",
+            "pinyin": "yīngtao shù",
+            "english": "cherry tree",
+            "source": "generated"
+          },
+          {
+            "chinese": "樱桃派",
+            "pinyin": "yīngtao pài",
+            "english": "cherry pie",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃甜甜的樱桃。",
+        "example_pinyin": "Wǒ xǐhuan chī tiántián de yīngtao.",
+        "example_english": "I like to eat sweet cherries."
+      },
+      {
+        "character": "水果",
+        "pinyin": "shuǐguǒ",
+        "english": "fruit",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "水",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "水"
+        ],
+        "compounds": [
+          {
+            "chinese": "水果店",
+            "pinyin": "shuǐguǒdiàn",
+            "english": "fruit shop",
+            "source": "generated"
+          },
+          {
+            "chinese": "水果沙拉",
+            "pinyin": "shuǐguǒ shālā",
+            "english": "fruit salad",
+            "source": "generated"
+          },
+          {
+            "chinese": "新鲜水果",
+            "pinyin": "xīnxiān shuǐguǒ",
+            "english": "fresh fruit",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃各种各样的水果。",
+        "example_pinyin": "Wǒ xǐhuān chī gèzhǒng gèyàng de shuǐguǒ.",
+        "example_english": "I like to eat all kinds of fruit."
+      },
+      {
+        "character": "裙子",
+        "pinyin": "qúnzi",
+        "english": "skirt",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "君"
+        ],
+        "compounds": [
+          {
+            "chinese": "一条裙子",
+            "pinyin": "yī tiáo qúnzi",
+            "english": "a skirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "连衣裙",
+            "pinyin": "liánqúnwán",
+            "english": "dress",
+            "source": "generated"
+          },
+          {
+            "chinese": "短裙",
+            "pinyin": "duǎnqún",
+            "english": "short skirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "长裙",
+            "pinyin": "chángqún",
+            "english": "long skirt",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她今天穿了一条漂亮的裙子。",
+        "example_pinyin": "Tā jīntiān chuān le yī tiáo piàoliang de qúnzi.",
+        "example_english": "She wore a beautiful skirt today."
+      },
+      {
+        "character": "T恤",
+        "pinyin": "T xù",
+        "english": "T-shirt",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "示"
+        ],
+        "compounds": [
+          {
+            "chinese": "一件 T 恤",
+            "pinyin": "yī jiàn T xù",
+            "english": "a T-shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "短袖T恤",
+            "pinyin": "duǎnxiù T xù",
+            "english": "short-sleeved T-shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "长袖T恤",
+            "pinyin": "chángxiù T xù",
+            "english": "long-sleeved T-shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "印花T恤",
+            "pinyin": "yìnhuā T xù",
+            "english": "printed T-shirt",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我今天穿了一件红色的T恤。",
+        "example_pinyin": "Wǒ jīntiān chuānle yī jiàn hóngsè de T xù.",
+        "example_english": "I wore a red T-shirt today."
+      },
+      {
+        "character": "白色",
+        "pinyin": "báisè",
+        "english": "white",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "白",
+        "radical_pinyin": "bái",
+        "components": [
+          "白"
+        ],
+        "compounds": [
+          {
+            "chinese": "白色污染",
+            "pinyin": "báisè wūrǎn",
+            "english": "white pollution (pollution by plastic waste)",
+            "source": "generated"
+          },
+          {
+            "chinese": "白菜",
+            "pinyin": "báicài",
+            "english": "Chinese cabbage",
+            "source": "generated"
+          },
+          {
+            "chinese": "白酒",
+            "pinyin": "báijiǔ",
+            "english": "Chinese liquor",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢穿白色的衣服。",
+        "example_pinyin": "Wǒ xǐhuān chuān báisè de yīfu.",
+        "example_english": "I like to wear white clothes."
+      },
+      {
+        "character": "红色",
+        "pinyin": "hóngsè",
+        "english": "red",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "糸",
+        "radical_pinyin": "sī",
+        "components": [
+          "糸",
+          "工"
+        ],
+        "compounds": [
+          {
+            "chinese": "红旗",
+            "pinyin": "hóngqí",
+            "english": "red flag",
+            "source": "generated"
+          },
+          {
+            "chinese": "红酒",
+            "pinyin": "hóngjiǔ",
+            "english": "red wine",
+            "source": "generated"
+          },
+          {
+            "chinese": "红茶",
+            "pinyin": "hóngchá",
+            "english": "black tea (lit. red tea)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢的颜色是红色。",
+        "example_pinyin": "Wǒ zuì xǐhuān de yánsè shì hóngsè.",
+        "example_english": "My favorite color is red."
+      },
+      {
+        "character": "穿",
+        "pinyin": "chuān",
+        "english": "to wear; to put on",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "穴",
+        "radical_pinyin": "xué",
+        "components": [
+          "穴",
+          "牙"
+        ],
+        "compounds": [
+          {
+            "chinese": "穿衣服",
+            "pinyin": "chuān yīfu",
+            "english": "to wear clothes",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿衬衫",
+            "pinyin": "chuān chènshān",
+            "english": "to wear a shirt",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿牛仔裤",
+            "pinyin": "chuān niúzǎikù",
+            "english": "to wear jeans",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿裙子",
+            "pinyin": "chuān qúnzi",
+            "english": "to wear a skirt/dress",
+            "source": "textbook"
+          },
+          {
+            "chinese": "穿戴",
+            "pinyin": "chuāndài",
+            "english": "to wear (clothes and accessories)",
+            "source": "generated"
+          },
+          {
+            "chinese": "穿梭",
+            "pinyin": "chuānsuō",
+            "english": "to shuttle; to go back and forth",
+            "source": "generated"
+          },
+          {
+            "chinese": "穿透",
+            "pinyin": "chuāntòu",
+            "english": "to penetrate; to pierce through",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她喜欢穿红色的裙子。",
+        "example_pinyin": "Tā xǐhuan chuān hóngsè de qúnzi.",
+        "example_english": "She likes to wear red skirts."
+      },
+      {
+        "character": "拍照",
+        "pinyin": "pāizhào",
+        "english": "to take a picture",
+        "word_type": "VO",
+        "table_ref": "2-07-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "弗"
+        ],
+        "compounds": [
+          {
+            "chinese": "喜欢拍照",
+            "pinyin": "xǐhuān pāizhào",
+            "english": "like taking pictures",
+            "source": "textbook"
+          },
+          {
+            "chinese": "不可以拍照",
+            "pinyin": "bù kěyǐ pāizhào",
+            "english": "cannot take pictures; no photography allowed",
+            "source": "textbook"
+          },
+          {
+            "chinese": "拍照留念",
+            "pinyin": "pāizhào liúniàn",
+            "english": "to take a picture as a souvenir",
+            "source": "generated"
+          },
+          {
+            "chinese": "拍手",
+            "pinyin": "pāishǒu",
+            "english": "to clap hands",
+            "source": "generated"
+          },
+          {
+            "chinese": "照片",
+            "pinyin": "zhàopiàn",
+            "english": "photograph; picture",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们一起去公园拍照吧。",
+        "example_pinyin": "Wǒmen yīqǐ qù gōngyuán pāizhào ba.",
+        "example_english": "Let's go to the park to take pictures together."
+      },
+      {
+        "character": "吸烟",
+        "pinyin": "xī yān",
+        "english": "to smoke",
+        "word_type": "VO",
+        "table_ref": "2-07-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "及"
+        ],
+        "compounds": [
+          {
+            "chinese": "不可以吸烟",
+            "pinyin": "bù kěyǐ xī yān",
+            "english": "No smoking; Smoking is not allowed",
+            "source": "textbook"
+          },
+          {
+            "chinese": "想吸烟",
+            "pinyin": "xiǎng xī yān",
+            "english": "to want to smoke; to feel like smoking",
+            "source": "textbook"
+          },
+          {
+            "chinese": "吸取",
+            "pinyin": "xī qǔ",
+            "english": "to absorb; to draw lessons from",
+            "source": "generated"
+          },
+          {
+            "chinese": "吸尘器",
+            "pinyin": "xī chén qì",
+            "english": "vacuum cleaner",
+            "source": "generated"
+          },
+          {
+            "chinese": "吸管",
+            "pinyin": "xī guǎn",
+            "english": "straw (for drinking)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "公共场所禁止吸烟。",
+        "example_pinyin": "Gōnggòng chǎngsuǒ jìnzhǐ xī yān.",
+        "example_english": "Smoking is prohibited in public places."
+      },
+      {
+        "character": "称呼",
+        "pinyin": "chēnghu",
+        "english": "to call; to address",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "尔"
+        ],
+        "compounds": [
+          {
+            "chinese": "怎么称呼",
+            "pinyin": "zěnme chēnghu",
+            "english": "How should I address you?",
+            "source": "textbook"
+          },
+          {
+            "chinese": "称谓",
+            "pinyin": "chēngwèi",
+            "english": "title; appellation",
+            "source": "generated"
+          },
+          {
+            "chinese": "称赞",
+            "pinyin": "chēngzàn",
+            "english": "to praise; to commend",
+            "source": "generated"
+          },
+          {
+            "chinese": "名称",
+            "pinyin": "míngchēng",
+            "english": "name; term",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，我该怎么称呼您？",
+        "example_pinyin": "Qǐngwèn, wǒ gāi zěnme chēnghu nín?",
+        "example_english": "Excuse me, how should I address you?"
+      },
+      {
+        "character": "葡",
+        "pinyin": "pú",
+        "english": "grape",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "甫"
+        ],
+        "compounds": [
+          {
+            "chinese": "葡萄",
+            "pinyin": "pútao",
+            "english": "grape",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄酒",
+            "pinyin": "pútaojiǔ",
+            "english": "grape wine",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄干",
+            "pinyin": "pútaogān",
+            "english": "raisin",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃葡萄。",
+        "example_pinyin": "Wǒ xǐhuān chī pútao.",
+        "example_english": "I like to eat grapes."
+      },
+      {
+        "character": "萄",
+        "pinyin": "táo",
+        "english": "grape",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "勹",
+          "米",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "葡萄",
+            "pinyin": "pútao",
+            "english": "grape",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄干",
+            "pinyin": "pútaogān",
+            "english": "raisin",
+            "source": "generated"
+          },
+          {
+            "chinese": "葡萄酒",
+            "pinyin": "pútaojiǔ",
+            "english": "wine",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃葡萄。",
+        "example_pinyin": "Wǒ xǐhuān chī pútao.",
+        "example_english": "I like to eat grapes."
+      },
+      {
+        "character": "香",
+        "pinyin": "xiāng",
+        "english": "fragrant; aromatic; incense",
+        "word_type": "A",
+        "table_ref": "2-07-06",
+        "radical": "香",
+        "radical_pinyin": "xiāng",
+        "components": [
+          "禾",
+          "日"
+        ],
+        "compounds": [
+          {
+            "chinese": "香水",
+            "pinyin": "xiāngshuǐ",
+            "english": "perfume",
+            "source": "generated"
+          },
+          {
+            "chinese": "香港",
+            "pinyin": "xiānggǎng",
+            "english": "Hong Kong",
+            "source": "generated"
+          },
+          {
+            "chinese": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "english": "banana",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这朵花很香。",
+        "example_pinyin": "Zhè duǒ huā hěn xiāng.",
+        "example_english": "This flower is very fragrant."
+      },
+      {
+        "character": "蕉",
+        "pinyin": "jiāo",
+        "english": "banana; plantain",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "焦"
+        ],
+        "compounds": [
+          {
+            "chinese": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "english": "banana",
+            "source": "generated"
+          },
+          {
+            "chinese": "芭蕉",
+            "pinyin": "bājiāo",
+            "english": "plantain; Japanese banana",
+            "source": "generated"
+          },
+          {
+            "chinese": "蕉叶",
+            "pinyin": "jiāoyè",
+            "english": "banana leaf",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃香蕉。",
+        "example_pinyin": "Wǒ xǐhuān chī xiāngjiāo.",
+        "example_english": "I like to eat bananas."
+      },
+      {
+        "character": "樱",
+        "pinyin": "yīng",
+        "english": "cherry; cherry blossom",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "婴"
+        ],
+        "compounds": [
+          {
+            "chinese": "樱花",
+            "pinyin": "yīnghuā",
+            "english": "cherry blossom",
+            "source": "generated"
+          },
+          {
+            "chinese": "樱桃",
+            "pinyin": "yīngtáo",
+            "english": "cherry",
+            "source": "generated"
+          },
+          {
+            "chinese": "樱桃树",
+            "pinyin": "yīngtáo shù",
+            "english": "cherry tree",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "春天的时候，樱花盛开，非常美丽。",
+        "example_pinyin": "Chūntiān de shíhou, yīnghuā shèngkāi, fēicháng měilì.",
+        "example_english": "In spring, cherry blossoms are in full bloom and are very beautiful."
+      },
+      {
+        "character": "桃",
+        "pinyin": "táo",
+        "english": "peach",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "兆"
+        ],
+        "compounds": [
+          {
+            "chinese": "桃花",
+            "pinyin": "táo huā",
+            "english": "peach blossom",
+            "source": "generated"
+          },
+          {
+            "chinese": "桃子",
+            "pinyin": "táo zi",
+            "english": "peach",
+            "source": "generated"
+          },
+          {
+            "chinese": "桃红色",
+            "pinyin": "táo hóng sè",
+            "english": "peach pink",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢吃甜甜的桃子。",
+        "example_pinyin": "Wǒ xǐhuān chī tiántián de táozi.",
+        "example_english": "I like to eat sweet peaches."
+      },
+      {
+        "character": "裙",
+        "pinyin": "qún",
+        "english": "skirt; dress",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "衤",
+        "radical_pinyin": "yī",
+        "components": [
+          "衤",
+          "君"
+        ],
+        "compounds": [
+          {
+            "chinese": "连衣裙",
+            "pinyin": "lián yī qún",
+            "english": "dress",
+            "source": "generated"
+          },
+          {
+            "chinese": "半身裙",
+            "pinyin": "bàn shēn qún",
+            "english": "skirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "短裙",
+            "pinyin": "duǎn qún",
+            "english": "short skirt",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "她今天穿了一条漂亮的裙子。",
+        "example_pinyin": "Tā jīntiān chuān le yī tiáo piàoliang de qúnzi.",
+        "example_english": "She wore a beautiful skirt today."
+      },
+      {
+        "character": "恤",
+        "pinyin": "xù",
+        "english": "to pity; to sympathize; to grant (a pension); T-shirt",
+        "word_type": "V/N",
+        "table_ref": "2-07-06",
+        "radical": "心",
+        "radical_pinyin": "xīn",
+        "components": [
+          "血",
+          "心"
+        ],
+        "compounds": [
+          {
+            "chinese": "恤衫",
+            "pinyin": "xùshān",
+            "english": "T-shirt",
+            "source": "generated"
+          },
+          {
+            "chinese": "体恤",
+            "pinyin": "tǐxù",
+            "english": "to empathize; to show understanding",
+            "source": "generated"
+          },
+          {
+            "chinese": "抚恤金",
+            "pinyin": "fǔxùjīn",
+            "english": "pension; compensation (for dependents of the deceased)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他很体恤下属，从不苛求。",
+        "example_pinyin": "Tā hěn tǐxù xiàshǔ, cóng bù kēqiú.",
+        "example_english": "He is very considerate of his subordinates and never makes excessive demands."
+      },
+      {
+        "character": "白",
+        "pinyin": "bái",
+        "english": "white; clear; in vain",
+        "word_type": "A",
+        "table_ref": "2-07-06",
+        "radical": "白",
+        "radical_pinyin": "bái",
+        "components": [
+          "白"
+        ],
+        "compounds": [
+          {
+            "chinese": "白色",
+            "pinyin": "báisè",
+            "english": "white color",
+            "source": "generated"
+          },
+          {
+            "chinese": "明白",
+            "pinyin": "míngbai",
+            "english": "to understand; clear",
+            "source": "generated"
+          },
+          {
+            "chinese": "白菜",
+            "pinyin": "báicài",
+            "english": "Chinese cabbage",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这件衬衫是白色的。",
+        "example_pinyin": "Zhè jiàn chènshān shì báisè de.",
+        "example_english": "This shirt is white."
+      },
+      {
+        "character": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "word_type": "A",
+        "table_ref": "2-07-06",
+        "radical": "纟",
+        "radical_pinyin": "sī",
+        "components": [
+          "纟",
+          "工"
+        ],
+        "compounds": [
+          {
+            "chinese": "红色",
+            "pinyin": "hóngsè",
+            "english": "red color",
+            "source": "generated"
+          },
+          {
+            "chinese": "红茶",
+            "pinyin": "hóngchá",
+            "english": "black tea (lit. red tea)",
+            "source": "generated"
+          },
+          {
+            "chinese": "红绿灯",
+            "pinyin": "hónglǜdēng",
+            "english": "traffic light",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢红色。",
+        "example_pinyin": "Wǒ xǐhuān hóngsè.",
+        "example_english": "I like red."
+      },
+      {
+        "character": "拍",
+        "pinyin": "pāi",
+        "english": "to clap; to pat; to take (a picture)",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "白",
+          "十"
+        ],
+        "compounds": [
+          {
+            "chinese": "拍照",
+            "pinyin": "pāizhào",
+            "english": "to take a picture",
+            "source": "generated"
+          },
+          {
+            "chinese": "拍手",
+            "pinyin": "pāishǒu",
+            "english": "to clap hands",
+            "source": "generated"
+          },
+          {
+            "chinese": "拍马屁",
+            "pinyin": "pāimǎpì",
+            "english": "to flatter; to butter up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢拍风景照。",
+        "example_pinyin": "Tā xǐhuān pāi fēngjǐngzhào.",
+        "example_english": "He likes to take landscape photos."
+      },
+      {
+        "character": "吸",
+        "pinyin": "xī",
+        "english": "to suck; to inhale; to absorb",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "及"
+        ],
+        "compounds": [
+          {
+            "chinese": "呼吸",
+            "pinyin": "hūxī",
+            "english": "to breathe",
+            "source": "generated"
+          },
+          {
+            "chinese": "吸引",
+            "pinyin": "xīyǐn",
+            "english": "to attract; to draw",
+            "source": "generated"
+          },
+          {
+            "chinese": "吸烟",
+            "pinyin": "xīyān",
+            "english": "to smoke",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢吸烟。",
+        "example_pinyin": "Tā xǐhuān xīyān.",
+        "example_english": "He likes to smoke."
+      },
+      {
+        "character": "烟",
+        "pinyin": "yān",
+        "english": "smoke; cigarette",
+        "word_type": "N",
+        "table_ref": "2-07-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火",
+          "因"
+        ],
+        "compounds": [
+          {
+            "chinese": "香烟",
+            "pinyin": "xiāngyān",
+            "english": "cigarette",
+            "source": "generated"
+          },
+          {
+            "chinese": "吸烟",
+            "pinyin": "xīyān",
+            "english": "to smoke",
+            "source": "generated"
+          },
+          {
+            "chinese": "烟花",
+            "pinyin": "yānhuā",
+            "english": "fireworks",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请不要在这里吸烟。",
+        "example_pinyin": "Qǐng bùyào zài zhèlǐ xīyān.",
+        "example_english": "Please do not smoke here."
+      },
+      {
+        "character": "称",
+        "pinyin": "chēng",
+        "english": "to weigh; to call; to praise",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "尔"
+        ],
+        "compounds": [
+          {
+            "chinese": "称呼",
+            "pinyin": "chēnghu",
+            "english": "to call; to address as",
+            "source": "generated"
+          },
+          {
+            "chinese": "称赞",
+            "pinyin": "chēngzàn",
+            "english": "to praise; to commend",
+            "source": "generated"
+          },
+          {
+            "chinese": "称重",
+            "pinyin": "chēngzhòng",
+            "english": "to weigh",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他称自己为一名艺术家。",
+        "example_pinyin": "Tā chēng zìjǐ wèi yī míng yìshùjiā.",
+        "example_english": "He calls himself an artist."
+      },
+      {
+        "character": "呼",
+        "pinyin": "hū",
+        "english": "to exhale; to shout; to call",
+        "word_type": "V",
+        "table_ref": "2-07-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "乎"
+        ],
+        "compounds": [
+          {
+            "chinese": "呼吸",
+            "pinyin": "hūxī",
+            "english": "to breathe",
+            "source": "generated"
+          },
+          {
+            "chinese": "呼叫",
+            "pinyin": "hūjiào",
+            "english": "to call out; to shout",
+            "source": "generated"
+          },
+          {
+            "chinese": "呼吁",
+            "pinyin": "hūyù",
+            "english": "to appeal; to call on",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他大声呼喊我的名字。",
+        "example_pinyin": "Tā dàshēng hūhǎn wǒ de míngzi.",
+        "example_english": "He loudly called out my name."
+      }
+    ]
+  }
+}

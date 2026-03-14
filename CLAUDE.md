@@ -2,16 +2,23 @@
 
 ## Project Overview
 
-Generate Anki-compatible flashcard decks (`.apkg` files) for the **New Practical Chinese Reader (3rd Edition)**. Each lesson produces sub-decks for **New Words** and **Supplementary Words** with:
+Generate Anki-compatible flashcard decks (`.apkg` files) for the **New Practical Chinese Reader (3rd Edition)**. Two output packages are produced:
+
+- `cpr3_new_words.apkg` — all lessons' New Words sub-decks
+- `cpr3_supplementary_words.apkg` — all lessons' Supplementary Words sub-decks
+
+Each card includes:
 
 - Chinese character display
 - Pinyin romanization
 - English definition
+- Word type (V, N, A, Adv, Pr, etc.)
 - Stroke order display (progressive stroke building via Hanzi Writer data)
 - Audio pronunciation (gTTS, with Azure Speech TTS as optional upgrade)
 - Radical and component breakdown
 - Compound words (textbook examples + AI-generated, visually distinguished)
 - Example sentences
+- Source table reference (e.g. "2-01-02")
 
 ## Architecture
 
@@ -24,16 +31,16 @@ Flashcards/
 ├── .env                   # API keys (gitignored)
 ├── src/
 │   ├── __init__.py
-│   ├── extract_table.py   # Image → lesson JSON pipeline (DI + Gemini)
-│   ├── generate_deck.py   # Main entry point — builds .apkg files
-│   ├── models.py          # genanki Model/Note definitions
+│   ├── extract_table.py   # Single-pass image → lesson JSON pipeline (DI + Gemini)
+│   ├── generate_deck.py   # Builds .apkg packages (new words + supplementary)
+│   ├── models.py          # genanki Model/Note definitions (16 fields)
 │   ├── audio.py           # TTS audio generation (Azure Speech / gTTS)
 │   ├── stroke_order.py    # Generates stroke order HTML using Hanzi Writer data
-│   └── characters.py      # Character/CompoundWord dataclasses, JSON loading
+│   └── characters.py      # CharacterEntry/CompoundWord dataclasses, JSON loading
 ├── data/
 │   └── lessons/           # Per-lesson JSON character lists (enriched)
 │       ├── lesson_01.json
-│       └── lesson_02.json
+│       └── ...lesson_10.json
 ├── input/                 # Textbook photos for extraction (gitignored)
 ├── output/                # Generated .apkg files (gitignored)
 │   └── media/             # Generated mp3 files (gitignored)
@@ -42,23 +49,31 @@ Flashcards/
 │   ├── recognition_front.html  # Character → English card front
 │   └── recognition_back.html   # Character → English card back
 └── tests/
-    ├── test_generate.py        # Deck generation tests
-    └── test_extract_table.py   # Extraction pipeline tests
+    └── test_generate.py        # Deck generation tests
 ```
 
-### Extraction Pipeline
+### Extraction Pipeline (single-pass, multi-lesson)
 
-1. **Azure Document Intelligence** (Layout API) extracts structured table cells from textbook photos — isolates rows to prevent cross-contamination between entries
-2. **Gemini 2.5 Flash** normalizes raw DI rows into structured entries (character, pinyin, word_type, english, compounds) and corrects OCR pinyin errors
-3. **Gemini 2.5 Flash** enriches each character with radicals, components, compound words, and example sentences
+1. **All images** are processed in one invocation — lesson numbers are auto-detected from `table_ref` headers (e.g. `"2-01-02"` → lesson 1)
+2. **Azure Document Intelligence** (Layout API) extracts structured table cells from textbook photos — isolates rows to prevent cross-contamination between entries
+3. **Gemini 2.5 Flash** normalizes raw DI rows into structured entries (character, pinyin, word_type, english, compounds) and corrects OCR pinyin errors
+4. **Gemini 2.5 Flash** enriches each character with radicals, components, compound words, and example sentences
+5. **Multi-char decomposition** splits words like 认识 into individual character cards. Cross-lesson dedup prevents decomposed characters from repeating if already covered in earlier lessons. Non-CJK characters (e.g. "T" from "T恤") are skipped during decomposition.
 
 ### Deck Hierarchy
 
+Two separate `.apkg` packages, each containing per-lesson sub-decks:
+
 ```
-CPR Book 1 3rd Edition
-  └── Lesson 01 - 你好
-        ├── New Words
-        └── Supplementary Words
+# cpr3_new_words.apkg
+CPR Book 1 3rd Edition::Lesson 01 - 你好::New Words
+CPR Book 1 3rd Edition::Lesson 02 - ...::New Words
+...
+
+# cpr3_supplementary_words.apkg
+CPR Book 1 3rd Edition::Lesson 01 - 你好::Supplementary Words
+CPR Book 1 3rd Edition::Lesson 02 - ...::Supplementary Words
+...
 ```
 
 ## Key Technologies
@@ -72,7 +87,7 @@ CPR Book 1 3rd Edition
 | **Azure Speech** | Neural TTS upgrade (optional, `zh-CN-XiaoxiaoNeural` voice) |
 | **Hanzi Writer** | Stroke data for progressive stroke building display |
 
-## Model Fields
+## Model Fields (16 total)
 
 1. `Character` — the Chinese character (e.g. 你)
 2. `Pinyin` — romanization with tone marks (e.g. nǐ)
@@ -81,17 +96,19 @@ CPR Book 1 3rd Edition
 5. `StrokeOrder` — HTML/SVG for progressive stroke building display
 6. `CharacterType` — "main" or "supplementary"
 7. `Lesson` — lesson number
-8. `Radical` — radical with pinyin, e.g. "亻 (rén)"
-9. `Components` — structural parts, e.g. "亻 + 尔"
-10. `CompoundsFront` — HTML list of compound words (Chinese only)
-11. `CompoundsBack` — HTML list with pinyin and English
-12. `ExampleSentence` — example sentence in Chinese
-13. `ExamplePinyin` — pinyin for the example sentence
-14. `ExampleEnglish` — English translation of example sentence
+8. `WordType` — word type abbreviation (V, N, A, Adv, Pr, etc.)
+9. `TableRef` — source table reference (e.g. "2-01-02")
+10. `Radical` — radical with pinyin, e.g. "亻 (rén)"
+11. `Components` — structural parts, e.g. "亻 + 尔"
+12. `CompoundsFront` — HTML list of compound words (Chinese only)
+13. `CompoundsBack` — HTML list with pinyin and English
+14. `ExampleSentence` — example sentence in Chinese
+15. `ExamplePinyin` — pinyin for the example sentence
+16. `ExampleEnglish` — English translation of example sentence
 
 ### Card Template
 
-**Recognition only** (Chinese → English): Front shows Character + Compounds, Back shows Pinyin + English + Audio + StrokeOrder + Examples.
+**Recognition only** (Chinese → English): Front shows Character + Compounds, Back shows Pinyin + English + Audio + StrokeOrder + Source + Examples.
 
 ### Compound Word Styling
 
@@ -103,13 +120,15 @@ CPR Book 1 3rd Edition
 ```json
 {
   "lesson": 1,
-  "title": "你好",
+  "title": "Lesson 1",
   "characters": {
     "main": [
       {
         "character": "认识",
         "pinyin": "rènshi",
         "english": "to know; to recognize",
+        "word_type": "V",
+        "table_ref": "2-01-02",
         "radical": "讠",
         "radical_pinyin": "yán",
         "components": ["讠", "刃"],
@@ -133,23 +152,20 @@ CPR Book 1 3rd Edition
 # Install dependencies
 pip install -r requirements.txt
 
-# Generate all decks
+# Generate both .apkg packages (new words + supplementary)
 python -m src.generate_deck
-
-# Generate a specific lesson
-python -m src.generate_deck --lesson 1
 
 # Run tests
 pytest tests/
 
-# Extract characters from textbook photos
-python -m src.extract_table photo.jpg --lesson 2
+# Extract all lessons from textbook photos (single-pass, auto-detect lessons)
+python -m src.extract_table input/*.jpeg --enrich --yes
 
-# Extract and auto-enrich with radicals, compounds, examples
-python -m src.extract_table photo.jpg --lesson 2 --enrich
+# Extract with custom lesson titles
+python -m src.extract_table input/*.jpeg --titles "你好,你是哪国人,..." --enrich
 
-# Multiple images for one lesson
-python -m src.extract_table page1.jpg page2.jpg --lesson 2 --title "你是哪国人" --enrich
+# Extract without enrichment (faster, for testing)
+python -m src.extract_table input/*.jpeg --yes
 ```
 
 ## Environment Variables
@@ -177,7 +193,7 @@ DECK_ID_BASE = 2059400110  # base deck ID; per-lesson decks derive from this
 ## Style & Conventions
 
 - Python 3.9+
-- Use type hints everywhere
+- Use type hints everywhere (use `typing.Optional` not `X | None` for 3.9 compat)
 - Use pathlib for file paths
 - Keep character data in JSON files under `data/lessons/`
 - All generated output goes to `output/` (gitignored)
@@ -188,6 +204,6 @@ DECK_ID_BASE = 2059400110  # base deck ID; per-lesson decks derive from this
 ## Development Workflow
 
 1. Take photos of textbook vocabulary tables
-2. Run `python -m src.extract_table` with `--enrich` to extract and enrich
-3. Run `python -m src.generate_deck` to generate `.apkg` files
+2. Run `python -m src.extract_table input/*.jpeg --enrich --yes` to extract all lessons
+3. Run `python -m src.generate_deck` to generate `.apkg` packages
 4. Import into Anki (File → Import) — cards with matching GUIDs update in place

@@ -1,0 +1,4400 @@
+{
+  "lesson": 9,
+  "title": "Lesson 9",
+  "characters": {
+    "main": [
+      {
+        "character": "秋天",
+        "pinyin": "qiūtiān",
+        "english": "autumn; fall",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "北京的秋天",
+            "pinyin": "Běijīng de qiūtiān",
+            "english": "Beijing's autumn",
+            "source": "textbook"
+          },
+          {
+            "chinese": "秋季",
+            "pinyin": "qiūjì",
+            "english": "autumn; fall (season)",
+            "source": "generated"
+          },
+          {
+            "chinese": "中秋节",
+            "pinyin": "Zhōngqiūjié",
+            "english": "Mid-Autumn Festival",
+            "source": "generated"
+          },
+          {
+            "chinese": "秋收",
+            "pinyin": "qiūshōu",
+            "english": "autumn harvest",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢秋天，因为天气很凉爽。",
+        "example_pinyin": "Wǒ zuì xǐhuān qiūtiān, yīnwèi tiānqì hěn liángshuǎng.",
+        "example_english": "I like autumn the most because the weather is very cool and pleasant."
+      },
+      {
+        "character": "了",
+        "pinyin": "le",
+        "english": "an aspect particle indicating something that has happened or a change",
+        "word_type": "Pt",
+        "table_ref": "2-09-02",
+        "radical": "亅",
+        "radical_pinyin": "jué",
+        "components": [
+          "亅"
+        ],
+        "compounds": [
+          {
+            "chinese": "大了",
+            "pinyin": "dà le",
+            "english": "got bigger; grew up",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小了",
+            "pinyin": "xiǎo le",
+            "english": "got smaller",
+            "source": "textbook"
+          },
+          {
+            "chinese": "秋天了",
+            "pinyin": "qiūtiān le",
+            "english": "it's autumn now; autumn has arrived",
+            "source": "textbook"
+          },
+          {
+            "chinese": "了解",
+            "pinyin": "liǎojiě",
+            "english": "to understand; to know",
+            "source": "generated"
+          },
+          {
+            "chinese": "算了",
+            "pinyin": "suànle",
+            "english": "forget it; let it be",
+            "source": "generated"
+          },
+          {
+            "chinese": "好了",
+            "pinyin": "hǎole",
+            "english": "okay; finished; ready",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我吃饭了。",
+        "example_pinyin": "Wǒ chīfàn le.",
+        "example_english": "I have eaten."
+      },
+      {
+        "character": "凉快",
+        "pinyin": "liángkuai",
+        "english": "cool",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "冫",
+        "radical_pinyin": "bīng",
+        "components": [
+          "冫",
+          "京"
+        ],
+        "compounds": [
+          {
+            "chinese": "凉快的天气",
+            "pinyin": "liángkuai de tiānqì",
+            "english": "cool weather",
+            "source": "textbook"
+          },
+          {
+            "chinese": "很凉快",
+            "pinyin": "hěn liángkuai",
+            "english": "very cool",
+            "source": "textbook"
+          },
+          {
+            "chinese": "凉水",
+            "pinyin": "liángshuǐ",
+            "english": "cold water",
+            "source": "generated"
+          },
+          {
+            "chinese": "凉鞋",
+            "pinyin": "liángxié",
+            "english": "sandals",
+            "source": "generated"
+          },
+          {
+            "chinese": "乘凉",
+            "pinyin": "chéngliáng",
+            "english": "enjoy the cool air",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气很凉快，适合出去散步。",
+        "example_pinyin": "Jīntiān tiānqì hěn liángkuai, shìhé chūqù sànbù.",
+        "example_english": "The weather is very cool today, suitable for going out for a walk."
+      },
+      {
+        "character": "空气",
+        "pinyin": "kōngqì",
+        "english": "air",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "穴",
+        "radical_pinyin": "xué",
+        "components": [
+          "穴",
+          "工"
+        ],
+        "compounds": [
+          {
+            "chinese": "空气很好",
+            "pinyin": "kōngqì hěn hǎo",
+            "english": "The air is very good.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "空气不好",
+            "pinyin": "kōngqì bù hǎo",
+            "english": "The air is not good.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "空气污染",
+            "pinyin": "kōngqì wūrǎn",
+            "english": "air pollution",
+            "source": "generated"
+          },
+          {
+            "chinese": "新鲜空气",
+            "pinyin": "xīnxiān kōngqì",
+            "english": "fresh air",
+            "source": "generated"
+          },
+          {
+            "chinese": "空气清新",
+            "pinyin": "kōngqì qīngxīn",
+            "english": "the air is fresh",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这里的空气很新鲜。",
+        "example_pinyin": "Zhèlǐ de kōngqì hěn xīnxiān.",
+        "example_english": "The air here is very fresh."
+      },
+      {
+        "character": "最",
+        "pinyin": "zuì",
+        "english": "most; to the highest degree",
+        "word_type": "Adv",
+        "table_ref": "2-09-02",
+        "radical": "曰",
+        "radical_pinyin": "yuē",
+        "components": [
+          "曰",
+          "耳",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "最好",
+            "pinyin": "zuì hǎo",
+            "english": "best; had better",
+            "source": "textbook"
+          },
+          {
+            "chinese": "最贵",
+            "pinyin": "zuì guì",
+            "english": "most expensive",
+            "source": "textbook"
+          },
+          {
+            "chinese": "最漂亮",
+            "pinyin": "zuì piàoliang",
+            "english": "most beautiful",
+            "source": "textbook"
+          },
+          {
+            "chinese": "最喜欢",
+            "pinyin": "zuì xǐhuan",
+            "english": "like most; favorite",
+            "source": "textbook"
+          },
+          {
+            "chinese": "最近",
+            "pinyin": "zuì jìn",
+            "english": "recently; nearest",
+            "source": "generated"
+          },
+          {
+            "chinese": "最多",
+            "pinyin": "zuì duō",
+            "english": "at most; maximum",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是我最喜欢的颜色。",
+        "example_pinyin": "Zhè shì wǒ zuì xǐhuan de yánsè.",
+        "example_english": "This is my favorite color."
+      },
+      {
+        "character": "季节",
+        "pinyin": "jìjié",
+        "english": "season",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "节"
+        ],
+        "compounds": [
+          {
+            "chinese": "四个季节",
+            "pinyin": "sì gè jìjié",
+            "english": "four seasons",
+            "source": "textbook"
+          },
+          {
+            "chinese": "哪个季节",
+            "pinyin": "nǎgè jìjié",
+            "english": "which season",
+            "source": "textbook"
+          },
+          {
+            "chinese": "春季",
+            "pinyin": "chūnjì",
+            "english": "spring season",
+            "source": "generated"
+          },
+          {
+            "chinese": "夏季",
+            "pinyin": "xiàjì",
+            "english": "summer season",
+            "source": "generated"
+          },
+          {
+            "chinese": "雨季",
+            "pinyin": "yǔjì",
+            "english": "rainy season",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你最喜欢哪个季节？",
+        "example_pinyin": "Nǐ zuì xǐhuān nǎgè jìjié?",
+        "example_english": "Which season do you like the most?"
+      },
+      {
+        "character": "热",
+        "pinyin": "rè",
+        "english": "hot",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "热"
+        ],
+        "compounds": [
+          {
+            "chinese": "天气很热",
+            "pinyin": "tiānqì hěn rè",
+            "english": "The weather is very hot.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿热",
+            "pinyin": "yǒudiǎnr rè",
+            "english": "A bit hot.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "我很热",
+            "pinyin": "wǒ hěn rè",
+            "english": "I am hot.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "热闹",
+            "pinyin": "rènao",
+            "english": "lively; bustling",
+            "source": "generated"
+          },
+          {
+            "chinese": "热情",
+            "pinyin": "rèqíng",
+            "english": "enthusiastic; passion",
+            "source": "generated"
+          },
+          {
+            "chinese": "加热",
+            "pinyin": "jiārè",
+            "english": "to heat up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气很热。",
+        "example_pinyin": "Jīntiān tiānqì hěn rè.",
+        "example_english": "The weather is very hot today."
+      },
+      {
+        "character": "春天",
+        "pinyin": "chūntiān",
+        "english": "spring",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "三",
+          "日"
+        ],
+        "compounds": [
+          {
+            "chinese": "喜欢春天",
+            "pinyin": "xǐhuān chūntiān",
+            "english": "like spring",
+            "source": "textbook"
+          },
+          {
+            "chinese": "春天了",
+            "pinyin": "chūntiān le",
+            "english": "It's spring now",
+            "source": "textbook"
+          },
+          {
+            "chinese": "春节",
+            "pinyin": "Chūnjié",
+            "english": "Spring Festival; Chinese New Year",
+            "source": "generated"
+          },
+          {
+            "chinese": "春季",
+            "pinyin": "chūnjì",
+            "english": "spring season",
+            "source": "generated"
+          },
+          {
+            "chinese": "春风",
+            "pinyin": "chūnfēng",
+            "english": "spring breeze",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "春天来了，天气越来越暖和。",
+        "example_pinyin": "Chūntiān lái le, tiānqì yuè lái yuè nuǎnhuo.",
+        "example_english": "Spring has come, and the weather is getting warmer and warmer."
+      },
+      {
+        "character": "暖和",
+        "pinyin": "nuǎnhuo",
+        "english": "warm",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "日",
+          "爰"
+        ],
+        "compounds": [
+          {
+            "chinese": "暖和的天气",
+            "pinyin": "nuǎnhuo de tiānqì",
+            "english": "warm weather",
+            "source": "textbook"
+          },
+          {
+            "chinese": "很暖和",
+            "pinyin": "hěn nuǎnhuo",
+            "english": "very warm",
+            "source": "textbook"
+          },
+          {
+            "chinese": "温暖",
+            "pinyin": "wēnnuǎn",
+            "english": "warm; warmth",
+            "source": "generated"
+          },
+          {
+            "chinese": "暖气",
+            "pinyin": "nuǎnqì",
+            "english": "heating; central heating",
+            "source": "generated"
+          },
+          {
+            "chinese": "暖瓶",
+            "pinyin": "nuǎnpíng",
+            "english": "thermos bottle; vacuum flask",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天天气很暖和。",
+        "example_pinyin": "Jīntiān tiānqì hěn nuǎnhuo.",
+        "example_english": "The weather is very warm today."
+      },
+      {
+        "character": "刮风",
+        "pinyin": "guā fēng",
+        "english": "to be windy",
+        "word_type": "VO",
+        "table_ref": "2-09-02",
+        "radical": "刂",
+        "radical_pinyin": "dāo",
+        "components": [
+          "刮",
+          "风"
+        ],
+        "compounds": [
+          {
+            "chinese": "刮脸",
+            "pinyin": "guāliǎn",
+            "english": "to shave one's face",
+            "source": "generated"
+          },
+          {
+            "chinese": "刮胡子",
+            "pinyin": "guā húzi",
+            "english": "to shave one's beard",
+            "source": "generated"
+          },
+          {
+            "chinese": "刮风下雨",
+            "pinyin": "guā fēng xià yǔ",
+            "english": "wind blowing and rain falling",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天刮风了，天气有点冷。",
+        "example_pinyin": "Jīntiān guā fēng le, tiānqì yǒudiǎn lěng.",
+        "example_english": "It's windy today, and the weather is a bit cold."
+      },
+      {
+        "character": "风",
+        "pinyin": "fēng",
+        "english": "wind",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "风",
+        "radical_pinyin": "fēng",
+        "components": [
+          "风"
+        ],
+        "compounds": [
+          {
+            "chinese": "大风",
+            "pinyin": "dàfēng",
+            "english": "strong wind; gale",
+            "source": "textbook"
+          },
+          {
+            "chinese": "风扇",
+            "pinyin": "fēngshàn",
+            "english": "electric fan",
+            "source": "generated"
+          },
+          {
+            "chinese": "风景",
+            "pinyin": "fēngjǐng",
+            "english": "scenery; landscape",
+            "source": "generated"
+          },
+          {
+            "chinese": "风俗",
+            "pinyin": "fēngsú",
+            "english": "custom; tradition",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天风很大。",
+        "example_pinyin": "Jīntiān fēng hěn dà.",
+        "example_english": "The wind is very strong today."
+      },
+      {
+        "character": "家乡",
+        "pinyin": "jiāxiāng",
+        "english": "hometown",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "豕"
+        ],
+        "compounds": [
+          {
+            "chinese": "我的家乡",
+            "pinyin": "wǒ de jiāxiāng",
+            "english": "my hometown",
+            "source": "textbook"
+          },
+          {
+            "chinese": "老家",
+            "pinyin": "lǎojiā",
+            "english": "old home; native place",
+            "source": "generated"
+          },
+          {
+            "chinese": "故乡",
+            "pinyin": "gùxiāng",
+            "english": "hometown; native place",
+            "source": "generated"
+          },
+          {
+            "chinese": "家乡菜",
+            "pinyin": "jiāxiāng cài",
+            "english": "hometown dishes; local cuisine",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的家乡是一个美丽的小城市。",
+        "example_pinyin": "Wǒ de jiāxiāng shì yīgè měilì de xiǎo chéngshì.",
+        "example_english": "My hometown is a beautiful small city."
+      },
+      {
+        "character": "树",
+        "pinyin": "shù",
+        "english": "tree",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "绿树",
+            "pinyin": "lǜshù",
+            "english": "green tree",
+            "source": "textbook"
+          },
+          {
+            "chinese": "大树",
+            "pinyin": "dàshù",
+            "english": "big tree",
+            "source": "textbook"
+          },
+          {
+            "chinese": "树绿了",
+            "pinyin": "shù lǜ le",
+            "english": "The trees have turned green.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "树林",
+            "pinyin": "shùlín",
+            "english": "woods; forest",
+            "source": "generated"
+          },
+          {
+            "chinese": "树木",
+            "pinyin": "shùmù",
+            "english": "trees",
+            "source": "generated"
+          },
+          {
+            "chinese": "果树",
+            "pinyin": "guǒshù",
+            "english": "fruit tree",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这棵树很高。",
+        "example_pinyin": "Zhè kē shù hěn gāo.",
+        "example_english": "This tree is very tall."
+      },
+      {
+        "character": "夏天",
+        "pinyin": "xiàtiān",
+        "english": "summer",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "夂",
+        "radical_pinyin": "zhǐ",
+        "components": [
+          "夂",
+          "目",
+          "一"
+        ],
+        "compounds": [
+          {
+            "chinese": "很热的夏天",
+            "pinyin": "hěn rè de xiàtiān",
+            "english": "very hot summer",
+            "source": "textbook"
+          },
+          {
+            "chinese": "喜欢夏天",
+            "pinyin": "xǐhuān xiàtiān",
+            "english": "like summer",
+            "source": "textbook"
+          },
+          {
+            "chinese": "夏天衣服",
+            "pinyin": "xiàtiān yīfu",
+            "english": "summer clothes",
+            "source": "generated"
+          },
+          {
+            "chinese": "夏天假期",
+            "pinyin": "xiàtiān jiàqī",
+            "english": "summer vacation",
+            "source": "generated"
+          },
+          {
+            "chinese": "夏天水果",
+            "pinyin": "xiàtiān shuǐguǒ",
+            "english": "summer fruits",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我最喜欢夏天，因为可以去海边游泳。",
+        "example_pinyin": "Wǒ zuì xǐhuān xiàtiān, yīnwèi kěyǐ qù hǎibiān yóuyǒng.",
+        "example_english": "I like summer the most because I can go swimming at the beach."
+      },
+      {
+        "character": "冬天",
+        "pinyin": "dōngtiān",
+        "english": "winter",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "冫",
+        "radical_pinyin": "bīng",
+        "components": [
+          "冫",
+          "夂"
+        ],
+        "compounds": [
+          {
+            "chinese": "很冷的冬天",
+            "pinyin": "hěn lěng de dōngtiān",
+            "english": "very cold winter",
+            "source": "textbook"
+          },
+          {
+            "chinese": "喜欢冬天",
+            "pinyin": "xǐhuān dōngtiān",
+            "english": "like winter",
+            "source": "textbook"
+          },
+          {
+            "chinese": "冬天来了",
+            "pinyin": "dōngtiān lái le",
+            "english": "winter is coming",
+            "source": "generated"
+          },
+          {
+            "chinese": "冬天运动",
+            "pinyin": "dōngtiān yùndòng",
+            "english": "winter sports",
+            "source": "generated"
+          },
+          {
+            "chinese": "冬天假期",
+            "pinyin": "dōngtiān jiàqī",
+            "english": "winter holiday",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢冬天，因为可以滑雪。",
+        "example_pinyin": "Wǒ xǐhuān dōngtiān, yīnwèi kěyǐ huáxuě.",
+        "example_english": "I like winter because I can ski."
+      },
+      {
+        "character": "下雨",
+        "pinyin": "xià yǔ",
+        "english": "to rain",
+        "word_type": "VO",
+        "table_ref": "2-09-02",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "雨"
+        ],
+        "compounds": [
+          {
+            "chinese": "下雨天",
+            "pinyin": "xià yǔ tiān",
+            "english": "rainy day",
+            "source": "generated"
+          },
+          {
+            "chinese": "下大雨",
+            "pinyin": "xià dà yǔ",
+            "english": "to rain heavily",
+            "source": "generated"
+          },
+          {
+            "chinese": "下小雨",
+            "pinyin": "xià xiǎo yǔ",
+            "english": "to drizzle",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天会下雨吗？",
+        "example_pinyin": "Jīntiān huì xià yǔ ma?",
+        "example_english": "Will it rain today?"
+      },
+      {
+        "character": "雨",
+        "pinyin": "yǔ",
+        "english": "rain",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "雨"
+        ],
+        "compounds": [
+          {
+            "chinese": "大雨",
+            "pinyin": "dà yǔ",
+            "english": "heavy rain",
+            "source": "textbook"
+          },
+          {
+            "chinese": "小雨",
+            "pinyin": "xiǎo yǔ",
+            "english": "light rain",
+            "source": "textbook"
+          },
+          {
+            "chinese": "下雨",
+            "pinyin": "xià yǔ",
+            "english": "to rain",
+            "source": "generated"
+          },
+          {
+            "chinese": "雨水",
+            "pinyin": "yǔshuǐ",
+            "english": "rainwater",
+            "source": "generated"
+          },
+          {
+            "chinese": "雨衣",
+            "pinyin": "yǔyī",
+            "english": "raincoat",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天会下雨吗？",
+        "example_pinyin": "Jīntiān huì xià yǔ ma?",
+        "example_english": "Will it rain today?"
+      },
+      {
+        "character": "下雪",
+        "pinyin": "xià xuě",
+        "english": "to snow",
+        "word_type": "VO",
+        "table_ref": "2-09-02",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "雨",
+          "彐"
+        ],
+        "compounds": [
+          {
+            "chinese": "雪人",
+            "pinyin": "xuě rén",
+            "english": "snowman",
+            "source": "generated"
+          },
+          {
+            "chinese": "雪花",
+            "pinyin": "xuě huā",
+            "english": "snowflake",
+            "source": "generated"
+          },
+          {
+            "chinese": "下雪天",
+            "pinyin": "xià xuě tiān",
+            "english": "snowy day",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "外面下雪了，天气很冷。",
+        "example_pinyin": "Wàimiàn xià xuě le, tiānqì hěn lěng.",
+        "example_english": "It's snowing outside, the weather is very cold."
+      },
+      {
+        "character": "雪",
+        "pinyin": "xuě",
+        "english": "snow",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "雨",
+        "radical_pinyin": "yǔ",
+        "components": [
+          "雨",
+          "彐"
+        ],
+        "compounds": [
+          {
+            "chinese": "下雪",
+            "pinyin": "xià xuě",
+            "english": "to snow",
+            "source": "textbook"
+          },
+          {
+            "chinese": "下大雪",
+            "pinyin": "xià dà xuě",
+            "english": "to snow heavily",
+            "source": "textbook"
+          },
+          {
+            "chinese": "雪人",
+            "pinyin": "xuěrén",
+            "english": "snowman",
+            "source": "generated"
+          },
+          {
+            "chinese": "雪花",
+            "pinyin": "xuěhuā",
+            "english": "snowflake",
+            "source": "generated"
+          },
+          {
+            "chinese": "冰雪",
+            "pinyin": "bīngxuě",
+            "english": "ice and snow",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天下雪了，外面很冷。",
+        "example_pinyin": "Jīntiān xià xuě le, wàimiàn hěn lěng.",
+        "example_english": "It snowed today, it's very cold outside."
+      },
+      {
+        "character": "游泳",
+        "pinyin": "yóuyǒng",
+        "english": "to swim",
+        "word_type": "VO",
+        "table_ref": "2-09-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "永"
+        ],
+        "compounds": [
+          {
+            "chinese": "喜欢游泳",
+            "pinyin": "xǐhuān yóuyǒng",
+            "english": "like to swim",
+            "source": "textbook"
+          },
+          {
+            "chinese": "去游泳",
+            "pinyin": "qù yóuyǒng",
+            "english": "go swimming",
+            "source": "textbook"
+          },
+          {
+            "chinese": "游泳池",
+            "pinyin": "yóuyǒngchí",
+            "english": "swimming pool",
+            "source": "generated"
+          },
+          {
+            "chinese": "游泳衣",
+            "pinyin": "yóuyǒngyī",
+            "english": "swimsuit",
+            "source": "generated"
+          },
+          {
+            "chinese": "游泳圈",
+            "pinyin": "yóuyǒngquān",
+            "english": "swimming ring",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢在夏天去游泳。",
+        "example_pinyin": "Wǒ xǐhuān zài xiàtiān qù yóuyǒng.",
+        "example_english": "I like to go swimming in the summer."
+      },
+      {
+        "character": "游",
+        "pinyin": "yóu",
+        "english": "to swim",
+        "word_type": "V",
+        "table_ref": "2-09-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "方",
+          "子"
+        ],
+        "compounds": [
+          {
+            "chinese": "游泳",
+            "pinyin": "yóuyǒng",
+            "english": "to swim; swimming",
+            "source": "generated"
+          },
+          {
+            "chinese": "旅游",
+            "pinyin": "lǚyóu",
+            "english": "to travel; tourism",
+            "source": "generated"
+          },
+          {
+            "chinese": "游戏",
+            "pinyin": "yóuxì",
+            "english": "game; to play",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢在夏天去海边游泳。",
+        "example_pinyin": "Wǒ xǐhuān zài xiàtiān qù hǎibiān yóuyǒng.",
+        "example_english": "I like to go swimming at the beach in summer."
+      },
+      {
+        "character": "滑雪",
+        "pinyin": "huáxuě",
+        "english": "to ski",
+        "word_type": "VO",
+        "table_ref": "2-09-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "骨"
+        ],
+        "compounds": [
+          {
+            "chinese": "去滑雪",
+            "pinyin": "qù huáxuě",
+            "english": "to go skiing",
+            "source": "textbook"
+          },
+          {
+            "chinese": "喜欢滑雪",
+            "pinyin": "xǐhuān huáxuě",
+            "english": "to like skiing",
+            "source": "textbook"
+          },
+          {
+            "chinese": "滑冰",
+            "pinyin": "huábīng",
+            "english": "to skate",
+            "source": "generated"
+          },
+          {
+            "chinese": "滑梯",
+            "pinyin": "huátī",
+            "english": "slide (playground)",
+            "source": "generated"
+          },
+          {
+            "chinese": "滑雪场",
+            "pinyin": "huáxuěchǎng",
+            "english": "ski resort",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢冬天去滑雪。",
+        "example_pinyin": "Wǒ xǐhuān dōngtiān qù huáxuě.",
+        "example_english": "I like to go skiing in winter."
+      },
+      {
+        "character": "会",
+        "pinyin": "huì",
+        "english": "can; to be able to / to have knowledge of",
+        "word_type": "OpV/V",
+        "table_ref": "2-09-02",
+        "radical": "人",
+        "radical_pinyin": "rén",
+        "components": [
+          "人",
+          "云"
+        ],
+        "compounds": [
+          {
+            "chinese": "会滑雪",
+            "pinyin": "huì huáxuě",
+            "english": "can ski",
+            "source": "textbook"
+          },
+          {
+            "chinese": "会说",
+            "pinyin": "huì shuō",
+            "english": "can speak",
+            "source": "textbook"
+          },
+          {
+            "chinese": "汉语",
+            "pinyin": "Hànyǔ",
+            "english": "Chinese language",
+            "source": "textbook"
+          },
+          {
+            "chinese": "会一点儿",
+            "pinyin": "huì yīdiǎnr",
+            "english": "can a little bit",
+            "source": "textbook"
+          },
+          {
+            "chinese": "开会",
+            "pinyin": "kāihuì",
+            "english": "to hold a meeting",
+            "source": "generated"
+          },
+          {
+            "chinese": "社会",
+            "pinyin": "shèhuì",
+            "english": "society",
+            "source": "generated"
+          },
+          {
+            "chinese": "机会",
+            "pinyin": "jīhuì",
+            "english": "opportunity",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我会说汉语。",
+        "example_pinyin": "Wǒ huì shuō Hànyǔ.",
+        "example_english": "I can speak Chinese."
+      },
+      {
+        "character": "以前",
+        "pinyin": "yǐqián",
+        "english": "before; previously",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "以",
+        "radical_pinyin": "yǐ",
+        "components": [
+          "以"
+        ],
+        "compounds": [
+          {
+            "chinese": "以前不会",
+            "pinyin": "yǐqián bù huì",
+            "english": "didn't know how before; couldn't before",
+            "source": "textbook"
+          },
+          {
+            "chinese": "以前学英语",
+            "pinyin": "yǐqián xué Yīngyǔ",
+            "english": "studied English before",
+            "source": "textbook"
+          },
+          {
+            "chinese": "以前的",
+            "pinyin": "yǐqián de",
+            "english": "previous; former",
+            "source": "generated"
+          },
+          {
+            "chinese": "以前是",
+            "pinyin": "yǐqián shì",
+            "english": "used to be",
+            "source": "generated"
+          },
+          {
+            "chinese": "以前没有",
+            "pinyin": "yǐqián méiyǒu",
+            "english": "never before; didn't have before",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我以前住在中国。",
+        "example_pinyin": "Wǒ yǐqián zhù zài Zhōngguó.",
+        "example_english": "I used to live in China."
+      },
+      {
+        "character": "(飞)机票",
+        "pinyin": "fēijīpiào",
+        "english": "airplane ticket",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "飞",
+        "radical_pinyin": "fēi",
+        "components": [
+          "飞"
+        ],
+        "compounds": [
+          {
+            "chinese": "买飞机票",
+            "pinyin": "mǎi fēijīpiào",
+            "english": "to buy an airplane ticket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "机票",
+            "pinyin": "jīpiào",
+            "english": "plane ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "飞机",
+            "pinyin": "fēijī",
+            "english": "airplane",
+            "source": "generated"
+          },
+          {
+            "chinese": "票价",
+            "pinyin": "piàojià",
+            "english": "ticket price",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要买一张去北京的飞机票。",
+        "example_pinyin": "Wǒ xūyào mǎi yī zhāng qù Běijīng de fēijīpiào.",
+        "example_english": "I need to buy an airplane ticket to Beijing."
+      },
+      {
+        "character": "飞机",
+        "pinyin": "fēijī",
+        "english": "airplane",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "飞",
+        "radical_pinyin": "fēi",
+        "components": [
+          "飞"
+        ],
+        "compounds": [
+          {
+            "chinese": "机场",
+            "pinyin": "jīchǎng",
+            "english": "airport",
+            "source": "generated"
+          },
+          {
+            "chinese": "飞机票",
+            "pinyin": "fēijīpiào",
+            "english": "airplane ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "直升飞机",
+            "pinyin": "zhíshēngfēijī",
+            "english": "helicopter",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢坐飞机旅行。",
+        "example_pinyin": "Wǒ xǐhuān zuò fēijī lǚxíng.",
+        "example_english": "I like to travel by airplane."
+      },
+      {
+        "character": "飞",
+        "pinyin": "fēi",
+        "english": "to fly",
+        "word_type": "V",
+        "table_ref": "2-09-02",
+        "radical": "飞",
+        "radical_pinyin": "fēi",
+        "components": [
+          "飞"
+        ],
+        "compounds": [
+          {
+            "chinese": "会飞",
+            "pinyin": "huì fēi",
+            "english": "can fly",
+            "source": "textbook"
+          },
+          {
+            "chinese": "飞机",
+            "pinyin": "fēijī",
+            "english": "airplane",
+            "source": "generated"
+          },
+          {
+            "chinese": "飞快",
+            "pinyin": "fēikuài",
+            "english": "very fast; swift",
+            "source": "generated"
+          },
+          {
+            "chinese": "飞翔",
+            "pinyin": "fēixiáng",
+            "english": "to soar; to fly",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "鸟儿在天空中自由地飞翔。",
+        "example_pinyin": "Niǎo'ér zài tiānkōng zhōng zìyóu de fēixiáng.",
+        "example_english": "Birds fly freely in the sky."
+      },
+      {
+        "character": "票",
+        "pinyin": "piào",
+        "english": "ticket",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "票",
+        "radical_pinyin": "piào",
+        "components": [
+          "票"
+        ],
+        "compounds": [
+          {
+            "chinese": "买票",
+            "pinyin": "mǎi piào",
+            "english": "to buy a ticket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "电影票",
+            "pinyin": "diànyǐngpiào",
+            "english": "movie ticket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "一张票",
+            "pinyin": "yī zhāng piào",
+            "english": "one ticket",
+            "source": "textbook"
+          },
+          {
+            "chinese": "机票",
+            "pinyin": "jīpiào",
+            "english": "plane ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "车票",
+            "pinyin": "chēpiào",
+            "english": "bus/train ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "投票",
+            "pinyin": "tóupiào",
+            "english": "to vote; to cast a ballot",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要买一张去北京的火车票。",
+        "example_pinyin": "Wǒ xūyào mǎi yī zhāng qù Běijīng de huǒchēpiào.",
+        "example_english": "I need to buy a train ticket to Beijing."
+      },
+      {
+        "character": "坐",
+        "pinyin": "zuò",
+        "english": "to sit; to go/travel somewhere by means of",
+        "word_type": "V",
+        "table_ref": "2-09-02",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "人",
+          "土"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐公共汽车",
+            "pinyin": "zuò gōnggòng qìchē",
+            "english": "to take a bus",
+            "source": "textbook"
+          },
+          {
+            "chinese": "坐下",
+            "pinyin": "zuòxià",
+            "english": "to sit down",
+            "source": "generated"
+          },
+          {
+            "chinese": "坐车",
+            "pinyin": "zuòchē",
+            "english": "to take a car/bus/train",
+            "source": "generated"
+          },
+          {
+            "chinese": "乘坐",
+            "pinyin": "chéngzuò",
+            "english": "to ride (in a vehicle)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请坐。",
+        "example_pinyin": "Qǐng zuò.",
+        "example_english": "Please sit down."
+      },
+      {
+        "character": "博物馆",
+        "pinyin": "bówùguǎn",
+        "english": "museum",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "亠",
+        "radical_pinyin": "tóu",
+        "components": [
+          "亠",
+          "尃"
+        ],
+        "compounds": [
+          {
+            "chinese": "去博物馆",
+            "pinyin": "qù bówùguǎn",
+            "english": "go to the museum",
+            "source": "textbook"
+          },
+          {
+            "chinese": "艺术博物馆",
+            "pinyin": "yìshù bówùguǎn",
+            "english": "art museum",
+            "source": "generated"
+          },
+          {
+            "chinese": "历史博物馆",
+            "pinyin": "lìshǐ bówùguǎn",
+            "english": "history museum",
+            "source": "generated"
+          },
+          {
+            "chinese": "自然博物馆",
+            "pinyin": "zìrán bówùguǎn",
+            "english": "natural history museum",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们周末去博物馆参观。",
+        "example_pinyin": "Wǒmen zhōumò qù bówùguǎn cānguān.",
+        "example_english": "We will visit the museum on the weekend."
+      },
+      {
+        "character": "展览",
+        "pinyin": "zhǎnlǎn",
+        "english": "to exhibit",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "尸",
+        "radical_pinyin": "shī",
+        "components": [
+          "尸",
+          "山",
+          "厂"
+        ],
+        "compounds": [
+          {
+            "chinese": "在博物馆展览",
+            "pinyin": "zài bówùguǎn zhǎnlǎn",
+            "english": "to exhibit in a museum",
+            "source": "textbook"
+          },
+          {
+            "chinese": "看展览",
+            "pinyin": "kàn zhǎnlǎn",
+            "english": "to see an exhibition",
+            "source": "textbook"
+          },
+          {
+            "chinese": "展览会",
+            "pinyin": "zhǎnlǎnhuì",
+            "english": "exhibition; trade fair",
+            "source": "generated"
+          },
+          {
+            "chinese": "画展",
+            "pinyin": "huàzhǎn",
+            "english": "art exhibition",
+            "source": "generated"
+          },
+          {
+            "chinese": "博览会",
+            "pinyin": "bólǎnhuì",
+            "english": "exposition; international fair",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个周末我们去看一个艺术展览。",
+        "example_pinyin": "Zhège zhōumò wǒmen qù kàn yīgè yìshù zhǎnlǎn.",
+        "example_english": "This weekend we are going to see an art exhibition."
+      },
+      {
+        "character": "时候",
+        "pinyin": "shíhou",
+        "english": "time; moment",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "日",
+          "寺"
+        ],
+        "compounds": [
+          {
+            "chinese": "什么时候",
+            "pinyin": "shénme shíhou",
+            "english": "when",
+            "source": "textbook"
+          },
+          {
+            "chinese": "这时候",
+            "pinyin": "zhè shíhou",
+            "english": "at this moment; at this time",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有时候",
+            "pinyin": "yǒu shíhou",
+            "english": "sometimes",
+            "source": "generated"
+          },
+          {
+            "chinese": "到时候",
+            "pinyin": "dào shíhou",
+            "english": "when the time comes; until then",
+            "source": "generated"
+          },
+          {
+            "chinese": "小时候",
+            "pinyin": "xiǎoshíhou",
+            "english": "in one's childhood",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你什么时候有空？",
+        "example_pinyin": "Nǐ shénme shíhou yǒu kòng?",
+        "example_english": "When are you free?"
+      },
+      {
+        "character": "车",
+        "pinyin": "chē",
+        "english": "vehicle",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "车",
+        "radical_pinyin": "chē",
+        "components": [
+          "车"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐车",
+            "pinyin": "zuò chē",
+            "english": "to take a vehicle; to ride in a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有车",
+            "pinyin": "yǒu chē",
+            "english": "to have a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "买车",
+            "pinyin": "mǎi chē",
+            "english": "to buy a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "卖车",
+            "pinyin": "mài chē",
+            "english": "to sell a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "火车",
+            "pinyin": "huǒchē",
+            "english": "train",
+            "source": "generated"
+          },
+          {
+            "chinese": "汽车",
+            "pinyin": "qìchē",
+            "english": "car; automobile",
+            "source": "generated"
+          },
+          {
+            "chinese": "自行车",
+            "pinyin": "zìxíngchē",
+            "english": "bicycle",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天坐车去上班。",
+        "example_pinyin": "Wǒ měitiān zuò chē qù shàngbān.",
+        "example_english": "I go to work by car every day."
+      },
+      {
+        "character": "开车",
+        "pinyin": "kāichē",
+        "english": "to drive a car (or any type of vehicle)",
+        "word_type": "VO",
+        "table_ref": "2-09-04",
+        "radical": "开",
+        "radical_pinyin": "kāi",
+        "components": [
+          "开"
+        ],
+        "compounds": [
+          {
+            "chinese": "会开车",
+            "pinyin": "huì kāichē",
+            "english": "can drive a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "司机",
+            "pinyin": "sījī",
+            "english": "driver",
+            "source": "generated"
+          },
+          {
+            "chinese": "开车门",
+            "pinyin": "kāichēmén",
+            "english": "to open the car door",
+            "source": "generated"
+          },
+          {
+            "chinese": "开车去",
+            "pinyin": "kāichē qù",
+            "english": "to drive to",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他每天开车上班。",
+        "example_pinyin": "Tā měitiān kāichē shàngbān.",
+        "example_english": "He drives to work every day."
+      },
+      {
+        "character": "开",
+        "pinyin": "kāi",
+        "english": "to drive",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "廾",
+        "radical_pinyin": "gǒng",
+        "components": [
+          "开"
+        ],
+        "compounds": [
+          {
+            "chinese": "开车",
+            "pinyin": "kāichē",
+            "english": "to drive a car",
+            "source": "generated"
+          },
+          {
+            "chinese": "开始",
+            "pinyin": "kāishǐ",
+            "english": "to start; to begin",
+            "source": "generated"
+          },
+          {
+            "chinese": "开门",
+            "pinyin": "kāimén",
+            "english": "to open the door",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他每天开车上班。",
+        "example_pinyin": "Tā měitiān kāichē shàngbān.",
+        "example_english": "He drives to work every day."
+      },
+      {
+        "character": "驾照",
+        "pinyin": "jiàzhào",
+        "english": "license",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马",
+          "加"
+        ],
+        "compounds": [
+          {
+            "chinese": "有驾照",
+            "pinyin": "yǒu jiàzhào",
+            "english": "to have a driver's license",
+            "source": "textbook"
+          },
+          {
+            "chinese": "我的驾照",
+            "pinyin": "wǒ de jiàzhào",
+            "english": "my driver's license",
+            "source": "textbook"
+          },
+          {
+            "chinese": "驾驶",
+            "pinyin": "jiàshǐ",
+            "english": "to drive; to pilot; to steer",
+            "source": "generated"
+          },
+          {
+            "chinese": "执照",
+            "pinyin": "zhízhào",
+            "english": "license; permit",
+            "source": "generated"
+          },
+          {
+            "chinese": "驾车",
+            "pinyin": "jiàchē",
+            "english": "to drive a car",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要考驾照才能开车。",
+        "example_pinyin": "Wǒ xūyào kǎo jiàzhào cáinéng kāichē.",
+        "example_english": "I need to get a driver's license before I can drive."
+      },
+      {
+        "character": "打车",
+        "pinyin": "dǎchē",
+        "english": "to take a taxi; (to go somewhere) by taxi",
+        "word_type": "VO",
+        "table_ref": "2-09-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "打的",
+            "pinyin": "dǎdī",
+            "english": "to take a taxi (colloquial)",
+            "source": "generated"
+          },
+          {
+            "chinese": "打车软件",
+            "pinyin": "dǎchē ruǎnjiàn",
+            "english": "ride-hailing app",
+            "source": "generated"
+          },
+          {
+            "chinese": "打车费",
+            "pinyin": "dǎchēfèi",
+            "english": "taxi fare",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们打车去机场吧。",
+        "example_pinyin": "Wǒmen dǎchē qù jīchǎng ba.",
+        "example_english": "Let's take a taxi to the airport."
+      },
+      {
+        "character": "打",
+        "pinyin": "dǎ",
+        "english": "to take (a taxi)",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "丁"
+        ],
+        "compounds": [
+          {
+            "chinese": "打个车",
+            "pinyin": "dǎ ge chē",
+            "english": "to take a taxi",
+            "source": "textbook"
+          },
+          {
+            "chinese": "打车",
+            "pinyin": "dǎ chē",
+            "english": "to take a taxi",
+            "source": "generated"
+          },
+          {
+            "chinese": "打的",
+            "pinyin": "dǎ dí",
+            "english": "to take a taxi (colloquial)",
+            "source": "generated"
+          },
+          {
+            "chinese": "打工",
+            "pinyin": "dǎ gōng",
+            "english": "to work (part-time, temporary)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们打个车去机场吧。",
+        "example_pinyin": "Wǒmen dǎ ge chē qù jīchǎng ba.",
+        "example_english": "Let's take a taxi to the airport."
+      },
+      {
+        "character": "路上",
+        "pinyin": "lùshang",
+        "english": "on the way",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "足",
+          "各"
+        ],
+        "compounds": [
+          {
+            "chinese": "路上车多",
+            "pinyin": "Lùshang chē duō",
+            "english": "There are many cars on the road.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "路上人少",
+            "pinyin": "Lùshang rén shǎo",
+            "english": "There are few people on the road.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "路上行人",
+            "pinyin": "lùshang xíngrén",
+            "english": "pedestrians on the road",
+            "source": "generated"
+          },
+          {
+            "chinese": "路上风景",
+            "pinyin": "lùshang fēngjǐng",
+            "english": "scenery along the way",
+            "source": "generated"
+          },
+          {
+            "chinese": "路上小心",
+            "pinyin": "lùshang xiǎoxīn",
+            "english": "be careful on the road",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天早上都在路上跑步。",
+        "example_pinyin": "Wǒ měitiān zǎoshang dōu zài lùshang pǎobù.",
+        "example_english": "I run on the road every morning."
+      },
+      {
+        "character": "可能",
+        "pinyin": "kěnéng",
+        "english": "may; maybe;(to be) possible",
+        "word_type": "OpV",
+        "table_ref": "2-09-04",
+        "radical": "可",
+        "radical_pinyin": "kě",
+        "components": [
+          "可",
+          "能"
+        ],
+        "compounds": [
+          {
+            "chinese": "可能堵车",
+            "pinyin": "kěnéng dǔchē",
+            "english": "may have a traffic jam",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可能下雨",
+            "pinyin": "kěnéng xiàyǔ",
+            "english": "it might rain",
+            "source": "textbook"
+          },
+          {
+            "chinese": "可能性",
+            "pinyin": "kěnéngxìng",
+            "english": "possibility",
+            "source": "generated"
+          },
+          {
+            "chinese": "不可能",
+            "pinyin": "bù kěnéng",
+            "english": "impossible",
+            "source": "generated"
+          },
+          {
+            "chinese": "可能发生",
+            "pinyin": "kěnéng fāshēng",
+            "english": "may happen",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他可能今天会来。",
+        "example_pinyin": "Tā kěnéng jīntiān huì lái.",
+        "example_english": "He might come today."
+      },
+      {
+        "character": "堵车",
+        "pinyin": "dǔchē",
+        "english": "to be congested with traffic; to be in a traffic jam",
+        "word_type": "VO",
+        "table_ref": "2-09-04",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "者"
+        ],
+        "compounds": [
+          {
+            "chinese": "路上堵车",
+            "pinyin": "lùshang dǔchē",
+            "english": "traffic jam on the road",
+            "source": "textbook"
+          },
+          {
+            "chinese": "堵车了",
+            "pinyin": "dǔchē le",
+            "english": "there's a traffic jam",
+            "source": "textbook"
+          },
+          {
+            "chinese": "堵塞",
+            "pinyin": "dǔsè",
+            "english": "to block; to stop up",
+            "source": "generated"
+          },
+          {
+            "chinese": "堵住",
+            "pinyin": "dǔzhù",
+            "english": "to block up; to stop up",
+            "source": "generated"
+          },
+          {
+            "chinese": "堵截",
+            "pinyin": "dǔjié",
+            "english": "to intercept; to cut off",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天早上上班路上堵车很严重。",
+        "example_pinyin": "Jīntiān zǎoshang shàngbān lùshang dǔchē hěn yánzhòng.",
+        "example_english": "This morning, the traffic jam on the way to work was very serious."
+      },
+      {
+        "character": "堵",
+        "pinyin": "dǔ",
+        "english": "to block",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "者"
+        ],
+        "compounds": [
+          {
+            "chinese": "太堵了",
+            "pinyin": "tài dǔ le",
+            "english": "It's too congested/blocked.",
+            "source": "textbook"
+          },
+          {
+            "chinese": "堵车",
+            "pinyin": "dǔchē",
+            "english": "traffic jam",
+            "source": "generated"
+          },
+          {
+            "chinese": "堵塞",
+            "pinyin": "dǔsè",
+            "english": "to block up; to obstruct",
+            "source": "generated"
+          },
+          {
+            "chinese": "堵住",
+            "pinyin": "dǔzhù",
+            "english": "to block; to stop up",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "路上太堵了，我们迟到了。",
+        "example_pinyin": "Lùshàng tài dǔ le, wǒmen chídào le.",
+        "example_english": "The road was too blocked, we were late."
+      },
+      {
+        "character": "慢",
+        "pinyin": "màn",
+        "english": "slow",
+        "word_type": "A",
+        "table_ref": "2-09-04",
+        "radical": "忄",
+        "radical_pinyin": "xīn",
+        "components": [
+          "忄",
+          "曼"
+        ],
+        "compounds": [
+          {
+            "chinese": "很慢",
+            "pinyin": "hěn màn",
+            "english": "very slow",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿慢",
+            "pinyin": "yǒudiǎnr màn",
+            "english": "a bit slow",
+            "source": "textbook"
+          },
+          {
+            "chinese": "慢慢",
+            "pinyin": "mànmàn",
+            "english": "slowly; gradually",
+            "source": "generated"
+          },
+          {
+            "chinese": "慢跑",
+            "pinyin": "mànpǎo",
+            "english": "jogging; to jog",
+            "source": "generated"
+          },
+          {
+            "chinese": "慢车",
+            "pinyin": "mànchē",
+            "english": "slow train; local train",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这辆车开得很慢。",
+        "example_pinyin": "Zhè liàng chē kāi de hěn màn.",
+        "example_english": "This car drives very slowly."
+      },
+      {
+        "character": "地铁",
+        "pinyin": "dìtiě",
+        "english": "subway",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "也"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐地铁",
+            "pinyin": "zuò dìtiě",
+            "english": "to take the subway",
+            "source": "textbook"
+          },
+          {
+            "chinese": "地铁站",
+            "pinyin": "dìtiězhàn",
+            "english": "subway station",
+            "source": "generated"
+          },
+          {
+            "chinese": "地铁线",
+            "pinyin": "dìtiěxiàn",
+            "english": "subway line",
+            "source": "generated"
+          },
+          {
+            "chinese": "地铁票",
+            "pinyin": "dìtiěpiào",
+            "english": "subway ticket",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天坐地铁上班。",
+        "example_pinyin": "Wǒ měitiān zuò dìtiě shàngbān.",
+        "example_english": "I take the subway to work every day."
+      },
+      {
+        "character": "公共汽车",
+        "pinyin": "gōnggòng qìchē",
+        "english": "bus",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐公共汽车",
+            "pinyin": "zuò gōnggòng qìchē",
+            "english": "to take the bus",
+            "source": "textbook"
+          },
+          {
+            "chinese": "公共场所",
+            "pinyin": "gōnggòng chǎngsuǒ",
+            "english": "public place",
+            "source": "generated"
+          },
+          {
+            "chinese": "公共交通",
+            "pinyin": "gōnggòng jiāotōng",
+            "english": "public transport",
+            "source": "generated"
+          },
+          {
+            "chinese": "公共事业",
+            "pinyin": "gōnggòng shìyè",
+            "english": "public utilities",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天坐公共汽车上班。",
+        "example_pinyin": "Wǒ měitiān zuò gōnggòng qìchē shàngbān.",
+        "example_english": "I take the bus to work every day."
+      },
+      {
+        "character": "公共",
+        "pinyin": "gōnggòng",
+        "english": "public",
+        "word_type": "A",
+        "table_ref": "2-09-04",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "公共汽车",
+            "pinyin": "gōnggòng qìchē",
+            "english": "public bus",
+            "source": "generated"
+          },
+          {
+            "chinese": "公共场所",
+            "pinyin": "gōnggòng chǎngsuǒ",
+            "english": "public place",
+            "source": "generated"
+          },
+          {
+            "chinese": "公共卫生",
+            "pinyin": "gōnggòng wèishēng",
+            "english": "public health",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是一个公共图书馆。",
+        "example_pinyin": "Zhè shì yīgè gōnggòng túshūguǎn.",
+        "example_english": "This is a public library."
+      },
+      {
+        "character": "汽车",
+        "pinyin": "qìchē",
+        "english": "vehicle; car",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "车",
+        "radical_pinyin": "chē",
+        "components": [
+          "车"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐汽车",
+            "pinyin": "zuò qìchē",
+            "english": "to take a car/bus; to ride in a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "开汽车",
+            "pinyin": "kāi qìchē",
+            "english": "to drive a car",
+            "source": "textbook"
+          },
+          {
+            "chinese": "汽车站",
+            "pinyin": "qìchēzhàn",
+            "english": "bus stop; bus station",
+            "source": "generated"
+          },
+          {
+            "chinese": "汽车票",
+            "pinyin": "qìchēpiào",
+            "english": "bus ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "汽车厂",
+            "pinyin": "qìchēchǎng",
+            "english": "car factory",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天坐汽车上班。",
+        "example_pinyin": "Wǒ měitiān zuò qìchē shàngbān.",
+        "example_english": "I take the car to work every day."
+      },
+      {
+        "character": "路",
+        "pinyin": "lù",
+        "english": "route; road",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "足",
+          "各"
+        ],
+        "compounds": [
+          {
+            "chinese": "111 路公共汽车",
+            "pinyin": "yīyīyī lù gōnggòng qìchē",
+            "english": "Bus No. 111",
+            "source": "textbook"
+          },
+          {
+            "chinese": "马路",
+            "pinyin": "mǎlù",
+            "english": "road; street",
+            "source": "generated"
+          },
+          {
+            "chinese": "公路",
+            "pinyin": "gōnglù",
+            "english": "highway; public road",
+            "source": "generated"
+          },
+          {
+            "chinese": "铁路",
+            "pinyin": "tiělù",
+            "english": "railway; railroad",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条路很长。",
+        "example_pinyin": "Zhè tiáo lù hěn cháng.",
+        "example_english": "This road is very long."
+      },
+      {
+        "character": "换",
+        "pinyin": "huàn",
+        "english": "to transfer; to change",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "奂"
+        ],
+        "compounds": [
+          {
+            "chinese": "换地铁",
+            "pinyin": "huàn dìtiě",
+            "english": "to change subway lines",
+            "source": "textbook"
+          },
+          {
+            "chinese": "换56路公共汽车",
+            "pinyin": "huàn wǔshíliù lù gōnggòng qìchē",
+            "english": "to change to bus route 56",
+            "source": "textbook"
+          },
+          {
+            "chinese": "交换",
+            "pinyin": "jiāohuàn",
+            "english": "to exchange; to swap",
+            "source": "generated"
+          },
+          {
+            "chinese": "更换",
+            "pinyin": "gēnghuàn",
+            "english": "to replace; to change",
+            "source": "generated"
+          },
+          {
+            "chinese": "换钱",
+            "pinyin": "huànqián",
+            "english": "to exchange money",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们明天需要换一个房间。",
+        "example_pinyin": "Wǒmen míngtiān xūyào huàn yī ge fángjiān.",
+        "example_english": "We need to change rooms tomorrow."
+      },
+      {
+        "character": "线",
+        "pinyin": "xiàn",
+        "english": "line; route",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "纟",
+        "radical_pinyin": "sī",
+        "components": [
+          "纟",
+          "泉"
+        ],
+        "compounds": [
+          {
+            "chinese": "地铁线",
+            "pinyin": "dìtiěxiàn",
+            "english": "subway line",
+            "source": "textbook"
+          },
+          {
+            "chinese": "1号线",
+            "pinyin": "yī hào xiàn",
+            "english": "Line 1",
+            "source": "textbook"
+          },
+          {
+            "chinese": "电线",
+            "pinyin": "diànxiàn",
+            "english": "electric wire",
+            "source": "generated"
+          },
+          {
+            "chinese": "路线",
+            "pinyin": "lùxiàn",
+            "english": "route; itinerary",
+            "source": "generated"
+          },
+          {
+            "chinese": "生产线",
+            "pinyin": "shēngchǎnxiàn",
+            "english": "production line",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这条线通往市中心。",
+        "example_pinyin": "Zhè tiáo xiàn tōngwǎng shì zhōngxīn.",
+        "example_english": "This line goes to the city center."
+      },
+      {
+        "character": "饿",
+        "pinyin": "è",
+        "english": "hungry",
+        "word_type": "A",
+        "table_ref": "2-09-04",
+        "radical": "饣",
+        "radical_pinyin": "shí",
+        "components": [
+          "饣",
+          "我"
+        ],
+        "compounds": [
+          {
+            "chinese": "肚子饿",
+            "pinyin": "dùzi è",
+            "english": "stomach is hungry; hungry",
+            "source": "textbook"
+          },
+          {
+            "chinese": "有点儿饿",
+            "pinyin": "yǒudiǎnr è",
+            "english": "a little hungry",
+            "source": "textbook"
+          },
+          {
+            "chinese": "很饿",
+            "pinyin": "hěn è",
+            "english": "very hungry",
+            "source": "textbook"
+          },
+          {
+            "chinese": "饿了",
+            "pinyin": "è le",
+            "english": "hungry (now)",
+            "source": "textbook"
+          },
+          {
+            "chinese": "饥饿",
+            "pinyin": "jī'è",
+            "english": "hunger; hungry",
+            "source": "generated"
+          },
+          {
+            "chinese": "饿死",
+            "pinyin": "èsǐ",
+            "english": "starve to death",
+            "source": "generated"
+          },
+          {
+            "chinese": "饿饭",
+            "pinyin": "èfàn",
+            "english": "to go hungry; to miss a meal",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我有点儿饿了，我们去吃饭吧。",
+        "example_pinyin": "Wǒ yǒudiǎnr è le, wǒmen qù chīfàn ba.",
+        "example_english": "I'm a little hungry, let's go eat."
+      },
+      {
+        "character": "天安门",
+        "pinyin": "Tiān'ān Mén",
+        "english": "Tian'anmen",
+        "word_type": "PN",
+        "table_ref": "2-09-04",
+        "radical": "天",
+        "radical_pinyin": "tiān",
+        "components": [
+          "一",
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "天安门广场",
+            "pinyin": "Tiān'ānmén Guǎngchǎng",
+            "english": "Tian'anmen Square",
+            "source": "generated"
+          },
+          {
+            "chinese": "天安门城楼",
+            "pinyin": "Tiān'ānmén Chénglóu",
+            "english": "Tian'anmen Gate Tower",
+            "source": "generated"
+          },
+          {
+            "chinese": "天安门事件",
+            "pinyin": "Tiān'ānmén Shìjiàn",
+            "english": "Tian'anmen Incident",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "天安门是中国北京的著名地标。",
+        "example_pinyin": "Tiān'ān Mén shì Zhōngguó Běijīng de zhùmíng dìbiāo.",
+        "example_english": "Tian'anmen is a famous landmark in Beijing, China."
+      },
+      {
+        "character": "苹果园",
+        "pinyin": "Píngguǒyuán",
+        "english": "Pingguoyuan (Apple Orchard, name of a subway station in Beijing)",
+        "word_type": "PN",
+        "table_ref": "2-09-04",
+        "radical": "艹",
+        "radical_pinyin": "cǎo",
+        "components": [
+          "艹",
+          "平"
+        ],
+        "compounds": [
+          {
+            "chinese": "苹果",
+            "pinyin": "píngguǒ",
+            "english": "apple",
+            "source": "generated"
+          },
+          {
+            "chinese": "果园",
+            "pinyin": "guǒyuán",
+            "english": "orchard",
+            "source": "generated"
+          },
+          {
+            "chinese": "花园",
+            "pinyin": "huāyuán",
+            "english": "garden",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们坐地铁去苹果园。",
+        "example_pinyin": "Wǒmen zuò dìtiě qù Píngguǒyuán.",
+        "example_english": "We take the subway to Pingguoyuan."
+      },
+      {
+        "character": "秋",
+        "pinyin": "qiū",
+        "english": "autumn; fall; a season",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "禾",
+        "radical_pinyin": "hé",
+        "components": [
+          "禾",
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "秋天",
+            "pinyin": "qiūtiān",
+            "english": "autumn; fall",
+            "source": "generated"
+          },
+          {
+            "chinese": "秋季",
+            "pinyin": "qiūjì",
+            "english": "autumn; fall season",
+            "source": "generated"
+          },
+          {
+            "chinese": "中秋节",
+            "pinyin": "Zhōngqiūjié",
+            "english": "Mid-Autumn Festival",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "秋天是收获的季节。",
+        "example_pinyin": "Qiūtiān shì shōuhuò de jìjié.",
+        "example_english": "Autumn is the harvest season."
+      },
+      {
+        "character": "凉",
+        "pinyin": "liáng",
+        "english": "cool; cold",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "冫",
+        "radical_pinyin": "bīng",
+        "components": [
+          "冫",
+          "京"
+        ],
+        "compounds": [
+          {
+            "chinese": "凉快",
+            "pinyin": "liángkuai",
+            "english": "pleasantly cool",
+            "source": "generated"
+          },
+          {
+            "chinese": "凉水",
+            "pinyin": "liángshuǐ",
+            "english": "cold water",
+            "source": "generated"
+          },
+          {
+            "chinese": "凉鞋",
+            "pinyin": "liángxié",
+            "english": "sandals",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "天气很凉爽。",
+        "example_pinyin": "Tiānqì hěn liángshuǎng.",
+        "example_english": "The weather is very cool and refreshing."
+      },
+      {
+        "character": "空",
+        "pinyin": "kōng",
+        "english": "empty; sky",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "穴",
+        "radical_pinyin": "xué",
+        "components": [
+          "穴",
+          "工"
+        ],
+        "compounds": [
+          {
+            "chinese": "空间",
+            "pinyin": "kōngjiān",
+            "english": "space",
+            "source": "generated"
+          },
+          {
+            "chinese": "空气",
+            "pinyin": "kōngqì",
+            "english": "air",
+            "source": "generated"
+          },
+          {
+            "chinese": "天空",
+            "pinyin": "tiānkōng",
+            "english": "sky",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个房间是空的。",
+        "example_pinyin": "Zhège fángjiān shì kōng de.",
+        "example_english": "This room is empty."
+      },
+      {
+        "character": "季",
+        "pinyin": "jì",
+        "english": "season; quarter (of a year); surname",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "子",
+        "radical_pinyin": "zǐ",
+        "components": [
+          "禾",
+          "子"
+        ],
+        "compounds": [
+          {
+            "chinese": "季节",
+            "pinyin": "jìjié",
+            "english": "season",
+            "source": "generated"
+          },
+          {
+            "chinese": "季度",
+            "pinyin": "jìdù",
+            "english": "quarter (of a year)",
+            "source": "generated"
+          },
+          {
+            "chinese": "四季",
+            "pinyin": "sìjì",
+            "english": "four seasons",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "你最喜欢哪个季节？",
+        "example_pinyin": "Nǐ zuì xǐhuān nǎge jìjié?",
+        "example_english": "Which season do you like the most?"
+      },
+      {
+        "character": "节",
+        "pinyin": "jié",
+        "english": "festival; section; joint",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "竹",
+        "radical_pinyin": "zhú",
+        "components": [
+          "竹",
+          "卩"
+        ],
+        "compounds": [
+          {
+            "chinese": "节日",
+            "pinyin": "jiérì",
+            "english": "festival; holiday",
+            "source": "generated"
+          },
+          {
+            "chinese": "季节",
+            "pinyin": "jìjié",
+            "english": "season",
+            "source": "generated"
+          },
+          {
+            "chinese": "节奏",
+            "pinyin": "jiézòu",
+            "english": "rhythm; tempo",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "中秋节是中国的一个传统节日。",
+        "example_pinyin": "Zhōngqiūjié shì Zhōngguó de yī gè chuántǒng jiérì.",
+        "example_english": "Mid-Autumn Festival is a traditional Chinese holiday."
+      },
+      {
+        "character": "春",
+        "pinyin": "chūn",
+        "english": "spring",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "三",
+          "日"
+        ],
+        "compounds": [
+          {
+            "chinese": "春天",
+            "pinyin": "chūntiān",
+            "english": "springtime",
+            "source": "generated"
+          },
+          {
+            "chinese": "春节",
+            "pinyin": "Chūnjié",
+            "english": "Spring Festival; Chinese New Year",
+            "source": "generated"
+          },
+          {
+            "chinese": "春风",
+            "pinyin": "chūnfēng",
+            "english": "spring breeze",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "春天来了，天气越来越暖和。",
+        "example_pinyin": "Chūntiān lái le, tiānqì yuè lái yuè nuǎnhuo.",
+        "example_english": "Spring has come, and the weather is getting warmer and warmer."
+      },
+      {
+        "character": "暖",
+        "pinyin": "nuǎn",
+        "english": "warm; to warm up",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "日",
+        "radical_pinyin": "rì",
+        "components": [
+          "日",
+          "爰"
+        ],
+        "compounds": [
+          {
+            "chinese": "温暖",
+            "pinyin": "wēn nuǎn",
+            "english": "warm; warmth",
+            "source": "generated"
+          },
+          {
+            "chinese": "暖和",
+            "pinyin": "nuǎn huo",
+            "english": "warm (weather, climate)",
+            "source": "generated"
+          },
+          {
+            "chinese": "暖气",
+            "pinyin": "nuǎn qì",
+            "english": "heating; radiator",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "阳光很暖和。",
+        "example_pinyin": "Yángguāng hěn nuǎnhuo.",
+        "example_english": "The sunshine is very warm."
+      },
+      {
+        "character": "刮",
+        "pinyin": "guā",
+        "english": "to scrape; to shave; to blow (of wind)",
+        "word_type": "V",
+        "table_ref": "2-09-02",
+        "radical": "刂",
+        "radical_pinyin": "dāo",
+        "components": [
+          "舌",
+          "刂"
+        ],
+        "compounds": [
+          {
+            "chinese": "刮风",
+            "pinyin": "guā fēng",
+            "english": "to blow (of wind)",
+            "source": "generated"
+          },
+          {
+            "chinese": "刮胡子",
+            "pinyin": "guā húzi",
+            "english": "to shave one's beard",
+            "source": "generated"
+          },
+          {
+            "chinese": "刮痧",
+            "pinyin": "guā shā",
+            "english": "Gua Sha (a traditional Chinese medical treatment)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "今天外面刮大风。",
+        "example_pinyin": "Jīntiān wàimiàn guā dàfēng.",
+        "example_english": "It's very windy outside today."
+      },
+      {
+        "character": "乡",
+        "pinyin": "xiāng",
+        "english": "countryside; rural area; native place",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "乡",
+        "radical_pinyin": "xiāng",
+        "components": [
+          "乡"
+        ],
+        "compounds": [
+          {
+            "chinese": "乡村",
+            "pinyin": "xiāngcūn",
+            "english": "village; countryside",
+            "source": "generated"
+          },
+          {
+            "chinese": "家乡",
+            "pinyin": "jiāxiāng",
+            "english": "hometown; native place",
+            "source": "generated"
+          },
+          {
+            "chinese": "乡下",
+            "pinyin": "xiāngxià",
+            "english": "countryside; rural area",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢乡村的宁静生活。",
+        "example_pinyin": "Wǒ xǐhuān xiāngcūn de níngjìng shēnghuó.",
+        "example_english": "I like the peaceful life in the countryside."
+      },
+      {
+        "character": "夏",
+        "pinyin": "xià",
+        "english": "summer",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "夂",
+        "radical_pinyin": "zhǐ",
+        "components": [
+          "目",
+          "一",
+          "夂"
+        ],
+        "compounds": [
+          {
+            "chinese": "夏天",
+            "pinyin": "xiàtiān",
+            "english": "summer",
+            "source": "generated"
+          },
+          {
+            "chinese": "夏季",
+            "pinyin": "xiàjì",
+            "english": "summer season",
+            "source": "generated"
+          },
+          {
+            "chinese": "夏日",
+            "pinyin": "xiàrì",
+            "english": "summer day",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢夏天。",
+        "example_pinyin": "Wǒ xǐhuān xiàtiān.",
+        "example_english": "I like summer."
+      },
+      {
+        "character": "冬",
+        "pinyin": "dōng",
+        "english": "winter",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "夂",
+        "radical_pinyin": "zhǐ",
+        "components": [
+          "夂",
+          "冫"
+        ],
+        "compounds": [
+          {
+            "chinese": "冬天",
+            "pinyin": "dōngtiān",
+            "english": "winter",
+            "source": "generated"
+          },
+          {
+            "chinese": "冬季",
+            "pinyin": "dōngjì",
+            "english": "winter season",
+            "source": "generated"
+          },
+          {
+            "chinese": "冬眠",
+            "pinyin": "dōngmián",
+            "english": "hibernation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "北京的冬天很冷。",
+        "example_pinyin": "Běijīng de dōngtiān hěn lěng.",
+        "example_english": "Winter in Beijing is very cold."
+      },
+      {
+        "character": "泳",
+        "pinyin": "yǒng",
+        "english": "to swim",
+        "word_type": "V",
+        "table_ref": "2-09-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "永"
+        ],
+        "compounds": [
+          {
+            "chinese": "游泳",
+            "pinyin": "yóuyǒng",
+            "english": "to swim; swimming",
+            "source": "generated"
+          },
+          {
+            "chinese": "泳池",
+            "pinyin": "yǒngchí",
+            "english": "swimming pool",
+            "source": "generated"
+          },
+          {
+            "chinese": "蛙泳",
+            "pinyin": "wāyǒng",
+            "english": "breaststroke",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢在夏天去海边游泳。",
+        "example_pinyin": "Wǒ xǐhuān zài xiàtiān qù hǎibiān yóuyǒng.",
+        "example_english": "I like to go swimming at the beach in summer."
+      },
+      {
+        "character": "滑",
+        "pinyin": "huá",
+        "english": "slippery; smooth; to slip; to slide",
+        "word_type": "A",
+        "table_ref": "2-09-02",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "骨"
+        ],
+        "compounds": [
+          {
+            "chinese": "滑雪",
+            "pinyin": "huáxuě",
+            "english": "to ski; skiing",
+            "source": "generated"
+          },
+          {
+            "chinese": "光滑",
+            "pinyin": "guānghuá",
+            "english": "smooth; glossy",
+            "source": "generated"
+          },
+          {
+            "chinese": "滑倒",
+            "pinyin": "huádǎo",
+            "english": "to slip and fall",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "地板很滑，走路要小心。",
+        "example_pinyin": "Dìbǎn hěn huá, zǒulù yào xiǎoxīn.",
+        "example_english": "The floor is very slippery, be careful when walking."
+      },
+      {
+        "character": "机",
+        "pinyin": "jī",
+        "english": "machine; opportunity; crucial point",
+        "word_type": "N",
+        "table_ref": "2-09-02",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "几"
+        ],
+        "compounds": [
+          {
+            "chinese": "飞机",
+            "pinyin": "fēijī",
+            "english": "airplane",
+            "source": "generated"
+          },
+          {
+            "chinese": "机会",
+            "pinyin": "jīhuì",
+            "english": "opportunity",
+            "source": "generated"
+          },
+          {
+            "chinese": "机器",
+            "pinyin": "jīqì",
+            "english": "machine",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是一台新机器。",
+        "example_pinyin": "Zhè shì yī tái xīn jīqì.",
+        "example_english": "This is a new machine."
+      },
+      {
+        "character": "博",
+        "pinyin": "bó",
+        "english": "abundant; extensive; wide; rich; obtain; win; gamble; doctor (title)",
+        "word_type": "A",
+        "table_ref": "2-09-04",
+        "radical": "十",
+        "radical_pinyin": "shí",
+        "components": [
+          "十",
+          "尃"
+        ],
+        "compounds": [
+          {
+            "chinese": "博士",
+            "pinyin": "bó shì",
+            "english": "doctor (academic degree)",
+            "source": "generated"
+          },
+          {
+            "chinese": "博物馆",
+            "pinyin": "bó wù guǎn",
+            "english": "museum",
+            "source": "generated"
+          },
+          {
+            "chinese": "博大精深",
+            "pinyin": "bó dà jīng shēn",
+            "english": "broad and profound",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他是一位知识渊博的学者。",
+        "example_pinyin": "Tā shì yī wèi zhīshí yuānbó de xuézhě.",
+        "example_english": "He is a knowledgeable scholar."
+      },
+      {
+        "character": "展",
+        "pinyin": "zhǎn",
+        "english": "to spread out; to unfold; to exhibit; to open up",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "尸",
+        "radical_pinyin": "shī",
+        "components": [
+          "尸",
+          "开"
+        ],
+        "compounds": [
+          {
+            "chinese": "发展",
+            "pinyin": "fāzhǎn",
+            "english": "to develop; development",
+            "source": "generated"
+          },
+          {
+            "chinese": "展览",
+            "pinyin": "zhǎnlǎn",
+            "english": "exhibition; to exhibit",
+            "source": "generated"
+          },
+          {
+            "chinese": "展望",
+            "pinyin": "zhǎnwàng",
+            "english": "to look ahead; prospect",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他正在画廊里展示他的新作品。",
+        "example_pinyin": "Tā zhèngzài huàláng lǐ zhǎnshì tā de xīn zuòpǐn.",
+        "example_english": "He is exhibiting his new works in the gallery."
+      },
+      {
+        "character": "览",
+        "pinyin": "lǎn",
+        "english": "to view; to read; to survey",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "见",
+        "radical_pinyin": "jiàn",
+        "components": [
+          "臣",
+          "见"
+        ],
+        "compounds": [
+          {
+            "chinese": "浏览",
+            "pinyin": "liúlǎn",
+            "english": "to browse; to skim through",
+            "source": "generated"
+          },
+          {
+            "chinese": "展览",
+            "pinyin": "zhǎnlǎn",
+            "english": "exhibition; to exhibit",
+            "source": "generated"
+          },
+          {
+            "chinese": "一览无余",
+            "pinyin": "yīlǎnwúyú",
+            "english": "to have a panoramic view; to take in everything at a glance",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢在周末去博物馆览文物。",
+        "example_pinyin": "Tā xǐhuān zài zhōumò qù bówùguǎn lǎn wénwù.",
+        "example_english": "He likes to go to the museum to view cultural relics on weekends."
+      },
+      {
+        "character": "候",
+        "pinyin": "hòu",
+        "english": "wait; expect; season; climate",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "厂",
+          "矢"
+        ],
+        "compounds": [
+          {
+            "chinese": "时候",
+            "pinyin": "shíhou",
+            "english": "time; moment",
+            "source": "generated"
+          },
+          {
+            "chinese": "等候",
+            "pinyin": "děnghòu",
+            "english": "wait; await",
+            "source": "generated"
+          },
+          {
+            "chinese": "气候",
+            "pinyin": "qìhòu",
+            "english": "climate",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请您稍候。",
+        "example_pinyin": "Qǐng nín shāohòu.",
+        "example_english": "Please wait a moment."
+      },
+      {
+        "character": "驾",
+        "pinyin": "jià",
+        "english": "to drive; to ride; to harness; to control",
+        "word_type": "V",
+        "table_ref": "2-09-04",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马",
+          "加"
+        ],
+        "compounds": [
+          {
+            "chinese": "驾驶",
+            "pinyin": "jiàshǐ",
+            "english": "to drive; to pilot; to steer",
+            "source": "generated"
+          },
+          {
+            "chinese": "驾驭",
+            "pinyin": "jiàyù",
+            "english": "to control; to master; to rein in",
+            "source": "generated"
+          },
+          {
+            "chinese": "驾车",
+            "pinyin": "jiàchē",
+            "english": "to drive a car",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢驾着马车在乡间奔驰。",
+        "example_pinyin": "Tā xǐhuān jiàzhe mǎchē zài xiāngjiān bēnchí.",
+        "example_english": "He likes to drive a carriage galloping in the countryside."
+      },
+      {
+        "character": "铁",
+        "pinyin": "tiě",
+        "english": "iron; firm; strong",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "钅",
+        "radical_pinyin": "jīn",
+        "components": [
+          "钅",
+          "失"
+        ],
+        "compounds": [
+          {
+            "chinese": "地铁",
+            "pinyin": "dìtiě",
+            "english": "subway; metro",
+            "source": "generated"
+          },
+          {
+            "chinese": "钢铁",
+            "pinyin": "gāngtiě",
+            "english": "steel",
+            "source": "generated"
+          },
+          {
+            "chinese": "铁饭碗",
+            "pinyin": "tiěfànwǎn",
+            "english": "secure job; iron rice bowl",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这把椅子是铁做的。",
+        "example_pinyin": "Zhè bǎ yǐzi shì tiě zuò de.",
+        "example_english": "This chair is made of iron."
+      },
+      {
+        "character": "汽",
+        "pinyin": "qì",
+        "english": "steam; vapor; gas",
+        "word_type": "N",
+        "table_ref": "2-09-04",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "气"
+        ],
+        "compounds": [
+          {
+            "chinese": "汽车",
+            "pinyin": "qìchē",
+            "english": "car; automobile",
+            "source": "generated"
+          },
+          {
+            "chinese": "汽水",
+            "pinyin": "qìshuǐ",
+            "english": "soda water; carbonated drink",
+            "source": "generated"
+          },
+          {
+            "chinese": "蒸汽",
+            "pinyin": "zhēngqì",
+            "english": "steam",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "水烧开后会变成汽。",
+        "example_pinyin": "Shuǐ shāokāi hòu huì biànchéng qì.",
+        "example_english": "After the water boils, it will turn into steam."
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "火车",
+        "pinyin": "huǒchē",
+        "english": "train",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐火车",
+            "pinyin": "zuò huǒchē",
+            "english": "to take a train",
+            "source": "textbook"
+          },
+          {
+            "chinese": "火车票",
+            "pinyin": "huǒchēpiào",
+            "english": "train ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "火车站",
+            "pinyin": "huǒchēzhàn",
+            "english": "train station",
+            "source": "generated"
+          },
+          {
+            "chinese": "高铁",
+            "pinyin": "gāotiě",
+            "english": "high-speed train",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢坐火车旅行。",
+        "example_pinyin": "Wǒ xǐhuān zuò huǒchē lǚxíng.",
+        "example_english": "I like to travel by train."
+      },
+      {
+        "character": "火车站",
+        "pinyin": "huǒchēzhàn",
+        "english": "railway station",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "去火车站",
+            "pinyin": "qù huǒchēzhàn",
+            "english": "go to the railway station",
+            "source": "textbook"
+          },
+          {
+            "chinese": "火车站台",
+            "pinyin": "huǒchēzhàntái",
+            "english": "train platform",
+            "source": "generated"
+          },
+          {
+            "chinese": "火车站票",
+            "pinyin": "huǒchēzhànpiào",
+            "english": "train station ticket",
+            "source": "generated"
+          },
+          {
+            "chinese": "火车站口",
+            "pinyin": "huǒchēzhànkǒu",
+            "english": "train station entrance/exit",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们明天早上在火车站见面。",
+        "example_pinyin": "Wǒmen míngtiān zǎoshang zài huǒchēzhàn jiànmiàn.",
+        "example_english": "We will meet at the railway station tomorrow morning."
+      },
+      {
+        "character": "船",
+        "pinyin": "chuán",
+        "english": "ship; boat",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "舟",
+        "radical_pinyin": "zhōu",
+        "components": [
+          "舟",
+          "㕣"
+        ],
+        "compounds": [
+          {
+            "chinese": "坐船",
+            "pinyin": "zuò chuán",
+            "english": "to take a boat; to travel by boat",
+            "source": "textbook"
+          },
+          {
+            "chinese": "船长",
+            "pinyin": "chuánzhǎng",
+            "english": "captain (of a boat or ship)",
+            "source": "generated"
+          },
+          {
+            "chinese": "渔船",
+            "pinyin": "yúchuán",
+            "english": "fishing boat",
+            "source": "generated"
+          },
+          {
+            "chinese": "客船",
+            "pinyin": "kèchuán",
+            "english": "passenger ship",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这艘船很大。",
+        "example_pinyin": "Zhè sōu chuán hěn dà.",
+        "example_english": "This ship is very big."
+      },
+      {
+        "character": "机场",
+        "pinyin": "jīchǎng",
+        "english": "airport",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "几"
+        ],
+        "compounds": [
+          {
+            "chinese": "去机场",
+            "pinyin": "qù jīchǎng",
+            "english": "go to the airport",
+            "source": "textbook"
+          },
+          {
+            "chinese": "飞机场",
+            "pinyin": "fēijīchǎng",
+            "english": "airport",
+            "source": "generated"
+          },
+          {
+            "chinese": "机场大巴",
+            "pinyin": "jīchǎng dàbā",
+            "english": "airport shuttle bus",
+            "source": "generated"
+          },
+          {
+            "chinese": "机场快线",
+            "pinyin": "jīchǎng kuàixiàn",
+            "english": "airport express line",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我需要去机场接我的朋友。",
+        "example_pinyin": "Wǒ xūyào qù jīchǎng jiē wǒ de péngyǒu.",
+        "example_english": "I need to go to the airport to pick up my friend."
+      },
+      {
+        "character": "骑",
+        "pinyin": "qí",
+        "english": "to ride (a bicycle or horse)",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "马",
+        "radical_pinyin": "mǎ",
+        "components": [
+          "马",
+          "奇"
+        ],
+        "compounds": [
+          {
+            "chinese": "骑车",
+            "pinyin": "qí chē",
+            "english": "to ride a bicycle",
+            "source": "generated"
+          },
+          {
+            "chinese": "骑马",
+            "pinyin": "qí mǎ",
+            "english": "to ride a horse",
+            "source": "generated"
+          },
+          {
+            "chinese": "骑手",
+            "pinyin": "qí shǒu",
+            "english": "rider; jockey",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢骑自行车去上班。",
+        "example_pinyin": "Tā xǐhuān qí zìxíngchē qù shàngbān.",
+        "example_english": "He likes to ride a bicycle to work."
+      },
+      {
+        "character": "自行车",
+        "pinyin": "zìxíngchē",
+        "english": "bicycle",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "自",
+        "radical_pinyin": "zì",
+        "components": [
+          "自"
+        ],
+        "compounds": [
+          {
+            "chinese": "骑自行车",
+            "pinyin": "qí zìxíngchē",
+            "english": "to ride a bicycle",
+            "source": "textbook"
+          },
+          {
+            "chinese": "自行车道",
+            "pinyin": "zìxíngchēdào",
+            "english": "bicycle lane",
+            "source": "generated"
+          },
+          {
+            "chinese": "自行车赛",
+            "pinyin": "zìxíngchēsài",
+            "english": "bicycle race",
+            "source": "generated"
+          },
+          {
+            "chinese": "共享单车",
+            "pinyin": "gòngxiǎng dānchē",
+            "english": "shared bicycle",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我每天骑自行车上班。",
+        "example_pinyin": "Wǒ měitiān qí zìxíngchē shàngbān.",
+        "example_english": "I ride a bicycle to work every day."
+      },
+      {
+        "character": "走路",
+        "pinyin": "zǒulù",
+        "english": "to walk",
+        "word_type": "VO",
+        "table_ref": "2-09-06",
+        "radical": "走",
+        "radical_pinyin": "zǒu",
+        "components": [
+          "走"
+        ],
+        "compounds": [
+          {
+            "chinese": "走路去",
+            "pinyin": "zǒulù qù",
+            "english": "to go on foot; to walk to",
+            "source": "textbook"
+          },
+          {
+            "chinese": "走路工",
+            "pinyin": "zǒulùgōng",
+            "english": "walker (in a political campaign)",
+            "source": "generated"
+          },
+          {
+            "chinese": "走马观花",
+            "pinyin": "zǒumǎguānhuā",
+            "english": "to give a quick glance; to skim through",
+            "source": "generated"
+          },
+          {
+            "chinese": "走神",
+            "pinyin": "zǒushén",
+            "english": "to be distracted; to daydream",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢每天走路去上班。",
+        "example_pinyin": "Wǒ xǐhuān měitiān zǒulù qù shàngbān.",
+        "example_english": "I like to walk to work every day."
+      },
+      {
+        "character": "滑冰",
+        "pinyin": "huábīng",
+        "english": "to go ice-skating; to skate",
+        "word_type": "VO",
+        "table_ref": "2-09-06",
+        "radical": "氵",
+        "radical_pinyin": "shuǐ",
+        "components": [
+          "氵",
+          "骨"
+        ],
+        "compounds": [
+          {
+            "chinese": "滑雪",
+            "pinyin": "huáxuě",
+            "english": "to ski",
+            "source": "generated"
+          },
+          {
+            "chinese": "滑梯",
+            "pinyin": "huátī",
+            "english": "slide (playground)",
+            "source": "generated"
+          },
+          {
+            "chinese": "光滑",
+            "pinyin": "guānghuá",
+            "english": "smooth; sleek",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去公园滑冰吧！",
+        "example_pinyin": "Wǒmen qù gōngyuán huábīng ba!",
+        "example_english": "Let's go ice-skating in the park!"
+      },
+      {
+        "character": "篮球",
+        "pinyin": "lánqiú",
+        "english": "basketball",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "竹",
+        "radical_pinyin": "zhú",
+        "components": [
+          "竹",
+          "兰"
+        ],
+        "compounds": [
+          {
+            "chinese": "打篮球",
+            "pinyin": "dǎ lánqiú",
+            "english": "to play basketball",
+            "source": "textbook"
+          },
+          {
+            "chinese": "篮球场",
+            "pinyin": "lánqiúchǎng",
+            "english": "basketball court",
+            "source": "generated"
+          },
+          {
+            "chinese": "篮球赛",
+            "pinyin": "lánqiúsài",
+            "english": "basketball game",
+            "source": "generated"
+          },
+          {
+            "chinese": "篮球鞋",
+            "pinyin": "lánqiúxié",
+            "english": "basketball shoes",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢打篮球。",
+        "example_pinyin": "Wǒ xǐhuān dǎ lánqiú.",
+        "example_english": "I like to play basketball."
+      },
+      {
+        "character": "排球",
+        "pinyin": "páiqiú",
+        "english": "volleyball",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "非"
+        ],
+        "compounds": [
+          {
+            "chinese": "打排球",
+            "pinyin": "dǎ páiqiú",
+            "english": "to play volleyball",
+            "source": "textbook"
+          },
+          {
+            "chinese": "排队",
+            "pinyin": "páiduì",
+            "english": "to queue; to line up",
+            "source": "generated"
+          },
+          {
+            "chinese": "排练",
+            "pinyin": "páiliàn",
+            "english": "to rehearse",
+            "source": "generated"
+          },
+          {
+            "chinese": "排斥",
+            "pinyin": "páichì",
+            "english": "to reject; to exclude",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢和朋友一起打排球。",
+        "example_pinyin": "Wǒ xǐhuān hé péngyǒu yīqǐ dǎ páiqiú.",
+        "example_english": "I like to play volleyball with friends."
+      },
+      {
+        "character": "踢",
+        "pinyin": "tī",
+        "english": "to kick; to play (soccer, etc.)",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "足",
+          "朁"
+        ],
+        "compounds": [
+          {
+            "chinese": "踢球",
+            "pinyin": "tīqiú",
+            "english": "to play soccer; to kick a ball",
+            "source": "generated"
+          },
+          {
+            "chinese": "踢开",
+            "pinyin": "tīkāi",
+            "english": "to kick away",
+            "source": "generated"
+          },
+          {
+            "chinese": "踢毽子",
+            "pinyin": "tī jiànzi",
+            "english": "to play shuttlecock",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢踢足球。",
+        "example_pinyin": "Tā xǐhuān tī zúqiú.",
+        "example_english": "He likes to play soccer."
+      },
+      {
+        "character": "足球",
+        "pinyin": "zúqiú",
+        "english": "soccer",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "⻊",
+        "radical_pinyin": "zú",
+        "components": [
+          "⻊",
+          "呈"
+        ],
+        "compounds": [
+          {
+            "chinese": "踢足球",
+            "pinyin": "tī zúqiú",
+            "english": "to play soccer",
+            "source": "textbook"
+          },
+          {
+            "chinese": "足球赛",
+            "pinyin": "zúqiúsài",
+            "english": "soccer match",
+            "source": "generated"
+          },
+          {
+            "chinese": "足球队",
+            "pinyin": "zúqiúduì",
+            "english": "soccer team",
+            "source": "generated"
+          },
+          {
+            "chinese": "足球场",
+            "pinyin": "zúqiúchǎng",
+            "english": "soccer field",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢看足球比赛。",
+        "example_pinyin": "Wǒ xǐhuān kàn zúqiú bǐsài.",
+        "example_english": "I like watching soccer games."
+      },
+      {
+        "character": "城里",
+        "pinyin": "chénglǐ",
+        "english": "city; town",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "成"
+        ],
+        "compounds": [
+          {
+            "chinese": "去城里",
+            "pinyin": "qù chénglǐ",
+            "english": "to go to the city/town",
+            "source": "textbook"
+          },
+          {
+            "chinese": "城市",
+            "pinyin": "chéngshì",
+            "english": "city",
+            "source": "generated"
+          },
+          {
+            "chinese": "城墙",
+            "pinyin": "chéngqiáng",
+            "english": "city wall",
+            "source": "generated"
+          },
+          {
+            "chinese": "城乡",
+            "pinyin": "chéngxiāng",
+            "english": "urban and rural areas",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "城里有很多商店和餐馆。",
+        "example_pinyin": "Chénglǐ yǒu hěnduō shāngdiàn hé cānguǎn.",
+        "example_english": "There are many shops and restaurants in the city."
+      },
+      {
+        "character": "美术馆",
+        "pinyin": "měishùguǎn",
+        "english": "art gallery",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "羊",
+        "radical_pinyin": "yáng",
+        "components": [
+          "羊",
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "去美术馆",
+            "pinyin": "qù měishùguǎn",
+            "english": "go to the art gallery",
+            "source": "textbook"
+          },
+          {
+            "chinese": "美术",
+            "pinyin": "měishù",
+            "english": "fine arts",
+            "source": "generated"
+          },
+          {
+            "chinese": "画廊",
+            "pinyin": "huàláng",
+            "english": "art gallery; picture gallery",
+            "source": "generated"
+          },
+          {
+            "chinese": "博物馆",
+            "pinyin": "bówùguǎn",
+            "english": "museum",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们周末去美术馆看画展。",
+        "example_pinyin": "Wǒmen zhōumò qù měishùguǎn kàn huàzhǎn.",
+        "example_english": "We are going to the art gallery to see an art exhibition this weekend."
+      },
+      {
+        "character": "参观",
+        "pinyin": "cānguān",
+        "english": "to visit (a place)",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "厶",
+        "radical_pinyin": "sī",
+        "components": [
+          "厶",
+          "参"
+        ],
+        "compounds": [
+          {
+            "chinese": "参观画展",
+            "pinyin": "cānguān huàzhǎn",
+            "english": "to visit an art exhibition",
+            "source": "textbook"
+          },
+          {
+            "chinese": "参观博物馆",
+            "pinyin": "cānguān bówùguǎn",
+            "english": "to visit a museum",
+            "source": "textbook"
+          },
+          {
+            "chinese": "参观者",
+            "pinyin": "cānguānzhě",
+            "english": "visitor",
+            "source": "generated"
+          },
+          {
+            "chinese": "参观团",
+            "pinyin": "cānguāntuán",
+            "english": "visiting group",
+            "source": "generated"
+          },
+          {
+            "chinese": "参观访问",
+            "pinyin": "cānguān fǎngwèn",
+            "english": "to visit and inspect",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们计划明天去参观长城。",
+        "example_pinyin": "Wǒmen jìhuà míngtiān qù cānguān Chángchéng.",
+        "example_english": "We plan to visit the Great Wall tomorrow."
+      },
+      {
+        "character": "公园",
+        "pinyin": "gōngyuán",
+        "english": "park",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "厶"
+        ],
+        "compounds": [
+          {
+            "chinese": "去公园",
+            "pinyin": "qù gōngyuán",
+            "english": "go to the park",
+            "source": "textbook"
+          },
+          {
+            "chinese": "公园里",
+            "pinyin": "gōngyuán lǐ",
+            "english": "in the park",
+            "source": "generated"
+          },
+          {
+            "chinese": "动物园",
+            "pinyin": "dòngwùyuán",
+            "english": "zoo",
+            "source": "generated"
+          },
+          {
+            "chinese": "植物园",
+            "pinyin": "zhíwùyuán",
+            "english": "botanical garden",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们周末常去公园散步。",
+        "example_pinyin": "Wǒmen zhōumò cháng qù gōngyuán sànbù.",
+        "example_english": "We often go to the park for a walk on weekends."
+      },
+      {
+        "character": "售票员",
+        "pinyin": "shòupiàoyuán",
+        "english": "ticket seller; (of a bus) conductor; box-office clerk",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "口",
+          "寸"
+        ],
+        "compounds": [
+          {
+            "chinese": "售票处",
+            "pinyin": "shòupiàochù",
+            "english": "ticket office",
+            "source": "generated"
+          },
+          {
+            "chinese": "售票机",
+            "pinyin": "shòupiàojī",
+            "english": "ticket machine",
+            "source": "generated"
+          },
+          {
+            "chinese": "售票亭",
+            "pinyin": "shòupiàotíng",
+            "english": "ticket booth",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "公交车上的售票员很友好。",
+        "example_pinyin": "Gōngjiāochē shàng de shòupiàoyuán hěn yǒuhǎo.",
+        "example_english": "The bus conductor is very friendly."
+      },
+      {
+        "character": "师傅",
+        "pinyin": "shīfu",
+        "english": "(a respectful form of address for workers, e.g., drivers, etc.) master",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "巾",
+        "radical_pinyin": "jīn",
+        "components": [
+          "巾",
+          "帀"
+        ],
+        "compounds": [
+          {
+            "chinese": "老师",
+            "pinyin": "lǎoshī",
+            "english": "teacher",
+            "source": "generated"
+          },
+          {
+            "chinese": "师傅领进门，修行在个人",
+            "pinyin": "shīfu lǐng jìn mén, xiūxíng zài gèrén",
+            "english": "The master leads you to the door, but the practice is up to you.",
+            "source": "generated"
+          },
+          {
+            "chinese": "厨师",
+            "pinyin": "chúshī",
+            "english": "chef",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "师傅，请问去火车站怎么走？",
+        "example_pinyin": "Shīfu, qǐngwèn qù huǒchēzhàn zěnme zǒu?",
+        "example_english": "Master (Sir), excuse me, how do I get to the train station?"
+      },
+      {
+        "character": "火",
+        "pinyin": "huǒ",
+        "english": "fire",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "火",
+        "radical_pinyin": "huǒ",
+        "components": [
+          "火"
+        ],
+        "compounds": [
+          {
+            "chinese": "火车",
+            "pinyin": "huǒchē",
+            "english": "train",
+            "source": "generated"
+          },
+          {
+            "chinese": "火山",
+            "pinyin": "huǒshān",
+            "english": "volcano",
+            "source": "generated"
+          },
+          {
+            "chinese": "火柴",
+            "pinyin": "huǒchái",
+            "english": "match (for lighting fire)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "火是人类文明的重要组成部分。",
+        "example_pinyin": "Huǒ shì rénlèi wénmíng de zhòngyào zǔchéng bùfèn.",
+        "example_english": "Fire is an important part of human civilization."
+      },
+      {
+        "character": "站",
+        "pinyin": "zhàn",
+        "english": "station; stand",
+        "word_type": "N/V",
+        "table_ref": "2-09-06",
+        "radical": "立",
+        "radical_pinyin": "lì",
+        "components": [
+          "立",
+          "占"
+        ],
+        "compounds": [
+          {
+            "chinese": "车站",
+            "pinyin": "chēzhàn",
+            "english": "bus stop; station",
+            "source": "generated"
+          },
+          {
+            "chinese": "火车站",
+            "pinyin": "huǒchēzhàn",
+            "english": "train station",
+            "source": "generated"
+          },
+          {
+            "chinese": "站立",
+            "pinyin": "zhànlì",
+            "english": "to stand",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请问，最近的地铁站在哪里？",
+        "example_pinyin": "Qǐngwèn, zuìjìn de dìtiězhàn zài nǎlǐ?",
+        "example_english": "Excuse me, where is the nearest subway station?"
+      },
+      {
+        "character": "自",
+        "pinyin": "zì",
+        "english": "self; from; since",
+        "word_type": "Pr",
+        "table_ref": "2-09-06",
+        "radical": "自",
+        "radical_pinyin": "zì",
+        "components": [
+          "自"
+        ],
+        "compounds": [
+          {
+            "chinese": "自己",
+            "pinyin": "zìjǐ",
+            "english": "oneself",
+            "source": "generated"
+          },
+          {
+            "chinese": "自由",
+            "pinyin": "zìyóu",
+            "english": "freedom; free",
+            "source": "generated"
+          },
+          {
+            "chinese": "自从",
+            "pinyin": "zìcóng",
+            "english": "since (a time)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他自己完成了作业。",
+        "example_pinyin": "Tā zìjǐ wánchéng le zuòyè.",
+        "example_english": "He completed the homework by himself."
+      },
+      {
+        "character": "走",
+        "pinyin": "zǒu",
+        "english": "to walk; to go; to leave",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "走",
+        "radical_pinyin": "zǒu",
+        "components": [
+          "走"
+        ],
+        "compounds": [
+          {
+            "chinese": "走路",
+            "pinyin": "zǒu lù",
+            "english": "to walk",
+            "source": "generated"
+          },
+          {
+            "chinese": "走开",
+            "pinyin": "zǒu kāi",
+            "english": "to go away; to leave",
+            "source": "generated"
+          },
+          {
+            "chinese": "走红",
+            "pinyin": "zǒu hóng",
+            "english": "to become popular",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们一起走吧。",
+        "example_pinyin": "Wǒmen yīqǐ zǒu ba.",
+        "example_english": "Let's go together."
+      },
+      {
+        "character": "冰",
+        "pinyin": "bīng",
+        "english": "ice",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "冫",
+        "radical_pinyin": "liǎngdiǎnshuǐ",
+        "components": [
+          "冫",
+          "水"
+        ],
+        "compounds": [
+          {
+            "chinese": "冰淇淋",
+            "pinyin": "bīngqílín",
+            "english": "ice cream",
+            "source": "generated"
+          },
+          {
+            "chinese": "冰箱",
+            "pinyin": "bīngxiāng",
+            "english": "refrigerator",
+            "source": "generated"
+          },
+          {
+            "chinese": "冰块",
+            "pinyin": "bīngkuài",
+            "english": "ice cube",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这杯水里有冰。",
+        "example_pinyin": "Zhè bēi shuǐ lǐ yǒu bīng.",
+        "example_english": "There is ice in this glass of water."
+      },
+      {
+        "character": "篮",
+        "pinyin": "lán",
+        "english": "basket; goal (in basketball)",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "竹",
+        "radical_pinyin": "zhú",
+        "components": [
+          "竹",
+          "监"
+        ],
+        "compounds": [
+          {
+            "chinese": "篮球",
+            "pinyin": "lánqiú",
+            "english": "basketball",
+            "source": "generated"
+          },
+          {
+            "chinese": "篮子",
+            "pinyin": "lánzi",
+            "english": "basket",
+            "source": "generated"
+          },
+          {
+            "chinese": "篮板",
+            "pinyin": "lánbǎn",
+            "english": "backboard (in basketball)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个篮子里装满了水果。",
+        "example_pinyin": "Zhège lánzi lǐ zhuāngmǎn le shuǐguǒ.",
+        "example_english": "This basket is full of fruit."
+      },
+      {
+        "character": "排",
+        "pinyin": "pái",
+        "english": "to arrange; row; line; to eliminate; to drain",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "非"
+        ],
+        "compounds": [
+          {
+            "chinese": "安排",
+            "pinyin": "ānpái",
+            "english": "to arrange; to plan",
+            "source": "generated"
+          },
+          {
+            "chinese": "排队",
+            "pinyin": "páiduì",
+            "english": "to queue up; to stand in line",
+            "source": "generated"
+          },
+          {
+            "chinese": "排除",
+            "pinyin": "páichú",
+            "english": "to eliminate; to get rid of",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请大家排好队。",
+        "example_pinyin": "Qǐng dàjiā pái hǎo duì.",
+        "example_english": "Please everyone line up properly."
+      },
+      {
+        "character": "足",
+        "pinyin": "zú",
+        "english": "foot; enough",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "足",
+        "radical_pinyin": "zú",
+        "components": [
+          "口",
+          "止"
+        ],
+        "compounds": [
+          {
+            "chinese": "足球",
+            "pinyin": "zúqiú",
+            "english": "football; soccer",
+            "source": "generated"
+          },
+          {
+            "chinese": "满足",
+            "pinyin": "mǎnzú",
+            "english": "to satisfy; to meet (requirements)",
+            "source": "generated"
+          },
+          {
+            "chinese": "足够",
+            "pinyin": "zúgòu",
+            "english": "enough; sufficient",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的足有点儿疼。",
+        "example_pinyin": "Wǒ de zú yǒudiǎnr téng.",
+        "example_english": "My foot hurts a little."
+      },
+      {
+        "character": "城",
+        "pinyin": "chéng",
+        "english": "city; town; wall",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "土",
+        "radical_pinyin": "tǔ",
+        "components": [
+          "土",
+          "戈"
+        ],
+        "compounds": [
+          {
+            "chinese": "城市",
+            "pinyin": "chéngshì",
+            "english": "city",
+            "source": "generated"
+          },
+          {
+            "chinese": "长城",
+            "pinyin": "Chángchéng",
+            "english": "the Great Wall",
+            "source": "generated"
+          },
+          {
+            "chinese": "城堡",
+            "pinyin": "chéngbǎo",
+            "english": "castle",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这座城市很美丽。",
+        "example_pinyin": "Zhè zuò chéngshì hěn měilì.",
+        "example_english": "This city is very beautiful."
+      },
+      {
+        "character": "美",
+        "pinyin": "měi",
+        "english": "beautiful; America",
+        "word_type": "A",
+        "table_ref": "2-09-06",
+        "radical": "羊",
+        "radical_pinyin": "yáng",
+        "components": [
+          "羊",
+          "大"
+        ],
+        "compounds": [
+          {
+            "chinese": "美丽",
+            "pinyin": "měilì",
+            "english": "beautiful",
+            "source": "generated"
+          },
+          {
+            "chinese": "美国",
+            "pinyin": "Měiguó",
+            "english": "America; USA",
+            "source": "generated"
+          },
+          {
+            "chinese": "美术",
+            "pinyin": "měishù",
+            "english": "fine arts",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这朵花真美。",
+        "example_pinyin": "Zhè duǒ huā zhēn měi.",
+        "example_english": "This flower is truly beautiful."
+      },
+      {
+        "character": "术",
+        "pinyin": "shù",
+        "english": "art; skill; technique; method",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "木",
+        "radical_pinyin": "mù",
+        "components": [
+          "木",
+          "丶"
+        ],
+        "compounds": [
+          {
+            "chinese": "技术",
+            "pinyin": "jìshù",
+            "english": "technology; skill",
+            "source": "generated"
+          },
+          {
+            "chinese": "艺术",
+            "pinyin": "yìshù",
+            "english": "art",
+            "source": "generated"
+          },
+          {
+            "chinese": "手术",
+            "pinyin": "shǒushù",
+            "english": "surgery; operation",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他掌握了高超的医术。",
+        "example_pinyin": "Tā zhǎngwò le gāochāo de yīshù.",
+        "example_english": "He mastered superb medical skills."
+      },
+      {
+        "character": "观",
+        "pinyin": "guān",
+        "english": "to look at; to watch; to observe; view; concept",
+        "word_type": "V",
+        "table_ref": "2-09-06",
+        "radical": "见",
+        "radical_pinyin": "jiàn",
+        "components": [
+          "又",
+          "艹",
+          "见"
+        ],
+        "compounds": [
+          {
+            "chinese": "观看",
+            "pinyin": "guānkàn",
+            "english": "to watch; to view",
+            "source": "generated"
+          },
+          {
+            "chinese": "观念",
+            "pinyin": "guānniàn",
+            "english": "concept; idea",
+            "source": "generated"
+          },
+          {
+            "chinese": "参观",
+            "pinyin": "cānguān",
+            "english": "to visit; to tour",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去公园观看花展。",
+        "example_pinyin": "Wǒmen qù gōngyuán guānkàn huāzhǎn.",
+        "example_english": "We went to the park to watch the flower exhibition."
+      },
+      {
+        "character": "园",
+        "pinyin": "yuán",
+        "english": "garden; park; orchard",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "囗",
+        "radical_pinyin": "wéi",
+        "components": [
+          "囗",
+          "袁"
+        ],
+        "compounds": [
+          {
+            "chinese": "公园",
+            "pinyin": "gōngyuán",
+            "english": "park",
+            "source": "generated"
+          },
+          {
+            "chinese": "花园",
+            "pinyin": "huāyuán",
+            "english": "garden",
+            "source": "generated"
+          },
+          {
+            "chinese": "果园",
+            "pinyin": "guǒyuán",
+            "english": "orchard",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们去公园散步吧。",
+        "example_pinyin": "Wǒmen qù gōngyuán sànbù ba.",
+        "example_english": "Let's go for a walk in the park."
+      },
+      {
+        "character": "傅",
+        "pinyin": "fù",
+        "english": "tutor; assist; surname Fu",
+        "word_type": "N",
+        "table_ref": "2-09-06",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "尃"
+        ],
+        "compounds": [
+          {
+            "chinese": "师傅",
+            "pinyin": "shīfu",
+            "english": "master; skilled worker",
+            "source": "generated"
+          },
+          {
+            "chinese": "傅士",
+            "pinyin": "fùshì",
+            "english": "bachelor (degree)",
+            "source": "generated"
+          },
+          {
+            "chinese": "太傅",
+            "pinyin": "tàifù",
+            "english": "grand tutor (ancient official title)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "傅先生是我的中文老师。",
+        "example_pinyin": "Fù xiānsheng shì wǒ de Zhōngwén lǎoshī.",
+        "example_english": "Mr. Fu is my Chinese teacher."
+      }
+    ]
+  }
+}

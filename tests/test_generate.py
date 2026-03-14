@@ -40,12 +40,12 @@ def test_model_has_correct_fields():
     assert "CompoundsFront" in field_names
     assert "CompoundsBack" in field_names
     assert "ExampleSentence" in field_names
-    assert len(model.fields) == 15
+    assert len(model.fields) == 16
 
 
 def test_note_guid_stability():
     model = get_model()
-    fields_14 = ["你", "nǐ", "you", "", "", "main", "1", "", "", "", "", "", "", ""]
+    fields_14 = ["你", "nǐ", "you", "", "", "main", "1", "", "", "", "", "", "", "", "", ""]
     note1 = CPRNote(model=model, fields=list(fields_14))
     note2 = CPRNote(model=model, fields=list(fields_14))
     fields_14_diff = list(fields_14)
