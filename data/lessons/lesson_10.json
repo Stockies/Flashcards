@@ -2417,6 +2417,630 @@
         "example_english": "I want to mail a package to Beijing."
       },
       {
+        "character": "久",
+        "pinyin": "jiǔ",
+        "english": "long time; for a long time",
+        "word_type": "A",
+        "table_ref": "2-10-02",
+        "radical": "丿",
+        "radical_pinyin": "piě",
+        "components": [
+          "丿",
+          "久"
+        ],
+        "compounds": [
+          {
+            "chinese": "很久",
+            "pinyin": "hěn jiǔ",
+            "english": "a long time",
+            "source": "generated"
+          },
+          {
+            "chinese": "长久",
+            "pinyin": "cháng jiǔ",
+            "english": "long-lasting; permanent",
+            "source": "generated"
+          },
+          {
+            "chinese": "好久",
+            "pinyin": "hǎo jiǔ",
+            "english": "a long time; quite a while",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们好久不见了。",
+        "example_pinyin": "Wǒmen hǎo jiǔ bú jiàn le.",
+        "example_english": "We haven't seen each other for a long time."
+      },
+      {
+        "character": "报",
+        "pinyin": "bào",
+        "english": "report; announce; newspaper",
+        "word_type": "V/N",
+        "table_ref": "2-10-02",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "卩",
+          "幸"
+        ],
+        "compounds": [
+          {
+            "chinese": "报纸",
+            "pinyin": "bàozhǐ",
+            "english": "newspaper",
+            "source": "generated"
+          },
+          {
+            "chinese": "报告",
+            "pinyin": "bàogào",
+            "english": "report; to report",
+            "source": "generated"
+          },
+          {
+            "chinese": "报名",
+            "pinyin": "bàomíng",
+            "english": "to sign up; to register",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你明天来报到。",
+        "example_pinyin": "Qǐng nǐ míngtiān lái bàodào.",
+        "example_english": "Please come to report tomorrow."
+      },
+      {
+        "character": "告",
+        "pinyin": "gào",
+        "english": "to tell; to inform; to accuse; to report",
+        "word_type": "V",
+        "table_ref": "2-10-02",
+        "radical": "口",
+        "radical_pinyin": "kǒu",
+        "components": [
+          "牛",
+          "口"
+        ],
+        "compounds": [
+          {
+            "chinese": "告诉",
+            "pinyin": "gàosu",
+            "english": "to tell; to inform",
+            "source": "generated"
+          },
+          {
+            "chinese": "广告",
+            "pinyin": "guǎnggào",
+            "english": "advertisement",
+            "source": "generated"
+          },
+          {
+            "chinese": "报告",
+            "pinyin": "bàogào",
+            "english": "report; to report",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他告我一个秘密。",
+        "example_pinyin": "Tā gào wǒ yīgè mìmì.",
+        "example_english": "He told me a secret."
+      },
+      {
+        "character": "授",
+        "pinyin": "shòu",
+        "english": "to teach; to give; to confer",
+        "word_type": "V",
+        "table_ref": "2-10-02",
+        "radical": "扌",
+        "radical_pinyin": "shǒu",
+        "components": [
+          "扌",
+          "冖",
+          "𠃓",
+          "又"
+        ],
+        "compounds": [
+          {
+            "chinese": "教授",
+            "pinyin": "jiàoshòu",
+            "english": "professor; to teach",
+            "source": "generated"
+          },
+          {
+            "chinese": "授予",
+            "pinyin": "shòuyǔ",
+            "english": "to confer; to award",
+            "source": "generated"
+          },
+          {
+            "chinese": "授课",
+            "pinyin": "shòukè",
+            "english": "to give a lesson; to teach a class",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "老师正在授课。",
+        "example_pinyin": "Lǎoshī zhèngzài shòukè.",
+        "example_english": "The teacher is giving a lesson."
+      },
+      {
+        "character": "婆",
+        "pinyin": "pó",
+        "english": "old woman; grandma; wife",
+        "word_type": "N",
+        "table_ref": "2-10-02",
+        "radical": "女",
+        "radical_pinyin": "nǚ",
+        "components": [
+          "女",
+          "皮"
+        ],
+        "compounds": [
+          {
+            "chinese": "老婆",
+            "pinyin": "lǎopó",
+            "english": "wife",
+            "source": "generated"
+          },
+          {
+            "chinese": "婆婆",
+            "pinyin": "pópo",
+            "english": "mother-in-law (husband's mother); old woman",
+            "source": "generated"
+          },
+          {
+            "chinese": "外婆",
+            "pinyin": "wàipó",
+            "english": "maternal grandmother",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我的外婆很喜欢讲故事。",
+        "example_pinyin": "Wǒ de wàipó hěn xǐhuān jiǎng gùshi.",
+        "example_english": "My maternal grandmother loves to tell stories."
+      },
+      {
+        "character": "旅",
+        "pinyin": "lǚ",
+        "english": "travel; trip; journey",
+        "word_type": "V",
+        "table_ref": "2-10-02",
+        "radical": "方",
+        "radical_pinyin": "fāng",
+        "components": [
+          "方",
+          "口",
+          "人"
+        ],
+        "compounds": [
+          {
+            "chinese": "旅行",
+            "pinyin": "lǚxíng",
+            "english": "to travel; journey",
+            "source": "generated"
+          },
+          {
+            "chinese": "旅客",
+            "pinyin": "lǚkè",
+            "english": "traveler; passenger",
+            "source": "generated"
+          },
+          {
+            "chinese": "旅游",
+            "pinyin": "lǚyóu",
+            "english": "to tour; tourism",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我喜欢独自旅行。",
+        "example_pinyin": "Wǒ xǐhuān dúzì lǚxíng.",
+        "example_english": "I like to travel alone."
+      },
+      {
+        "character": "决",
+        "pinyin": "jué",
+        "english": "to decide; to determine; to break off; to definitely; to execute (a penalty or sentence)",
+        "word_type": "V",
+        "table_ref": "2-10-02",
+        "radical": "冫",
+        "radical_pinyin": "bīng",
+        "components": [
+          "冫",
+          "夬"
+        ],
+        "compounds": [
+          {
+            "chinese": "决定",
+            "pinyin": "juédìng",
+            "english": "to decide; decision",
+            "source": "generated"
+          },
+          {
+            "chinese": "解决",
+            "pinyin": "jiějué",
+            "english": "to solve; to resolve",
+            "source": "generated"
+          },
+          {
+            "chinese": "决赛",
+            "pinyin": "juésài",
+            "english": "final (competition)",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们决定明天去公园。",
+        "example_pinyin": "Wǒmen juédìng míngtiān qù gōngyuán.",
+        "example_english": "We decided to go to the park tomorrow."
+      },
+      {
+        "character": "定",
+        "pinyin": "dìng",
+        "english": "to decide; to fix; to set; to determine",
+        "word_type": "V",
+        "table_ref": "2-10-02",
+        "radical": "宀",
+        "radical_pinyin": "mián",
+        "components": [
+          "宀",
+          "正"
+        ],
+        "compounds": [
+          {
+            "chinese": "决定",
+            "pinyin": "juédìng",
+            "english": "to decide; decision",
+            "source": "generated"
+          },
+          {
+            "chinese": "一定",
+            "pinyin": "yīdìng",
+            "english": "certainly; definitely; must",
+            "source": "generated"
+          },
+          {
+            "chinese": "预定",
+            "pinyin": "yùdìng",
+            "english": "to book; to reserve",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我们定了一个计划。",
+        "example_pinyin": "Wǒmen dìng le yī gè jìhuà.",
+        "example_english": "We set a plan."
+      },
+      {
+        "character": "重",
+        "pinyin": "zhòng",
+        "english": "heavy; serious",
+        "word_type": "A",
+        "table_ref": "2-10-02",
+        "radical": "里",
+        "radical_pinyin": "lǐ",
+        "components": [
+          "里",
+          "土"
+        ],
+        "compounds": [
+          {
+            "chinese": "重要",
+            "pinyin": "zhòngyào",
+            "english": "important",
+            "source": "generated"
+          },
+          {
+            "chinese": "体重",
+            "pinyin": "tǐzhòng",
+            "english": "body weight",
+            "source": "generated"
+          },
+          {
+            "chinese": "严重",
+            "pinyin": "yánzhòng",
+            "english": "serious; severe",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个箱子很重。",
+        "example_pinyin": "Zhège xiāngzi hěn zhòng.",
+        "example_english": "This box is very heavy."
+      },
+      {
+        "character": "轻",
+        "pinyin": "qīng",
+        "english": "light; gentle; soft; easy; unimportant; frivolous; small in number; unstressed; neutral",
+        "word_type": "A",
+        "table_ref": "2-10-02",
+        "radical": "车",
+        "radical_pinyin": "chē",
+        "components": [
+          "车",
+          "巠"
+        ],
+        "compounds": [
+          {
+            "chinese": "轻松",
+            "pinyin": "qīngsōng",
+            "english": "relaxed; light; easy",
+            "source": "generated"
+          },
+          {
+            "chinese": "轻视",
+            "pinyin": "qīngshì",
+            "english": "to despise; to look down upon",
+            "source": "generated"
+          },
+          {
+            "chinese": "轻快",
+            "pinyin": "qīngkuài",
+            "english": "light and quick; brisk",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个箱子很轻，我一个人就能搬动。",
+        "example_pinyin": "Zhège xiāngzi hěn qīng, wǒ yīgè rén jiù néng bāndòng.",
+        "example_english": "This box is very light, I can move it by myself."
+      },
+      {
+        "character": "才",
+        "pinyin": "cái",
+        "english": "ability; talent; not until; only then",
+        "word_type": "N/Adv",
+        "table_ref": "2-10-04",
+        "radical": "才",
+        "radical_pinyin": "cái",
+        "components": [
+          "才"
+        ],
+        "compounds": [
+          {
+            "chinese": "才能",
+            "pinyin": "cáinéng",
+            "english": "talent; ability",
+            "source": "generated"
+          },
+          {
+            "chinese": "天才",
+            "pinyin": "tiāncái",
+            "english": "genius; gifted",
+            "source": "generated"
+          },
+          {
+            "chinese": "刚才",
+            "pinyin": "gāngcái",
+            "english": "just now; a moment ago",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他很有才华。",
+        "example_pinyin": "Tā hěn yǒu cáihuá.",
+        "example_english": "He is very talented."
+      },
+      {
+        "character": "信",
+        "pinyin": "xìn",
+        "english": "trust; letter; believe",
+        "word_type": "N/V",
+        "table_ref": "2-10-04",
+        "radical": "亻",
+        "radical_pinyin": "rén",
+        "components": [
+          "亻",
+          "言"
+        ],
+        "compounds": [
+          {
+            "chinese": "相信",
+            "pinyin": "xiāngxìn",
+            "english": "to believe; to trust",
+            "source": "generated"
+          },
+          {
+            "chinese": "信息",
+            "pinyin": "xìnxī",
+            "english": "information; news; message",
+            "source": "generated"
+          },
+          {
+            "chinese": "信用",
+            "pinyin": "xìnyòng",
+            "english": "credit; trustworthiness",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "我写了一封信给我的朋友。",
+        "example_pinyin": "Wǒ xiě le yī fēng xìn gěi wǒ de péngyǒu.",
+        "example_english": "I wrote a letter to my friend."
+      },
+      {
+        "character": "话",
+        "pinyin": "huà",
+        "english": "word; talk; speech",
+        "word_type": "N",
+        "table_ref": "2-10-04",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "舌"
+        ],
+        "compounds": [
+          {
+            "chinese": "电话",
+            "pinyin": "diànhuà",
+            "english": "telephone; phone call",
+            "source": "generated"
+          },
+          {
+            "chinese": "说话",
+            "pinyin": "shuōhuà",
+            "english": "to speak; to talk",
+            "source": "generated"
+          },
+          {
+            "chinese": "笑话",
+            "pinyin": "xiàohua",
+            "english": "joke",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "他喜欢说大话。",
+        "example_pinyin": "Tā xǐhuān shuō dàhuà.",
+        "example_english": "He likes to brag."
+      },
+      {
+        "character": "复",
+        "pinyin": "fù",
+        "english": "to repeat; to resume; to return; to recover",
+        "word_type": "V",
+        "table_ref": "2-10-04",
+        "radical": "夂",
+        "radical_pinyin": "zhǐ",
+        "components": [
+          "夂",
+          "日",
+          "一"
+        ],
+        "compounds": [
+          {
+            "chinese": "重复",
+            "pinyin": "chóngfù",
+            "english": "to repeat; to duplicate",
+            "source": "generated"
+          },
+          {
+            "chinese": "恢复",
+            "pinyin": "huīfù",
+            "english": "to resume; to recover; to restore",
+            "source": "generated"
+          },
+          {
+            "chinese": "复习",
+            "pinyin": "fùxí",
+            "english": "to review",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "请你重复一遍。",
+        "example_pinyin": "Qǐng nǐ chóngfù yī biàn.",
+        "example_english": "Please repeat it once."
+      },
+      {
+        "character": "词",
+        "pinyin": "cí",
+        "english": "word; term; phrase; poem; speech; statement",
+        "word_type": "N",
+        "table_ref": "2-10-04",
+        "radical": "讠",
+        "radical_pinyin": "yán",
+        "components": [
+          "讠",
+          "司"
+        ],
+        "compounds": [
+          {
+            "chinese": "词语",
+            "pinyin": "cíyǔ",
+            "english": "words; terms",
+            "source": "generated"
+          },
+          {
+            "chinese": "词典",
+            "pinyin": "cídiǎn",
+            "english": "dictionary",
+            "source": "generated"
+          },
+          {
+            "chinese": "动词",
+            "pinyin": "dòngcí",
+            "english": "verb",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这个词是什么意思？",
+        "example_pinyin": "Zhège cí shì shénme yìsi?",
+        "example_english": "What does this word mean?"
+      },
+      {
+        "character": "典",
+        "pinyin": "diǎn",
+        "english": "canon; classic; ceremony; dictionary",
+        "word_type": "N",
+        "table_ref": "2-10-04",
+        "radical": "八",
+        "radical_pinyin": "bā",
+        "components": [
+          "八",
+          "册"
+        ],
+        "compounds": [
+          {
+            "chinese": "经典",
+            "pinyin": "jīngdiǎn",
+            "english": "classic; classical",
+            "source": "generated"
+          },
+          {
+            "chinese": "字典",
+            "pinyin": "zìdiǎn",
+            "english": "dictionary",
+            "source": "generated"
+          },
+          {
+            "chinese": "典礼",
+            "pinyin": "diǎnlǐ",
+            "english": "ceremony",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "这是一本经典的文学作品。",
+        "example_pinyin": "Zhè shì yī běn jīngdiǎn de wénxué zuòpǐn.",
+        "example_english": "This is a classic literary work."
+      }
+    ],
+    "supplementary": [
+      {
+        "character": "新年",
+        "pinyin": "xīnnián",
+        "english": "New Year",
+        "word_type": "N",
+        "table_ref": "2-10-06",
+        "radical": "斤",
+        "radical_pinyin": "jīn",
+        "components": [
+          "立",
+          "木"
+        ],
+        "compounds": [
+          {
+            "chinese": "过新年",
+            "pinyin": "guò xīnnián",
+            "english": "to celebrate New Year",
+            "source": "textbook"
+          },
+          {
+            "chinese": "新年快乐",
+            "pinyin": "xīnnián kuàilè",
+            "english": "Happy New Year",
+            "source": "generated"
+          },
+          {
+            "chinese": "新年好",
+            "pinyin": "xīnnián hǎo",
+            "english": "Happy New Year (greeting)",
+            "source": "generated"
+          },
+          {
+            "chinese": "新年礼物",
+            "pinyin": "xīnnián lǐwù",
+            "english": "New Year's gift",
+            "source": "generated"
+          }
+        ],
+        "example_sentence": "祝你新年快乐！",
+        "example_pinyin": "Zhù nǐ xīnnián kuàilè!",
+        "example_english": "Wish you a Happy New Year!"
+      },
+      {
         "character": "国庆节",
         "pinyin": "Guóqìng Jié",
         "english": "National Day",
@@ -3297,586 +3921,6 @@
         "example_english": "Let's go eat hot pot tonight!"
       },
       {
-        "character": "久",
-        "pinyin": "jiǔ",
-        "english": "long time; for a long time",
-        "word_type": "A",
-        "table_ref": "2-10-02",
-        "radical": "丿",
-        "radical_pinyin": "piě",
-        "components": [
-          "丿",
-          "久"
-        ],
-        "compounds": [
-          {
-            "chinese": "很久",
-            "pinyin": "hěn jiǔ",
-            "english": "a long time",
-            "source": "generated"
-          },
-          {
-            "chinese": "长久",
-            "pinyin": "cháng jiǔ",
-            "english": "long-lasting; permanent",
-            "source": "generated"
-          },
-          {
-            "chinese": "好久",
-            "pinyin": "hǎo jiǔ",
-            "english": "a long time; quite a while",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我们好久不见了。",
-        "example_pinyin": "Wǒmen hǎo jiǔ bú jiàn le.",
-        "example_english": "We haven't seen each other for a long time."
-      },
-      {
-        "character": "报",
-        "pinyin": "bào",
-        "english": "report; announce; newspaper",
-        "word_type": "V/N",
-        "table_ref": "2-10-02",
-        "radical": "扌",
-        "radical_pinyin": "shǒu",
-        "components": [
-          "扌",
-          "卩",
-          "幸"
-        ],
-        "compounds": [
-          {
-            "chinese": "报纸",
-            "pinyin": "bàozhǐ",
-            "english": "newspaper",
-            "source": "generated"
-          },
-          {
-            "chinese": "报告",
-            "pinyin": "bàogào",
-            "english": "report; to report",
-            "source": "generated"
-          },
-          {
-            "chinese": "报名",
-            "pinyin": "bàomíng",
-            "english": "to sign up; to register",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "请你明天来报到。",
-        "example_pinyin": "Qǐng nǐ míngtiān lái bàodào.",
-        "example_english": "Please come to report tomorrow."
-      },
-      {
-        "character": "告",
-        "pinyin": "gào",
-        "english": "to tell; to inform; to accuse; to report",
-        "word_type": "V",
-        "table_ref": "2-10-02",
-        "radical": "口",
-        "radical_pinyin": "kǒu",
-        "components": [
-          "牛",
-          "口"
-        ],
-        "compounds": [
-          {
-            "chinese": "告诉",
-            "pinyin": "gàosu",
-            "english": "to tell; to inform",
-            "source": "generated"
-          },
-          {
-            "chinese": "广告",
-            "pinyin": "guǎnggào",
-            "english": "advertisement",
-            "source": "generated"
-          },
-          {
-            "chinese": "报告",
-            "pinyin": "bàogào",
-            "english": "report; to report",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "他告我一个秘密。",
-        "example_pinyin": "Tā gào wǒ yīgè mìmì.",
-        "example_english": "He told me a secret."
-      },
-      {
-        "character": "授",
-        "pinyin": "shòu",
-        "english": "to teach; to give; to confer",
-        "word_type": "V",
-        "table_ref": "2-10-02",
-        "radical": "扌",
-        "radical_pinyin": "shǒu",
-        "components": [
-          "扌",
-          "冖",
-          "𠃓",
-          "又"
-        ],
-        "compounds": [
-          {
-            "chinese": "教授",
-            "pinyin": "jiàoshòu",
-            "english": "professor; to teach",
-            "source": "generated"
-          },
-          {
-            "chinese": "授予",
-            "pinyin": "shòuyǔ",
-            "english": "to confer; to award",
-            "source": "generated"
-          },
-          {
-            "chinese": "授课",
-            "pinyin": "shòukè",
-            "english": "to give a lesson; to teach a class",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "老师正在授课。",
-        "example_pinyin": "Lǎoshī zhèngzài shòukè.",
-        "example_english": "The teacher is giving a lesson."
-      },
-      {
-        "character": "婆",
-        "pinyin": "pó",
-        "english": "old woman; grandma; wife",
-        "word_type": "N",
-        "table_ref": "2-10-02",
-        "radical": "女",
-        "radical_pinyin": "nǚ",
-        "components": [
-          "女",
-          "皮"
-        ],
-        "compounds": [
-          {
-            "chinese": "老婆",
-            "pinyin": "lǎopó",
-            "english": "wife",
-            "source": "generated"
-          },
-          {
-            "chinese": "婆婆",
-            "pinyin": "pópo",
-            "english": "mother-in-law (husband's mother); old woman",
-            "source": "generated"
-          },
-          {
-            "chinese": "外婆",
-            "pinyin": "wàipó",
-            "english": "maternal grandmother",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我的外婆很喜欢讲故事。",
-        "example_pinyin": "Wǒ de wàipó hěn xǐhuān jiǎng gùshi.",
-        "example_english": "My maternal grandmother loves to tell stories."
-      },
-      {
-        "character": "旅",
-        "pinyin": "lǚ",
-        "english": "travel; trip; journey",
-        "word_type": "V",
-        "table_ref": "2-10-02",
-        "radical": "方",
-        "radical_pinyin": "fāng",
-        "components": [
-          "方",
-          "口",
-          "人"
-        ],
-        "compounds": [
-          {
-            "chinese": "旅行",
-            "pinyin": "lǚxíng",
-            "english": "to travel; journey",
-            "source": "generated"
-          },
-          {
-            "chinese": "旅客",
-            "pinyin": "lǚkè",
-            "english": "traveler; passenger",
-            "source": "generated"
-          },
-          {
-            "chinese": "旅游",
-            "pinyin": "lǚyóu",
-            "english": "to tour; tourism",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我喜欢独自旅行。",
-        "example_pinyin": "Wǒ xǐhuān dúzì lǚxíng.",
-        "example_english": "I like to travel alone."
-      },
-      {
-        "character": "决",
-        "pinyin": "jué",
-        "english": "to decide; to determine; to break off; to definitely; to execute (a penalty or sentence)",
-        "word_type": "V",
-        "table_ref": "2-10-02",
-        "radical": "冫",
-        "radical_pinyin": "bīng",
-        "components": [
-          "冫",
-          "夬"
-        ],
-        "compounds": [
-          {
-            "chinese": "决定",
-            "pinyin": "juédìng",
-            "english": "to decide; decision",
-            "source": "generated"
-          },
-          {
-            "chinese": "解决",
-            "pinyin": "jiějué",
-            "english": "to solve; to resolve",
-            "source": "generated"
-          },
-          {
-            "chinese": "决赛",
-            "pinyin": "juésài",
-            "english": "final (competition)",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我们决定明天去公园。",
-        "example_pinyin": "Wǒmen juédìng míngtiān qù gōngyuán.",
-        "example_english": "We decided to go to the park tomorrow."
-      },
-      {
-        "character": "定",
-        "pinyin": "dìng",
-        "english": "to decide; to fix; to set; to determine",
-        "word_type": "V",
-        "table_ref": "2-10-02",
-        "radical": "宀",
-        "radical_pinyin": "mián",
-        "components": [
-          "宀",
-          "正"
-        ],
-        "compounds": [
-          {
-            "chinese": "决定",
-            "pinyin": "juédìng",
-            "english": "to decide; decision",
-            "source": "generated"
-          },
-          {
-            "chinese": "一定",
-            "pinyin": "yīdìng",
-            "english": "certainly; definitely; must",
-            "source": "generated"
-          },
-          {
-            "chinese": "预定",
-            "pinyin": "yùdìng",
-            "english": "to book; to reserve",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我们定了一个计划。",
-        "example_pinyin": "Wǒmen dìng le yī gè jìhuà.",
-        "example_english": "We set a plan."
-      },
-      {
-        "character": "重",
-        "pinyin": "zhòng",
-        "english": "heavy; serious",
-        "word_type": "A",
-        "table_ref": "2-10-02",
-        "radical": "里",
-        "radical_pinyin": "lǐ",
-        "components": [
-          "里",
-          "土"
-        ],
-        "compounds": [
-          {
-            "chinese": "重要",
-            "pinyin": "zhòngyào",
-            "english": "important",
-            "source": "generated"
-          },
-          {
-            "chinese": "体重",
-            "pinyin": "tǐzhòng",
-            "english": "body weight",
-            "source": "generated"
-          },
-          {
-            "chinese": "严重",
-            "pinyin": "yánzhòng",
-            "english": "serious; severe",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "这个箱子很重。",
-        "example_pinyin": "Zhège xiāngzi hěn zhòng.",
-        "example_english": "This box is very heavy."
-      },
-      {
-        "character": "轻",
-        "pinyin": "qīng",
-        "english": "light; gentle; soft; easy; unimportant; frivolous; small in number; unstressed; neutral",
-        "word_type": "A",
-        "table_ref": "2-10-02",
-        "radical": "车",
-        "radical_pinyin": "chē",
-        "components": [
-          "车",
-          "巠"
-        ],
-        "compounds": [
-          {
-            "chinese": "轻松",
-            "pinyin": "qīngsōng",
-            "english": "relaxed; light; easy",
-            "source": "generated"
-          },
-          {
-            "chinese": "轻视",
-            "pinyin": "qīngshì",
-            "english": "to despise; to look down upon",
-            "source": "generated"
-          },
-          {
-            "chinese": "轻快",
-            "pinyin": "qīngkuài",
-            "english": "light and quick; brisk",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "这个箱子很轻，我一个人就能搬动。",
-        "example_pinyin": "Zhège xiāngzi hěn qīng, wǒ yīgè rén jiù néng bāndòng.",
-        "example_english": "This box is very light, I can move it by myself."
-      },
-      {
-        "character": "才",
-        "pinyin": "cái",
-        "english": "ability; talent; not until; only then",
-        "word_type": "N/Adv",
-        "table_ref": "2-10-04",
-        "radical": "才",
-        "radical_pinyin": "cái",
-        "components": [
-          "才"
-        ],
-        "compounds": [
-          {
-            "chinese": "才能",
-            "pinyin": "cáinéng",
-            "english": "talent; ability",
-            "source": "generated"
-          },
-          {
-            "chinese": "天才",
-            "pinyin": "tiāncái",
-            "english": "genius; gifted",
-            "source": "generated"
-          },
-          {
-            "chinese": "刚才",
-            "pinyin": "gāngcái",
-            "english": "just now; a moment ago",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "他很有才华。",
-        "example_pinyin": "Tā hěn yǒu cáihuá.",
-        "example_english": "He is very talented."
-      },
-      {
-        "character": "信",
-        "pinyin": "xìn",
-        "english": "trust; letter; believe",
-        "word_type": "N/V",
-        "table_ref": "2-10-04",
-        "radical": "亻",
-        "radical_pinyin": "rén",
-        "components": [
-          "亻",
-          "言"
-        ],
-        "compounds": [
-          {
-            "chinese": "相信",
-            "pinyin": "xiāngxìn",
-            "english": "to believe; to trust",
-            "source": "generated"
-          },
-          {
-            "chinese": "信息",
-            "pinyin": "xìnxī",
-            "english": "information; news; message",
-            "source": "generated"
-          },
-          {
-            "chinese": "信用",
-            "pinyin": "xìnyòng",
-            "english": "credit; trustworthiness",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "我写了一封信给我的朋友。",
-        "example_pinyin": "Wǒ xiě le yī fēng xìn gěi wǒ de péngyǒu.",
-        "example_english": "I wrote a letter to my friend."
-      },
-      {
-        "character": "话",
-        "pinyin": "huà",
-        "english": "word; talk; speech",
-        "word_type": "N",
-        "table_ref": "2-10-04",
-        "radical": "讠",
-        "radical_pinyin": "yán",
-        "components": [
-          "讠",
-          "舌"
-        ],
-        "compounds": [
-          {
-            "chinese": "电话",
-            "pinyin": "diànhuà",
-            "english": "telephone; phone call",
-            "source": "generated"
-          },
-          {
-            "chinese": "说话",
-            "pinyin": "shuōhuà",
-            "english": "to speak; to talk",
-            "source": "generated"
-          },
-          {
-            "chinese": "笑话",
-            "pinyin": "xiàohua",
-            "english": "joke",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "他喜欢说大话。",
-        "example_pinyin": "Tā xǐhuān shuō dàhuà.",
-        "example_english": "He likes to brag."
-      },
-      {
-        "character": "复",
-        "pinyin": "fù",
-        "english": "to repeat; to resume; to return; to recover",
-        "word_type": "V",
-        "table_ref": "2-10-04",
-        "radical": "夂",
-        "radical_pinyin": "zhǐ",
-        "components": [
-          "夂",
-          "日",
-          "一"
-        ],
-        "compounds": [
-          {
-            "chinese": "重复",
-            "pinyin": "chóngfù",
-            "english": "to repeat; to duplicate",
-            "source": "generated"
-          },
-          {
-            "chinese": "恢复",
-            "pinyin": "huīfù",
-            "english": "to resume; to recover; to restore",
-            "source": "generated"
-          },
-          {
-            "chinese": "复习",
-            "pinyin": "fùxí",
-            "english": "to review",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "请你重复一遍。",
-        "example_pinyin": "Qǐng nǐ chóngfù yī biàn.",
-        "example_english": "Please repeat it once."
-      },
-      {
-        "character": "词",
-        "pinyin": "cí",
-        "english": "word; term; phrase; poem; speech; statement",
-        "word_type": "N",
-        "table_ref": "2-10-04",
-        "radical": "讠",
-        "radical_pinyin": "yán",
-        "components": [
-          "讠",
-          "司"
-        ],
-        "compounds": [
-          {
-            "chinese": "词语",
-            "pinyin": "cíyǔ",
-            "english": "words; terms",
-            "source": "generated"
-          },
-          {
-            "chinese": "词典",
-            "pinyin": "cídiǎn",
-            "english": "dictionary",
-            "source": "generated"
-          },
-          {
-            "chinese": "动词",
-            "pinyin": "dòngcí",
-            "english": "verb",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "这个词是什么意思？",
-        "example_pinyin": "Zhège cí shì shénme yìsi?",
-        "example_english": "What does this word mean?"
-      },
-      {
-        "character": "典",
-        "pinyin": "diǎn",
-        "english": "canon; classic; ceremony; dictionary",
-        "word_type": "N",
-        "table_ref": "2-10-04",
-        "radical": "八",
-        "radical_pinyin": "bā",
-        "components": [
-          "八",
-          "册"
-        ],
-        "compounds": [
-          {
-            "chinese": "经典",
-            "pinyin": "jīngdiǎn",
-            "english": "classic; classical",
-            "source": "generated"
-          },
-          {
-            "chinese": "字典",
-            "pinyin": "zìdiǎn",
-            "english": "dictionary",
-            "source": "generated"
-          },
-          {
-            "chinese": "典礼",
-            "pinyin": "diǎnlǐ",
-            "english": "ceremony",
-            "source": "generated"
-          }
-        ],
-        "example_sentence": "这是一本经典的文学作品。",
-        "example_pinyin": "Zhè shì yī běn jīngdiǎn de wénxué zuòpǐn.",
-        "example_english": "This is a classic literary work."
-      },
-      {
         "character": "脑",
         "pinyin": "nǎo",
         "english": "brain; mind; head",
@@ -4275,7 +4319,6 @@
         "example_pinyin": "Zhège guō tài dà le, bù shìhé wǒmen yòng.",
         "example_english": "This pot is too big, it's not suitable for us to use."
       }
-    ],
-    "supplementary": []
+    ]
   }
 }
