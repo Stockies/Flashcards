@@ -12,12 +12,13 @@ Azure Speech requires environment variables:
 from __future__ import annotations
 
 import os
+import time
 from pathlib import Path
 
 import requests
 
 # Azure Speech configuration
-AZURE_VOICE = "zh-CN-XiaoxiaoNeural"  # clear, natural female Mandarin voice
+AZURE_VOICE = "zh-CN-YunzeNeural"  # calm, clear male Mandarin narrator voice
 AZURE_OUTPUT_FORMAT = "audio-24khz-96kbitrate-mono-mp3"
 
 
@@ -52,10 +53,17 @@ def _generate_audio_azure(char: str, filepath: Path, key: str, region: str) -> N
         "User-Agent": "CPRFlashcards",
     }
 
-    resp = requests.post(url, headers=headers, data=ssml.encode("utf-8"), timeout=30)
+    for attempt in range(5):
+        resp = requests.post(url, headers=headers, data=ssml.encode("utf-8"), timeout=30)
+        if resp.status_code == 429:
+            wait = 2 ** attempt
+            print(f"  Rate limited, waiting {wait}s...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        filepath.write_bytes(resp.content)
+        return
     resp.raise_for_status()
-
-    filepath.write_bytes(resp.content)
 
 
 def _generate_audio_gtts(char: str, filepath: Path) -> None:
@@ -114,6 +122,9 @@ def generate_audio_batch(characters: list[str], output_dir: Path) -> dict[str, P
         print(f"   Voice: {AZURE_VOICE}")
 
     results: dict[str, Path] = {}
-    for char in characters:
+    for i, char in enumerate(characters):
         results[char] = generate_audio(char, output_dir)
+        # Throttle Azure requests to avoid 429 rate limits
+        if azure_cfg and i < len(characters) - 1:
+            time.sleep(0.3)
     return results
